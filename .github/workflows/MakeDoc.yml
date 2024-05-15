@@ -1,0 +1,147 @@
+name: MakeDoc action
+
+on:
+  workflow_dispatch:  # Run workflow manually
+    inputs:
+      makedoc_key:
+        description: 'Path to makedoc.key'
+        type: string
+        required: true
+        default: './makedoc.key'
+      BW_projects_dir:
+        description: 'BW projects directory (leave empty for default)'
+        type: string
+        required: false
+        default: ''
+      BW_version:
+        type: choice
+        description: 'BusinessWorks version'
+        options: 
+        - BusinessWorks 5
+        - BusinessWorks 6
+        default: 'BusinessWorks 6'
+      html:
+        type: boolean
+        description: Generate HTML output
+      md:
+        type: boolean
+        description: Generate Markdown output
+      pdf:
+        type: boolean
+        description: Generate PDF output
+      docx:
+        type: boolean
+        description: Generate DOCX output
+jobs:
+  
+  build:
+    
+    name: Build BW documentation
+
+    runs-on: self-hosted
+
+    container:
+
+      image: makedocdev.azurecr.io/makedocactions:4.4.1
+      
+      credentials:
+        username: ${{ secrets.ACR_NAME }}
+        password: ${{ secrets.ACR_PASSWORD }}
+        
+      options: --user root
+
+      volumes:
+        - ${{ github.workspace }}:/home/makedoc/projects
+        
+    steps:     
+      - name: Checkout MakeDoc repository
+        uses: actions/checkout@v4
+
+      - name: Configure GIT
+        run: |
+          cd /home/makedoc/projects
+          git config --global --add safe.directory /home/makedoc/projects
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git remote remove origin
+          git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
+          git pull origin main
+          
+      - name: Copy makedoc key
+        run: |
+          cp /home/makedoc/projects/${{ inputs.makedoc_key }} /home/makedoc/makedoc.key
+      
+      - name: Generate BW6 documentation
+        if: ${{ inputs.BW_version == 'BusinessWorks 6' }}
+        run: |
+          ant customizeBW6Profile -f /home/makedoc/server/scripts/customization.xml \
+            -Dtype="eagle" \
+            -Drelease.path="/home/makedoc/server/bin" \
+            -DprojectTargetDestination="/home/makedoc/server/ws/MAKEDOC_default_group_repository" \
+            -DprofileRelativePath="Profiles/Enterprise.profile" \
+            -Dgroup="group" \
+            -Dstorage="default" \
+            -Drepository="repository"  \
+            -Ddocx="${{ inputs.docx == true && 'true' || 'false' }}" \
+            -Dhtml="${{ inputs.html == true && 'true' || 'false' }}" \
+            -Dpdf="${{ inputs.pdf == true && 'true' || 'false' }}" \
+            -Dmd="${{ inputs.md == true && 'true' || 'false' }}" \
+            -Dformat="A4" \
+            -Dfilter="Filters/FullDetail.filter" \
+            -Daliases="-- no aliases --" \
+            -DallUnits="true" \
+            -DautoQA="false" \
+            -DinputBindingType="all" \
+            -DnotificationRecipients="" \
+            -DfailOnFatal="false" \
+            -DfailOnInfo="false" \
+            -DfailOnWarning="false" \
+            -DfailOnError="false"
+            ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorks6ProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/projects/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
+
+      - name: Generate BW5 documentation
+        if: ${{ inputs.BW_version == 'BusinessWorks 5' }}
+        run: |
+          ant customizeBWProfile -f /home/makedoc/server/scripts/customization.xml \
+            -Dtype="falcon" \
+            -Drelease.path="/home/makedoc/server/bin" \
+            -DprojectTargetDestination="/home/makedoc/server/ws/MAKEDOC_default_group_repository" \
+            -DprofileRelativePath="Profiles/Enterprise.profile" \
+            -Dgroup="group" \
+            -Dstorage="default" \
+            -Drepository="repository"  \
+            -Ddocx="${{ inputs.docx == true && 'true' || 'false' }}" \
+            -Dhtml="${{ inputs.html == true && 'true' || 'false' }}" \
+            -Dpdf="${{ inputs.pdf == true && 'true' || 'false' }}" \
+            -Dmd="${{ inputs.md == true && 'true' || 'false' }}" \
+            -Dformat="A4" \
+            -Dfilter="Filters/FullDetail.filter" \
+            -Daliases="-- no aliases --" \
+            -DallUnits="true" \
+            -DautoQA="false" \
+            -DinputBindingType="all" \
+            -DnotificationRecipients="" \
+            -DfailOnFatal="false" \
+            -DfailOnInfo="false" \
+            -DfailOnWarning="false" \
+            -DfailOnError="false"
+          ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorksProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/projects/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
+
+          
+      - name: Copy project to github repository
+        run: |
+          cp -r /home/makedoc/server/storage/default/ /home/makedoc/projects/generated/
+          ls -la /home/makedoc/projects/
+          
+      - name: Commit files
+        run: |
+          cd /home/makedoc/projects
+          git add .
+          git commit -m "Add generated documentations"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          directory: /home/makedoc/projects/

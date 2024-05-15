@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="QA rules content.">
+  <topicref href="WARNING_-_Incorrect_directory_structure.dita" type="concept">
+    <topicref href="Incorrect_directory_structure/violation1.dita" type="concept"/>
+    <topicref href="Incorrect_directory_structure/violation2.dita" type="concept"/>
+  </topicref>
+</map>

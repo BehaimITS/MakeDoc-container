@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="violation1" xml:lang="en-us">
+  <title>tibco.bwce.sample.binding.rest.BookStore</title>
+  <titlealts>
+    <navtitle>tibco.bwce.sample.binding.rest.BookStore</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>Description of rule: Activity has unused connection</p>
+    <p>Violation appeared in following files: </p>
+  </conbody>
+  <concept id="Connection_objects" xml:lang="en-us">
+    <title>Connection objects</title>
+    <conbody>
+      <ul>
+        <li>
+          <i>/Processes/EventsDB.bwp</i> - Unused resource JDBCConnectionResource</li>
+      </ul>
+    </conbody>
+  </concept>
+  <concept id="Missing_component_for_process_starter" xml:lang="en-us">
+    <title>Missing component for process starter</title>
+    <conbody>
+      <ul>
+        <li>
+          <i>/Processes/BooksDB.bwp</i> - tibco.bwce.sample.binding.rest.bookstore.db.BooksDB has not starter</li>
+        <li>
+          <i>/Processes/EventsDB.bwp</i> - tibco.bwce.sample.binding.rest.bookstore.db.EventsDB has not starter</li>
+      </ul>
+    </conbody>
+  </concept>
+  <concept id="module_properties" xml:lang="en-us">
+    <title>module properties</title>
+    <conbody>
+      <ul>
+        <li>
+          <i>/Processes/Activator.bwp</i> - dbDriver unused module property</li>
+        <li>
+          <i>/Processes/Activator.bwp</i> - dbPassword unused module property</li>
+        <li>
+          <i>/Processes/Activator.bwp</i> - dbURL unused module property</li>
+        <li>
+          <i>/Processes/Activator.bwp</i> - dbUserName unused module property</li>
+        <li>
+          <i>/Processes/Books.bwp</i> - dbDriver unused module property</li>
+        <li>
+          <i>/Processes/Books.bwp</i> - dbPassword unused module property</li>
+        <li>
+          <i>/Processes/Books.bwp</i> - dbURL unused module property</li>
+        <li>
+          <i>/Processes/Books.bwp</i> - dbUserName unused module property</li>
+        <li>
+          <i>/Processes/BooksDB.bwp</i> - dbDriver unused module property</li>
+        <li>
+          <i>/Processes/BooksDB.bwp</i> - dbPassword unused module property</li>
+        <li>
+          <i>/Processes/BooksDB.bwp</i> - dbURL unused module property</li>
+        <li>
+          <i>/Processes/BooksDB.bwp</i> - dbUserName unused module property</li>
+        <li>
+          <i>/Processes/Events.bwp</i> - dbDriver unused module property</li>
+        <li>
+          <i>/Processes/Events.bwp</i> - dbPassword unused module property</li>
+        <li>
+          <i>/Processes/Events.bwp</i> - dbURL unused module property</li>
+        <li>
+          <i>/Processes/Events.bwp</i> - dbUserName unused module property</li>
+        <li>
+          <i>/Processes/EventsDB.bwp</i> - dbDriver unused module property</li>
+        <li>
+          <i>/Processes/EventsDB.bwp</i> - dbPassword unused module property</li>
+        <li>
+          <i>/Processes/EventsDB.bwp</i> - dbURL unused module property</li>
+        <li>
+          <i>/Processes/EventsDB.bwp</i> - dbUserName unused module property</li>
+      </ul>
+    </conbody>
+  </concept>
+  <concept id="process_properties" xml:lang="en-us">
+    <title>process properties</title>
+    <conbody>
+      <ul>
+        <li>
+          <i>/Processes/Activator.bwp</i> - jdbcProperty unused process properties</li>
+        <li>
+          <i>/Processes/BooksDB.bwp</i> - jdbcProperty unused process properties</li>
+        <li>
+          <i>/Processes/EventsDB.bwp</i> - jdbcProperty unused process properties</li>
+      </ul>
+    </conbody>
+  </concept>
+</concept>
