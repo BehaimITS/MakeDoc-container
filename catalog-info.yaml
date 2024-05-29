@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "MKDocs-Test-1"
+  description: "This integrates everything with everything"
+  annotations:
+    github.com/project-slug: BehaimITS/MakeDoc-container
+    backstage.io/techdocs-ref: dir:./generated/default/1715945300063/md/
+#    backstage.io/kubernetes-id: bwce-integration-flow
+spec:
+  type: integration
+  lifecycle: development
+#  system: data-table-exposure
+  owner: "group:default/tibco-templates"
+  providesApis: ['bwce-integration-flow-api']
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: bwce-integration-flow-api-location
+spec:
+  targets:
+    - ./catalog-api.yaml

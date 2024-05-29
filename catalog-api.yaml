@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: 'bwce-integration-flow-api'
+  description: 'API for This integrates everything with everything'
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/BehaimITS/MakeDoc-container/
+      title: GitHub Repo
+      icon: github
+#    - url: https://github.com/TIBCO-Hub-Backstage/bwce-integration-flow/blob/master/api-spec/APISpec.yaml
+#      title: API Spec
+#      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "group:default/tibco-templates"
+  apiConsumedBy: ['component:bwce-integration-flow']
+  definition:
+    $text: ./swagger.json
