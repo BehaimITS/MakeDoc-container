@@ -1,6 +1,8 @@
 site_name: "bwce-integration-flow"
 site_description: "This integrates everything with everything"
 
+docs_dir: ./
+
 nav:
   - Introduction: index.md
 
