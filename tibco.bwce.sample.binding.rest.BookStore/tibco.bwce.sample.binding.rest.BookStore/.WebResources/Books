@@ -34,13 +34,6 @@
       "nickname" : "putBook",
       "type" : "Book",
       "parameters" : [ {
-        "paramType" : "body",
-        "name" : "",
-        "description" : "",
-        "type" : "Book",
-        "required" : true,
-        "allowMultiple" : false
-      }, {
         "paramType" : "path",
         "name" : "ISBN",
         "description" : "",
@@ -78,14 +71,7 @@
       "method" : "POST",
       "nickname" : "postBooks",
       "type" : "Books",
-      "parameters" : [ {
-        "paramType" : "body",
-        "name" : "",
-        "description" : "",
-        "type" : "Books",
-        "required" : true,
-        "allowMultiple" : false
-      } ],
+      "parameters" : [ ],
       "summary" : null,
       "notes" : null,
       "responseMessages" : [ {
@@ -175,7 +161,8 @@
           "type" : "boolean"
         },
         "price" : {
-          "type" : "number"
+          "type" : "number",
+          "format" : "float"
         }
       }
     },

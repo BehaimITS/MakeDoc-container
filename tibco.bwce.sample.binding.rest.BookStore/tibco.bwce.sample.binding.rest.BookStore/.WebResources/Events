@@ -10,14 +10,7 @@
       "method" : "POST",
       "nickname" : "postEvents",
       "type" : "Events",
-      "parameters" : [ {
-        "paramType" : "body",
-        "name" : "",
-        "description" : "",
-        "type" : "Events",
-        "required" : true,
-        "allowMultiple" : false
-      } ],
+      "parameters" : [ ],
       "summary" : null,
       "notes" : null,
       "responseMessages" : [ {
@@ -68,13 +61,6 @@
       "nickname" : "putEvent",
       "type" : "Event",
       "parameters" : [ {
-        "paramType" : "body",
-        "name" : "",
-        "description" : "",
-        "type" : "Event",
-        "required" : true,
-        "allowMultiple" : false
-      }, {
         "paramType" : "path",
         "name" : "EventID",
         "description" : "",
