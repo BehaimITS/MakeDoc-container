@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
-<concept id="WARNING_-_Incorrect_schema_-_missing_type_suffix" xml:lang="en-us">
-   <title>WARNING - Incorrect schema - missing type suffix</title>
-   <titlealts><navtitle>WARNING - Incorrect schema - missing type suffix</navtitle></titlealts>
-   <conbody>
-     <p>Chapter contains projects and their violations of rule &apos;Incorrect schema - missing type suffix&apos; - &apos;Check for &apos;Type&apos; suffix in name&apos;.</p>
-   </conbody>
-</concept>
