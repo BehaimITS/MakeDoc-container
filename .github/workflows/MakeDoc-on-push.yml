@@ -1,0 +1,153 @@
+name: MakeDoc action - on push
+
+on:
+  push:
+    branches:    
+      - main
+jobs:
+  
+  build:
+    
+    name: Build BW documentation
+
+    runs-on: self-hosted
+
+    env:
+      makedoc_key: './makedoc.key'
+      BW_projects_dir: ''
+      #BW_version: 'BusinessWorks 5'
+      BW_version: 'BusinessWorks 6'
+      #BW_version: 'RepositoryAnalyst'
+      html: 'false'
+      md: 'true'
+      pdf: 'false'
+      docx: 'false'
+      
+    container:
+
+      image: makedocdev.azurecr.io/makedocactions:4.4.1
+      
+      credentials:
+        username: ${{ secrets.ACR_NAME }}
+        password: ${{ secrets.ACR_PASSWORD }}
+        
+      options: --user root
+
+      volumes:
+        - ${{ github.workspace }}:/home/makedoc/repository
+        
+    steps:     
+      - name: Checkout MakeDoc repository
+        uses: actions/checkout@v4
+
+      - name: Configure GIT
+        run: |
+          cd /home/makedoc/repository
+          git config --global --add safe.directory /home/makedoc/repository
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git remote remove origin
+          git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
+          git pull origin main
+          
+      - name: Copy makedoc key
+        run: |
+          cp /home/makedoc/repository/${{ env.makedoc_key }} /home/makedoc/makedoc.key
+      
+      - name: Generate BW6 documentation
+        if: ${{ env.BW_version == 'BusinessWorks 6' }}
+        run: |
+          ant customizeBW6Profile -f /home/makedoc/server/scripts/customization.xml \
+            -Dtype="eagle" \
+            -Drelease.path="/home/makedoc/server/bin" \
+            -DprojectTargetDestination="/home/makedoc/server/ws/MAKEDOC_default_group_repository" \
+            -DprofileRelativePath="Profiles/Enterprise.profile" \
+            -Dgroup="group" \
+            -Dstorage="default" \
+            -Drepository="repository"  \
+            -Ddocx="${{ env.docx }}" \
+            -Dhtml="${{ env.html }}" \
+            -Dpdf="${{ env.pdf }}" \
+            -Dmd="${{ env.md }}" \
+            -Dformat="A4" \
+            -Dfilter="Filters/FullDetail.filter" \
+            -Daliases="-- no aliases --" \
+            -DallUnits="true" \
+            -DautoQA="false" \
+            -DinputBindingType="all" \
+            -DnotificationRecipients="" \
+            -DfailOnFatal="false" \
+            -DfailOnInfo="false" \
+            -DfailOnWarning="false" \
+            -DfailOnError="false"
+            ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorks6ProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ env.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
+
+      - name: Generate BW5 documentation
+        if: ${{ env.BW_version == 'BusinessWorks 5' }}
+        run: |
+          ant customizeBWProfile -f /home/makedoc/server/scripts/customization.xml \
+            -Dtype="falcon" \
+            -Drelease.path="/home/makedoc/server/bin" \
+            -DprojectTargetDestination="/home/makedoc/server/ws/MAKEDOC_default_group_repository" \
+            -DprofileRelativePath="Profiles/Enterprise.profile" \
+            -Dgroup="group" \
+            -Dstorage="default" \
+            -Drepository="repository"  \
+            -Ddocx="${{ env.docx }}" \
+            -Dhtml="${{ env.html }}" \
+            -Dpdf="${{ env.pdf }}" \
+            -Dmd="${{ env.md }}" \
+            -Dformat="A4" \
+            -Dfilter="Filters/FullDetail.filter" \
+            -Daliases="-- no aliases --" \
+            -DallUnits="true" \
+            -DautoQA="false" \
+            -DinputBindingType="all" \
+            -DnotificationRecipients="" \
+            -DfailOnFatal="false" \
+            -DfailOnInfo="false" \
+            -DfailOnWarning="false" \
+            -DfailOnError="false"
+          ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorksProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ env.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
+
+      - name: Transform MarkDown
+        if: ${{ env.md == 'true' }}
+        run: |
+          chmod +x /home/makedoc/repository/makedoc/transform.sh
+          cd /home/makedoc/server/storage/default/
+          cd "$(\ls -1dt * | head -n 1)"/md/
+          /home/makedoc/repository/makedoc/transform.sh index.md /home/makedoc/repository/mkdocs.yml
+          
+      - name: Copy project to github storage directory
+        run: |
+          mkdir -p /home/makedoc/repository/makedoc/
+          cp -r /home/makedoc/server/storage /home/makedoc/repository/makedoc/
+
+      - name: Replace latest project in docs directory
+        run: |
+          mkdir -p /home/makedoc/repository/docs/
+          rm -rf /home/makedoc/repository/docs/*
+          cd /home/makedoc/server/storage/default/
+          
+          if [[ "${{ env.md }}" == "true" ]]; then
+            cp -r "$(\ls -1dt * | head -n 1)"/md/* /home/makedoc/repository/docs/
+          elif [[ "${{ env.html }}" == "true" ]]; then
+            cp -r "$(\ls -1dt * | head -n 1)"/html/* /home/makedoc/repository/docs/
+          elif [[ "${{ env.pdf }}" == "true" ]]; then
+            cp -r "$(\ls -1dt * | head -n 1)"/pdf/* /home/makedoc/repository/docs/
+          elif [[ "${{ env.docx }}" == "true" ]]; then
+            cp -r "$(\ls -1dt * | head -n 1)"/docx/* /home/makedoc/repository/docs/
+          fi
+          
+      - name: Commit files
+        run: |
+          cd /home/makedoc/repository
+          git add .
+          git commit -m "Makedoc documentation generated"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          directory: /home/makedoc/repository/
