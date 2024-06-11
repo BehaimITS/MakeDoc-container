@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="Dafaflow_Cross-reference_summary" xml:lang="en-us">
+<title>Dataflow</title>
+<titlealts><navtitle>Dataflow</navtitle></titlealts>
+<conbody>
+<p>Chapter contains Dataflow Cross-reference documentation. This section describes flow of message/data through your environment. Comunication between processes and HTTP/JMS/Database/RV.</p>
+</conbody>
+</concept>
