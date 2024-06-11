@@ -5,7 +5,7 @@ metadata:
   description: "This integrates everything with everything"
   annotations:
     github.com/project-slug: BehaimITS/MakeDoc-container
-    backstage.io/techdocs-ref: dir:./mkdocs-test.yml
+    backstage.io/techdocs-ref: dir:./
     # backstage.io/techdocs-ref: dir:./generated/default/1715945300063/md
 #    backstage:io/techdocs-ref: url:https://github.com/BehaimITS/MakeDoc-container/tree/main/generated/default/1715945300063/md
 #    backstage.io/kubernetes-id: bwce-integration-flow
