@@ -4,23 +4,23 @@ site_description: "This integrates everything with everything"
 # docs_dir: ./
 
 nav:
-  - # Enterprise
-    - Introduction: intro.md
-    - Project documentation:
-        - tibco.bwce.sample.binding.rest.BookStore.application:
-            - Module Properties:
-                - META-INF/default.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/default.substvar.md
-                - META-INF/docker.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/docker.substvar.md
-                - META-INF/local.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/local.substvar.md
-            - Application settings:
-                - Application: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/TIBCO.application.md
-        - tibco.bwce.sample.binding.rest.BookStore:
-            - Processes:
-                - Processes/tibco/bwce/sample/binding/rest/bookstore/Activator: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Activator.bwp.md
-                - Processes/tibco/bwce/sample/binding/rest/bookstore/Books: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Books.bwp.md
-                - Processes/tibco/bwce/sample/binding/rest/bookstore/Events: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Events.bwp.md
-                - Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB.bwp.md
-                - Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB.bwp.md
+  # - # Enterprise
+  - Introduction: intro.md
+  - Project documentation:
+      - tibco.bwce.sample.binding.rest.BookStore.application:
+          - Module Properties:
+              - META-INF/default.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/default.substvar.md
+              - META-INF/docker.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/docker.substvar.md
+              - META-INF/local.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/local.substvar.md
+          - Application settings:
+              - Application: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/TIBCO.application.md
+      - tibco.bwce.sample.binding.rest.BookStore:
+          - Processes:
+              - Processes/tibco/bwce/sample/binding/rest/bookstore/Activator: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Activator.bwp.md
+              - Processes/tibco/bwce/sample/binding/rest/bookstore/Books: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Books.bwp.md
+              - Processes/tibco/bwce/sample/binding/rest/bookstore/Events: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Events.bwp.md
+              - Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB.bwp.md
+              - Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB.bwp.md
 #      - Module Properties: projects/tibco.bwce.sample.binding.rest.BookStore/common/substvar.md
 #        - META-INF/default.substvar: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/default.substvar.md
 #      - WSDLs: projects/tibco.bwce.sample.binding.rest.BookStore/common/wsdl.md
