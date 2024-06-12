@@ -8,42 +8,42 @@ nav:
 -   Project documentation:
       -   tibco.bwce.sample.binding.rest.BookStore.application:
             -   Module Properties:
-                  -   META-INF/default.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/default.substvar.md
-                  -   META-INF/docker.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/docker.substvar.md
-                  -   META-INF/local.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/local.substvar.md
+                  -   default.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/default.substvar.md
+                  -   docker.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/docker.substvar.md
+                  -   local.substvar: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/local.substvar.md
             -   Application settings:
                   -   Application: projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/TIBCO.application.md
       -   tibco.bwce.sample.binding.rest.BookStore:
             -   Processes:
-                  -   Processes/tibco/bwce/sample/binding/rest/bookstore/Activator: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Activator.bwp.md
-                  -   Processes/tibco/bwce/sample/binding/rest/bookstore/Books: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Books.bwp.md
-                  -   Processes/tibco/bwce/sample/binding/rest/bookstore/Events: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Events.bwp.md
-                  -   Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB.bwp.md
-                  -   Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB.bwp.md
+                  -   Activator: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Activator.bwp.md
+                  -   Books: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Books.bwp.md
+                  -   Events: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Events.bwp.md
+                  -   BooksDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB.bwp.md
+                  -   EventsDB: projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB.bwp.md
             -   Module Properties:
-                  -   META-INF/default.substvar: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/default.substvar.md
+                  -   default.substvar: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/default.substvar.md
             -   WSDLs:
-                  -   Service Descriptors/Books: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Books.wsdl.md
-                  -   Service Descriptors/BooksDBService: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/BooksDBService.wsdl.md
-                  -   Service Descriptors/Events: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Events.wsdl.md
-                  -   Service Descriptors/EventsDBService: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/EventsDBService.wsdl.md
-                  -   Service Descriptors/ModuleActivator: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/ModuleActivator.wsdl.md
+                  -   Books: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Books.wsdl.md
+                  -   BooksDBService: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/BooksDBService.wsdl.md
+                  -   Events: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Events.wsdl.md
+                  -   EventsDBService: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/EventsDBService.wsdl.md
+                  -   ModuleActivator: projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/ModuleActivator.wsdl.md
             -   Shared JDBC Connections:
-                  -   Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource: projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.md
+                  -   JDBCConnectionResource: projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.md
             -   HTTP Connectors:
-                  -   Resources/tibco/bwce/sample/binding/rest/BookStore/Books: projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest/BookStore/Books.httpConnResource.md
+                  -   Books: projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest/BookStore/Books.httpConnResource.md
             -   Shared Variables:
-                  -   META-INF/module: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/module.msv.md
+                  -   module: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/module.msv.md
             -   Module Descriptor:
                   -   Module: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/module.bwm.md
             -   Job Shared Variables:
-                  -   META-INF/module: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/module.jsv.md
+                  -   module: projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/module.jsv.md
             -   XSD Schemas:
-                  -   Schemas/Books: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Books.xsd.md
-                  -   Schemas/BooksSchema: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/BooksSchema.xsd.md
-                  -   Schemas/Events: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Events.xsd.md
-                  -   Schemas/EventsSchema: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/EventsSchema.xsd.md
-                  -   Schemas/RESTSchema: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/RESTSchema.xsd.md
+                  -   Books: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Books.xsd.md
+                  -   BooksSchema: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/BooksSchema.xsd.md
+                  -   Events: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Events.xsd.md
+                  -   EventsSchema: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/EventsSchema.xsd.md
+                  -   RESTSchema: projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/RESTSchema.xsd.md
 -   Cross-reference documentation:
       -   Dependencies:
             -   Resources:
@@ -110,41 +110,41 @@ nav:
                   -   tibco.bwce.sample.binding.rest.BookStore: qa/rules/Unused_properties/violation1.md
       -   Projects:
             -   tibco.bwce.sample.binding.rest.BookStore:
-                  -   /: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation1.md
-                  -   META-INF/default.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation3.md
-                  -   META-INF/module.bwm: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation4.md
-                  -   Processes/Activator.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation5.md
-                  -   Processes/Books.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation6.md
-                  -   Processes/BooksDB.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation7.md
-                  -   Processes/Events.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation8.md
-                  -   Processes/EventsDB.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation9.md
-                  -   Resources/Books.httpConnResource: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation10.md
-                  -   Resources/JDBCConnectionResource.jdbcResource: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation11.md
-                  -   Schemas/Books.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation12.md
-                  -   Schemas/BooksSchema.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation13.md
-                  -   Schemas/Events.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation14.md
-                  -   Schemas/EventsSchema.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation15.md
-                  -   Schemas/RESTSchema.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation16.md
-                  -   Service Descriptors/Books.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation17.md
-                  -   Service Descriptors/Books.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation18.md
-                  -   Service Descriptors/Books.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation19.md
-                  -   Service Descriptors/BooksDBService.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation20.md
-                  -   Service Descriptors/BooksDBService.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation21.md
-                  -   Service Descriptors/BooksDBService.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation22.md
-                  -   Service Descriptors/Events.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation23.md
-                  -   Service Descriptors/Events.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation24.md
-                  -   Service Descriptors/Events.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation25.md
-                  -   Service Descriptors/EventsDBService.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation26.md
-                  -   Service Descriptors/EventsDBService.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation27.md
-                  -   Service Descriptors/EventsDBService.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation28.md
-                  -   Service Descriptors/ModuleActivator.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation29.md
-                  -   Service Descriptors/ModuleActivator.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation30.md
-                  -   Service Descriptors/ModuleActivator.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation31.md
+                  -   : qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation1.md
+                  -   default.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation3.md
+                  -   module.bwm: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation4.md
+                  -   Activator.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation5.md
+                  -   Books.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation6.md
+                  -   BooksDB.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation7.md
+                  -   Events.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation8.md
+                  -   EventsDB.bwp: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation9.md
+                  -   Books.httpConnResource: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation10.md
+                  -   JDBCConnectionResource.jdbcResource: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation11.md
+                  -   Books.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation12.md
+                  -   BooksSchema.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation13.md
+                  -   Events.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation14.md
+                  -   EventsSchema.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation15.md
+                  -   RESTSchema.xsd: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation16.md
+                  -   Books.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation17.md
+                  -   Books.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation18.md
+                  -   Books.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation19.md
+                  -   BooksDBService.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation20.md
+                  -   BooksDBService.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation21.md
+                  -   BooksDBService.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation22.md
+                  -   Events.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation23.md
+                  -   Events.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation24.md
+                  -   Events.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation25.md
+                  -   EventsDBService.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation26.md
+                  -   EventsDBService.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation27.md
+                  -   EventsDBService.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation28.md
+                  -   ModuleActivator.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation29.md
+                  -   ModuleActivator.wsdl\_pretty.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation30.md
+                  -   ModuleActivator.wsdltemp.wsdl: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation31.md
                   -   tibco.bwce.sample.binding.rest.BookStore: qa/projects/tibco.bwce.sample.binding.rest.BookStore/violation2.md
             -   tibco.bwce.sample.binding.rest.BookStore.application:
-                  -   /: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation1.md
-                  -   META-INF/default.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation3.md
-                  -   META-INF/docker.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation4.md
-                  -   META-INF/local.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation5.md
+                  -   : qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation1.md
+                  -   default.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation3.md
+                  -   docker.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation4.md
+                  -   local.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation5.md
                   -   tibco.bwce.sample.binding.rest.BookStore.application: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation2.md
       -   QA Rules Statistics: qa/common/invalidQARule.md

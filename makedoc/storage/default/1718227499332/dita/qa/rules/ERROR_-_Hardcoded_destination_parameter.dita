@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<concept id="ERROR_-_Hardcoded_destination_parameter" xml:lang="en-us">
+   <title>ERROR - Hardcoded destination parameter</title>
+   <titlealts><navtitle>ERROR - Hardcoded destination parameter</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains projects and their violations of rule &apos;Hardcoded destination parameter&apos; - &apos;Check for hardcoded destination parameter&apos;.</p>
+   </conbody>
+</concept>
