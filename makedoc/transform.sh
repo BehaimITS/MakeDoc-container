@@ -7,7 +7,6 @@ output_path=${2:-mkdocs.yml}
 # Function to transform a line
 transform_line() {
     local line=$1
-    line=$(echo "$line" | sed 's/^- *//')  # Remove leading list markers
     line=$(echo "$line" | sed 's/\[\(.*\)\](\(.*\))/\1: \2/')  # Replace [text](link) with text: link
     echo "$line"
 }
