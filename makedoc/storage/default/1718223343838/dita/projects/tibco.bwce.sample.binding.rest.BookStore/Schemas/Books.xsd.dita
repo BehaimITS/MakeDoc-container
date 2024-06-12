@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd"><concept xml:lang="en-us" id="Xsd"><title>Books</title><titlealts><navtitle>Schemas/Books</navtitle></titlealts><conbody><p>License for TIBCO Software Use Only! </p><p>
+				
+				Section contains description of XSD Schema Books.xsd<q><xref href="Books.xsd" type="fig" format="xsd" scope="external">Books.xsd</xref></q></p><section><indexterm>Books</indexterm></section></conbody><concept xml:lang="en-us" id="FolderDescription"><title>Folder description:</title><conbody><table><tgroup cols="2"><colspec colwidth="75*" colname="folder"/><colspec colwidth="175*" colname="desc"/><thead><row><entry valign="top" colname="folder">Folder</entry><entry valign="top" colname="desc">Description</entry></row></thead><tbody><row><entry/><entry>No description</entry></row></tbody></tgroup></table></conbody></concept><concept xml:lang="en-us" id="Diagram"><title>Diagram:</title><conbody><image href="Books.xsd.png" alt="Diagram&#10;              Books.xsd" height="718"/></conbody></concept><concept xml:lang="en-us" id="Attributes"><title>Attributes</title><conbody><ul><li><i> elementFormDefault
+				:
+			</i><i> qualified</i></li><li><i> targetNamespace
+				:
+			</i><i> http://www.example.org/Books</i></li></ul></conbody></concept><concept xml:lang="en-us" id="Overview"><title>Overview</title><concept xml:lang="en-us" id="Elements"><title>Elements</title><conbody><ul><li><xref href="#element_Book" type="concept">Book</xref></li><li><xref href="#element_Books" type="concept">Books</xref></li></ul></conbody></concept><concept xml:lang="en-us" id="ComplexTypes"><title>Complex Types</title><conbody><ul><li><xref href="#type_Book" type="concept">Book</xref></li><li><xref href="#type_Books" type="concept">Books</xref></li></ul></conbody></concept></concept><concept xml:lang="en-us" id="Detail"><title>Detail</title><concept xml:lang="en-us" id="type_Book"><title>complexType Book</title><conbody><ul><li>element isbn<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> string</i></li></ul><ul><li>element name<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> string</i></li></ul><ul><li>element description<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> string</i></li></ul><ul><li>element authorName<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> string</i></li></ul><ul><li>element releaseDate<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> date</i></li></ul><ul><li>element vintage<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> boolean</i></li></ul><ul><li>element signed<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> boolean</i></li></ul><ul><li>element price<i> minOccurs </i><i> 0</i>
+				,
+			<i> type </i><i> float</i></li></ul>
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    	</conbody></concept><concept xml:lang="en-us" id="element_Book"><title>element Book</title><conbody><ul><li><i> type
+				:
+			</i><i> tns:Book</i></li></ul></conbody></concept><concept xml:lang="en-us" id="type_Books"><title>complexType Books</title><conbody><ul><li>element<i> maxOccurs </i><i> unbounded</i>
+				,
+			<i> minOccurs </i><i> 0</i>
+				,
+			<i> ref </i><i> tns:Book</i></li></ul>
+    		
+    	</conbody></concept><concept xml:lang="en-us" id="element_Books"><title>element Books</title><conbody><ul><li><i> type
+				:
+			</i><i> tns:Books</i></li></ul></conbody></concept></concept></concept>
