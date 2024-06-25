@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="http___www.example.org_Books__WSDL__unresolved" xml:lang="en-us">
+	<title>http___www.example.org_Books__WSDL__unresolved</title>
+	<titlealts><navtitle>http___www.example.org_Books__WSDL__unresolved</navtitle></titlealts>
+	<conbody>
+		<p>Chapter contains http___www.example.org_Books__WSDL__unresolved crossreferences documentation.</p>
+			<imagemap>
+				<image href="cross_http___www.example.org_Books__WSDL.png"/>		
+					<area><shape>poly</shape><coords>450,80,490,80,490,120,450,120</coords><xref href="../../dependencies/wsdls/cross_http___www.example.org_Books__WSDL.dita">http://www.example.org/Books::WSDL</xref></area>
+					<area><shape>poly</shape><coords>95,178,135,178,135,218,95,218</coords><xref href="../../dependencies/xsds/cross_http___www.example.org_Books__XSD.dita">http://www.example.org/Books::XSD</xref></area>
+					<area><shape>poly</shape><coords>291,246,331,246,331,286,291,286</coords><xref href="../../dependencies/wsdls/cross_http___xmlns.example.com_20140929140236__WSDL.dita">http://xmlns.example.com/20140929140236::WSDL</xref></area>
+					<area><shape>poly</shape><coords>161,430,201,430,201,470,161,470</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.Books.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.Books</xref></area>
+					<area><shape>poly</shape><coords>381,426,421,426,421,466,381,466</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.db.BooksDB.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.db.BooksDB</xref></area>
+			</imagemap>
+		
+			    <p>Referenced From:
+			        <ul>
+			                <li>
+			                        <xref href="../../../projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/BooksDBService.wsdl.dita">http://xmlns.example.com/20140929140236::WSDL</xref>
+			                </li>
+			        </ul>
+			    </p>
+		
+	</conbody>
+</concept>
