@@ -70,7 +70,7 @@ jobs:
           
       - name: Copy makedoc key & storage
         run: |
-          cp /home/makedoc/repository/${{ env.makedoc_key }} /home/makedoc/makedoc.key
+          cp /home/makedoc/repository/${{ inputs.makedoc_key }} /home/makedoc/makedoc.key
           cp -r /home/makedoc/repository/makedoc/storage/ /home/makedoc/server/storage/
       
       - name: Generate BW6 documentation
