@@ -53,6 +53,8 @@ jobs:
       - name: Copy makedoc key
         run: |
           cp /home/makedoc/repository/${{ env.makedoc_key }} /home/makedoc/makedoc.key
+          cp -r /home/makedoc/repository/makedoc/storage/ /home/makedoc/server/storage/
+          cp -r /home/makedoc/repository/makedoc/ws/ /home/makedoc/server/ws/
       
       - name: Generate BW6 documentation
         if: ${{ env.BW_version == 'BusinessWorks 6' }}
@@ -120,8 +122,9 @@ jobs:
           
       - name: Copy project to github storage directory
         run: |
-          mkdir -p /home/makedoc/repository/makedoc/
+          mkdir -p /home/makedoc/repository/makedoc/ws/
           cp -r /home/makedoc/server/storage /home/makedoc/repository/makedoc/
+          cp -r /home/makedoc/server/ws/ /home/makedoc/repository/makedoc/ws/
 
       - name: Replace latest project in docs directory
         run: |
