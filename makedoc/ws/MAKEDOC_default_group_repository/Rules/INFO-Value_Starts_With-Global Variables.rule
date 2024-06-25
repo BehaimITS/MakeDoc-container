@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleCheckerInstance xmlns="http://pikeelectronic.com/tibco/qa/xsd" enabled="true" system="true" type="XPathRuleChecker">
+<group>Value Starts With</group>
+<name>Global Variables</name>
+<description/>
+<severity>Info</severity>
+<mask>variable</mask>
+<config>
+<XPathExpression>not(starts-with(./*[local-name()='value'],'http://'))</XPathExpression>
+<violationDescription>Global Variable WILDCARD</violationDescription>
+<namespaces>
+<namespace>
+<prefix/>
+<uri/>
+</namespace>
+</namespaces>
+</config>
+<filters>
+        <filter mode="set" type="ExtensionsFilter">
+            <config>
+                <extensions xmlns:ns2="http://pikeelectronic.com/tibco/qa/xsd" xmlns="">
+                    <extension>substvar</extension>
+                </extensions>
+            </config>
+        </filter>
+</filters>
+<sources/>
+</ruleCheckerInstance>

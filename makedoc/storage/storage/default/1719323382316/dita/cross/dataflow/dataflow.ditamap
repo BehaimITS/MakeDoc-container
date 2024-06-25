@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+                     "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="Data flow documentation">
+	<topicmeta>
+		<critdates>
+			<created date="2024/06/25 13:49"/>
+		</critdates>
+	</topicmeta>
+      <topicref href="processes/processes.dita">
+          <topicref format="ditamap" href="processes/content_DITA.ditamap"/>
+      </topicref>
+      <topicref href="databaseobjects/databaseobjects.dita">
+          <topicref format="ditamap" href="databaseobjects/content_DITA.ditamap"/>
+      </topicref>
+</map>

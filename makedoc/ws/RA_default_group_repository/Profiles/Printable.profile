@@ -1,15 +1,20 @@
-settings.inputData= 
-rita.maps=
-rita.excludes= 
-settings.storage=default
-settings.group=
-settings.repository=
-
+settings.inputData=
 settings.docx=true
 settings.html=false
-settings.paperFormat=A4
-settings.pdf=true
-
 profile.name=Printable
-profile.description=Printable profile
+profile.description=Printable Profile
 profile.author=Behaim IT Solutions
+strainer.properties=
+filter.properties=Filters/DiagramsOnly.filter
+settings.aliases=-- no aliases --
+settings.automaticallyDocumentNewUnits=false
+settings.paperFormat=A4
+profile.templates=Templates
+settings.storage=default
+settings.repository=
+settings.group=
+settings.pdf=true
+qa.properties=
+settings.automaticallyDocumentAllRule=false
+settings.substituteGlobalVars=true
+settings.inputBindingsType=all

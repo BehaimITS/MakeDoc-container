@@ -1,0 +1,27 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : GV_projsRef.xml                                          -->
+<!-- originator      : lkocourek                                                -->
+<!-- creation date   : 2007-10-31                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="crossref_globvars" xml:lang="en-us">
+   <title>Projects Reference</title>
+   <titlealts><navtitle>Projects Reference</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains global variables from cross-reference documentation.</p>
+     <p>Global variables Cross-Reference represents relations among global variables and 
+		projects. It shows which global variables are used by which project.</p>
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

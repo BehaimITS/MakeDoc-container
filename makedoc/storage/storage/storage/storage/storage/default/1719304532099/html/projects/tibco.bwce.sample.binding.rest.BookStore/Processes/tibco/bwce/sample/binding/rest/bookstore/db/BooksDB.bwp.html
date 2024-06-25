@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2024" />
+<meta name="DC.rights.owner" content="(C) Copyright 2024" />
+<meta name="DC.type" content="concept" />
+<meta name="DC.title" content="BooksDB" />
+<meta name="DC.relation" scheme="URI" content="../../../../../../../../../../projects/tibco.bwce.sample.binding.rest.BookStore/common/process.html" />
+<meta name="DC.date.created" content="2024/06/25 08:35" />
+<meta name="DC.format" content="XHTML" />
+<meta name="DC.identifier" content="ProcessMain" />
+<meta name="DC.language" content="en-us" />
+<link rel="stylesheet" type="text/css" href="../../../../../../../../../../css/commonltr.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../../../../../css/combined-styles.css" />
+<title>BooksDB</title>
+</head>
+<body id="ProcessMain">
+<h1 class="title topictitle1" id="ariaid-title1">BooksDB</h1>
+<div class="body conbody"><p class="p">License for TIBCO Software Use Only! </p>
+<p class="p">
+                            Section contains description of Process "
+                            BooksDB.bwp
+                            " .
+                        </p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../../../../../../../projects/tibco.bwce.sample.binding.rest.BookStore/common/process.html">Processes</a></div>
+</div>
+</div><div class="topic concept nested1" aria-labelledby="ariaid-title2" xml:lang="en-us" lang="en-us" id="FolderDescription"><h2 class="title topictitle2" id="ariaid-title2">Folder description:</h2>
+<div class="body conbody">
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:70%" /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e41">Folder</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e43">Description</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e41 "> </td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e43 ">No description</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title3" xml:lang="en-us" lang="en-us" id="ProcessDescription"><h2 class="title topictitle2" id="ariaid-title3">Process description:</h2>
+<div class="body conbody">
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col /></colgroup><tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;">
+                                            No description
+                                        </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title4" xml:lang="en-us" lang="en-us" id="ProcessDefinition"><h2 class="title topictitle2" id="ariaid-title4">Process definition:</h2>
+<div class="body conbody"><p class="p">
+                    Full process path:
+                    tibco.bwce.sample.binding.rest.bookstore.db.BooksDB</p>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title5" xml:lang="en-us" lang="en-us" id="Diagram"><h2 class="title topictitle2" id="ariaid-title5">Diagram:</h2>
+<div class="body conbody"><div class="fig imagemap"><img usemap="#d42571e71" border="0" class="image" src="BooksDB.bwp.png" />
+<map name="d42571e71" id="d42571e71">
+<area href="#addBooks" alt="addBooks" title="addBooks" shape="circle" coords="391&#xA;                                                ,&#xA;                                                172&#xA;                                                ,40&#xA;                                            " />
+<area href="#GroupStart" alt="GroupStart" title="GroupStart" shape="circle" coords="291&#xA;                                                ,&#xA;                                                144&#xA;                                                ,40&#xA;                                            " />
+<area href="#GroupEnd" alt="GroupEnd" title="GroupEnd" shape="circle" coords="507&#xA;                                                ,&#xA;                                                144&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageStart" alt="OnMessageStart" title="OnMessageStart" shape="circle" coords="160&#xA;                                                ,&#xA;                                                229&#xA;                                                ,28&#xA;                                            " />
+<area href="#addBooksOut" alt="addBooksOut" title="addBooksOut" shape="circle" coords="582&#xA;                                                ,&#xA;                                                192&#xA;                                                ,28&#xA;                                            " />
+<area href="#Assign" alt="Assign" title="Assign" shape="circle" coords="230&#xA;                                                ,&#xA;                                                200&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageEnd" alt="OnMessageEnd" title="OnMessageEnd" shape="circle" coords="816&#xA;                                                ,&#xA;                                                196&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageStart1" alt="OnMessageStart1" title="OnMessageStart1" shape="circle" coords="160&#xA;                                                ,&#xA;                                                394&#xA;                                                ,28&#xA;                                            " />
+<area href="#getAllBooksOut" alt="getAllBooksOut" title="getAllBooksOut" shape="circle" coords="482&#xA;                                                ,&#xA;                                                428&#xA;                                                ,28&#xA;                                            " />
+<area href="#getBooks" alt="getBooks" title="getBooks" shape="circle" coords="309&#xA;                                                ,&#xA;                                                428&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageEnd1" alt="OnMessageEnd1" title="OnMessageEnd1" shape="circle" coords="816&#xA;                                                ,&#xA;                                                447&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageStart2" alt="OnMessageStart2" title="OnMessageStart2" shape="circle" coords="160&#xA;                                                ,&#xA;                                                534&#xA;                                                ,28&#xA;                                            " />
+<area href="#getBookByISBNOut" alt="getBookByISBNOut" title="getBookByISBNOut" shape="circle" coords="482&#xA;                                                ,&#xA;                                                568&#xA;                                                ,28&#xA;                                            " />
+<area href="#getBookByISBN" alt="getBookByISBN" title="getBookByISBN" shape="circle" coords="309&#xA;                                                ,&#xA;                                                568&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageEnd2" alt="OnMessageEnd2" title="OnMessageEnd2" shape="circle" coords="816&#xA;                                                ,&#xA;                                                587&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageStart3" alt="OnMessageStart3" title="OnMessageStart3" shape="circle" coords="160&#xA;                                                ,&#xA;                                                674&#xA;                                                ,28&#xA;                                            " />
+<area href="#updateBookOut" alt="updateBookOut" title="updateBookOut" shape="circle" coords="482&#xA;                                                ,&#xA;                                                708&#xA;                                                ,28&#xA;                                            " />
+<area href="#updateBook" alt="updateBook" title="updateBook" shape="circle" coords="310&#xA;                                                ,&#xA;                                                708&#xA;                                                ,28&#xA;                                            " />
+<area href="#JDBCQuery" alt="JDBCQuery" title="JDBCQuery" shape="circle" coords="212&#xA;                                                ,&#xA;                                                708&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageEnd3" alt="OnMessageEnd3" title="OnMessageEnd3" shape="circle" coords="816&#xA;                                                ,&#xA;                                                727&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageStart4" alt="OnMessageStart4" title="OnMessageStart4" shape="circle" coords="160&#xA;                                                ,&#xA;                                                868&#xA;                                                ,28&#xA;                                            " />
+<area href="#deleteBookOut" alt="deleteBookOut" title="deleteBookOut" shape="circle" coords="482&#xA;                                                ,&#xA;                                                848&#xA;                                                ,28&#xA;                                            " />
+<area href="#deleteBook" alt="deleteBook" title="deleteBook" shape="circle" coords="303&#xA;                                                ,&#xA;                                                848&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageEnd4" alt="OnMessageEnd4" title="OnMessageEnd4" shape="circle" coords="816&#xA;                                                ,&#xA;                                                870&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageStart5" alt="OnMessageStart5" title="OnMessageStart5" shape="circle" coords="160&#xA;                                                ,&#xA;                                                961&#xA;                                                ,28&#xA;                                            " />
+<area href="#getRecentBooksOut" alt="getRecentBooksOut" title="getRecentBooksOut" shape="circle" coords="482&#xA;                                                ,&#xA;                                                995&#xA;                                                ,28&#xA;                                            " />
+<area href="#getRecentBooks" alt="getRecentBooks" title="getRecentBooks" shape="circle" coords="307&#xA;                                                ,&#xA;                                                995&#xA;                                                ,28&#xA;                                            " />
+<area href="#OnMessageEnd5" alt="OnMessageEnd5" title="OnMessageEnd5" shape="circle" coords="816&#xA;                                                ,&#xA;                                                1016&#xA;                                                ,28&#xA;                                            " />
+<area href="#Transitions__addBooks_GroupEnd" alt="From: addBooks To: GroupEnd" title="From: addBooks To: GroupEnd" shape="poly" coords="413&#xA;                                                    ,&#xA;                                                    178&#xA;                                                    ,&#xA;                                                    453&#xA;                                                    ,&#xA;                                                    178&#xA;                                                    ,&#xA;                                                    453&#xA;                                                    ,&#xA;                                                    168&#xA;                                                    ,&#xA;                                                    413&#xA;                                                    ,&#xA;                                                    168" />
+<area href="#Transitions__addBooks_GroupEnd" alt="From: addBooks To: GroupEnd" title="From: addBooks To: GroupEnd" shape="poly" coords="448&#xA;                                                    ,&#xA;                                                    173&#xA;                                                    ,&#xA;                                                    448&#xA;                                                    ,&#xA;                                                    145&#xA;                                                    ,&#xA;                                                    458&#xA;                                                    ,&#xA;                                                    145&#xA;                                                    ,&#xA;                                                    458&#xA;                                                    ,&#xA;                                                    173" />
+<area href="#Transitions__addBooks_GroupEnd" alt="From: addBooks To: GroupEnd" title="From: addBooks To: GroupEnd" shape="poly" coords="453&#xA;                                                    ,&#xA;                                                    150&#xA;                                                    ,&#xA;                                                    505&#xA;                                                    ,&#xA;                                                    150&#xA;                                                    ,&#xA;                                                    505&#xA;                                                    ,&#xA;                                                    140&#xA;                                                    ,&#xA;                                                    453&#xA;                                                    ,&#xA;                                                    140" />
+<area href="#Transitions__GroupStart_addBooks" alt="From: GroupStart To: addBooks" title="From: GroupStart To: addBooks" shape="poly" coords="297&#xA;                                                    ,&#xA;                                                    150&#xA;                                                    ,&#xA;                                                    339&#xA;                                                    ,&#xA;                                                    150&#xA;                                                    ,&#xA;                                                    339&#xA;                                                    ,&#xA;                                                    140&#xA;                                                    ,&#xA;                                                    297&#xA;                                                    ,&#xA;                                                    140" />
+<area href="#Transitions__GroupStart_addBooks" alt="From: GroupStart To: addBooks" title="From: GroupStart To: addBooks" shape="poly" coords="334&#xA;                                                    ,&#xA;                                                    145&#xA;                                                    ,&#xA;                                                    334&#xA;                                                    ,&#xA;                                                    173&#xA;                                                    ,&#xA;                                                    344&#xA;                                                    ,&#xA;                                                    173&#xA;                                                    ,&#xA;                                                    344&#xA;                                                    ,&#xA;                                                    145" />
+<area href="#Transitions__GroupStart_addBooks" alt="From: GroupStart To: addBooks" title="From: GroupStart To: addBooks" shape="poly" coords="339&#xA;                                                    ,&#xA;                                                    178&#xA;                                                    ,&#xA;                                                    365&#xA;                                                    ,&#xA;                                                    178&#xA;                                                    ,&#xA;                                                    365&#xA;                                                    ,&#xA;                                                    168&#xA;                                                    ,&#xA;                                                    339&#xA;                                                    ,&#xA;                                                    168" />
+<area href="#Transitions__OnMessageStart_Assign" alt="From: OnMessageStart To: Assign" title="From: OnMessageStart To: Assign" shape="poly" coords="170&#xA;                                                    ,&#xA;                                                    235&#xA;                                                    ,&#xA;                                                    193&#xA;                                                    ,&#xA;                                                    235&#xA;                                                    ,&#xA;                                                    193&#xA;                                                    ,&#xA;                                                    225&#xA;                                                    ,&#xA;                                                    170&#xA;                                                    ,&#xA;                                                    225" />
+<area href="#Transitions__OnMessageStart_Assign" alt="From: OnMessageStart To: Assign" title="From: OnMessageStart To: Assign" shape="poly" coords="188&#xA;                                                    ,&#xA;                                                    230&#xA;                                                    ,&#xA;                                                    188&#xA;                                                    ,&#xA;                                                    201&#xA;                                                    ,&#xA;                                                    198&#xA;                                                    ,&#xA;                                                    201&#xA;                                                    ,&#xA;                                                    198&#xA;                                                    ,&#xA;                                                    230" />
+<area href="#Transitions__OnMessageStart_Assign" alt="From: OnMessageStart To: Assign" title="From: OnMessageStart To: Assign" shape="poly" coords="193&#xA;                                                    ,&#xA;                                                    206&#xA;                                                    ,&#xA;                                                    204&#xA;                                                    ,&#xA;                                                    206&#xA;                                                    ,&#xA;                                                    204&#xA;                                                    ,&#xA;                                                    196&#xA;                                                    ,&#xA;                                                    193&#xA;                                                    ,&#xA;                                                    196" />
+<area href="#Transitions__getBooks_getAllBooksOut" alt="From: getBooks To: getAllBooksOut" title="From: getBooks To: getAllBooksOut" shape="poly" coords="331&#xA;                                                    ,&#xA;                                                    434&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    434&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    424&#xA;                                                    ,&#xA;                                                    331&#xA;                                                    ,&#xA;                                                    424" />
+<area href="#Transitions__getBookByISBN_getBookByISBNOut" alt="From: getBookByISBN To: getBookByISBNOut" title="From: getBookByISBN To: getBookByISBNOut" shape="poly" coords="331&#xA;                                                    ,&#xA;                                                    574&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    574&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    564&#xA;                                                    ,&#xA;                                                    331&#xA;                                                    ,&#xA;                                                    564" />
+<area href="#Transitions__updateBook_updateBookOut" alt="From: updateBook To: updateBookOut" title="From: updateBook To: updateBookOut" shape="poly" coords="332&#xA;                                                    ,&#xA;                                                    714&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    714&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    704&#xA;                                                    ,&#xA;                                                    332&#xA;                                                    ,&#xA;                                                    704" />
+<area href="#Transitions__JDBCQuery_updateBook" alt="From: JDBCQuery To: updateBook" title="From: JDBCQuery To: updateBook" shape="poly" coords="234&#xA;                                                    ,&#xA;                                                    714&#xA;                                                    ,&#xA;                                                    284&#xA;                                                    ,&#xA;                                                    714&#xA;                                                    ,&#xA;                                                    284&#xA;                                                    ,&#xA;                                                    704&#xA;                                                    ,&#xA;                                                    234&#xA;                                                    ,&#xA;                                                    704" />
+<area href="#Transitions__deleteBook_deleteBookOut" alt="From: deleteBook To: deleteBookOut" title="From: deleteBook To: deleteBookOut" shape="poly" coords="325&#xA;                                                    ,&#xA;                                                    854&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    854&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    844&#xA;                                                    ,&#xA;                                                    325&#xA;                                                    ,&#xA;                                                    844" />
+<area href="#Transitions__getRecentBooks_getRecentBooksOut" alt="From: getRecentBooks To: getRecentBooksOut" title="From: getRecentBooks To: getRecentBooksOut" shape="poly" coords="329&#xA;                                                    ,&#xA;                                                    1001&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    1001&#xA;                                                    ,&#xA;                                                    456&#xA;                                                    ,&#xA;                                                    991&#xA;                                                    ,&#xA;                                                    329&#xA;                                                    ,&#xA;                                                    991" />
+<area href="#addBooks_BooksPersist" alt="addBooks_BooksPersist" title="addBooks_BooksPersist" shape="poly" coords="162&#xA;                                                    ,&#xA;                                                    132&#xA;                                                    ,&#xA;                                                    294&#xA;                                                    ,&#xA;                                                    132&#xA;                                                    ,&#xA;                                                    294&#xA;                                                    ,&#xA;                                                    116&#xA;                                                    ,&#xA;                                                    162&#xA;                                                    ,&#xA;                                                    116" />
+<area href="#getAllBooks_BooksPersist" alt="getAllBooks_BooksPersist" title="getAllBooks_BooksPersist" shape="poly" coords="162&#xA;                                                    ,&#xA;                                                    414&#xA;                                                    ,&#xA;                                                    309&#xA;                                                    ,&#xA;                                                    414&#xA;                                                    ,&#xA;                                                    309&#xA;                                                    ,&#xA;                                                    398&#xA;                                                    ,&#xA;                                                    162&#xA;                                                    ,&#xA;                                                    398" />
+<area href="#getBookByISBN_BooksPersist" alt="getBookByISBN_BooksPersist" title="getBookByISBN_BooksPersist" shape="poly" coords="162&#xA;                                                    ,&#xA;                                                    554&#xA;                                                    ,&#xA;                                                    319&#xA;                                                    ,&#xA;                                                    554&#xA;                                                    ,&#xA;                                                    319&#xA;                                                    ,&#xA;                                                    538&#xA;                                                    ,&#xA;                                                    162&#xA;                                                    ,&#xA;                                                    538" />
+<area href="#updateBook_BooksPersist" alt="updateBook_BooksPersist" title="updateBook_BooksPersist" shape="poly" coords="162&#xA;                                                    ,&#xA;                                                    694&#xA;                                                    ,&#xA;                                                    304&#xA;                                                    ,&#xA;                                                    694&#xA;                                                    ,&#xA;                                                    304&#xA;                                                    ,&#xA;                                                    678&#xA;                                                    ,&#xA;                                                    162&#xA;                                                    ,&#xA;                                                    678" />
+<area href="#deleteBook_BooksPersist" alt="deleteBook_BooksPersist" title="deleteBook_BooksPersist" shape="poly" coords="162&#xA;                                                    ,&#xA;                                                    834&#xA;                                                    ,&#xA;                                                    304&#xA;                                                    ,&#xA;                                                    834&#xA;                                                    ,&#xA;                                                    304&#xA;                                                    ,&#xA;                                                    818&#xA;                                                    ,&#xA;                                                    162&#xA;                                                    ,&#xA;                                                    818" />
+<area href="#getRecentBooks_BooksPersist" alt="getRecentBooks_BooksPersist" title="getRecentBooks_BooksPersist" shape="poly" coords="162&#xA;                                                    ,&#xA;                                                    981&#xA;                                                    ,&#xA;                                                    324&#xA;                                                    ,&#xA;                                                    981&#xA;                                                    ,&#xA;                                                    324&#xA;                                                    ,&#xA;                                                    965&#xA;                                                    ,&#xA;                                                    162&#xA;                                                    ,&#xA;                                                    965" />
+<area href="#addBooks_BooksPersist" alt="addBooks_BooksPersist" title="addBooks_BooksPersist" shape="poly" coords="8&#xA;                                                    ,&#xA;                                                    184&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    184&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    168&#xA;                                                    ,&#xA;                                                    8&#xA;                                                    ,&#xA;                                                    168" />
+<area href="#getAllBooks_BooksPersist" alt="getAllBooks_BooksPersist" title="getAllBooks_BooksPersist" shape="poly" coords="8&#xA;                                                    ,&#xA;                                                    204&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    204&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    188&#xA;                                                    ,&#xA;                                                    8&#xA;                                                    ,&#xA;                                                    188" />
+<area href="#getBookByISBN_BooksPersist" alt="getBookByISBN_BooksPersist" title="getBookByISBN_BooksPersist" shape="poly" coords="8&#xA;                                                    ,&#xA;                                                    224&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    224&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    208&#xA;                                                    ,&#xA;                                                    8&#xA;                                                    ,&#xA;                                                    208" />
+<area href="#updateBook_BooksPersist" alt="updateBook_BooksPersist" title="updateBook_BooksPersist" shape="poly" coords="8&#xA;                                                    ,&#xA;                                                    244&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    244&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    228&#xA;                                                    ,&#xA;                                                    8&#xA;                                                    ,&#xA;                                                    228" />
+<area href="#deleteBook_BooksPersist" alt="deleteBook_BooksPersist" title="deleteBook_BooksPersist" shape="poly" coords="8&#xA;                                                    ,&#xA;                                                    264&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    264&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    248&#xA;                                                    ,&#xA;                                                    8&#xA;                                                    ,&#xA;                                                    248" />
+<area href="#getRecentBooks_BooksPersist" alt="getRecentBooks_BooksPersist" title="getRecentBooks_BooksPersist" shape="poly" coords="8&#xA;                                                    ,&#xA;                                                    284&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    284&#xA;                                                    ,&#xA;                                                    137&#xA;                                                    ,&#xA;                                                    268&#xA;                                                    ,&#xA;                                                    8&#xA;                                                    ,&#xA;                                                    268" />
+</map></div></div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title6" xml:lang="en-us" lang="en-us" id="Starter"><h2 class="title topictitle2" id="ariaid-title6">Process starter activity:</h2>
+<div class="topic concept nested2" aria-labelledby="ariaid-title7" id="OnMessageStart"><h3 class="title topictitle3" id="ariaid-title7">Name:
+                <strong class="ph b"><em class="ph i">OnMessageStart</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageStart</li>
+<li class="li">xpdlId: f22acfca-dc29-453e-bd23-246f83c45499</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title8" id="OnMessageStart1"><h3 class="title topictitle3" id="ariaid-title8">Name:
+                <strong class="ph b"><em class="ph i">OnMessageStart1</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageStart</li>
+<li class="li">xpdlId: 00c97cfe-9655-4f44-93a2-745d4be182d2</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title9" id="OnMessageStart2"><h3 class="title topictitle3" id="ariaid-title9">Name:
+                <strong class="ph b"><em class="ph i">OnMessageStart2</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageStart</li>
+<li class="li">xpdlId: c19c279f-deda-42c4-869d-478fa120d7c5</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title10" id="OnMessageStart3"><h3 class="title topictitle3" id="ariaid-title10">Name:
+                <strong class="ph b"><em class="ph i">OnMessageStart3</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageStart</li>
+<li class="li">xpdlId: 86b69e76-0d41-4090-820a-806c417ee981</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title11" id="OnMessageStart4"><h3 class="title topictitle3" id="ariaid-title11">Name:
+                <strong class="ph b"><em class="ph i">OnMessageStart4</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageStart</li>
+<li class="li">xpdlId: ca9e2fbf-d1f9-40c2-9571-005a1d445fba</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title12" id="OnMessageStart5"><h3 class="title topictitle3" id="ariaid-title12">Name:
+                <strong class="ph b"><em class="ph i">OnMessageStart5</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageStart</li>
+<li class="li">xpdlId: 5ef6d415-d629-4a67-94b4-d7be79167cd4</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title13" xml:lang="en-us" lang="en-us" id="EndActivity"><h2 class="title topictitle2" id="ariaid-title13">Process end activity:</h2>
+<div class="topic concept nested2" aria-labelledby="ariaid-title14" id="OnMessageEnd"><h3 class="title topictitle3" id="ariaid-title14">Name:
+                <strong class="ph b"><em class="ph i">OnMessageEnd</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageEnd</li>
+<li class="li">xpdlId: db1e39ef-5906-4d85-9a4d-709261410768</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title15" id="OnMessageEnd1"><h3 class="title topictitle3" id="ariaid-title15">Name:
+                <strong class="ph b"><em class="ph i">OnMessageEnd1</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageEnd</li>
+<li class="li">xpdlId: c5fc75f3-6c87-4acc-85aa-5d90dfadc211</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title16" id="OnMessageEnd2"><h3 class="title topictitle3" id="ariaid-title16">Name:
+                <strong class="ph b"><em class="ph i">OnMessageEnd2</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageEnd</li>
+<li class="li">xpdlId: ae3fdaad-436f-4bdc-b51a-27af155d73f9</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title17" id="OnMessageEnd3"><h3 class="title topictitle3" id="ariaid-title17">Name:
+                <strong class="ph b"><em class="ph i">OnMessageEnd3</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageEnd</li>
+<li class="li">xpdlId: 3fb30e4a-5075-4d14-b238-c63bd23df26b</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title18" id="OnMessageEnd4"><h3 class="title topictitle3" id="ariaid-title18">Name:
+                <strong class="ph b"><em class="ph i">OnMessageEnd4</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageEnd</li>
+<li class="li">xpdlId: ca4ffc2c-5358-4a0d-8b6d-a356ead19b95</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title19" id="OnMessageEnd5"><h3 class="title topictitle3" id="ariaid-title19">Name:
+                <strong class="ph b"><em class="ph i">OnMessageEnd5</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Constructor: onMessageEnd</li>
+<li class="li">xpdlId: 0d1c17e9-0170-4d15-aa2c-054c54ff9870</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title20" xml:lang="en-us" lang="en-us" id="ProcessVariables"><h2 class="title topictitle2" id="ariaid-title20">Process properties and variables</h2>
+<div class="body conbody">
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:17.045454545454543%" /><col style="width:17.045454545454543%" /><col style="width:37.5%" /><col style="width:28.40909090909091%" /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e693">Name</th>
+<th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e695">Type</th>
+<th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e697">Property Source</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e699">Default Value</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">_processContext</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">addBooks</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">addBooksOut-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getAllBooks</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getAllBooksOut-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getBookByISBN</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getBookByISBNOut-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">updateBook</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">updateBookOut-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">deleteBook</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">deleteBookOut-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getRecentBooks</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getRecentBooksOut-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">addBooks-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">addBooks1</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">jdbcProperty</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 ">xsd:string</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 ">tibco.bwce.sample.binding.rest.BookStore.JDBCConnectionResource</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getBooks-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getBooks</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getBookByISBN-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getBookByISBN1</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">updateBook-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">updateBook1</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">JDBCQuery-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">JDBCQuery</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">deleteBook-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">deleteBook1</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e693 ">getRecentBooks-input</td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+<tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e693 ">getRecentBooks1</td>
+<td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e695 "> </td>
+<td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e697 "> </td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e699 "> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title21" xml:lang="en-us" lang="en-us" id="Activities"><h2 class="title topictitle2" id="ariaid-title21">Activities:</h2>
+<div class="topic concept nested2" aria-labelledby="ariaid-title22" id="addBooks"><h3 class="title topictitle3" id="ariaid-title22">Name:
+                <strong class="ph b"><em class="ph i">addBooks</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.jdbc.update</li>
+<li class="li">JDBC Shared Resource: <a class="xref" href="../../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.html">jdbcProperty</a></li>
+<li class="li">Timeout (sec): 10</li>
+<li class="li">Statement: <em class="ph i">INSERT INTO "public"."books" ("isbn", "name", "description", "authorName",
+  "releaseDate", "vintage", "signed", "price")
+  VALUES (?, ?, ?, ?, ?, ?, ?, ?)</em></li>
+<li class="li">Parameters:
+                    <p class="p">No parameters</p>
+</li>
+<li class="li">Thread Pool Shared Resource: </li>
+<li class="li">Insert if record doesn't exist: <em class="ph i">false</em></li>
+<li class="li">Override Transaction Behavior: <em class="ph i">false</em></li>
+<li class="li">Interpret Empty String As Null: <em class="ph i">false</em></li>
+<li class="li">Results Use Schema: <em class="ph i">false</em></li>
+<li class="li">Batch Update: <em class="ph i">false</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">addBooks-input</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">addBooks1</em></li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e953">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e955">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/isbn</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:isbn) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:isbn</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/name</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:name) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:name</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/description</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:description) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:description</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/authorName</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:authorName) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:authorName</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/releaseDate</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:releaseDate) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:releaseDate</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/vintage</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:vintage) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:vintage</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/signed</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:signed) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:signed</td>
+</tr>
+<tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e953 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/price</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:price) </em></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e955 ">$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:price</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1062">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1062 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:jdbcUpdateActivityInput
+		 isbn
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:isbn)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:isbn<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 name
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:name)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:name<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 description
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:description)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:description<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 authorName
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:authorName)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:authorName<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 releaseDate
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:releaseDate)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:releaseDate<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 vintage
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:vintage)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:vintage<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 signed
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:signed)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:signed<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 price
+			xsl:choose
+			   xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:price)" = </strong>$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:price</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1101">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1101 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+61f76f17-e519-4c59-a608-07f138a8479a+input" xmlns:tns1="http://www.example.org/Books" xmlns:tns2="http://xmlns.example.com/20140929140236" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"&gt;
+   &lt;xsl:param name="index"/&gt;
+   &lt;xsl:param name="addBooks"/&gt;
+   &lt;xsl:template name="addBooks-input" match="/"&gt;
+      &lt;tns:jdbcUpdateActivityInput&gt;
+         &lt;isbn&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:isbn)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:isbn"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/isbn&gt;
+         &lt;name&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:name)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:name"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/name&gt;
+         &lt;description&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:description)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:description"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/description&gt;
+         &lt;authorName&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:authorName)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:authorName"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/authorName&gt;
+         &lt;releaseDate&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:releaseDate)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:releaseDate"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/releaseDate&gt;
+         &lt;vintage&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:vintage)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:vintage"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/vintage&gt;
+         &lt;signed&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:signed)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:signed"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/signed&gt;
+         &lt;price&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:price)"&gt;
+                  &lt;xsl:value-of select="$addBooks/parameters/tns2:addBooksRequest/tns1:Book[$index]/tns1:price"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/price&gt;
+      &lt;/tns:jdbcUpdateActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title23" id="addBooksOut"><h3 class="title topictitle3" id="ariaid-title23">Name:
+                <strong class="ph b"><em class="ph i">addBooksOut</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Service: BooksPersist / operation: addBooks</li>
+<li class="li">ReplyWith: Output Message</li>
+<li class="li">Description: </li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e1136">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1138">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e1136 "><strong class="ph b">/tns:addBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1138 "><em class="ph i">/[COPY-OF]  $addBooks/parameters/tns:addBooksRequest/tns1:Book </em></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1160">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1160 "><pre class="pre codeblock"><code><strong class="ph b"> = </strong></code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1176">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1176 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20140929140236" xmlns:tns1="http://www.example.org/Books" version="2.0"&gt;
+   &lt;xsl:param name="addBooks"/&gt;
+   &lt;xsl:template name="addBooksOut-input" match="/"&gt;
+      &lt;tns:addBooksResponse&gt;
+         &lt;parameters&gt;
+            &lt;tns1:Books&gt;
+               &lt;xsl:copy-of select="$addBooks/parameters/tns:addBooksRequest/tns1:Book"/&gt;
+            &lt;/tns1:Books&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:addBooksResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title24" id="Assign"><h3 class="title topictitle3" id="ariaid-title24">Name:
+                <strong class="ph b"><em class="ph i">Assign</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.generalactivities.bwassign</li>
+<li class="li">Process Variable to Set: <em class="ph i">BookCnt</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">BookCnt</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">BookCnt</em></li>
+<li class="li"><em class="ph i">Input bindings:</em>
+                                    Incomplete mapping
+                                </li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title25" id="deleteBook"><h3 class="title topictitle3" id="ariaid-title25">Name:
+                <strong class="ph b"><em class="ph i">deleteBook</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.jdbc.update</li>
+<li class="li">JDBC Shared Resource: <a class="xref" href="../../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.html">jdbcProperty</a></li>
+<li class="li">Timeout (sec): 10</li>
+<li class="li">Statement: <em class="ph i">DELETE FROM "public"."books"
+ WHERE "isbn" = ?</em></li>
+<li class="li">Parameters:
+                    <p class="p">No parameters</p>
+</li>
+<li class="li">Thread Pool Shared Resource: </li>
+<li class="li">Insert if record doesn't exist: <em class="ph i">false</em></li>
+<li class="li">Override Transaction Behavior: <em class="ph i">false</em></li>
+<li class="li">Interpret Empty String As Null: <em class="ph i">false</em></li>
+<li class="li">Results Use Schema: <em class="ph i">false</em></li>
+<li class="li">Batch Update: <em class="ph i">false</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">deleteBook-input</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">deleteBook1</em></li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e1292">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1294">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e1292 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/isbn</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1294 ">$deleteBook/parameters/tns1:deleteBookRequest/ISBN</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1313">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1313 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:jdbcUpdateActivityInput
+		 isbn = </strong>$deleteBook/parameters/tns1:deleteBookRequest/ISBN</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1330">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1330 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+f4f28f1b-79dd-418b-a8c7-138a8f8e8e89+input" xmlns:tns1="http://xmlns.example.com/20140929140236" version="2.0"&gt;
+   &lt;xsl:param name="deleteBook"/&gt;
+   &lt;xsl:template name="deleteBook-input" match="/"&gt;
+      &lt;tns:jdbcUpdateActivityInput&gt;
+         &lt;isbn&gt;
+            &lt;xsl:value-of select="$deleteBook/parameters/tns1:deleteBookRequest/ISBN"/&gt;
+         &lt;/isbn&gt;
+      &lt;/tns:jdbcUpdateActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title26" id="deleteBookOut"><h3 class="title topictitle3" id="ariaid-title26">Name:
+                <strong class="ph b"><em class="ph i">deleteBookOut</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Service: BooksPersist / operation: deleteBook</li>
+<li class="li">ReplyWith: Output Message</li>
+<li class="li">Description: </li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e1365">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1367">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e1365 "><strong class="ph b">/tns:deleteBookResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns:deleteBookResponse</strong><strong class="ph b">/out</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1367 ">concat("Deleted book with ISBN - ",$deleteBook/parameters/tns:deleteBookRequest/ISBN)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1390">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1390 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:deleteBookResponse
+		 parameters
+			tns:deleteBookResponse
+			   out = </strong>concat(&amp;quot;Deleted book with ISBN - &amp;quot;,$deleteBook/parameters/tns:deleteBookRequest/ISBN)</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1407">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1407 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20140929140236" version="2.0"&gt;
+   &lt;xsl:param name="deleteBook"/&gt;
+   &lt;xsl:template name="deleteBookOut-input" match="/"&gt;
+      &lt;tns:deleteBookResponse&gt;
+         &lt;parameters&gt;
+            &lt;tns:deleteBookResponse&gt;
+               &lt;out&gt;
+                  &lt;xsl:value-of select="concat(&amp;quot;Deleted book with ISBN - &amp;quot;,$deleteBook/parameters/tns:deleteBookRequest/ISBN)"/&gt;
+               &lt;/out&gt;
+            &lt;/tns:deleteBookResponse&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:deleteBookResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title27" id="getAllBooksOut"><h3 class="title topictitle3" id="ariaid-title27">Name:
+                <strong class="ph b"><em class="ph i">getAllBooksOut</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Service: BooksPersist / operation: getAllBooks</li>
+<li class="li">ReplyWith: Output Message</li>
+<li class="li">Description: </li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e1442">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1444">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  isbn </em><strong class="ph b">/tns1:isbn</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1444 ">isbn</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  name </em><strong class="ph b">/tns1:name</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1444 ">name</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  description </em><strong class="ph b">/tns1:description</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1444 ">description</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  authorName </em><strong class="ph b">/tns1:authorName</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1444 ">authorName</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  releaseDate </em><strong class="ph b">/tns1:releaseDate</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1444 ">releaseDate</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  vintage </em><strong class="ph b">/tns1:vintage</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1444 ">vintage</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  signed </em><strong class="ph b">/tns1:signed</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1444 ">signed</td>
+</tr>
+<tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e1442 "><strong class="ph b">/tns:getAllBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><em class="ph i">/[FOR-EACH]  $getBooks/Record </em><strong class="ph b">/tns1:Book</strong><strong class="ph b">/tns1:price</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1444 ">xsd:float(price)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1597">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1597 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:getAllBooksResponse
+		 parameters
+			tns1:Books
+			   xsl:for-each select="$getBooks/Record"
+				  tns1:Book
+					 xsl:if test="isbn"
+						tns1:isbn = </strong>isbn<strong class="ph b">
+					 xsl:if test="name"
+						tns1:name = </strong>name<strong class="ph b">
+					 xsl:if test="description"
+						tns1:description = </strong>description<strong class="ph b">
+					 xsl:if test="authorName"
+						tns1:authorName = </strong>authorName<strong class="ph b">
+					 xsl:if test="releaseDate"
+						tns1:releaseDate = </strong>releaseDate<strong class="ph b">
+					 xsl:if test="vintage"
+						tns1:vintage = </strong>vintage<strong class="ph b">
+					 xsl:if test="signed"
+						tns1:signed = </strong>signed<strong class="ph b">
+					 tns1:price = </strong>xsd:float(price)</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1636">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1636 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20140929140236" xmlns:tns1="http://www.example.org/Books" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.0"&gt;
+   &lt;xsl:param name="getBooks"/&gt;
+   &lt;xsl:template name="getAllBooksOut-input" match="/"&gt;
+      &lt;tns:getAllBooksResponse&gt;
+         &lt;parameters&gt;
+            &lt;tns1:Books&gt;
+               &lt;xsl:for-each select="$getBooks/Record"&gt;
+                  &lt;tns1:Book&gt;
+                     &lt;xsl:if test="isbn"&gt;
+                        &lt;tns1:isbn&gt;
+                           &lt;xsl:value-of select="isbn"/&gt;
+                        &lt;/tns1:isbn&gt;
+                     &lt;/xsl:if&gt;
+                     &lt;xsl:if test="name"&gt;
+                        &lt;tns1:name&gt;
+                           &lt;xsl:value-of select="name"/&gt;
+                        &lt;/tns1:name&gt;
+                     &lt;/xsl:if&gt;
+                     &lt;xsl:if test="description"&gt;
+                        &lt;tns1:description&gt;
+                           &lt;xsl:value-of select="description"/&gt;
+                        &lt;/tns1:description&gt;
+                     &lt;/xsl:if&gt;
+                     &lt;xsl:if test="authorName"&gt;
+                        &lt;tns1:authorName&gt;
+                           &lt;xsl:value-of select="authorName"/&gt;
+                        &lt;/tns1:authorName&gt;
+                     &lt;/xsl:if&gt;
+                     &lt;xsl:if test="releaseDate"&gt;
+                        &lt;tns1:releaseDate&gt;
+                           &lt;xsl:value-of select="releaseDate"/&gt;
+                        &lt;/tns1:releaseDate&gt;
+                     &lt;/xsl:if&gt;
+                     &lt;xsl:if test="vintage"&gt;
+                        &lt;tns1:vintage&gt;
+                           &lt;xsl:value-of select="vintage"/&gt;
+                        &lt;/tns1:vintage&gt;
+                     &lt;/xsl:if&gt;
+                     &lt;xsl:if test="signed"&gt;
+                        &lt;tns1:signed&gt;
+                           &lt;xsl:value-of select="signed"/&gt;
+                        &lt;/tns1:signed&gt;
+                     &lt;/xsl:if&gt;
+                     &lt;tns1:price&gt;
+                        &lt;xsl:value-of select="xsd:float(price)"/&gt;
+                     &lt;/tns1:price&gt;
+                  &lt;/tns1:Book&gt;
+               &lt;/xsl:for-each&gt;
+            &lt;/tns1:Books&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getAllBooksResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title28" id="getBookByISBN"><h3 class="title topictitle3" id="ariaid-title28">Name:
+                <strong class="ph b"><em class="ph i">getBookByISBN</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.jdbc.JDBCQuery</li>
+<li class="li">JDBC Shared Resource: <a class="xref" href="../../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.html">jdbcProperty</a></li>
+<li class="li">Timeout (sec): 10</li>
+<li class="li">Maximum rows: 100</li>
+<li class="li">Statement: <em class="ph i">SELECT *
+  FROM "public"."books"
+  WHERE "isbn" = ?
+
+</em></li>
+<li class="li">Parameters:
+                    <p class="p">No parameters</p>
+</li>
+<li class="li">Thread Pool Shared Resource: </li>
+<li class="li">Override Transaction Behavior: <em class="ph i">false</em></li>
+<li class="li">Override JDBC Connection: <em class="ph i">false</em></li>
+<li class="li">Use Nil: <em class="ph i">false</em></li>
+<li class="li">Interpret Empty String As Null: <em class="ph i">false</em></li>
+<li class="li">Process In Subsets: <em class="ph i">false</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">getBookByISBN-input</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">getBookByISBN1</em></li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e1721">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1723">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e1721 "><strong class="ph b">/tns:jdbcQueryActivityInput</strong><strong class="ph b">/isbn</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1723 ">$getBookByISBN/parameters/tns1:getBookByISBNRequest/ISBN</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1742">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1742 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:jdbcQueryActivityInput
+		 isbn = </strong>$getBookByISBN/parameters/tns1:getBookByISBNRequest/ISBN</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1759">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1759 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+426eab4f-07d7-4abd-9ce4-52a7191b6c86+input" xmlns:tns1="http://xmlns.example.com/20140929140236" version="2.0"&gt;
+   &lt;xsl:param name="getBookByISBN"/&gt;
+   &lt;xsl:template name="getBookByISBN-input" match="/"&gt;
+      &lt;tns:jdbcQueryActivityInput&gt;
+         &lt;isbn&gt;
+            &lt;xsl:value-of select="$getBookByISBN/parameters/tns1:getBookByISBNRequest/ISBN"/&gt;
+         &lt;/isbn&gt;
+      &lt;/tns:jdbcQueryActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title29" id="getBookByISBNOut"><h3 class="title topictitle3" id="ariaid-title29">Name:
+                <strong class="ph b"><em class="ph i">getBookByISBNOut</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Service: BooksPersist / operation: getBookByISBN</li>
+<li class="li">ReplyWith: Output Message</li>
+<li class="li">Description: </li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e1794">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1796">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  isbn </em><strong class="ph b">/tns1:isbn</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1796 ">isbn</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  name </em><strong class="ph b">/tns1:name</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1796 ">name</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  description </em><strong class="ph b">/tns1:description</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1796 ">description</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  authorName </em><strong class="ph b">/tns1:authorName</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1796 ">authorName</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  releaseDate </em><strong class="ph b">/tns1:releaseDate</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1796 ">releaseDate</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  vintage </em><strong class="ph b">/tns1:vintage</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1796 ">vintage</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  signed </em><strong class="ph b">/tns1:signed</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e1796 ">signed</td>
+</tr>
+<tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e1794 "><strong class="ph b">/tns:getBookByISBNResponse</strong><strong class="ph b">/parameters</strong><em class="ph i">/[FOR-EACH]  $getBookByISBN1/Record </em><strong class="ph b">/tns1:Book</strong><strong class="ph b">/tns1:price</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1796 ">xsd:float(price)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1933">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1933 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:getBookByISBNResponse
+		 parameters
+			xsl:for-each select="$getBookByISBN1/Record"
+			   tns1:Book
+				  xsl:if test="isbn"
+					 tns1:isbn = </strong>isbn<strong class="ph b">
+				  xsl:if test="name"
+					 tns1:name = </strong>name<strong class="ph b">
+				  xsl:if test="description"
+					 tns1:description = </strong>description<strong class="ph b">
+				  xsl:if test="authorName"
+					 tns1:authorName = </strong>authorName<strong class="ph b">
+				  xsl:if test="releaseDate"
+					 tns1:releaseDate = </strong>releaseDate<strong class="ph b">
+				  xsl:if test="vintage"
+					 tns1:vintage = </strong>vintage<strong class="ph b">
+				  xsl:if test="signed"
+					 tns1:signed = </strong>signed<strong class="ph b">
+				  tns1:price = </strong>xsd:float(price)</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e1972">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e1972 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20140929140236" xmlns:tns1="http://www.example.org/Books" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.0"&gt;
+   &lt;xsl:param name="getBookByISBN1"/&gt;
+   &lt;xsl:template name="getBookByISBNOut-input" match="/"&gt;
+      &lt;tns:getBookByISBNResponse&gt;
+         &lt;parameters&gt;
+            &lt;xsl:for-each select="$getBookByISBN1/Record"&gt;
+               &lt;tns1:Book&gt;
+                  &lt;xsl:if test="isbn"&gt;
+                     &lt;tns1:isbn&gt;
+                        &lt;xsl:value-of select="isbn"/&gt;
+                     &lt;/tns1:isbn&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="name"&gt;
+                     &lt;tns1:name&gt;
+                        &lt;xsl:value-of select="name"/&gt;
+                     &lt;/tns1:name&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="description"&gt;
+                     &lt;tns1:description&gt;
+                        &lt;xsl:value-of select="description"/&gt;
+                     &lt;/tns1:description&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="authorName"&gt;
+                     &lt;tns1:authorName&gt;
+                        &lt;xsl:value-of select="authorName"/&gt;
+                     &lt;/tns1:authorName&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="releaseDate"&gt;
+                     &lt;tns1:releaseDate&gt;
+                        &lt;xsl:value-of select="releaseDate"/&gt;
+                     &lt;/tns1:releaseDate&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="vintage"&gt;
+                     &lt;tns1:vintage&gt;
+                        &lt;xsl:value-of select="vintage"/&gt;
+                     &lt;/tns1:vintage&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="signed"&gt;
+                     &lt;tns1:signed&gt;
+                        &lt;xsl:value-of select="signed"/&gt;
+                     &lt;/tns1:signed&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;tns1:price&gt;
+                     &lt;xsl:value-of select="xsd:float(price)"/&gt;
+                  &lt;/tns1:price&gt;
+               &lt;/tns1:Book&gt;
+            &lt;/xsl:for-each&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getBookByISBNResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title30" id="getBooks"><h3 class="title topictitle3" id="ariaid-title30">Name:
+                <strong class="ph b"><em class="ph i">getBooks</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.jdbc.JDBCQuery</li>
+<li class="li">JDBC Shared Resource: <a class="xref" href="../../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.html">jdbcProperty</a></li>
+<li class="li">Timeout (sec): 10</li>
+<li class="li">Maximum rows: 100</li>
+<li class="li">Statement: <em class="ph i">SELECT *
+  FROM "public"."books"
+</em></li>
+<li class="li">Parameters:
+                    <p class="p">No parameters</p>
+</li>
+<li class="li">Thread Pool Shared Resource: </li>
+<li class="li">Override Transaction Behavior: <em class="ph i">false</em></li>
+<li class="li">Override JDBC Connection: <em class="ph i">false</em></li>
+<li class="li">Use Nil: <em class="ph i">false</em></li>
+<li class="li">Interpret Empty String As Null: <em class="ph i">false</em></li>
+<li class="li">Process In Subsets: <em class="ph i">false</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">getBooks-input</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">getBooks</em></li>
+<li class="li"><em class="ph i">Input bindings:</em>
+                                    Incomplete mapping
+                                </li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title31" id="getRecentBooks"><h3 class="title topictitle3" id="ariaid-title31">Name:
+                <strong class="ph b"><em class="ph i">getRecentBooks</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.jdbc.JDBCQuery</li>
+<li class="li">JDBC Shared Resource: <a class="xref" href="../../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.html">jdbcProperty</a></li>
+<li class="li">Timeout (sec): 10</li>
+<li class="li">Maximum rows: 100</li>
+<li class="li">Statement: <em class="ph i">SELECT   * 
+FROM 
+  "public"."books"
+ORDER BY
+  "books"."releaseDate" DESC
+LIMIT 2
+
+</em></li>
+<li class="li">Parameters:
+                    <p class="p">No parameters</p>
+</li>
+<li class="li">Thread Pool Shared Resource: </li>
+<li class="li">Override Transaction Behavior: <em class="ph i">false</em></li>
+<li class="li">Override JDBC Connection: <em class="ph i">false</em></li>
+<li class="li">Use Nil: <em class="ph i">false</em></li>
+<li class="li">Interpret Empty String As Null: <em class="ph i">false</em></li>
+<li class="li">Process In Subsets: <em class="ph i">false</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">getRecentBooks-input</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">getRecentBooks1</em></li>
+<li class="li"><em class="ph i">Input bindings:</em>
+                                    Incomplete mapping
+                                </li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title32" id="getRecentBooksOut"><h3 class="title topictitle3" id="ariaid-title32">Name:
+                <strong class="ph b"><em class="ph i">getRecentBooksOut</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Service: BooksPersist / operation: getRecentBooks</li>
+<li class="li">ReplyWith: Output Message</li>
+<li class="li">Description: </li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e2146">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2148">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  $getRecentBooks1/Record[1]/isbn </em><strong class="ph b">/tns1:isbn</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2148 ">$getRecentBooks1/Record[1]/isbn</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  $getRecentBooks1/Record[1]/name </em><strong class="ph b">/tns1:name</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2148 ">$getRecentBooks1/Record[1]/name</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  $getRecentBooks1/Record[1]/description </em><strong class="ph b">/tns1:description</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2148 ">$getRecentBooks1/Record[1]/description</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  $getRecentBooks1/Record[1]/authorName </em><strong class="ph b">/tns1:authorName</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2148 ">$getRecentBooks1/Record[1]/authorName</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  $getRecentBooks1/Record[1]/releaseDate </em><strong class="ph b">/tns1:releaseDate</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2148 ">$getRecentBooks1/Record[1]/releaseDate</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  $getRecentBooks1/Record[1]/vintage </em><strong class="ph b">/tns1:vintage</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2148 ">$getRecentBooks1/Record[1]/vintage</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><em class="ph i">/[IF]  $getRecentBooks1/Record[1]/signed </em><strong class="ph b">/tns1:signed</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2148 ">$getRecentBooks1/Record[1]/signed</td>
+</tr>
+<tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e2146 "><strong class="ph b">/tns:getRecentBooksResponse</strong><strong class="ph b">/parameters</strong><strong class="ph b">/tns1:Books</strong><strong class="ph b">/tns1:Book</strong><strong class="ph b">/tns1:price</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2148 ">xsd:float($getRecentBooks1/Record[1]/price)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2285">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2285 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:getRecentBooksResponse
+		 parameters
+			tns1:Books
+			   tns1:Book
+				  xsl:if test="$getRecentBooks1/Record[1]/isbn"
+					 tns1:isbn = </strong>$getRecentBooks1/Record[1]/isbn<strong class="ph b">
+				  xsl:if test="$getRecentBooks1/Record[1]/name"
+					 tns1:name = </strong>$getRecentBooks1/Record[1]/name<strong class="ph b">
+				  xsl:if test="$getRecentBooks1/Record[1]/description"
+					 tns1:description = </strong>$getRecentBooks1/Record[1]/description<strong class="ph b">
+				  xsl:if test="$getRecentBooks1/Record[1]/authorName"
+					 tns1:authorName = </strong>$getRecentBooks1/Record[1]/authorName<strong class="ph b">
+				  xsl:if test="$getRecentBooks1/Record[1]/releaseDate"
+					 tns1:releaseDate = </strong>$getRecentBooks1/Record[1]/releaseDate<strong class="ph b">
+				  xsl:if test="$getRecentBooks1/Record[1]/vintage"
+					 tns1:vintage = </strong>$getRecentBooks1/Record[1]/vintage<strong class="ph b">
+				  xsl:if test="$getRecentBooks1/Record[1]/signed"
+					 tns1:signed = </strong>$getRecentBooks1/Record[1]/signed<strong class="ph b">
+				  tns1:price = </strong>xsd:float($getRecentBooks1/Record[1]/price)</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2324">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2324 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20140929140236" xmlns:tns1="http://www.example.org/Books" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.0"&gt;
+   &lt;xsl:param name="getRecentBooks1"/&gt;
+   &lt;xsl:template name="getRecentBooksOut-input" match="/"&gt;
+      &lt;tns:getRecentBooksResponse&gt;
+         &lt;parameters&gt;
+            &lt;tns1:Books&gt;
+               &lt;tns1:Book&gt;
+                  &lt;xsl:if test="$getRecentBooks1/Record[1]/isbn"&gt;
+                     &lt;tns1:isbn&gt;
+                        &lt;xsl:value-of select="$getRecentBooks1/Record[1]/isbn"/&gt;
+                     &lt;/tns1:isbn&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="$getRecentBooks1/Record[1]/name"&gt;
+                     &lt;tns1:name&gt;
+                        &lt;xsl:value-of select="$getRecentBooks1/Record[1]/name"/&gt;
+                     &lt;/tns1:name&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="$getRecentBooks1/Record[1]/description"&gt;
+                     &lt;tns1:description&gt;
+                        &lt;xsl:value-of select="$getRecentBooks1/Record[1]/description"/&gt;
+                     &lt;/tns1:description&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="$getRecentBooks1/Record[1]/authorName"&gt;
+                     &lt;tns1:authorName&gt;
+                        &lt;xsl:value-of select="$getRecentBooks1/Record[1]/authorName"/&gt;
+                     &lt;/tns1:authorName&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="$getRecentBooks1/Record[1]/releaseDate"&gt;
+                     &lt;tns1:releaseDate&gt;
+                        &lt;xsl:value-of select="$getRecentBooks1/Record[1]/releaseDate"/&gt;
+                     &lt;/tns1:releaseDate&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="$getRecentBooks1/Record[1]/vintage"&gt;
+                     &lt;tns1:vintage&gt;
+                        &lt;xsl:value-of select="$getRecentBooks1/Record[1]/vintage"/&gt;
+                     &lt;/tns1:vintage&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;xsl:if test="$getRecentBooks1/Record[1]/signed"&gt;
+                     &lt;tns1:signed&gt;
+                        &lt;xsl:value-of select="$getRecentBooks1/Record[1]/signed"/&gt;
+                     &lt;/tns1:signed&gt;
+                  &lt;/xsl:if&gt;
+                  &lt;tns1:price&gt;
+                     &lt;xsl:value-of select="xsd:float($getRecentBooks1/Record[1]/price)"/&gt;
+                  &lt;/tns1:price&gt;
+               &lt;/tns1:Book&gt;
+            &lt;/tns1:Books&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getRecentBooksResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title33" id="JDBCQuery"><h3 class="title topictitle3" id="ariaid-title33">Name:
+                <strong class="ph b"><em class="ph i">JDBCQuery</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.jdbc.JDBCQuery</li>
+<li class="li">JDBC Shared Resource: <a class="xref" href="../../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.html">jdbcProperty</a></li>
+<li class="li">Timeout (sec): 10</li>
+<li class="li">Maximum rows: 100</li>
+<li class="li">Statement: <em class="ph i">SELECT *
+  FROM "public"."books"
+  WHERE "isbn" = ?
+</em></li>
+<li class="li">Parameters:
+                    <p class="p">No parameters</p>
+</li>
+<li class="li">Thread Pool Shared Resource: </li>
+<li class="li">Override Transaction Behavior: <em class="ph i">false</em></li>
+<li class="li">Override JDBC Connection: <em class="ph i">false</em></li>
+<li class="li">Use Nil: <em class="ph i">false</em></li>
+<li class="li">Interpret Empty String As Null: <em class="ph i">false</em></li>
+<li class="li">Process In Subsets: <em class="ph i">false</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">JDBCQuery-input</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">JDBCQuery</em></li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e2409">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2411">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e2409 "><strong class="ph b">/tns:jdbcQueryActivityInput</strong><strong class="ph b">/isbn</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($updateBook/parameters/tns1:Book/tns1:isbn) </em></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2411 ">$updateBook/parameters/tns1:Book/tns1:isbn</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2434">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2434 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:jdbcQueryActivityInput
+		 isbn
+			xsl:choose
+			   xsl:when test="exists($updateBook/parameters/tns1:Book/tns1:isbn)" = </strong>$updateBook/parameters/tns1:Book/tns1:isbn</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2451">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2451 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+d7bef9be-32ee-440d-becf-03121e4c20cb+input" xmlns:tns1="http://www.example.org/Books" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"&gt;
+   &lt;xsl:param name="updateBook"/&gt;
+   &lt;xsl:template name="JDBCQuery-input" match="/"&gt;
+      &lt;tns:jdbcQueryActivityInput&gt;
+         &lt;isbn&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($updateBook/parameters/tns1:Book/tns1:isbn)"&gt;
+                  &lt;xsl:value-of select="$updateBook/parameters/tns1:Book/tns1:isbn"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/isbn&gt;
+      &lt;/tns:jdbcQueryActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title34" id="updateBook"><h3 class="title topictitle3" id="ariaid-title34">Name:
+                <strong class="ph b"><em class="ph i">updateBook</em></strong></h3>
+<div class="body conbody"><div class="section"><ul class="ul"><li class="li">Description:
+                            <em class="ph i">No description</em></li>
+<li class="li">Type: bw.jdbc.update</li>
+<li class="li">JDBC Shared Resource: <a class="xref" href="../../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.html">jdbcProperty</a></li>
+<li class="li">Timeout (sec): 10</li>
+<li class="li">Statement: <em class="ph i">UPDATE "public"."books"
+  SET ("name", "description", "authorName", "releaseDate", "vintage",
+    "signed", "price") = (?, ?, ?, ?,
+      ?, ?, ?)
+  WHERE "isbn" = ?</em></li>
+<li class="li">Parameters:
+                    <p class="p">No parameters</p>
+</li>
+<li class="li">Thread Pool Shared Resource: </li>
+<li class="li">Insert if record doesn't exist: <em class="ph i">false</em></li>
+<li class="li">Override Transaction Behavior: <em class="ph i">false</em></li>
+<li class="li">Interpret Empty String As Null: <em class="ph i">false</em></li>
+<li class="li">Results Use Schema: <em class="ph i">false</em></li>
+<li class="li">Batch Update: <em class="ph i">false</em></li>
+<li class="li">Input Variable:
+                                <em class="ph i">updateBook-input</em></li>
+<li class="li">Output Variable:
+                                <em class="ph i">updateBook1</em></li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e2534">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2536">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/name</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists(if(empty($updateBook/parameters/tns1:Book/tns1:name)) then $JDBCQuery/Record[1]/name else $updateBook/parameters/tns1:Book/tns1:name) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2536 ">if(empty($updateBook/parameters/tns1:Book/tns1:name)) then $JDBCQuery/Record[1]/name else $updateBook/parameters/tns1:Book/tns1:name</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/description</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists(if(empty($updateBook/parameters/tns1:Book/tns1:description)) then $JDBCQuery/Record[1]/description else $updateBook/parameters/tns1:Book/tns1:description) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2536 ">if(empty($updateBook/parameters/tns1:Book/tns1:description)) then $JDBCQuery/Record[1]/description else $updateBook/parameters/tns1:Book/tns1:description</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/authorName</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists(if(empty($updateBook/parameters/tns1:Book/tns1:authorName)) then $JDBCQuery/Record[1]/authorName else $updateBook/parameters/tns1:Book/tns1:authorName) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2536 ">if(empty($updateBook/parameters/tns1:Book/tns1:authorName)) then $JDBCQuery/Record[1]/authorName else $updateBook/parameters/tns1:Book/tns1:authorName</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/releaseDate</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists(if(empty($updateBook/parameters/tns1:Book/tns1:releaseDate)) then $JDBCQuery/Record[1]/releaseDate else $updateBook/parameters/tns1:Book/tns1:releaseDate) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2536 ">if(empty($updateBook/parameters/tns1:Book/tns1:releaseDate)) then $JDBCQuery/Record[1]/releaseDate else $updateBook/parameters/tns1:Book/tns1:releaseDate</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/vintage</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists(if(empty($updateBook/parameters/tns1:Book/tns1:vintage)) then $JDBCQuery/Record[1]/vintage else $updateBook/parameters/tns1:Book/tns1:vintage) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2536 ">if(empty($updateBook/parameters/tns1:Book/tns1:vintage)) then $JDBCQuery/Record[1]/vintage else $updateBook/parameters/tns1:Book/tns1:vintage</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/signed</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists(if(empty($updateBook/parameters/tns1:Book/tns1:signed)) then $JDBCQuery/Record[1]/signed else $updateBook/parameters/tns1:Book/tns1:signed) </em></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2536 ">if(empty($updateBook/parameters/tns1:Book/tns1:signed)) then $JDBCQuery/Record[1]/signed else $updateBook/parameters/tns1:Book/tns1:signed</td>
+</tr>
+<tr class="row"><td class="entry nocellnorowborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/price</strong></td>
+<td class="entry cell-norowborder" style="vertical-align:top;" headers="d42571e2536 ">xsd:double(if(empty($updateBook/parameters/tns1:Book/tns1:price)) then $JDBCQuery/Record[1]/price    else $updateBook/parameters/tns1:Book/tns1:price)</td>
+</tr>
+<tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e2534 "><strong class="ph b">/tns:jdbcUpdateActivityInput</strong><strong class="ph b">/isbn</strong><em class="ph i">/[CHOOSE]</em><em class="ph i">/[WHEN]  exists($updateBook/parameters/tns1:Book/tns1:isbn) </em></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2536 ">$updateBook/parameters/tns1:Book/tns1:isbn</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2639">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2639 "><pre class="pre codeblock"><code><strong class="ph b">
+	  tns:jdbcUpdateActivityInput
+		 name
+			xsl:choose
+			   xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:name)) then $JDBCQuery/Record[1]/name else $updateBook/parameters/tns1:Book/tns1:name)" = </strong>if(empty($updateBook/parameters/tns1:Book/tns1:name)) then $JDBCQuery/Record[1]/name else $updateBook/parameters/tns1:Book/tns1:name<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 description
+			xsl:choose
+			   xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:description)) then $JDBCQuery/Record[1]/description else $updateBook/parameters/tns1:Book/tns1:description)" = </strong>if(empty($updateBook/parameters/tns1:Book/tns1:description)) then $JDBCQuery/Record[1]/description else $updateBook/parameters/tns1:Book/tns1:description<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 authorName
+			xsl:choose
+			   xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:authorName)) then $JDBCQuery/Record[1]/authorName else $updateBook/parameters/tns1:Book/tns1:authorName)" = </strong>if(empty($updateBook/parameters/tns1:Book/tns1:authorName)) then $JDBCQuery/Record[1]/authorName else $updateBook/parameters/tns1:Book/tns1:authorName<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 releaseDate
+			xsl:choose
+			   xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:releaseDate)) then $JDBCQuery/Record[1]/releaseDate else $updateBook/parameters/tns1:Book/tns1:releaseDate)" = </strong>if(empty($updateBook/parameters/tns1:Book/tns1:releaseDate)) then $JDBCQuery/Record[1]/releaseDate else $updateBook/parameters/tns1:Book/tns1:releaseDate<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 vintage
+			xsl:choose
+			   xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:vintage)) then $JDBCQuery/Record[1]/vintage else $updateBook/parameters/tns1:Book/tns1:vintage)" = </strong>if(empty($updateBook/parameters/tns1:Book/tns1:vintage)) then $JDBCQuery/Record[1]/vintage else $updateBook/parameters/tns1:Book/tns1:vintage<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 signed
+			xsl:choose
+			   xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:signed)) then $JDBCQuery/Record[1]/signed else $updateBook/parameters/tns1:Book/tns1:signed)" = </strong>if(empty($updateBook/parameters/tns1:Book/tns1:signed)) then $JDBCQuery/Record[1]/signed else $updateBook/parameters/tns1:Book/tns1:signed<strong class="ph b">
+			   xsl:otherwise
+				  xsl:attribute name="xsi:nil"
+		 price = </strong>xsd:double(if(empty($updateBook/parameters/tns1:Book/tns1:price)) then $JDBCQuery/Record[1]/price	else $updateBook/parameters/tns1:Book/tns1:price)<strong class="ph b">
+		 isbn
+			xsl:choose
+			   xsl:when test="exists($updateBook/parameters/tns1:Book/tns1:isbn)" = </strong>$updateBook/parameters/tns1:Book/tns1:isbn</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2678">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2678 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+a3a36799-77f4-4471-9d52-b5927db93771+input" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns1="http://www.example.org/Books" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.0"&gt;
+   &lt;xsl:param name="updateBook"/&gt;
+   &lt;xsl:param name="JDBCQuery"/&gt;
+   &lt;xsl:template name="updateBook-input" match="/"&gt;
+      &lt;tns:jdbcUpdateActivityInput&gt;
+         &lt;name&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:name)) then $JDBCQuery/Record[1]/name else $updateBook/parameters/tns1:Book/tns1:name)"&gt;
+                  &lt;xsl:value-of select="if(empty($updateBook/parameters/tns1:Book/tns1:name)) then $JDBCQuery/Record[1]/name else $updateBook/parameters/tns1:Book/tns1:name"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/name&gt;
+         &lt;description&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:description)) then $JDBCQuery/Record[1]/description else $updateBook/parameters/tns1:Book/tns1:description)"&gt;
+                  &lt;xsl:value-of select="if(empty($updateBook/parameters/tns1:Book/tns1:description)) then $JDBCQuery/Record[1]/description else $updateBook/parameters/tns1:Book/tns1:description"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/description&gt;
+         &lt;authorName&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:authorName)) then $JDBCQuery/Record[1]/authorName else $updateBook/parameters/tns1:Book/tns1:authorName)"&gt;
+                  &lt;xsl:value-of select="if(empty($updateBook/parameters/tns1:Book/tns1:authorName)) then $JDBCQuery/Record[1]/authorName else $updateBook/parameters/tns1:Book/tns1:authorName"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/authorName&gt;
+         &lt;releaseDate&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:releaseDate)) then $JDBCQuery/Record[1]/releaseDate else $updateBook/parameters/tns1:Book/tns1:releaseDate)"&gt;
+                  &lt;xsl:value-of select="if(empty($updateBook/parameters/tns1:Book/tns1:releaseDate)) then $JDBCQuery/Record[1]/releaseDate else $updateBook/parameters/tns1:Book/tns1:releaseDate"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/releaseDate&gt;
+         &lt;vintage&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:vintage)) then $JDBCQuery/Record[1]/vintage else $updateBook/parameters/tns1:Book/tns1:vintage)"&gt;
+                  &lt;xsl:value-of select="if(empty($updateBook/parameters/tns1:Book/tns1:vintage)) then $JDBCQuery/Record[1]/vintage else $updateBook/parameters/tns1:Book/tns1:vintage"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/vintage&gt;
+         &lt;signed&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists(if(empty($updateBook/parameters/tns1:Book/tns1:signed)) then $JDBCQuery/Record[1]/signed else $updateBook/parameters/tns1:Book/tns1:signed)"&gt;
+                  &lt;xsl:value-of select="if(empty($updateBook/parameters/tns1:Book/tns1:signed)) then $JDBCQuery/Record[1]/signed else $updateBook/parameters/tns1:Book/tns1:signed"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/signed&gt;
+         &lt;price&gt;
+            &lt;xsl:value-of select="xsd:double(if(empty($updateBook/parameters/tns1:Book/tns1:price)) then $JDBCQuery/Record[1]/price    else $updateBook/parameters/tns1:Book/tns1:price)"/&gt;
+         &lt;/price&gt;
+         &lt;isbn&gt;
+            &lt;xsl:choose&gt;
+               &lt;xsl:when test="exists($updateBook/parameters/tns1:Book/tns1:isbn)"&gt;
+                  &lt;xsl:value-of select="$updateBook/parameters/tns1:Book/tns1:isbn"/&gt;
+               &lt;/xsl:when&gt;
+               &lt;xsl:otherwise&gt;
+                  &lt;xsl:attribute name="xsi:nil"&gt;true&lt;/xsl:attribute&gt;
+               &lt;/xsl:otherwise&gt;
+            &lt;/xsl:choose&gt;
+         &lt;/isbn&gt;
+      &lt;/tns:jdbcUpdateActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title35" id="updateBookOut"><h3 class="title topictitle3" id="ariaid-title35">Name:
+                <strong class="ph b"><em class="ph i">updateBookOut</em></strong></h3>
+<div class="body conbody"><div class="p"><ul class="ul"><li class="li">Service: BooksPersist / operation: updateBook</li>
+<li class="li">ReplyWith: Output Message</li>
+<li class="li">Description: </li>
+<li class="li"><em class="ph i">Input bindings:</em><ul class="ul mappings"><li class="li table"><p class="lines caption">Mapping table</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry nocellnorowborder" style="vertical-align:top;" id="d42571e2713">Target</th>
+<th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2715">Source</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry row-nocellborder" style="vertical-align:top;" headers="d42571e2713 "><strong class="ph b">/tns:updateBookResponse</strong><strong class="ph b">/parameters</strong></td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2715 "><em class="ph i">/[COPY-OF]  $updateBook/parameters/tns1:Book </em></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li tree"><p class="lines caption">Mapping tree</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2735">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2735 "><pre class="pre codeblock"><code><strong class="ph b"> = </strong></code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="li raw"><p class="lines caption">Source code</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table data" frame="border" border="1" rules="all"><colgroup><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder" style="vertical-align:top;" id="d42571e2751">Mapping</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d42571e2751 "><pre class="pre codeblock"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20140929140236" xmlns:tns1="http://www.example.org/Books" version="2.0"&gt;
+   &lt;xsl:param name="updateBook"/&gt;
+   &lt;xsl:template name="updateBookOut-input" match="/"&gt;
+      &lt;tns:updateBookResponse&gt;
+         &lt;parameters&gt;
+            &lt;xsl:copy-of select="$updateBook/parameters/tns1:Book"/&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:updateBookResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title36" xml:lang="en-us" lang="en-us" id="References"><h2 class="title topictitle2" id="ariaid-title36">References:</h2>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title37" xml:lang="en-us" lang="en-us" id="Transitions"><h2 class="title topictitle2" id="ariaid-title37">Transitions:</h2>
+<div class="body conbody"><ul class="ul" id="Transitions__OnMessageStart_Assign"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">OnMessageStart</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">Assign</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__Assign_ForEach"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">Assign</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">ForEach</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__ForEach_addBooksOut"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">ForEach</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">addBooksOut</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__GroupStart_addBooks"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">GroupStart</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">addBooks</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__addBooks_GroupEnd"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">addBooks</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">GroupEnd</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__getBooks_getAllBooksOut"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">getBooks</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">getAllBooksOut</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__getBookByISBN_getBookByISBNOut"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">getBookByISBN</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">getBookByISBNOut</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__updateBook_updateBookOut"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">updateBook</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">updateBookOut</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__JDBCQuery_updateBook"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">JDBCQuery</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">updateBook</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__deleteBook_deleteBookOut"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">deleteBook</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">deleteBookOut</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="ul" id="Transitions__getRecentBooks_getRecentBooksOut"><li class="li">
+                            From:
+                            <strong class="ph b"><em class="ph i">getRecentBooks</em></strong>
+                            -To:
+                            <strong class="ph b"><em class="ph i">getRecentBooksOut</em></strong><div class="p"><ul class="ul"><li class="li">
+                                        Label:
+                                        <em class="ph i"></em></li>
+<li class="li">Type: SUCCESS</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

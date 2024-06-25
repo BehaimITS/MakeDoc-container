@@ -1,0 +1,27 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : globalVariables.xml                                      -->
+<!-- originator      : lkocourek                                                -->
+<!-- creation date   : 2007-10-31                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="crossref_dbo" xml:lang="en-us">
+   <title>Database Objects</title>
+   <titlealts><navtitle>Database Objects</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains Database Objects from cross-reference documentation.</p>
+     <p>Cross-Reference by Database Objects shows queries executed by projects 
+     on selected database table, view or procedure</p>
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
