@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<imagemap>
+    <process name="post_Books" x1="162" y1="124" x2="239" y2="124"/>
+    <activity name="Log" x="231" y="338"/>
+    <activity name="Reply" x="361" y="338"/>
+    <transition name="LogToReply" from="Log" to="Reply" x1="253" y1="339" x2="335" y2="339"/>
+    <activity name="OnMessageStart" x="160" y="171"/>
+    <activity name="postOut" x="477" y="146"/>
+    <activity name="addBooks" x="308" y="146"/>
+    <activity name="OnMessageEnd" x="708" y="135"/>
+    <transition name="addBooksTopostOut" from="addBooks" to="postOut" x1="330" y1="147" x2="451" y2="147"/>
+    <process name="get_Books" x1="162" y1="351" x2="234" y2="351"/>
+    <activity name="Log1" x="222" y="561"/>
+    <activity name="Reply1" x="345" y="561"/>
+    <transition name="Log1ToReply1" from="Log1" to="Reply1" x1="244" y1="562" x2="319" y2="562"/>
+    <activity name="OnMessageStart1" x="160" y="395"/>
+    <activity name="getOut" x="477" y="373"/>
+    <activity name="getAllBooks" x="314" y="373"/>
+    <activity name="OnMessageEnd1" x="708" y="362"/>
+    <transition name="getAllBooksTogetOut" from="getAllBooks" to="getOut" x1="336" y1="374" x2="451" y2="374"/>
+    <process name="get_Book" x1="162" y1="572" x2="229" y2="572"/>
+    <activity name="Log2" x="229" y="786"/>
+    <activity name="Reply2" x="354" y="786"/>
+    <transition name="Log2ToReply2" from="Log2" to="Reply2" x1="251" y1="787" x2="328" y2="787"/>
+    <activity name="OnMessageStart2" x="160" y="617"/>
+    <activity name="getOut1" x="477" y="594"/>
+    <activity name="getBookByISBN" x="314" y="594"/>
+    <activity name="OnMessageEnd2" x="708" y="583"/>
+    <transition name="getBookByISBNTogetOut1" from="getBookByISBN" to="getOut1" x1="336" y1="595" x2="451" y2="595"/>
+    <process name="put_Book" x1="162" y1="799" x2="229" y2="799"/>
+    <activity name="Log3" x="239" y="1005"/>
+    <activity name="Reply3" x="363" y="1005"/>
+    <transition name="Log3ToReply3" from="Log3" to="Reply3" x1="261" y1="1006" x2="337" y2="1006"/>
+    <activity name="OnMessageStart3" x="160" y="848"/>
+    <activity name="putOut" x="477" y="821"/>
+    <activity name="updateBook" x="325" y="821"/>
+    <activity name="OnMessageEnd3" x="708" y="810"/>
+    <transition name="updateBookToputOut" from="updateBook" to="putOut" x1="347" y1="822" x2="451" y2="822"/>
+    <process name="delete_Book" x1="162" y1="1028" x2="244" y2="1028"/>
+    <activity name="Log4" x="242" y="1268"/>
+    <activity name="Reply4" x="353" y="1268"/>
+    <transition name="Log4ToReply4" from="Log4" to="Reply4" x1="264" y1="1269" x2="327" y2="1269"/>
+    <activity name="OnMessageStart4" x="160" y="1077"/>
+    <activity name="deleteOut" x="477" y="1050"/>
+    <activity name="deleteBook" x="322" y="1050"/>
+    <activity name="OnMessageEnd4" x="708" y="1039"/>
+    <transition name="deleteBookTodeleteOut" from="deleteBook" to="deleteOut" x1="344" y1="1051" x2="451" y2="1051"/>
+    <process name="get_Book1" x1="162" y1="1270" x2="234" y2="1270"/>
+    <activity name="Log5" x="239" y="1499"/>
+    <activity name="Reply5" x="365" y="1499"/>
+    <transition name="Log5ToReply5" from="Log5" to="Reply5" x1="261" y1="1500" x2="339" y2="1500"/>
+    <activity name="OnMessageStart5" x="160" y="1315"/>
+    <activity name="getOut2" x="477" y="1292"/>
+    <activity name="getEventByISBN" x="313" y="1292"/>
+    <activity name="OnMessageEnd5" x="708" y="1281"/>
+    <transition name="getEventByISBNTogetOut2" from="getEventByISBN" to="getOut2" x1="335" y1="1293" x2="451" y2="1293"/>
+    <process name="post_Books" x1="8" y1="176" x2="137" y2="176"/>
+    <process name="get_Books" x1="8" y1="196" x2="137" y2="196"/>
+    <process name="get_Book" x1="8" y1="256" x2="137" y2="256"/>
+    <process name="put_Book" x1="8" y1="276" x2="137" y2="276"/>
+    <process name="delete_Book" x1="8" y1="296" x2="137" y2="296"/>
+    <process name="get_Book1" x1="8" y1="356" x2="137" y2="356"/>
+    <process name="Service" x1="786" y1="150" x2="841" y2="150"/>
+    <activity name="Service" x="761" y="150"/>
+    <process name="addBooks_Service" x1="735" y1="176" x2="863" y2="176"/>
+    <process name="getAllBooks_Service" x1="735" y1="196" x2="863" y2="196"/>
+    <process name="getBookByISBN_Service" x1="735" y1="216" x2="863" y2="216"/>
+    <process name="updateBook_Service" x1="735" y1="236" x2="863" y2="236"/>
+    <process name="deleteBook_Service" x1="735" y1="256" x2="863" y2="256"/>
+    <process name="getRecentBooks_Service" x1="735" y1="276" x2="863" y2="276"/>
+    <process name="Service1" x1="786" y1="310" x2="841" y2="310"/>
+    <activity name="Service1" x="761" y="310"/>
+    <process name="getAllEvents_Service1" x1="735" y1="336" x2="863" y2="336"/>
+    <process name="addEvents_Service1" x1="735" y1="356" x2="863" y2="356"/>
+    <process name="getEventByID_Service1" x1="735" y1="376" x2="863" y2="376"/>
+    <process name="updateEvent_Service1" x1="735" y1="396" x2="863" y2="396"/>
+    <process name="deleteEvent_Service1" x1="735" y1="416" x2="863" y2="416"/>
+    <process name="getEventByISBN_Service1" x1="735" y1="436" x2="863" y2="436"/>
+</imagemap>

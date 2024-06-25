@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="violation14" xml:lang="en-us">
+  <title>/Schemas/Events.xsd</title>
+  <titlealts>
+    <navtitle>Schemas/Events.xsd</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>List of violations which appeared in file <xref href="../../../projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Events.xsd.dita">/Schemas/Events.xsd</xref>
+    </p>
+  </conbody>
+  <concept id="Incorrect_Schema_-_missing_header_XSD_Schema_missing_header" xml:lang="en-us">
+    <title>WARNING - Incorrect Schema - missing header - XSD Schema missing header</title>
+    <conbody>
+      <p>missing mandatory header attribute</p>
+      <ul>
+        <li>missing mandatory header attribute</li>
+      </ul>
+    </conbody>
+  </concept>
+  <concept id="Incorrect_Schema_-_missing_version_XSD_Schema_missing_version" xml:lang="en-us">
+    <title>WARNING - Incorrect Schema - missing version - XSD Schema missing version</title>
+    <conbody>
+      <p>missing version of XSD schema</p>
+      <ul>
+        <li>missing version of XSD schema</li>
+      </ul>
+    </conbody>
+  </concept>
+  <concept id="Incorrect_schema_-_missing_type_suffix_ComplexType_attribute" xml:lang="en-us">
+    <title>WARNING - Incorrect schema - missing type suffix - ComplexType attribute</title>
+    <conbody>
+      <p>Element name is too long</p>
+      <ul>
+        <li>complexType Event is without suffix 'Type'</li>
+        <li>complexType Events is without suffix 'Type'</li>
+      </ul>
+    </conbody>
+  </concept>
+  <concept id="Missing_XSD_Annotation_XSDs" xml:lang="en-us">
+    <title>WARNING - Missing XSD Annotation - XSDs</title>
+    <conbody>
+      <p>Process doesn't contain any XSD annotation.</p>
+    </conbody>
+  </concept>
+</concept>

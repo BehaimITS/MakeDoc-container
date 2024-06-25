@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : identityProvider.xml                                           -->
+<!-- originator      : jkaspar                                                 -->
+<!-- creation date   : 2016-02-23                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="%PROJECT_NCNAME%_javaglobalinstances" xml:lang="en-us">
+   <title>Java Global Instances</title>
+   <titlealts><navtitle>Java Global Instances</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks6 Java Global Instances from project %PROJECT_NAME%.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

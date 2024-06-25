@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : sharepointConnection.xml                                 -->
+<!-- originator      : jkaspar                                                  -->
+<!-- creation date   : 2016-02-24                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore_dynamicscrms" xml:lang="en-us">
+   <title>Dynamics CRM Shared Connections</title>
+   <titlealts><navtitle>Dynamics CRM Shared  Connections</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks Dynamics CRM Shared  Connections from project tibco.bwce.sample.binding.rest.BookStore.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

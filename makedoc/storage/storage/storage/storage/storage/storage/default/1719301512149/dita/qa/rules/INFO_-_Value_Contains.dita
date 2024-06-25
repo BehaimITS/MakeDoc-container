@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<concept id="INFO_-_Value_Contains" xml:lang="en-us">
+   <title>INFO - Value Contains</title>
+   <titlealts><navtitle>INFO - Value Contains</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains projects and their violations of rule &apos;Value Contains&apos; - &apos;Check for Global Variables Values&apos;.</p>
+   </conbody>
+</concept>
