@@ -138,17 +138,17 @@ jobs:
         if: ${{ inputs.projectType == 'Repository Analyst' }}
         run: |
           ant customizeRitaProfile1Inputs -f /home/makedoc/server/scripts/customization.xml \
-            -Dtype="eagle" \
+            -Dtype="rita" \
             -Drelease.path="/home/makedoc/server/bin" \
             -DprojectTargetDestination="/home/makedoc/server/ws/RA_default_group_repository" \
             -DprofileRelativePath="Profiles/Enterprise.profile" \
             -Dgroup="group" \
             -Dstorage="default" \
             -Drepository="repository"  \
-            -Ddocx="false" \
-            -Dhtml="true" \
-            -Dpdf="false" \
-            -Dmd="false" \
+            -Ddocx="${{ inputs.docx == true && 'true' || 'false' }}" \
+            -Dhtml="${{ inputs.html == true && 'true' || 'false' }}" \
+            -Dpdf="${{ inputs.pdf == true && 'true' || 'false' }}" \
+            -Dmd="${{ inputs.md == true && 'true' || 'false' }}" \
             -Dformat="A4" \
             -Dfilter="Filters/FullDetail.filter" \
             -Daliases="-- no aliases --" \
