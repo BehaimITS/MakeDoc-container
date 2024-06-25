@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/home/makedoc/server/cfg/dtd/map.dtd">
-<map title="QA rules content.">
-  <topicref href="INFO_-_Value_Ends_With.dita" type="concept">
-    <topicref href="Value_Ends_With/violation2.dita" type="concept"/>
-    <topicref href="Value_Ends_With/violation1.dita" type="concept"/>
-  </topicref>
-</map>

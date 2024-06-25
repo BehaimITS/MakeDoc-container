@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
-<concept id="WARNING_-_Incorrect_description" xml:lang="en-us">
-   <title>WARNING - Incorrect description</title>
-   <titlealts><navtitle>WARNING - Incorrect description</navtitle></titlealts>
-   <conbody>
-     <p>Chapter contains projects and their violations of rule &apos;Incorrect description&apos; - &apos;Check for presence of item description&apos;.</p>
-   </conbody>
-</concept>
