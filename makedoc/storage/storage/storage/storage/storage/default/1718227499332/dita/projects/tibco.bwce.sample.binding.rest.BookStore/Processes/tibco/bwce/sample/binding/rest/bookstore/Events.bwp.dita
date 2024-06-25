@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd"><concept xml:lang="en-us" id="ProcessMain"><title>Events</title><titlealts><navtitle>Processes/tibco/bwce/sample/binding/rest/bookstore/Events</navtitle></titlealts><conbody><p>License for TIBCO Software Use Only! </p><p>
+                            Section contains description of Process "
+                            Events.bwp
+                            " .
+                        </p></conbody><concept xml:lang="en-us" id="FolderDescription"><title>Folder description:</title><conbody><table><tgroup cols="2"><colspec colwidth="75*" colname="folder"/><colspec colwidth="175*" colname="desc"/><thead><row><entry valign="top" colname="folder">Folder</entry><entry valign="top" colname="desc">Description</entry></row></thead><tbody><row><entry/><entry>No description</entry></row></tbody></tgroup></table></conbody></concept><concept xml:lang="en-us" id="ProcessDescription"><title>Process description:</title><conbody><table><tgroup cols="1"><tbody><row><entry>
+                                            No description
+                                        </entry></row></tbody></tgroup></table></conbody></concept><concept xml:lang="en-us" id="ProcessDefinition"><title>Process definition:</title><conbody><p>
+                    Full process path:
+                    tibco.bwce.sample.binding.rest.bookstore.Events</p></conbody></concept><concept xml:lang="en-us" id="Diagram"><title>Diagram:</title><conbody><imagemap><image href="Events.bwp.png"/><area><shape>circle</shape><coords>227
+                                                ,
+                                                321
+                                                ,40
+                                            </coords><xref format="html" href="#Log">Log</xref></area><area><shape>circle</shape><coords>363
+                                                ,
+                                                321
+                                                ,40
+                                            </coords><xref format="html" href="#Reply">Reply</xref></area><area><shape>circle</shape><coords>160
+                                                ,
+                                                167
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageStart">OnMessageStart</xref></area><area><shape>circle</shape><coords>462
+                                                ,
+                                                146
+                                                ,28
+                                            </coords><xref format="html" href="#postOut">postOut</xref></area><area><shape>circle</shape><coords>298
+                                                ,
+                                                156
+                                                ,28
+                                            </coords><xref format="html" href="#addEvents">addEvents</xref></area><area><shape>circle</shape><coords>708
+                                                ,
+                                                135
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageEnd">OnMessageEnd</xref></area><area><shape>circle</shape><coords>236
+                                                ,
+                                                552
+                                                ,28
+                                            </coords><xref format="html" href="#Log1">Log1</xref></area><area><shape>circle</shape><coords>377
+                                                ,
+                                                552
+                                                ,28
+                                            </coords><xref format="html" href="#Reply1">Reply1</xref></area><area><shape>circle</shape><coords>160
+                                                ,
+                                                381
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageStart1">OnMessageStart1</xref></area><area><shape>circle</shape><coords>462
+                                                ,
+                                                354
+                                                ,28
+                                            </coords><xref format="html" href="#getOut">getOut</xref></area><area><shape>circle</shape><coords>294
+                                                ,
+                                                360
+                                                ,28
+                                            </coords><xref format="html" href="#getAllEvents">getAllEvents</xref></area><area><shape>circle</shape><coords>708
+                                                ,
+                                                343
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageEnd1">OnMessageEnd1</xref></area><area><shape>circle</shape><coords>222
+                                                ,
+                                                770
+                                                ,28
+                                            </coords><xref format="html" href="#Log2">Log2</xref></area><area><shape>circle</shape><coords>362
+                                                ,
+                                                770
+                                                ,28
+                                            </coords><xref format="html" href="#Reply2">Reply2</xref></area><area><shape>circle</shape><coords>160
+                                                ,
+                                                610
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageStart2">OnMessageStart2</xref></area><area><shape>circle</shape><coords>462
+                                                ,
+                                                587
+                                                ,28
+                                            </coords><xref format="html" href="#getOut1">getOut1</xref></area><area><shape>circle</shape><coords>293
+                                                ,
+                                                599
+                                                ,28
+                                            </coords><xref format="html" href="#getEventByID">getEventByID</xref></area><area><shape>circle</shape><coords>708
+                                                ,
+                                                576
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageEnd2">OnMessageEnd2</xref></area><area><shape>circle</shape><coords>231
+                                                ,
+                                                1005
+                                                ,28
+                                            </coords><xref format="html" href="#Log3">Log3</xref></area><area><shape>circle</shape><coords>375
+                                                ,
+                                                1005
+                                                ,28
+                                            </coords><xref format="html" href="#Reply3">Reply3</xref></area><area><shape>circle</shape><coords>160
+                                                ,
+                                                835
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageStart3">OnMessageStart3</xref></area><area><shape>circle</shape><coords>462
+                                                ,
+                                                809
+                                                ,28
+                                            </coords><xref format="html" href="#putOut">putOut</xref></area><area><shape>circle</shape><coords>291
+                                                ,
+                                                809
+                                                ,28
+                                            </coords><xref format="html" href="#updateEvent">updateEvent</xref></area><area><shape>circle</shape><coords>708
+                                                ,
+                                                798
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageEnd3">OnMessageEnd3</xref></area><area><shape>circle</shape><coords>240
+                                                ,
+                                                1233
+                                                ,28
+                                            </coords><xref format="html" href="#Log4">Log4</xref></area><area><shape>circle</shape><coords>375
+                                                ,
+                                                1233
+                                                ,28
+                                            </coords><xref format="html" href="#Reply4">Reply4</xref></area><area><shape>circle</shape><coords>160
+                                                ,
+                                                1061
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageStart4">OnMessageStart4</xref></area><area><shape>circle</shape><coords>462
+                                                ,
+                                                1036
+                                                ,28
+                                            </coords><xref format="html" href="#deleteOut">deleteOut</xref></area><area><shape>circle</shape><coords>310
+                                                ,
+                                                1036
+                                                ,28
+                                            </coords><xref format="html" href="#deleteEvent">deleteEvent</xref></area><area><shape>circle</shape><coords>708
+                                                ,
+                                                1025
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageEnd4">OnMessageEnd4</xref></area><area><shape>circle</shape><coords>761
+                                                ,
+                                                150
+                                                ,28
+                                            </coords><xref format="html" href="#Service">Service</xref></area><area><shape>poly</shape><coords>249
+                                                    ,
+                                                    327
+                                                    ,
+                                                    337
+                                                    ,
+                                                    327
+                                                    ,
+                                                    337
+                                                    ,
+                                                    317
+                                                    ,
+                                                    249
+                                                    ,
+                                                    317</coords><xref format="html" href="#Transitions__Log_Reply">From: Log To: Reply</xref></area><area><shape>poly</shape><coords>320
+                                                    ,
+                                                    162
+                                                    ,
+                                                    378
+                                                    ,
+                                                    162
+                                                    ,
+                                                    378
+                                                    ,
+                                                    152
+                                                    ,
+                                                    320
+                                                    ,
+                                                    152</coords><xref format="html" href="#Transitions__addEvents_postOut">From: addEvents To: postOut</xref></area><area><shape>poly</shape><coords>373
+                                                    ,
+                                                    157
+                                                    ,
+                                                    373
+                                                    ,
+                                                    147
+                                                    ,
+                                                    383
+                                                    ,
+                                                    147
+                                                    ,
+                                                    383
+                                                    ,
+                                                    157</coords><xref format="html" href="#Transitions__addEvents_postOut">From: addEvents To: postOut</xref></area><area><shape>poly</shape><coords>378
+                                                    ,
+                                                    152
+                                                    ,
+                                                    436
+                                                    ,
+                                                    152
+                                                    ,
+                                                    436
+                                                    ,
+                                                    142
+                                                    ,
+                                                    378
+                                                    ,
+                                                    142</coords><xref format="html" href="#Transitions__addEvents_postOut">From: addEvents To: postOut</xref></area><area><shape>poly</shape><coords>258
+                                                    ,
+                                                    558
+                                                    ,
+                                                    351
+                                                    ,
+                                                    558
+                                                    ,
+                                                    351
+                                                    ,
+                                                    548
+                                                    ,
+                                                    258
+                                                    ,
+                                                    548</coords><xref format="html" href="#Transitions__Log1_Reply1">From: Log1 To: Reply1</xref></area><area><shape>poly</shape><coords>316
+                                                    ,
+                                                    366
+                                                    ,
+                                                    376
+                                                    ,
+                                                    366
+                                                    ,
+                                                    376
+                                                    ,
+                                                    356
+                                                    ,
+                                                    316
+                                                    ,
+                                                    356</coords><xref format="html" href="#Transitions__getAllEvents_getOut">From: getAllEvents To: getOut</xref></area><area><shape>poly</shape><coords>371
+                                                    ,
+                                                    361
+                                                    ,
+                                                    371
+                                                    ,
+                                                    355
+                                                    ,
+                                                    381
+                                                    ,
+                                                    355
+                                                    ,
+                                                    381
+                                                    ,
+                                                    361</coords><xref format="html" href="#Transitions__getAllEvents_getOut">From: getAllEvents To: getOut</xref></area><area><shape>poly</shape><coords>376
+                                                    ,
+                                                    360
+                                                    ,
+                                                    436
+                                                    ,
+                                                    360
+                                                    ,
+                                                    436
+                                                    ,
+                                                    350
+                                                    ,
+                                                    376
+                                                    ,
+                                                    350</coords><xref format="html" href="#Transitions__getAllEvents_getOut">From: getAllEvents To: getOut</xref></area><area><shape>poly</shape><coords>244
+                                                    ,
+                                                    776
+                                                    ,
+                                                    336
+                                                    ,
+                                                    776
+                                                    ,
+                                                    336
+                                                    ,
+                                                    766
+                                                    ,
+                                                    244
+                                                    ,
+                                                    766</coords><xref format="html" href="#Transitions__Log2_Reply2">From: Log2 To: Reply2</xref></area><area><shape>poly</shape><coords>315
+                                                    ,
+                                                    605
+                                                    ,
+                                                    376
+                                                    ,
+                                                    605
+                                                    ,
+                                                    376
+                                                    ,
+                                                    595
+                                                    ,
+                                                    315
+                                                    ,
+                                                    595</coords><xref format="html" href="#Transitions__getEventByID_getOut1">From: getEventByID To: getOut1</xref></area><area><shape>poly</shape><coords>371
+                                                    ,
+                                                    600
+                                                    ,
+                                                    371
+                                                    ,
+                                                    588
+                                                    ,
+                                                    381
+                                                    ,
+                                                    588
+                                                    ,
+                                                    381
+                                                    ,
+                                                    600</coords><xref format="html" href="#Transitions__getEventByID_getOut1">From: getEventByID To: getOut1</xref></area><area><shape>poly</shape><coords>376
+                                                    ,
+                                                    593
+                                                    ,
+                                                    436
+                                                    ,
+                                                    593
+                                                    ,
+                                                    436
+                                                    ,
+                                                    583
+                                                    ,
+                                                    376
+                                                    ,
+                                                    583</coords><xref format="html" href="#Transitions__getEventByID_getOut1">From: getEventByID To: getOut1</xref></area><area><shape>poly</shape><coords>253
+                                                    ,
+                                                    1011
+                                                    ,
+                                                    349
+                                                    ,
+                                                    1011
+                                                    ,
+                                                    349
+                                                    ,
+                                                    1001
+                                                    ,
+                                                    253
+                                                    ,
+                                                    1001</coords><xref format="html" href="#Transitions__Log3_Reply3">From: Log3 To: Reply3</xref></area><area><shape>poly</shape><coords>313
+                                                    ,
+                                                    815
+                                                    ,
+                                                    436
+                                                    ,
+                                                    815
+                                                    ,
+                                                    436
+                                                    ,
+                                                    805
+                                                    ,
+                                                    313
+                                                    ,
+                                                    805</coords><xref format="html" href="#Transitions__updateEvent_putOut">From: updateEvent To: putOut</xref></area><area><shape>poly</shape><coords>262
+                                                    ,
+                                                    1239
+                                                    ,
+                                                    349
+                                                    ,
+                                                    1239
+                                                    ,
+                                                    349
+                                                    ,
+                                                    1229
+                                                    ,
+                                                    262
+                                                    ,
+                                                    1229</coords><xref format="html" href="#Transitions__Log4_Reply4">From: Log4 To: Reply4</xref></area><area><shape>poly</shape><coords>332
+                                                    ,
+                                                    1042
+                                                    ,
+                                                    436
+                                                    ,
+                                                    1042
+                                                    ,
+                                                    436
+                                                    ,
+                                                    1032
+                                                    ,
+                                                    332
+                                                    ,
+                                                    1032</coords><xref format="html" href="#Transitions__deleteEvent_deleteOut">From: deleteEvent To: deleteOut</xref></area><area><shape>poly</shape><coords>162
+                                                    ,
+                                                    132
+                                                    ,
+                                                    244
+                                                    ,
+                                                    132
+                                                    ,
+                                                    244
+                                                    ,
+                                                    116
+                                                    ,
+                                                    162
+                                                    ,
+                                                    116</coords><xref format="html" href="#post_Events">post_Events</xref></area><area><shape>poly</shape><coords>162
+                                                    ,
+                                                    340
+                                                    ,
+                                                    239
+                                                    ,
+                                                    340
+                                                    ,
+                                                    239
+                                                    ,
+                                                    324
+                                                    ,
+                                                    162
+                                                    ,
+                                                    324</coords><xref format="html" href="#get_Events">get_Events</xref></area><area><shape>poly</shape><coords>162
+                                                    ,
+                                                    573
+                                                    ,
+                                                    234
+                                                    ,
+                                                    573
+                                                    ,
+                                                    234
+                                                    ,
+                                                    557
+                                                    ,
+                                                    162
+                                                    ,
+                                                    557</coords><xref format="html" href="#get_Event">get_Event</xref></area><area><shape>poly</shape><coords>162
+                                                    ,
+                                                    795
+                                                    ,
+                                                    234
+                                                    ,
+                                                    795
+                                                    ,
+                                                    234
+                                                    ,
+                                                    779
+                                                    ,
+                                                    162
+                                                    ,
+                                                    779</coords><xref format="html" href="#put_Event">put_Event</xref></area><area><shape>poly</shape><coords>162
+                                                    ,
+                                                    1022
+                                                    ,
+                                                    249
+                                                    ,
+                                                    1022
+                                                    ,
+                                                    249
+                                                    ,
+                                                    1006
+                                                    ,
+                                                    162
+                                                    ,
+                                                    1006</coords><xref format="html" href="#delete_Event">delete_Event</xref></area><area><shape>poly</shape><coords>8
+                                                    ,
+                                                    184
+                                                    ,
+                                                    137
+                                                    ,
+                                                    184
+                                                    ,
+                                                    137
+                                                    ,
+                                                    168
+                                                    ,
+                                                    8
+                                                    ,
+                                                    168</coords><xref format="html" href="#post_Events">post_Events</xref></area><area><shape>poly</shape><coords>8
+                                                    ,
+                                                    204
+                                                    ,
+                                                    137
+                                                    ,
+                                                    204
+                                                    ,
+                                                    137
+                                                    ,
+                                                    188
+                                                    ,
+                                                    8
+                                                    ,
+                                                    188</coords><xref format="html" href="#get_Events">get_Events</xref></area><area><shape>poly</shape><coords>8
+                                                    ,
+                                                    264
+                                                    ,
+                                                    137
+                                                    ,
+                                                    264
+                                                    ,
+                                                    137
+                                                    ,
+                                                    248
+                                                    ,
+                                                    8
+                                                    ,
+                                                    248</coords><xref format="html" href="#get_Event">get_Event</xref></area><area><shape>poly</shape><coords>8
+                                                    ,
+                                                    284
+                                                    ,
+                                                    137
+                                                    ,
+                                                    284
+                                                    ,
+                                                    137
+                                                    ,
+                                                    268
+                                                    ,
+                                                    8
+                                                    ,
+                                                    268</coords><xref format="html" href="#put_Event">put_Event</xref></area><area><shape>poly</shape><coords>8
+                                                    ,
+                                                    304
+                                                    ,
+                                                    137
+                                                    ,
+                                                    304
+                                                    ,
+                                                    137
+                                                    ,
+                                                    288
+                                                    ,
+                                                    8
+                                                    ,
+                                                    288</coords><xref format="html" href="#delete_Event">delete_Event</xref></area><area><shape>poly</shape><coords>786
+                                                    ,
+                                                    158
+                                                    ,
+                                                    841
+                                                    ,
+                                                    158
+                                                    ,
+                                                    841
+                                                    ,
+                                                    142
+                                                    ,
+                                                    786
+                                                    ,
+                                                    142</coords><xref format="html" href="#Service">Service</xref></area><area><shape>poly</shape><coords>735
+                                                    ,
+                                                    184
+                                                    ,
+                                                    863
+                                                    ,
+                                                    184
+                                                    ,
+                                                    863
+                                                    ,
+                                                    168
+                                                    ,
+                                                    735
+                                                    ,
+                                                    168</coords><xref format="html" href="#getAllEvents_Service">getAllEvents_Service</xref></area><area><shape>poly</shape><coords>735
+                                                    ,
+                                                    204
+                                                    ,
+                                                    863
+                                                    ,
+                                                    204
+                                                    ,
+                                                    863
+                                                    ,
+                                                    188
+                                                    ,
+                                                    735
+                                                    ,
+                                                    188</coords><xref format="html" href="#addEvents_Service">addEvents_Service</xref></area><area><shape>poly</shape><coords>735
+                                                    ,
+                                                    224
+                                                    ,
+                                                    863
+                                                    ,
+                                                    224
+                                                    ,
+                                                    863
+                                                    ,
+                                                    208
+                                                    ,
+                                                    735
+                                                    ,
+                                                    208</coords><xref format="html" href="#getEventByID_Service">getEventByID_Service</xref></area><area><shape>poly</shape><coords>735
+                                                    ,
+                                                    244
+                                                    ,
+                                                    863
+                                                    ,
+                                                    244
+                                                    ,
+                                                    863
+                                                    ,
+                                                    228
+                                                    ,
+                                                    735
+                                                    ,
+                                                    228</coords><xref format="html" href="#updateEvent_Service">updateEvent_Service</xref></area><area><shape>poly</shape><coords>735
+                                                    ,
+                                                    264
+                                                    ,
+                                                    863
+                                                    ,
+                                                    264
+                                                    ,
+                                                    863
+                                                    ,
+                                                    248
+                                                    ,
+                                                    735
+                                                    ,
+                                                    248</coords><xref format="html" href="#deleteEvent_Service">deleteEvent_Service</xref></area><area><shape>poly</shape><coords>735
+                                                    ,
+                                                    284
+                                                    ,
+                                                    863
+                                                    ,
+                                                    284
+                                                    ,
+                                                    863
+                                                    ,
+                                                    268
+                                                    ,
+                                                    735
+                                                    ,
+                                                    268</coords><xref format="html" href="#getEventByISBN_Service">getEventByISBN_Service</xref></area></imagemap></conbody></concept><concept xml:lang="en-us" id="Starter"><title>Process starter activity:</title><concept id="OnMessageStart"><title>Name:
+                <b><i>OnMessageStart</i></b></title><conbody><p><ul><li>Constructor: onMessageStart</li><li>xpdlId: 95806ab1-fb08-40b8-b87f-82de33805bbb</li></ul></p></conbody></concept><concept id="OnMessageStart1"><title>Name:
+                <b><i>OnMessageStart1</i></b></title><conbody><p><ul><li>Constructor: onMessageStart</li><li>xpdlId: 70d055d1-fa2f-4c45-96dd-061b8d047c0c</li></ul></p></conbody></concept><concept id="OnMessageStart2"><title>Name:
+                <b><i>OnMessageStart2</i></b></title><conbody><p><ul><li>Constructor: onMessageStart</li><li>xpdlId: bed59b7f-bfa8-45d0-8cca-06d7558324d7</li></ul></p></conbody></concept><concept id="OnMessageStart3"><title>Name:
+                <b><i>OnMessageStart3</i></b></title><conbody><p><ul><li>Constructor: onMessageStart</li><li>xpdlId: 1ad486c4-db53-49a9-98fb-c5376d3c743a</li></ul></p></conbody></concept><concept id="OnMessageStart4"><title>Name:
+                <b><i>OnMessageStart4</i></b></title><conbody><p><ul><li>Constructor: onMessageStart</li><li>xpdlId: f596347d-dddc-4e00-98d0-15e804f7ac0f</li></ul></p></conbody></concept></concept><concept xml:lang="en-us" id="EndActivity"><title>Process end activity:</title><concept id="OnMessageEnd"><title>Name:
+                <b><i>OnMessageEnd</i></b></title><conbody><p><ul><li>Constructor: onMessageEnd</li><li>xpdlId: 953ba909-f7be-4c99-9b95-fd1e65b13863</li></ul></p></conbody></concept><concept id="OnMessageEnd1"><title>Name:
+                <b><i>OnMessageEnd1</i></b></title><conbody><p><ul><li>Constructor: onMessageEnd</li><li>xpdlId: f6399dcf-9e68-4e9d-9093-1bc6a1c4435c</li></ul></p></conbody></concept><concept id="OnMessageEnd2"><title>Name:
+                <b><i>OnMessageEnd2</i></b></title><conbody><p><ul><li>Constructor: onMessageEnd</li><li>xpdlId: 51dc75f8-7ad9-4971-9a76-6fb911393670</li></ul></p></conbody></concept><concept id="OnMessageEnd3"><title>Name:
+                <b><i>OnMessageEnd3</i></b></title><conbody><p><ul><li>Constructor: onMessageEnd</li><li>xpdlId: fc10f60e-b149-4e90-97cd-8d25cf3b93dc</li></ul></p></conbody></concept><concept id="OnMessageEnd4"><title>Name:
+                <b><i>OnMessageEnd4</i></b></title><conbody><p><ul><li>Constructor: onMessageEnd</li><li>xpdlId: 3ce4019b-3d51-480b-9bf2-0775a0824022</li></ul></p></conbody></concept></concept><concept xml:lang="en-us" id="NoVariablesDefined"><title>Process properties and variables</title><conbody><p>No variables defined</p></conbody></concept><concept xml:lang="en-us" id="Activities"><title>Activities:</title><concept id="addEvents"><title>Name:
+                <b><i>addEvents</i></b></title><conbody><p><ul><li>Service: Service / operation: addEvents</li><li>Description: </li><li>Activity Timeout (seconds):
+                            Default Timeout</li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:addEventsRequest</b><b>/parameters</b></entry><entry><i>/[COPY-OF]  $post/item/tns1:Events </i></entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b> = </b></codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="post"/&gt;
+   &lt;xsl:template name="addEvents-input" match="/"&gt;
+      &lt;tns:addEventsRequest&gt;
+         &lt;parameters&gt;
+            &lt;xsl:copy-of select="$post/item/tns1:Events"/&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:addEventsRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="deleteEvent"><title>Name:
+                <b><i>deleteEvent</i></b></title><conbody><p><ul><li>Service: Service / operation: deleteEvent</li><li>Description: </li><li>Activity Timeout (seconds):
+                            Default Timeout</li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:deleteEventRequest</b><b>/parameters</b><b>/tns:deleteEventRequest</b><b>/EventID</b></entry><entry>$delete/parameters/tns1:EventParameters/EventID</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:deleteEventRequest
+		 parameters
+			tns:deleteEventRequest
+			   EventID = </b>$delete/parameters/tns1:EventParameters/EventID</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" version="2.0"&gt;
+   &lt;xsl:param name="delete"/&gt;
+   &lt;xsl:template name="deleteEvent-input" match="/"&gt;
+      &lt;tns:deleteEventRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:deleteEventRequest&gt;
+               &lt;EventID&gt;
+                  &lt;xsl:value-of select="$delete/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/EventID&gt;
+            &lt;/tns:deleteEventRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:deleteEventRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="deleteOut"><title>Name:
+                <b><i>deleteOut</i></b></title><conbody><p><ul><li>Service: Event / operation: delete</li><li>ReplyWith: Output Message</li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:deleteResponse</b><b>/msg</b></entry><entry>$deleteEvent/parameters/tns1:deleteEventResponse/out</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:deleteResponse
+		 msg = </b>$deleteEvent/parameters/tns1:deleteEventResponse/out</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://xmlns.example.com/20141006121028" version="2.0"&gt;
+   &lt;xsl:param name="deleteEvent"/&gt;
+   &lt;xsl:template name="deleteOut-input" match="/"&gt;
+      &lt;tns:deleteResponse&gt;
+         &lt;msg&gt;
+            &lt;xsl:value-of select="$deleteEvent/parameters/tns1:deleteEventResponse/out"/&gt;
+         &lt;/msg&gt;
+      &lt;/tns:deleteResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="getAllEvents"><title>Name:
+                <b><i>getAllEvents</i></b></title><conbody><p><ul><li>Service: Service / operation: getAllEvents</li><li>Description: </li><li>Activity Timeout (seconds):
+                            Default Timeout</li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:getAllEventsRequest</b><b>/parameters</b><b>/tns:getAllEventsRequest</b><b>/in</b></entry><entry>&quot;Get All Events&quot;</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:getAllEventsRequest
+		 parameters
+			tns:getAllEventsRequest
+			   in = </b>&amp;quot;Get All Events&amp;quot;</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" version="2.0"&gt;
+   &lt;xsl:template name="getAllEvents-input" match="/"&gt;
+      &lt;tns:getAllEventsRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:getAllEventsRequest&gt;
+               &lt;in&gt;
+                  &lt;xsl:value-of select="&amp;quot;Get All Events&amp;quot;"/&gt;
+               &lt;/in&gt;
+            &lt;/tns:getAllEventsRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getAllEventsRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="getEventByID"><title>Name:
+                <b><i>getEventByID</i></b></title><conbody><p><ul><li>Service: Service / operation: getEventByID</li><li>Description: </li><li>Activity Timeout (seconds):
+                            Default Timeout</li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:getEventByIDRequest</b><b>/parameters</b><b>/tns:getEventByIDRequest</b><b>/EventID</b></entry><entry>$get1/parameters/tns1:EventParameters/EventID</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:getEventByIDRequest
+		 parameters
+			tns:getEventByIDRequest
+			   EventID = </b>$get1/parameters/tns1:EventParameters/EventID</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" version="2.0"&gt;
+   &lt;xsl:param name="get1"/&gt;
+   &lt;xsl:template name="getEventByID-input" match="/"&gt;
+      &lt;tns:getEventByIDRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:getEventByIDRequest&gt;
+               &lt;EventID&gt;
+                  &lt;xsl:value-of select="$get1/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/EventID&gt;
+            &lt;/tns:getEventByIDRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getEventByIDRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="getOut"><title>Name:
+                <b><i>getOut</i></b></title><conbody><p><ul><li>Service: Events / operation: get</li><li>ReplyWith: Output Message</li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:getResponse</b><b>/item</b></entry><entry><i>/[COPY-OF]  $getAllEvents/parameters/tns1:Events </i></entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b> = </b></codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="getAllEvents"/&gt;
+   &lt;xsl:template name="getOut-input" match="/"&gt;
+      &lt;tns:getResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$getAllEvents/parameters/tns1:Events"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:getResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="getOut1"><title>Name:
+                <b><i>getOut1</i></b></title><conbody><p><ul><li>Service: Event / operation: get</li><li>ReplyWith: Output Message</li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:getResponse1</b><b>/item</b></entry><entry><i>/[COPY-OF]  $getEventByID/parameters/tns1:Event </i></entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b> = </b></codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="getEventByID"/&gt;
+   &lt;xsl:template name="getOut1-input" match="/"&gt;
+      &lt;tns:getResponse1&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$getEventByID/parameters/tns1:Event"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:getResponse1&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="Log_760778f4-f25f-4d1d-a034-f7338734d027"><title>Name:
+                <b><i>Log</i></b></title><conbody><section><indexterm>Log</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.generalactivities.log</li><li>Logger Name: </li><li>Log level: <i>Info</i></li><li>Suppress Job Info:
+                    <i>true</i></li><li>Input Variable:
+                                <i>Log-input</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:ActivityInput</b><b>/msgCode</b></entry><entry>&quot;1503&quot;</entry></row><row><entry><b>/tns:ActivityInput</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:ActivityInput
+		 msgCode = </b>&amp;quot;1503&amp;quot;<b>
+		 message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="Log1_4c96428a-e270-434b-9f03-263377fce10a"><title>Name:
+                <b><i>Log1</i></b></title><conbody><section><indexterm>Log1</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.generalactivities.log</li><li>Logger Name: </li><li>Log level: <i>Info</i></li><li>Suppress Job Info:
+                    <i>true</i></li><li>Input Variable:
+                                <i>Log1-input</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:ActivityInput</b><b>/msgCode</b></entry><entry>&quot;1503&quot;</entry></row><row><entry><b>/tns:ActivityInput</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:ActivityInput
+		 msgCode = </b>&amp;quot;1503&amp;quot;<b>
+		 message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log1-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="Log2_62e491b7-a92b-4b52-9bd6-f080a80d782c"><title>Name:
+                <b><i>Log2</i></b></title><conbody><section><indexterm>Log2</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.generalactivities.log</li><li>Logger Name: </li><li>Log level: <i>Info</i></li><li>Suppress Job Info:
+                    <i>true</i></li><li>Input Variable:
+                                <i>Log2-input</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:ActivityInput</b><b>/msgCode</b></entry><entry>&quot;1503&quot;</entry></row><row><entry><b>/tns:ActivityInput</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:ActivityInput
+		 msgCode = </b>&amp;quot;1503&amp;quot;<b>
+		 message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log2-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="Log3_aa8ee0e0-f9ac-4394-a1aa-5dc5a83a32f4"><title>Name:
+                <b><i>Log3</i></b></title><conbody><section><indexterm>Log3</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.generalactivities.log</li><li>Logger Name: </li><li>Log level: <i>Info</i></li><li>Suppress Job Info:
+                    <i>true</i></li><li>Input Variable:
+                                <i>Log3-input</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:ActivityInput</b><b>/msgCode</b></entry><entry>&quot;1503&quot;</entry></row><row><entry><b>/tns:ActivityInput</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:ActivityInput
+		 msgCode = </b>&amp;quot;1503&amp;quot;<b>
+		 message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log3-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="Log4_55879cb9-e3e9-40f7-add4-38f603d0eef3"><title>Name:
+                <b><i>Log4</i></b></title><conbody><section><indexterm>Log4</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.generalactivities.log</li><li>Logger Name: </li><li>Log level: <i>Info</i></li><li>Suppress Job Info:
+                    <i>true</i></li><li>Input Variable:
+                                <i>Log4-input</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:ActivityInput</b><b>/msgCode</b></entry><entry>&quot;1503&quot;</entry></row><row><entry><b>/tns:ActivityInput</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:ActivityInput
+		 msgCode = </b>&amp;quot;1503&amp;quot;<b>
+		 message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log4-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="postOut"><title>Name:
+                <b><i>postOut</i></b></title><conbody><p><ul><li>Service: Events / operation: post</li><li>ReplyWith: Output Message</li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:postResponse</b><b>/item</b></entry><entry><i>/[COPY-OF]  $addEvents/parameters/tns1:Events </i></entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b> = </b></codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="addEvents"/&gt;
+   &lt;xsl:template name="postOut-input" match="/"&gt;
+      &lt;tns:postResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$addEvents/parameters/tns1:Events"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:postResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="putOut"><title>Name:
+                <b><i>putOut</i></b></title><conbody><p><ul><li>Service: Event / operation: put</li><li>ReplyWith: Output Message</li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:putResponse</b><b>/item</b></entry><entry><i>/[COPY-OF]  $updateEvent/parameters/tns1:Event </i></entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b> = </b></codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="updateEvent"/&gt;
+   &lt;xsl:template name="putOut-input" match="/"&gt;
+      &lt;tns:putResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$updateEvent/parameters/tns1:Event"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:putResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="Reply"><title>Name:
+                <b><i>Reply</i></b></title><conbody><p><ul><li>Service: Events / operation: post</li><li>ReplyWith: </li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:post5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/statusCode</b></entry><entry>xsd:integer(bw:getModuleProperty(&quot;ec_ServiceUnavailable&quot;))</entry></row><row><entry><b>/tns:post5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:post5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))<b>
+			   message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply-input" match="/"&gt;
+      &lt;tns:post5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:post5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="Reply1"><title>Name:
+                <b><i>Reply1</i></b></title><conbody><p><ul><li>Service: Events / operation: get</li><li>ReplyWith: </li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:get5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/statusCode</b></entry><entry>xsd:integer(bw:getModuleProperty(&quot;ec_ServiceUnavailable&quot;))</entry></row><row><entry><b>/tns:get5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:get5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))<b>
+			   message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply1-input" match="/"&gt;
+      &lt;tns:get5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:get5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="Reply2"><title>Name:
+                <b><i>Reply2</i></b></title><conbody><p><ul><li>Service: Event / operation: get</li><li>ReplyWith: </li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:get5XXFaultMessage1</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/statusCode</b></entry><entry>xsd:integer(bw:getModuleProperty(&quot;ec_ServiceUnavailable&quot;))</entry></row><row><entry><b>/tns:get5XXFaultMessage1</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:get5XXFaultMessage1
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))<b>
+			   message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply2-input" match="/"&gt;
+      &lt;tns:get5XXFaultMessage1&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:get5XXFaultMessage1&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="Reply3"><title>Name:
+                <b><i>Reply3</i></b></title><conbody><p><ul><li>Service: Event / operation: put</li><li>ReplyWith: </li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:put5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/statusCode</b></entry><entry>xsd:integer(bw:getModuleProperty(&quot;ec_ServiceUnavailable&quot;))</entry></row><row><entry><b>/tns:put5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:put5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))<b>
+			   message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply3-input" match="/"&gt;
+      &lt;tns:put5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:put5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="Reply4"><title>Name:
+                <b><i>Reply4</i></b></title><conbody><p><ul><li>Service: Event / operation: delete</li><li>ReplyWith: </li><li>Description: </li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:delete5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/statusCode</b></entry><entry>xsd:integer(bw:getModuleProperty(&quot;ec_ServiceUnavailable&quot;))</entry></row><row><entry><b>/tns:delete5XXFaultMessage</b><b>/serverError</b><b>/tns1:server5XXError</b><b>/message</b></entry><entry>concat($ServiceOp, &quot; failed: &quot;, $FaultDetails/Msg)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:delete5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))<b>
+			   message = </b>concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply4-input" match="/"&gt;
+      &lt;tns:delete5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:delete5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept><concept id="updateEvent"><title>Name:
+                <b><i>updateEvent</i></b></title><conbody><p><ul><li>Service: Service / operation: updateEvent</li><li>Description: </li><li>Activity Timeout (seconds):
+                            Default Timeout</li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:updateEventRequest</b><b>/parameters</b><b>/tns2:Event</b><b>/tns2:id</b></entry><entry>$put/parameters/tns1:EventParameters/EventID</entry></row><row><entry><b>/tns:updateEventRequest</b><b>/parameters</b><b>/tns2:Event</b><i>/[IF]  $put/item/tns2:Event/tns2:summary </i><b>/tns2:summary</b></entry><entry>$put/item/tns2:Event/tns2:summary</entry></row><row><entry><b>/tns:updateEventRequest</b><b>/parameters</b><b>/tns2:Event</b><i>/[IF]  $put/item/tns2:Event/tns2:description </i><b>/tns2:description</b></entry><entry>$put/item/tns2:Event/tns2:description</entry></row><row><entry><b>/tns:updateEventRequest</b><b>/parameters</b><b>/tns2:Event</b><i>/[IF]  $put/item/tns2:Event/tns2:authorName </i><b>/tns2:authorName</b></entry><entry>$put/item/tns2:Event/tns2:authorName</entry></row><row><entry><b>/tns:updateEventRequest</b><b>/parameters</b><b>/tns2:Event</b><i>/[IF]  $put/item/tns2:Event/tns2:bookIsbn </i><b>/tns2:bookIsbn</b></entry><entry>$put/item/tns2:Event/tns2:bookIsbn</entry></row><row><entry><b>/tns:updateEventRequest</b><b>/parameters</b><b>/tns2:Event</b><i>/[IF]  $put/item/tns2:Event/tns2:date </i><b>/tns2:date</b></entry><entry>$put/item/tns2:Event/tns2:date</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+	  tns:updateEventRequest
+		 parameters
+			tns2:Event
+			   tns2:id = </b>$put/parameters/tns1:EventParameters/EventID<b>
+			   xsl:if test="$put/item/tns2:Event/tns2:summary"
+				  tns2:summary = </b>$put/item/tns2:Event/tns2:summary<b>
+			   xsl:if test="$put/item/tns2:Event/tns2:description"
+				  tns2:description = </b>$put/item/tns2:Event/tns2:description<b>
+			   xsl:if test="$put/item/tns2:Event/tns2:authorName"
+				  tns2:authorName = </b>$put/item/tns2:Event/tns2:authorName<b>
+			   xsl:if test="$put/item/tns2:Event/tns2:bookIsbn"
+				  tns2:bookIsbn = </b>$put/item/tns2:Event/tns2:bookIsbn<b>
+			   xsl:if test="$put/item/tns2:Event/tns2:date"
+				  tns2:date = </b>$put/item/tns2:Event/tns2:date</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" xmlns:tns2="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="put"/&gt;
+   &lt;xsl:template name="updateEvent-input" match="/"&gt;
+      &lt;tns:updateEventRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns2:Event&gt;
+               &lt;tns2:id&gt;
+                  &lt;xsl:value-of select="$put/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/tns2:id&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:summary"&gt;
+                  &lt;tns2:summary&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:summary"/&gt;
+                  &lt;/tns2:summary&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:description"&gt;
+                  &lt;tns2:description&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:description"/&gt;
+                  &lt;/tns2:description&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:authorName"&gt;
+                  &lt;tns2:authorName&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:authorName"/&gt;
+                  &lt;/tns2:authorName&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:bookIsbn"&gt;
+                  &lt;tns2:bookIsbn&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:bookIsbn"/&gt;
+                  &lt;/tns2:bookIsbn&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:date"&gt;
+                  &lt;tns2:date&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:date"/&gt;
+                  &lt;/tns2:date&gt;
+               &lt;/xsl:if&gt;
+            &lt;/tns2:Event&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:updateEventRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></p></conbody></concept></concept><concept xml:lang="en-us" id="References"><title>References:</title><concept id="Service"><title>Name:
+                <b><i>Service</i></b></title><conbody><p><ul><li>partnerLinkType: ns:ServicePLT</li><li>partnerRole: use</li><li>sca-bpel:ignore: true</li><li>sca-bpel:reference: Service</li><li>sca-bpel:wiredByImpl: false</li><li>dynamic: false</li><li>inline: false</li><li>processName: tibco.bwce.sample.binding.rest.bookstore.db.EventsDB</li><li>serviceName: EventsPersist</li></ul></p></conbody></concept></concept><concept xml:lang="en-us" id="Transitions"><title>Transitions:</title><conbody><ul id="Log_Reply"><li>
+                            From:
+                            <b><i>Log</i></b>
+                            -To:
+                            <b><i>Reply</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="addEvents_postOut"><li>
+                            From:
+                            <b><i>addEvents</i></b>
+                            -To:
+                            <b><i>postOut</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="Log1_Reply1"><li>
+                            From:
+                            <b><i>Log1</i></b>
+                            -To:
+                            <b><i>Reply1</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="getAllEvents_getOut"><li>
+                            From:
+                            <b><i>getAllEvents</i></b>
+                            -To:
+                            <b><i>getOut</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="Log2_Reply2"><li>
+                            From:
+                            <b><i>Log2</i></b>
+                            -To:
+                            <b><i>Reply2</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="getEventByID_getOut1"><li>
+                            From:
+                            <b><i>getEventByID</i></b>
+                            -To:
+                            <b><i>getOut1</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="Log3_Reply3"><li>
+                            From:
+                            <b><i>Log3</i></b>
+                            -To:
+                            <b><i>Reply3</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="updateEvent_putOut"><li>
+                            From:
+                            <b><i>updateEvent</i></b>
+                            -To:
+                            <b><i>putOut</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="Log4_Reply4"><li>
+                            From:
+                            <b><i>Log4</i></b>
+                            -To:
+                            <b><i>Reply4</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="deleteEvent_deleteOut"><li>
+                            From:
+                            <b><i>deleteEvent</i></b>
+                            -To:
+                            <b><i>deleteOut</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul></conbody></concept></concept>

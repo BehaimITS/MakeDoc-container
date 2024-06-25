@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : ftlConnection.xml                                        -->
+<!-- originator      : jkaspar                                                  -->
+<!-- creation date   : 2016-02-24                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore_ftlConnections" xml:lang="en-us">
+   <title>FTL Realm Server Connections</title>
+   <titlealts><navtitle>FTL Realm Server Connections</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks FTL Realm Server Connections from project tibco.bwce.sample.binding.rest.BookStore.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

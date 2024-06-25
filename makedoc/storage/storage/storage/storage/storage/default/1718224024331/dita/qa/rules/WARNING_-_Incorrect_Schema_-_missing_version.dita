@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<concept id="WARNING_-_Incorrect_Schema_-_missing_version" xml:lang="en-us">
+   <title>WARNING - Incorrect Schema - missing version</title>
+   <titlealts><navtitle>WARNING - Incorrect Schema - missing version</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains projects and their violations of rule &apos;Incorrect Schema - missing version&apos; - &apos;Check for version of XSD schema&apos;.</p>
+   </conbody>
+</concept>
