@@ -13,12 +13,13 @@ on:
         type: string
         required: false
         default: ''
-      BW_version:
+      projectType:
         type: choice
-        description: 'BusinessWorks version'
+        description: 'Project type'
         options: 
         - BusinessWorks 5
         - BusinessWorks 6
+        - Repository Analyst
         default: 'BusinessWorks 6'
       html:
         type: boolean
@@ -72,7 +73,7 @@ jobs:
           cp /home/makedoc/projects/${{ inputs.makedoc_key }} /home/makedoc/makedoc.key
       
       - name: Generate BW6 documentation
-        if: ${{ inputs.BW_version == 'BusinessWorks 6' }}
+        if: ${{ inputs.projectType == 'BusinessWorks 6' }}
         run: |
           ant customizeBW6Profile -f /home/makedoc/server/scripts/customization.xml \
             -Dtype="eagle" \
@@ -100,7 +101,7 @@ jobs:
             ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorks6ProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/projects/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
 
       - name: Generate BW5 documentation
-        if: ${{ inputs.BW_version == 'BusinessWorks 5' }}
+        if: ${{ inputs.projectType == 'BusinessWorks 5' }}
         run: |
           ant customizeBWProfile -f /home/makedoc/server/scripts/customization.xml \
             -Dtype="falcon" \
@@ -127,7 +128,35 @@ jobs:
             -DfailOnError="false"
           ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorksProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/projects/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
 
-          
+      - name: Generate Repository Analyst documentation
+        if: ${{ inputs.projectType == 'Repository Analyst' }}
+        run: |
+          ant customizeRitaProfile1Inputs -f /home/makedoc/server/scripts/customization.xml \
+            -Dtype="eagle" \
+            -Drelease.path="/home/makedoc/server/bin" \
+            -DprojectTargetDestination="/home/makedoc/server/ws/RA_default_group_repository" \
+            -DprofileRelativePath="Profiles/Enterprise.profile" \
+            -Dgroup="group" \
+            -Dstorage="default" \
+            -Drepository="repository"  \
+            -Ddocx="false" \
+            -Dhtml="true" \
+            -Dpdf="false" \
+            -Dmd="false" \
+            -Dformat="A4" \
+            -Dfilter="Filters/FullDetail.filter" \
+            -Daliases="-- no aliases --" \
+            -DallUnits="true" \
+            -DautoQA="false" \
+            -DinputBindingType="all" \
+            -DnotificationRecipients="" \
+            -DfailOnFatal="false" \
+            -DfailOnInfo="false" \
+            -DfailOnWarning="false" \
+            -DfailOnError="false"
+          ant -f /home/makedoc/server/scripts/srv/server_interface.xml analyse -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/projects/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/RA_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true -DtemplateWorkspace="/home/makedoc/server/ws/MAKEDOC_default_group_repository/" -DtargetWorkspace="/home/makedoc/server/ws/RA_default_group_repository/"
+
+        
       - name: Copy project to github repository
         run: |
           cp -r /home/makedoc/server/storage/default/ /home/makedoc/projects/generated/
