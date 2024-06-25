@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd"><concept xml:lang="en-us" id="Xsd"><title>BooksSchema</title><titlealts><navtitle>Schemas/BooksSchema</navtitle></titlealts><conbody><p>License for TIBCO Software Use Only! </p><p>
+				Section contains description of XSD Schema BooksSchema.xsd<q><xref href="BooksSchema.xsd" type="fig" format="xsd" scope="external">BooksSchema.xsd</xref></q></p><section><indexterm>BooksSchema</indexterm></section></conbody><concept xml:lang="en-us" id="FolderDescription"><title>Folder description:</title><conbody><table><tgroup cols="2"><colspec colwidth="75*" colname="folder"/><colspec colwidth="175*" colname="desc"/><thead><row><entry valign="top" colname="folder">Folder</entry><entry valign="top" colname="desc">Description</entry></row></thead><tbody><row><entry/><entry>No description</entry></row></tbody></tgroup></table></conbody></concept><concept xml:lang="en-us" id="Diagram"><title>Diagram:</title><conbody><image href="BooksSchema.xsd.png" alt="Diagram&#10;              BooksSchema.xsd" height="158"/></conbody></concept><concept xml:lang="en-us" id="Attributes"><title>Attributes</title><conbody><ul><li><i> elementFormDefault
+				:
+			</i><i> unqualified</i></li><li><i> targetNamespace
+				:
+			</i><i> http://www.example.org/Books/REST/1411989492608/ConceptSchema</i></li></ul></conbody></concept><concept xml:lang="en-us" id="Overview"><title>Overview</title><concept xml:lang="en-us" id="Elements"><title>Elements</title><conbody><ul><li><xref href="#element_BookParameters" type="concept">BookParameters</xref></li><li><xref href="#element_Book1Parameters" type="concept">Book1Parameters</xref></li></ul></conbody></concept></concept><concept xml:lang="en-us" id="Detail"><title>Detail</title><concept xml:lang="en-us" id="element_BookParameters"><title>element BookParameters</title><conbody><ul><li>element ISBN<i> type </i><i> string</i></li></ul>
+      
+        
+      
+    </conbody></concept><concept xml:lang="en-us" id="element_Book1Parameters"><title>element Book1Parameters</title><conbody><ul><li>element ISBN<i> type </i><i> string</i></li></ul>
+      
+        
+      
+    </conbody></concept></concept></concept>

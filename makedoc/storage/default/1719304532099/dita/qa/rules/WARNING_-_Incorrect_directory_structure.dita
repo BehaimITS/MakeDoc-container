@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<concept id="WARNING_-_Incorrect_directory_structure" xml:lang="en-us">
+   <title>WARNING - Incorrect directory structure</title>
+   <titlealts><navtitle>WARNING - Incorrect directory structure</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains projects and their violations of rule &apos;Incorrect directory structure&apos; - &apos;Checks for project directory structure&apos;.</p>
+   </conbody>
+</concept>

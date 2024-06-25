@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd"><concept xml:lang="en-us" id="JDBCConnectionsMain"><title>JDBCConnectionResource</title><titlealts><navtitle>Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource</navtitle></titlealts><conbody><p>License for TIBCO Software Use Only! </p><p>
+							Section contains description of JDBC Connection "
+							JDBCConnectionResource.jdbcResource
+							" .
+						</p><p>
+							Description:
+							</p></conbody><concept id="JDBCConnections"><title>JDBC Connections</title><conbody><ul><li>
+			Connection type: Direct
+		</li><li>
+			Max Connections:
+			10</li><li>
+			Login credentials: Username+Password
+		</li><li>
+			Username:
+			<xref outputclass="popup" href="#default: postgres, local: postgres, docker: dbUserName, " format="html">dbUserName</xref></li><li>
+			Password:
+			<xref outputclass="popup" href="#default: !QGg8qpD/DiuORP0rkq9eaEI+vZRPauvjmJFV2BmAPSU=, local: !GGJ+JL88lZfUCyq9BUmk92uzoH5HOM2XBF+Rv+JtedM=, docker: dbPassword, " format="html">dbPassword</xref></li></ul></conbody></concept><concept id="JDBCDriver"><title>JDBC Driver</title><conbody><ul><li>
+			Database Driver:
+			<xref outputclass="popup" href="#default: org.postgresql.Driver, local: org.postgresql.Driver, docker: dbDriver, " format="html">dbDriver</xref></li><li>
+			Database URL:
+			<xref outputclass="popup" href="#default: jdbc:postgresql://10.97.106.28:5432/postgres, local: jdbc:postgresql://10.97.106.28:5432/postgres, docker: dbURL, " format="html">dbURL</xref></li><li>
+			Login Timeout (ms):
+			30000</li></ul></conbody></concept></concept>
