@@ -54,7 +54,11 @@ jobs:
         run: |
           cp /home/makedoc/repository/${{ env.makedoc_key }} /home/makedoc/makedoc.key
           cp -r /home/makedoc/repository/makedoc/storage/ /home/makedoc/server/storage/
-          cp -r /home/makedoc/repository/makedoc/ws/ /home/makedoc/server/ws/
+          if [ "$(ls -A /home/makedoc/repository/makedoc/ws/)" ]; then
+              cp -r /home/makedoc/repository/makedoc/ws/ /home/makedoc/server/ws/
+          else
+              echo "Workspace is empty."
+          fi
       
       - name: Generate BW6 documentation
         if: ${{ env.BW_version == 'BusinessWorks 6' }}
