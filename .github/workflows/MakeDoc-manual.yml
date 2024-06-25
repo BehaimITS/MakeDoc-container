@@ -71,10 +71,9 @@ jobs:
       - name: Copy makedoc key & storage
         run: |
           cp /home/makedoc/repository/${{ inputs.makedoc_key }} /home/makedoc/makedoc.key
-          cp -r /home/makedoc/repository/makedoc/storage/ /home/makedoc/server/storage/
+          cp -r /home/makedoc/repository/makedoc/storage /home/makedoc/server/
           if [ "$(ls -A /home/makedoc/repository/makedoc/ws/)" ]; then
               cp -r /home/makedoc/repository/makedoc/ws /home/makedoc/server/
-              ls -la /home/makedoc/server/ws/
           else
               echo "Workspace is empty."
           fi
@@ -160,10 +159,7 @@ jobs:
             -DfailOnFatal="false" \
             -DfailOnInfo="false" \
             -DfailOnWarning="false" \
-            -DfailOnError="false" \
-            -Drepository.to.compare="repository" \
-            -Dgroup.to.compare="group" \
-            -Dstorage.to.compare="storage"
+            -DfailOnError="false"
           ant -f /home/makedoc/server/scripts/srv/server_interface.xml analyse -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/RA_default_group_repository -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true -DtemplateWorkspace="/home/makedoc/server/ws/MAKEDOC_default_group_repository/" -DtargetWorkspace="/home/makedoc/server/ws/RA_default_group_repository"
 
       - name: Transform MarkDown
