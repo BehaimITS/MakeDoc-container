@@ -1,0 +1,26 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             BEHAIM IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : sharedvariable.xml                                       -->
+<!-- originator      : jkaspar                                                   -->
+<!-- creation date   : 2018-04-15                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore.application_services" xml:lang="en-us">
+   <title>Sharedvariables</title>
+   <titlealts><navtitle>Shared Variables</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks Shared Variables from project tibco.bwce.sample.binding.rest.BookStore.application.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
+

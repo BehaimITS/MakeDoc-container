@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+  <concept id="ViolationsProjects" xml:lang="en-us">
+  <title>Violations by projects</title>
+  <titlealts><navtitle>Projects</navtitle></titlealts>
+  <conbody>
+    <p>Chapter contains projects in which occurences of violations appeared.</p>
+  </conbody>
+</concept>

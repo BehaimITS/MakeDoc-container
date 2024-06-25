@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : sharedparse.xml                                          -->
+<!-- originator      : ppavelka                                                 -->
+<!-- creation date   : 2007-04-05                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="%PROJECT_NCNAME%_sharedparses" xml:lang="en-us">
+   <title>Data Format Resources</title>
+   <titlealts><navtitle>Data Format Resources</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks Data Format Shared Configurations from project %PROJECT_NAME%.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

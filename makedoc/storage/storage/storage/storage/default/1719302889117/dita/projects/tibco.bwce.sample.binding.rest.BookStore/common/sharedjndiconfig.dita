@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : sharedjndiconfig.xml                                     -->
+<!-- originator      : ppavelka                                                 -->
+<!-- creation date   : 2007-04-05                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore_sharedjndis" xml:lang="en-us">
+   <title>Shared JNDI Configs</title>
+   <titlealts><navtitle>Shared JNDI Configs</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks Shared JNDI Configurations from project tibco.bwce.sample.binding.rest.BookStore.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

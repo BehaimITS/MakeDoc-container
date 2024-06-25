@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : policy.xml                                     -->
+<!-- originator      : jjanecek                                                  -->
+<!-- creation date   : 2018-05-16                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore_policies" xml:lang="en-us">
+   <title>Policies</title>
+   <titlealts><navtitle>Policies</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks6 Policies from project tibco.bwce.sample.binding.rest.BookStore.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
