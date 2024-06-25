@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<item name="local.substvar.dita" type="substvar" path="META-INF" level="1" designLib="" conflict="false"/>
+	<item name="TIBCO.application.dita" type="application" path="META-INF" level="1" designLib="" conflict="false"/>
+	<item name="default.substvar.dita" type="substvar" path="META-INF" level="1" designLib="" conflict="false"/>
+	<item name="docker.substvar.dita" type="substvar" path="META-INF" level="1" designLib="" conflict="false"/>
+</content>

@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : wssAuthentications.xml                                                 -->
+<!-- originator      : jkaspar                                                  -->
+<!-- creation date   : 2016-02-23                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore_wssauth" xml:lang="en-us">
+   <title>WSS Authentications</title>
+   <titlealts><navtitle>WSS Authentications</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks6 WSS Authentications from project tibco.bwce.sample.binding.rest.BookStore.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

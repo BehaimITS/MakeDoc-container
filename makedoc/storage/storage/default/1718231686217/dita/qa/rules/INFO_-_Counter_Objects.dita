@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<concept id="INFO_-_Counter_Objects" xml:lang="en-us">
+   <title>INFO - Counter Objects</title>
+   <titlealts><navtitle>INFO - Counter Objects</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains projects and their violations of rule &apos;Counter Objects&apos; - &apos;Compare the number of the objects againts max limit&apos;.</p>
+   </conbody>
+</concept>
