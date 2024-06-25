@@ -74,6 +74,7 @@ jobs:
           cp -r /home/makedoc/repository/makedoc/storage/ /home/makedoc/server/storage/
           if [ "$(ls -A /home/makedoc/repository/makedoc/ws/)" ]; then
               cp -r /home/makedoc/repository/makedoc/ws/ /home/makedoc/server/ws/
+              ls -la /home/makedoc/server/ws/
           else
               echo "Workspace is empty."
           fi
@@ -175,9 +176,9 @@ jobs:
           
       - name: Copy project to github storage directory
         run: |
-          mkdir -p /home/makedoc/repository/makedoc/ws/
+          mkdir -p /home/makedoc/repository/makedoc/
           cp -r /home/makedoc/server/storage /home/makedoc/repository/makedoc/
-          cp -r /home/makedoc/server/ws/ /home/makedoc/repository/makedoc/ws/
+          cp -r /home/makedoc/server/ws /home/makedoc/repository/makedoc/
 
       - name: Replace latest project in docs directory
         run: |
