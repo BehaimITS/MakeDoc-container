@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : httpProxy.xml                                            -->
+<!-- originator      : jsalomoun                                                -->
+<!-- creation date   : 2008-09-03                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="%PROJECT_NCNAME%_httpProxy" xml:lang="en-us">
+   <title>HTTP Proxies</title>
+   <titlealts><navtitle>HTTP Proxies</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks HTTP Proxies from project %PROJECT_NAME%.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

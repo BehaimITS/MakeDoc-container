@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleCheckerInstance xmlns="http://pikeelectronic.com/tibco/qa/xsd" enabled="true" system="true" type="MessageConfirmationRuleChecker">
+    <group>Presence of messages confirmation activities</group>
+    <name>JMS activities</name>
+    <description>Checks for Confirm activities presence to corresponding activities</description>
+    <severity>Warning</severity>
+    <mask>activity '%activity'</mask>
+    <config>
+      <CheckJMSActivities>true</CheckJMSActivities>
+      <CheckRVActivities>false</CheckRVActivities>
+      <CheckAdaActivities>false</CheckAdaActivities>
+    </config>
+    <filters>
+      <filter name="Processes" type="ExtensionsFilter">
+                        <config>
+                            <extensions>
+                                <extension>process</extension>
+                            </extensions>
+                        </config>
+                    </filter>
+    </filters>
+    <sources/>
+  </ruleCheckerInstance>

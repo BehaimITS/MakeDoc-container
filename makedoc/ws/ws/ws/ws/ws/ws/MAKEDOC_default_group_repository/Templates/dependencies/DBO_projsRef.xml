@@ -1,0 +1,26 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : GV_projsRef.xml                                          -->
+<!-- originator      : lkocourek                                                -->
+<!-- creation date   : 2007-10-31                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="crossref_dbo" xml:lang="en-us">
+   <title>Projects Reference</title>
+   <titlealts><navtitle>Projects Reference</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains Database objects project reference. It shows 
+     relationship among project and database tables, views and procedures being affected by it.</p>
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
