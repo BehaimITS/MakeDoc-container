@@ -68,7 +68,7 @@ jobs:
           git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
           git pull origin main
           
-      - name: Copy makedoc key & storage
+      - name: Copy makedoc key, storage and workspace
         run: |
           cp /home/makedoc/repository/${{ inputs.makedoc_key }} /home/makedoc/makedoc.key
           cp -r /home/makedoc/repository/makedoc/storage /home/makedoc/server/
