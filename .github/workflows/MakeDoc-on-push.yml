@@ -50,12 +50,12 @@ jobs:
           git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
           git pull origin main
           
-      - name: Copy makedoc key
+      - name: Copy makedoc key, storage and workspace
         run: |
           cp /home/makedoc/repository/${{ env.makedoc_key }} /home/makedoc/makedoc.key
           cp -r /home/makedoc/repository/makedoc/storage /home/makedoc/server/
           if [ "$(ls -A /home/makedoc/repository/makedoc/ws/)" ]; then
-              cp -r /home/makedoc/repository/makedoc/ws/ /home/makedoc/server/ws/
+              mkdir -p /home/makedoc/server/ws/ && cp -r /home/makedoc/repository/makedoc/ws/* /home/makedoc/server/ws/
           else
               echo "Workspace is empty."
           fi
