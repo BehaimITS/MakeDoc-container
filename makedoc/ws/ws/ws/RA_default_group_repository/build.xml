@@ -61,6 +61,19 @@
 	
 	<target name="rita2dita" depends="check">
 		<echo level="info">Profile name: ${profile.name}</echo>
+		<echo>
+			ritaInputData="${settings.inputData}" 
+			register="${general.storages.register}" 
+			outputURI="${storage.record.path}" 
+			profile="${profile.name}" 
+			licencePath="${general.licence.file}" 
+			storageRecordPath="${storage.record.path}"  
+			logback="${logback.for.snapshot}" 
+			makeDocPath="${general.makedoc.path}" 
+			makedocConfiguration="${makedoc.configuration}" 
+			optionals="${optionals}" 
+			htmlMode="${settings.html}"
+		</echo>
 		<taskdef name="rita.genAnalysis" classname="com.pike.rita.ant.Rita2DitaTask" classpathref="mdClasspath" />
 		<rita.genAnalysis ritaInputData="${settings.inputData}" register="${general.storages.register}" outputURI="${storage.record.path}" profile="${profile.name}" licencePath="${general.licence.file}" storageRecordPath="${storage.record.path}"  logback="${logback.for.snapshot}" makeDocPath="${general.makedoc.path}" makedocConfiguration="${makedoc.configuration}" optionals="${optionals}" htmlMode="${settings.html}"/>
 		<condition property="generated.ok">

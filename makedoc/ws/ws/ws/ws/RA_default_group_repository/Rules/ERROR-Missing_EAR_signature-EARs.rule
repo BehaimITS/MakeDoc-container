@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleCheckerInstance xmlns="http://pikeelectronic.com/tibco/qa/xsd" enabled="true" system="true" type="XPathRuleChecker">
+<group>Missing EAR signature</group>
+<name>EARs</name>
+<description/>
+<severity>FatalError</severity>
+<mask/>
+<config>
+<XPathExpression>string-length(/*:DeploymentDescriptors/*:owner) > 0</XPathExpression>
+<violationDescription>EAR file has no signature</violationDescription>
+<namespaces>
+<namespace>
+<prefix>DeploymentDescriptors</prefix>
+<uri>http://www.tibco.com/xmlns/dd</uri>
+</namespace>
+</namespaces>
+</config>
+<filters>
+        <filter mode="set" type="FileListFilter">
+            <config>
+                <pathType xmlns:ns2="http://pikeelectronic.com/tibco/qa/xsd" xmlns="">relative</pathType>
+                <files xmlns:ns2="http://pikeelectronic.com/tibco/qa/xsd" xmlns="">
+                    <file>/TIBCO.xml</file>
+                </files>
+            </config>
+        </filter>
+</filters>
+<sources/>
+</ruleCheckerInstance>

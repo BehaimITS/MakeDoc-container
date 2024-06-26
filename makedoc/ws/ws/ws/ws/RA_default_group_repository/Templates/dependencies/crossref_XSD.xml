@@ -1,0 +1,27 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : crossref_XSD.xml                                         -->
+<!-- originator      : lkocourek                                                -->
+<!-- creation date   : 2007-10-31                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="crossref_xsd" xml:lang="en-us">
+   <title>XSD Schemas</title>
+   <titlealts><navtitle>XSD Schemas</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains XSD Schemas from cross-reference documentation.</p>
+     <p>XSD Cross-Reference represents relations among XSD types and
+		projects. It shows for one XSD type all resources that use it.</p>
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

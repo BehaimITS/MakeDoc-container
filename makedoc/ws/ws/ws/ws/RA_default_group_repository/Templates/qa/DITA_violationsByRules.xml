@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+  <concept id="ViolationsRules" xml:lang="en-us">
+  <title>Violations by rules</title>
+  <titlealts><navtitle>Rules</navtitle></titlealts>
+  <conbody>
+    <p>Chapter contains rules which were not followed and description of their particular violations.</p>
+  </conbody>
+</concept>

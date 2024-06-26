@@ -1,0 +1,27 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc for TIBCO                                                  -->
+<!-- filename        : intro.xml                                                -->
+<!-- originator      : zhozakova                                                -->
+<!-- creation date   : 2008-01-03                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="Intro" xml:lang="en-us">
+  <title>Introduction</title>
+  <titlealts><navtitle>Introduction</navtitle></titlealts>
+  <conbody>
+    <p>This document contains structured documentation of TIBCO BW/BE projects.   It was generated automatically by MakeDoc for TIBCO. The document has two parts, project documentation and cross-reference documentation.</p>
+    <p>Project documentation provides detailed description for each documented project, it is structured same way as in TIBCO Designer. Besides, it contains also automatically generated diagrams for following resources: processes, WSDLs, XSDs, state machines and concept views. If defined, the documentation for design time libraries is also generated.</p> 
+    <p>Cross-reference documentation shows relations among all documented projects. It gives an overview of communication in part called Destinations, an overview of global variables usage in part Global Variables and an overview of relations among Projects and Database objects in part called Database Objects. Following communication types are documented: JMS messages, SOAP actions, Business Events, Rendezvous messages and JDBC calls.</p>
+  </conbody>  
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
