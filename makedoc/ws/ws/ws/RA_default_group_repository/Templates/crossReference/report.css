@@ -1,0 +1,106 @@
+BODY
+{
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+TABLE
+{
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+H1
+{
+  font-weight: bold;
+  font-size: 16pt;
+  color: #3366cc;
+  font-family: Arial;
+}
+
+H2
+{
+  font-weight: bold;
+  font-size: 14pt;
+  color: #000000;
+  font-style: italic;
+  font-family: Arial;
+}
+
+H3
+{
+  font-weight: bold;
+  font-size: 13pt;
+  font-family: Arial;
+}
+
+H4
+{
+  font-weight: bold;
+  font-size: 11pt;
+  font-family: Arial;
+}
+
+.group0
+{
+  margin-left: 0px;
+  font-family: Arial;
+}
+.titlegroup0
+{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 0px;
+  font-family: Arial;
+}
+
+.group1
+{
+  margin-left: 15px;
+  font-family: Arial;
+}
+.titlegroup1
+{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
+  font-family: Arial;
+}
+
+.group2
+{
+  margin-left: 30px;
+  font-family: Arial;
+}
+.titlegroup2
+{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: Arial;
+}
+
+.group3
+{
+  margin-left: 45px;
+  font-family: Arial;
+}
+.titlegroup3
+{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 45px;
+  font-family: Arial;
+}
+.group4
+{
+  margin-left: 60px;
+  font-family: Arial;
+}
+.titlegroup4
+{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 600px;
+  font-family: Arial;
+}

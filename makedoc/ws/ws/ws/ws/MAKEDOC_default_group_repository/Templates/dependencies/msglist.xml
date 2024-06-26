@@ -1,0 +1,28 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : msglist.xml                                              -->
+<!-- originator      : zhozakova                                                -->
+<!-- creation date   : 2007-06-27                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="crossref_msgs" xml:lang="en-us">
+   <title>Destinations Reference</title>
+   <titlealts><navtitle>Destinations Reference</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains message list from cross-reference documentation.</p>
+     <p>Destination Cross-Reference represents relations among destinations and 
+		projects. It shows for one destination all project that sends or receives data 
+		from it.</p>
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

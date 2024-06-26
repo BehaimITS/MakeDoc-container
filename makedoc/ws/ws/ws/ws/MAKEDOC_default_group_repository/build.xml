@@ -1,0 +1,346 @@
+<project name="eagle" default="all" basedir=".">
+
+	<import file="${makedoc.configuration}/commons.xml" />
+	
+	<property file="${makedoc.configuration}/${ant.project.name}.properties" />
+	
+	<condition property="generate.pdf">
+		<equals arg1="${settings.pdf}" arg2="true" />
+	</condition>
+	
+	<condition property="generate.pdf.per.project">
+		<equals arg1="${settings.pdf}" arg2="per_project" />
+	</condition>	
+	
+	<condition property="generate.docx">
+		<equals arg1="${settings.docx}" arg2="true" />
+	</condition>
+	
+	<condition property="generate.html">
+		<equals arg1="${settings.html}" arg2="true" />
+	</condition>
+	
+	<condition property="generate.html.ondemand">
+		<equals arg1="${settings.html}" arg2="ondemand" />
+	</condition>
+		
+	<condition property="generate.md">
+		<equals arg1="${settings.md}" arg2="true" />
+	</condition>
+	
+	<condition property="noInputData">
+		<not>
+			<or>
+				<isset property="${settins.inputData}"/>
+		    	<length string="${settings.inputData}" when="gt" length="0" />
+			</or>
+		</not>
+	</condition>
+	
+	<condition property="noProfileName">
+		<not>
+			<or>
+				<isset property="${profile.name}"/>
+		    	<length string="${profile.name}" when="gt" length="0" />
+			</or>
+		</not>
+	</condition>
+	
+	<target name="errorNoInputData" if="noInputData">
+		<fail>There are no projects to document, please add some and run documetation process again.</fail>
+	</target>
+	
+	<target name="errorNoProfileName" if="noProfileName">
+		<fail>Profile name is not set.</fail>
+	</target>
+	
+	<target name="checkProfile" depends="errorNoInputData,errorNoProfileName"/>
+	
+
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: setEagleDevEnv                     
+         - - - - - - - - - - - - - - - - - -->
+	<target name="setEagleDevEnv" if="development">
+		<echo>Setting Eagle development environment</echo>
+
+		<path id="eagleClasspath">
+			<dirset dir="${general.makedoc.path}/commons">
+				<include name="*/bin" />
+			</dirset>
+			<fileset dir="${general.makedoc.path}/commons/com.pike.commons">
+				<include name="lib/*.jar" />
+			</fileset>
+			<dirset dir="${general.makedoc.path}/eagle/">
+				<include name="*/bin" />
+			</dirset>
+			<dirset dir="${general.makedoc.path}/generic/">
+				<include name="com.pike.qualityassurance/bin" />
+			</dirset>
+			<!--fileset dir="${tibco.bw6_home}/lib/palettes">
+				<include name="processPalettes.jar" />
+			</fileset-->
+		</path>
+
+	</target>
+
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: setEagleProdEnv                      
+         - - - - - - - - - - - - - - - - - -->
+	<target name="setEagleProdEnv" unless="development">
+		<echo>Setting Eagle production environment</echo>
+
+		<path id="eagleClasspath">
+			<dirset dir="${general.makedoc.path}/plugins">
+				<include name="com.pike.commons*" />			
+			</dirset>
+			<fileset dir="${general.makedoc.path}/plugins">
+				<include name="com.pike.commons*/lib/*.jar" />
+			</fileset>
+			<fileset dir="${general.makedoc.path}/plugins">
+				<include name="com.behaim.eagle.*.jar" />
+				<!--include name="com.behaim.eagle.bw2dita.core*.jar" /-->
+				<include name="com.behaim.commons.eagle*.jar" />
+				<include name="com.pike.qualityassurance*.jar" />
+			</fileset>
+			<fileset dir="${general.makedoc.path}/plugins">
+				<include name="org.eclipse.core.runtime_*.jar" />
+				<include name="org.eclipse.equinox.common_*.jar" />
+				<include name="org.eclipse.osgi_*.jar" />
+			</fileset>
+			<!--fileset dir="${tibco.bw6_home}/lib/palettes">
+				<include name="processPalettes.jar" />
+			</fileset-->
+		</path>
+	</target>
+
+	<!-- - - - - - - - - - - - - - - - - - 
+         Icons classpath handling targets                      
+         - - - - - - - - - - - - - - - - - -->
+
+	<target name="setIcons">
+		<echo>Using icons set ...</echo>
+		<!--path id="iconsClasspath">
+			<fileset dir="${tibco.bw6_home}/lib/palettes" erroronmissingdir="false">
+				<include name="processPalettes.jar" />
+				<include name="servicePalettes.jar" />
+				<include name="plugins.jar" />
+			</fileset>
+			<fileset dir="${tibco.bw6_home}/../plugins/lib/palettes" erroronmissingdir="false">
+				<include name="bcplugin.jar" />
+				<include name="dxpalettes.jar" />
+				<include name="ejbplugin.jar" />
+				<include name="objectstar.jar" />
+				<include name="xrefplugin.jar" />
+				<include name="iProcessPlugin.jar" />
+				<include name="activespacesplugin.jar"/>
+				<include name="restjsonplugin.jar"/>
+			</fileset>
+			
+      		<fileset dir="${tibco.oldbe_home}/lib/palettes" erroronmissingdir="false">
+		       	<include name="be-bw.jar"/>
+		       	<include name="be-statemodeler.jar"/>
+		       	<include name="be-palettes.jar"/>
+       		</fileset>
+		</path-->		
+	</target>
+	<target name="getIconsDev" if="development">
+		<mkdir dir="${storage.record.path}/tmp/icons/com/pike/commons/wsdl"/>
+		<copy todir="${storage.record.path}/tmp/icons/com/pike/commons/wsdl" flatten="true">
+			<fileset dir="${general.makedoc.path}/commons" erroronmissingdir="false">
+				<include name="com.pike.commons/icons/com/pike/commons/wsdl/*.gif" />
+			</fileset>    
+		</copy>
+		<unzip dest="${storage.record.path}/tmp">
+			<patternset>
+				<include name="**/icons/obj32/*.png"/>
+				<include name="**/icons/obj32/*.gif"/>
+				<include name="**/icons/full/obj32/*.png"/>
+				<include name="**/icons/file/obj32/*.png"/>
+				<include name="**/icons/full/obj32/*.gif"/>
+				<include name="**/icons/obj16/group_*16x16.png"/>
+				<include name="**/icons/obj16/start_16x16.png"/>
+				<include name="**/icons/obj16/catch_*16x16.png"/>
+				<include name="**/icons/obj16/MEP_*16x16.png"/>
+				<include name="**/icons/obj16/property_16x16.png"/>
+				<include name="**/icons/obj16/group_*16x16.gif"/>
+				<include name="**/icons/obj16/variable_16x16.png"/>
+				<include name="**/icons/obj16/reference_wire_dynamic_16x16.png"/>
+				<include name="**/icons/obj16/pick.gif"/>
+				<include name="**/icons/obj24/*45x32.gif"/>
+				<include name="**/icons/obj24/*45x32.png"/>
+				<include name="**/icons/bw5/obj32/*.gif"/>
+				<include name="**/icons/obj48/excel*_48x48.png"/>
+				<include name="**/icons/obj16/compensation_handler_16x16.png"/>
+			</patternset>
+			<fileset dir="${tibco.home_path}/eclipse-platform/bundlepool/1.0/org.eclipse.equinox.p2.touchpoint.eclipse/plugins">
+				<include name="com.tibco.bw.palette.*.model_*.jar" />
+				<include name="com.tibco.bw.core.model.eclipse_*.jar" />
+				<include name="com.tibco.bw.core.design.process.editor_*.jar" />
+				<include name="com.tibco.bw.palette.ldap.design_*.jar" />
+			</fileset>    
+		 </unzip>
+	</target>
+	<target name="getIconsProd" unless="development">
+		<mkdir dir="${storage.record.path}/tmp/icons/com/pike/commons/wsdl"/>
+		<copy todir="${storage.record.path}/tmp/icons/com/pike/commons/wsdl" flatten="true">
+			<fileset dir="${general.makedoc.path}/plugins" erroronmissingdir="false">
+				<include name="com.pike.commons_*/icons/com/pike/commons/wsdl/*.gif" />
+			</fileset>    
+		</copy>
+		<unzip dest="${storage.record.path}/tmp">
+			<patternset>
+				<include name="**/icons/obj32/*.png"/>
+				<include name="**/icons/obj32/*.gif"/>
+				<include name="**/icons/full/obj32/*.png"/>
+				<include name="**/icons/file/obj32/*.png"/>
+				<include name="**/icons/full/obj32/*.gif"/>
+				<include name="**/icons/obj16/group_*16x16.png"/>
+				<include name="**/icons/obj16/start_16x16.png"/>
+				<include name="**/icons/obj16/catch_*16x16.png"/>
+				<include name="**/icons/obj16/MEP_*16x16.png"/>
+				<include name="**/icons/obj16/property_16x16.png"/>
+				<include name="**/icons/obj16/group_*16x16.gif"/>
+				<include name="**/icons/obj16/variable_16x16.png"/>
+				<include name="**/icons/obj16/reference_wire_dynamic_16x16.png"/>
+				<include name="**/icons/obj16/pick.gif"/>
+				<include name="**/icons/obj24/*45x32.gif"/>
+				<include name="**/icons/obj24/*45x32.png"/>
+				<include name="**/icons/bw5/obj32/*.gif"/>
+				<include name="**/icons/obj48/excel*_48x48.png"/>
+				<include name="**/icons/obj16/compensation_handler_16x16.png"/>
+			</patternset>
+		    <fileset dir="${tibco.home_path}/eclipse-platform/bundlepool/1.0/org.eclipse.equinox.p2.touchpoint.eclipse/plugins">
+		    	<include name="com.tibco.bw.palette.*.model_*.jar" />
+		    	<include name="com.tibco.bw.core.model.eclipse_*.jar" />
+		    	<include name="com.tibco.bw.core.design.process.editor_*.jar" />
+		    	<include name="com.tibco.bw.palette.ldap.design_*.jar" />
+		    </fileset>    
+		</unzip>
+	</target>
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: setEagleEnv                      
+         - - - - - - - - - - - - - - - - - -->
+	<target name="setEagleEnv" depends="setClasspath,checkTask.check.module,setEagleDevEnv,setEagleProdEnv,getIconsDev,getIconsProd" />
+	
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: checkTask.check.module                      
+         - - - - - - - - - - - - - - - - - -->
+	<target name="checkTask.check.module" depends="checkTask.check.generic" unless="development">	
+			
+		<dirset dir="${general.makedoc.path}" includes="plugins/com.behaim.${ant.project.name}.preferences*" id="eagle_preferencesDir" />
+		<pathconvert pathsep=";" property="checkTask.check.module.preferencePath" refid="eagle_preferencesDir" />		
+		<property name="checkTask.check.module.configPath" value="${checkTask.check.module.preferencePath}/configuration" />
+					
+		<echo>Testing MakeDoc config - ${ant.project.name}</echo>
+		<checkTask.task makedocConfig="${makedoc.configuration}" configPath="${checkTask.check.module.configPath}" product="Eagle" />
+	</target>
+	
+	<target name="bw2dita" depends="checkProfile,setEagleEnv" description="Calls Eagle to generate Business Works documentantion">
+		<echo>*****************************************************************************</echo>
+		<echo>         MakeDoc NG - TIBCO BusinessWorks6 module (codename Eagle)           </echo>
+		<echo>*****************************************************************************</echo>
+		<property name="slash" value="/" />
+
+		<!--property name="iconsClasspathString" refid="iconsClasspath" /-->
+
+		<java classname="com.behaim.eagle.director.EagleDirector" classpathref="mdClasspath">
+			<arg value="${profile.name}" />
+			<arg value="${basedir}" />
+			<arg value="${storage.record.path}" />
+			<arg value="${settings.inputData}" />
+			<arg value="true" />
+			<arg value="${general.dita.path}" />
+			<arg value="${basedir}${slash}${profile.templates}" />
+			<arg value="${general.licence.file}" />
+			<arg value="${settings.substituteGlobalVars}" />
+			<arg value="${isDevelopment}" />
+			<arg value="${makedoc.configuration}/dtd" />
+			<arg value="${qa.properties}" />
+			<arg value="${filter.properties}" />
+			<arg value="${settings.substituteGlobalVars}" />
+			<arg value="true" />
+			<arg value="${general.makedoc.path}" />
+			<arg value="${tmpPath}"/>
+			<arg value="${makedoc.configuration}"/>
+			<arg value="${logback.for.snapshot}" />
+			<arg value="${eagle.config}" />
+			<arg value="${settings.inputBindingsType}" />
+			<arg value="${optionals}" />
+      		<sysproperty key="logback.configurationFile" value="${logback.for.snapshot}"/>
+			<sysproperty key="record.path" value="${storage.record.path}"/>
+			<sysproperty key="javax.xml.transform.TransformerFactory" value="org.apache.xalan.processor.TransformerFactoryImpl" />
+			<sysproperty key="javax.xml.xpath.XPathFactory" value="org.apache.xpath.jaxp.XPathFactoryImpl"/>
+		</java>
+		
+		<antcall target="storage.ditaDone" />
+
+	</target>
+
+	<target name="copyWsdlXsdAe2Html">
+	  	<copy toDir="${storage.record.path}/html/projects">
+	    	<fileset dir="${storage.record.path}/dita/projects">
+	        	<include name="**/*.wsdl"/>
+	    		<include name="**/*.svg"/>
+	    		<include name="**/*.xsd"/>
+	    		<include name="**/*.aeschema"/>
+	    		<include name="**/*.png"/>
+	      	</fileset>
+	    </copy>
+	</target>
+	
+	<target name="html" if="generate.html" depends="html.full,html.ondemand"/>
+	
+	<target name="html.full" depends="checkProfile,bw2dita,html-dita,copyWsdlXsdAe2Html" description="Generates HTML" />
+		
+	<target name="html.ondemand" depends="checkProfile,bw2dita,html-dita-server,cocoon.server.post.steps" description="Generates HTML on the fly via cocoon" />
+
+	<target name="pdf" depends="checkProfile,bw2dita,pdf-dita" if="generate.pdf" unless="nolic.pdf" description="Generates PDF" />
+	
+	<target name="pdf.per.project" depends="checkProfile,bw2dita,pdf-dita-per-project" if="generate.pdf.per.project" unless="nolic.pdf" description="Generates PDF" />
+
+	<target name="docx" depends="checkProfile,bw2dita,docx-dita" if="generate.docx" unless="nolic.docx" description="Generates DOCX" />
+
+	<target name="md" if="generate.md" depends="md-dita" description="Generates markdown"/>
+
+	<target name="all" depends="checkProfile,makeDocConfigurationPath,makeDocDeveopmentDebug,storage.createRecord,storage.logToRecord,bw2dita,html,md,pdf,pdf.per.project,docx,storage.closeRecord,storage.portal,logs.compress, storage.create-symlink" description="Generates Business Works documentation." />
+
+	<target name="ditaOnly" depends="setEagleEnv" description="Calls Eagle to generate Business Works documentantion">
+		<echo>*****************************************************************************</echo>
+		<echo>         MakeDoc NG - TIBCO BusinessWorks6 module (codename Eagle)          </echo>
+		<echo>*****************************************************************************</echo>
+		<property name="slash" value="/" />
+
+		<!--property name="iconsClasspathString" refid="iconsClasspath" /-->
+
+		<java classname="com.behaim.eagle.director.EagleDirector" classpathref="mdClasspath">
+			<arg value="${profile.name}" />
+			<arg value="${basedir}" />
+			<arg value="${storage.record.path}" />
+			<arg value="${settings.inputData}" />
+			<arg value="true" />
+			<arg value="${general.dita.path}" />
+			<arg value="${basedir}${slash}${profile.templates}" />
+			<arg value="${general.licence.file}" />
+			<arg value="${settings.substituteGlobalVars}" />
+			<arg value="${isDevelopment}" />
+			<arg value="${makedoc.configuration}/dtd" />
+			<arg value="${qa.properties}" />
+			<arg value="${filter.properties}" />
+			<arg value="${settings.substituteGlobalVars}" />
+			<arg value="true" />
+			<arg value="${general.makedoc.path}" />
+			<arg value="${tmpPath}"/>
+			<arg value="${makedoc.configuration}"/>
+			<arg value="${logback.for.snapshot}" />
+			<arg value="${eagle.config}" />
+			<arg value="${settings.inputBindingsType}" />
+			<arg value="${optionals}" />
+			<sysproperty key="logback.configurationFile" value="${logback.for.snapshot}"/>
+			<sysproperty key="record.path" value="${storage.record.path}"/>
+			<sysproperty key="javax.xml.transform.TransformerFactory" value="org.apache.xalan.processor.TransformerFactoryImpl" />
+			<sysproperty key="javax.xml.xpath.XPathFactory" value="org.apache.xpath.jaxp.XPathFactoryImpl"/>
+		</java>
+
+	</target>
+
+</project>

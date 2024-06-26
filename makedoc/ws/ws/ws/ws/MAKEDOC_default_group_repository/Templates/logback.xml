@@ -1,0 +1,57 @@
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>INFO</level>
+    </filter>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss} %level [%thread] [%file:%line] %msg%n</Pattern>
+		</layout>
+	</appender>
+	
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>x:/makedoc/log/MakeDoc.log</File>   
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">      
+      <FileNamePattern>x:/makedoc/log/MakeDoc.log.%i</FileNamePattern>      
+      <MinIndex>1</MinIndex>      
+      <MaxIndex>3</MaxIndex>    
+    </rollingPolicy>    
+      <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">      
+      <MaxFileSize>10MB</MaxFileSize>    
+    </triggeringPolicy>    
+    <layout class="ch.qos.logback.classic.PatternLayout">      
+      <Pattern>%d{yyyy-MM-dd HH:mm:ss} %level [%thread] [%file:%line] %msg%n</Pattern>    
+    </layout> 
+  </appender>
+  
+  <!--appender name="FILE" class="com.pikeelectronic.common.logging.MakeDocRollingFileAppender">    
+    <File>../log/MakeDoc.log</File>    
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">      
+      <FileNamePattern>../log/MakeDoc.log.%i</FileNamePattern>      
+      <MinIndex>1</MinIndex>      
+      <MaxIndex>3</MaxIndex>    
+    </rollingPolicy>    
+      <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">      
+      <MaxFileSize>10MB</MaxFileSize>    
+    </triggeringPolicy>    
+    <layout class="ch.qos.logback.classic.PatternLayout">      
+      <Pattern>%d{yyyy-MM-dd HH:mm:ss} %level [%thread] [%file:%line] %msg%n</Pattern>    
+    </layout> 
+  </appender-->
+	
+	<logger name="org.apache.fop" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="FILE" />		
+	</logger>
+	<logger name="org.apache.xmlgraphics" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="FILE" />		
+	</logger>
+
+	<root>
+		<level value="DEBUG" />		
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</root>
+
+</configuration>
