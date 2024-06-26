@@ -1,0 +1,19 @@
+/* Reset styles or any global styles go here */
+
+/* Import other CSS files */
+@import url('page.css');
+@import url('jquery-ui.min.css');
+@import url('jquery-ui.structure.min.css');
+@import url('jquery-ui.theme.min.css');
+
+/* IE specific styles */
+<!--[if lte IE 6]>
+@import url('page-ie6.css');
+@import url('menu-ie6.css');
+@import url('title-page-ie6.css');
+<![endif]-->
+
+<!--[if lte IE 7]>
+@import url('page-ie7.css');
+@import url('menu-ie7.css');
+<![endif]-->
