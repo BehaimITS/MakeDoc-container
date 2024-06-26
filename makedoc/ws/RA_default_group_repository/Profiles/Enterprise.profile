@@ -1,27 +1,20 @@
-settings.qa.checkReport.failOnInfo=false
-notification.recipients=
-settings.md=true
-settings.qa.checkReport.failOnWarning=false
-settings.substituteGlobalVars=true
-settings.inputBindingsType=all
-settings.paperFormat=A4
-profile.name=Enterprise
-settings.html=false
-settings.automaticallyDocumentNewUnits=true
-profile.author=Behaim IT Solutions
-settings.qa.checkReport.failOnError=false
-settings.automaticallyDocumentAllRule=false
-qa.properties=Profiles/Enterprise.qa
-profile.description=Enterprise Profile
-settings.aliases=-- no aliases --
-settings.qa.checkReport.failOnFatal=false
-settings.docx=false
-settings.group=group
-filter.properties=Filters/FullDetail.filter
-settings.repository=repository
-settings.pdf=false
-strainer.properties=
-profile.templates=Templates
+#Wed, 26 Jun 2024 13:46:32 +0000
+settings.inputData={"projects":[{"repository":"repository","offset":-1,"group":"group","storage":"default"},{"repository":"repository","offset":0,"group":"group","storage":"default"}]}
+
+rita.maps=
+rita.excludes=
 settings.storage=default
-settings.platform=BW6
-settings.inputData={"projects":[{"uri":"Projects/tibco.bwce.sample.binding.rest.BookStore.application.project"},{"uri":"Projects/tibco.bwce.sample.binding.rest.BookStore.project"}]}
+settings.repository=repository
+settings.group=group
+
+profile.name=Enterprise
+profile.description=Enterprise profile
+profile.author=Behaim IT Solutions
+
+settings.docx=false
+settings.html=true
+settings.paperFormat=A4
+settings.pdf=false
+settings.md=false
+
+notification.recipients=
