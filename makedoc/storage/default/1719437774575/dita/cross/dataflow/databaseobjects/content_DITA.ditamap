@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+                     "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="Database Objects cross-reference documentation">
+		<topicmeta>
+		<critdates>
+			<created date="2024/06/26 21:36"/>
+		</critdates>
+	</topicmeta>
+					<topicref href="cross_jdbc_postgresql___10.97.106.28_5432_postgres.dita"/>
+</map>

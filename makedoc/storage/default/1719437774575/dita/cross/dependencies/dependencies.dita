@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="Dependencies_Cross-reference_summary" xml:lang="en-us">
+<title>Dependencies</title>
+<titlealts><navtitle>Dependencies</navtitle></titlealts>
+<conbody>
+<p>Chapter contains Dependencies Cross-reference documentation. This section describes dependencies between TIBCO objects. Typically which processes uses specific connection.</p>
+</conbody>
+</concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<concept id="output_summary" xml:lang="en-us">
+  <title>BW Documentation</title>
+  <titlealts><navtitle>BW Documentation</navtitle></titlealts>
+  <conbody>
+    <p>Chapter contains outputs documentation.</p>
+  </conbody>
+</concept>

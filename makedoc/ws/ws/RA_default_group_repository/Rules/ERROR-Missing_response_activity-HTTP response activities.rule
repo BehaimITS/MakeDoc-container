@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleCheckerInstance xmlns="http://pikeelectronic.com/tibco/qa/xsd" enabled="true" system="true" type="XPathRuleChecker">
+<group>Missing response activity</group>
+<name>HTTP response activities</name>
+<description>Check for missing response activity</description>
+<severity>Error</severity>
+<mask/>
+<config>
+<XPathExpression>(count(/*:ProcessDefinition/*:starter[*:type='com.tibco.plugin.http.HTTPEventSource']) = 1 and count(/*:ProcessDefinition/*:activity[*:type='com.tibco.plugin.http.HTTPResponseActivity']) > 0) or count(/*:ProcessDefinition/*:starter[*:type='com.tibco.plugin.http.HTTPEventSource']) = 0</XPathExpression>
+<violationDescription>Process has starter activity, but has no adequate response activity</violationDescription>
+<namespaces>
+<namespace>
+<prefix>pd</prefix>
+<uri>http://xmlns.tibco.com/bw/process/2003</uri>
+</namespace>
+</namespaces>
+</config>
+<filters>
+        <filter mode="set" type="ExtensionsFilter">
+            <config>
+                <extensions xmlns:ns2="http://pikeelectronic.com/tibco/qa/xsd" xmlns="">
+                    <extension>process</extension>
+                </extensions>
+            </config>
+        </filter>
+</filters>
+<sources/>
+</ruleCheckerInstance>

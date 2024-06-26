@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleCheckerInstance xmlns="http://pikeelectronic.com/tibco/qa/xsd" enabled="true" system="true" type="XPathRuleChecker">
+<group>Hardcoded connection parameters</group>
+<name>JDBC connections</name>
+<description>Check for hardcoded connection</description>
+<severity>Error</severity>
+<mask/>
+<config>
+<XPathExpression>((/*:BWSharedResource/*:config/*:connectionType = 'JDBC') and (contains(/*:BWSharedResource/*:config/*:location,'%%'))) or ((/*:BWSharedResource/*:config/*:connectionType = 'JNDI') and (contains(/*:BWSharedResource/*:config/*:jndiDataSourceName,'%%')) and (contains(/*:BWSharedResource/*:config/*:ProviderUrl,'%%')) ) or ((/*:BWSharedResource/*:config/*:connectionType = 'XA') and (contains(/*:BWSharedResource/*:config/*:location,'%%')))</XPathExpression>
+<violationDescription>Hardcoded connection</violationDescription>
+<namespaces>
+<namespace>
+<prefix/>
+<uri/>
+</namespace>
+</namespaces>
+</config>
+<filters>
+        <filter mode="set" type="ExtensionsFilter">
+            <config>
+                <extensions xmlns:ns2="http://pikeelectronic.com/tibco/qa/xsd" xmlns="">
+                    <extension>sharedjdbc</extension>
+                </extensions>
+            </config>
+        </filter>
+</filters>
+<sources/>
+</ruleCheckerInstance>
