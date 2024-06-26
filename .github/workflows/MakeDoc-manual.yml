@@ -104,7 +104,7 @@ jobs:
             -DfailOnInfo="false" \
             -DfailOnWarning="false" \
             -DfailOnError="false"
-            ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorks6ProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
+            ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorks6ProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
 
       - name: Generate BW5 documentation
         if: ${{ inputs.projectType == 'BusinessWorks 5' }}
@@ -132,7 +132,7 @@ jobs:
             -DfailOnInfo="false" \
             -DfailOnWarning="false" \
             -DfailOnError="false"
-          ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorksProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
+          ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorksProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
 
       - name: Generate Repository Analyst documentation
         if: ${{ inputs.projectType == 'Repository Analyst' }}
@@ -163,7 +163,7 @@ jobs:
             -Drepository.to.compare="repository" \
             -Dgroup.to.compare="group" \
             -Dstorage.to.compare="default"
-          ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/RA_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
+          ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/RA_default_group_repository/ -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
           
       - name: Transform MarkDown
         if: ${{ inputs.md == 'true' }}
