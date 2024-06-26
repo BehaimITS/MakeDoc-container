@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : smartmapperermodel.xml                                   -->
+<!-- originator      : mrozsypal                                                -->
+<!-- creation date   : 20012-04-23                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="%PROJECT_NCNAME%_smartmapperadapters" xml:lang="en-us">
+   <title>Smart Mapper Adapter Configurations</title>
+   <titlealts><navtitle>Smart Mapper Adapter Configurations</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks Smart Mapper Adapter Configurations from project %PROJECT_NAME%.</p> 
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

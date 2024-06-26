@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : adr3Connections.xml                                      -->
+<!-- originator      : zhozakova                                                -->
+<!-- creation date   : 2007-04-16                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="%PROJECT_NCNAME%_r3connections" xml:lang="en-us">
+   <title>R3 Connections</title>
+   <titlealts><navtitle>R3 Connections</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of R3 Connections from project %PROJECT_NAME%.</p> 
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             BEHAIM IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : sharedjavaglobalinstance.xml                             -->
+<!-- originator      : jkaspar                                                  -->
+<!-- creation date   : 2015/09/02                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="%PROJECT_NCNAME%_sharedejbcons" xml:lang="en-us">
+   <title>Shared Java Global Instances</title>
+   <titlealts><navtitle>Shared Java Global Instances</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks Shared Java Global Instances from project %PROJECT_NAME%.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleCheckerInstance xmlns="http://pikeelectronic.com/tibco/qa/xsd" enabled="true" system="true" type="ActivityTransitionsRuleChecker">
+    <group>Incorrect transitions</group>
+    <name>Activities</name>
+    <description>Check for presence of 'otherwise' or 'success' transitions for every conditional transition</description>
+    <severity>Error</severity>
+    <mask>activity '%activity' has only conditional transitions and it is missing an otherwise transition</mask>
+    <filters>
+      <filter name="Processes" type="ExtensionsFilter">
+                        <config>
+                            <extensions>
+                                <extension>process</extension>
+                            </extensions>
+                        </config>
+                    </filter>
+    </filters>
+    <sources/>
+  </ruleCheckerInstance>
