@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : JDBCConnections.xml                                      -->
+<!-- originator      : lzoubek                                                  -->
+<!-- creation date   : 2007-10-05                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="JDBCCalls" xml:lang="en-us">
+   <title>JDBC Connections</title>
+   <titlealts><navtitle>JDBC Connections</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains JDBC Connections from all projects.</p>
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

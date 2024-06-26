@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : identityProvider.xml                                     -->
+<!-- originator      : jkaspar                                                  -->
+<!-- creation date   : 2016-02-23                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="%PROJECT_NCNAME%_identityproviders" xml:lang="en-us">
+   <title>Identity Providers</title>
+   <titlealts><navtitle>Identity Providers</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks6 Identity Providers from project %PROJECT_NAME%.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
