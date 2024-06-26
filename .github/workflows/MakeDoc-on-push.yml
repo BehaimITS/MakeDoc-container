@@ -126,9 +126,8 @@ jobs:
           
       - name: Copy project to github storage directory
         run: |
-          mkdir -p /home/makedoc/repository/makedoc/
-          cp -r /home/makedoc/server/storage /home/makedoc/repository/makedoc/
-          cp -r /home/makedoc/server/ws /home/makedoc/repository/makedoc/
+          mkdir -p /home/makedoc/repository/makedoc/storage && cp -r /home/makedoc/server/storage/* /home/makedoc/repository/makedoc/storage/
+          mkdir -p /home/makedoc/repository/makedoc/ws && cp -r /home/makedoc/server/ws/* /home/makedoc/repository/makedoc/ws/
 
       - name: Replace latest project in docs directory
         run: |
