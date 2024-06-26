@@ -136,14 +136,14 @@ jobs:
           rm -rf /home/makedoc/repository/docs/*
           cd /home/makedoc/server/storage/default/
           
-          if [[ "${{ env.md }}" == "true" ]]; then
-            cp -r "$(\ls -1dt * | head -n 1)"/md/* /home/makedoc/repository/docs/
-          elif [[ "${{ env.html }}" == "true" ]]; then
-            cp -r "$(\ls -1dt * | head -n 1)"/html/* /home/makedoc/repository/docs/
-          elif [[ "${{ env.pdf }}" == "true" ]]; then
-            cp -r "$(\ls -1dt * | head -n 1)"/pdf/* /home/makedoc/repository/docs/
-          elif [[ "${{ env.docx }}" == "true" ]]; then
-            cp -r "$(\ls -1dt * | head -n 1)"/docx/* /home/makedoc/repository/docs/
+          if [[ "${{ inputs.md }}" == "true" ]]; then
+            cp -r "$(find . -type d -name md -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/md$||')/md/" /home/makedoc/repository/docs/
+          elif [[ "${{ inputs.html }}" == "true" ]]; then
+            cp -r "$(find . -type d -name html -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/html$||')/html/" /home/makedoc/repository/docs/
+          elif [[ "${{ inputs.pdf }}" == "true" ]]; then
+            cp -r "$(find . -type d -name pdf -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/pdf$||')/pdf/" /home/makedoc/repository/docs/
+          elif [[ "${{ inputs.docx }}" == "true" ]]; then
+            cp -r "$(find . -type d -name docx -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/docx$||')/docx/" /home/makedoc/repository/docs/
           fi
           
       - name: Commit files
