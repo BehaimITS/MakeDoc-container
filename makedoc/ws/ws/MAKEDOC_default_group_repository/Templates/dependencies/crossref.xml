@@ -1,0 +1,27 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : crossref.xml                                             -->
+<!-- originator      : zhozakova                                                -->
+<!-- creation date   : 2007-06-27                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="Crossref_summary" xml:lang="en-us">
+   <title>Cross-reference documentation</title>
+   <titlealts><navtitle>Cross-reference documentation</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains cross-reference documentation which shows relationships among TIBCO projects.</p>
+     <p>It shows relations among all documented projects. And it provides 
+		quick overview who communicates with whom.</p>
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
