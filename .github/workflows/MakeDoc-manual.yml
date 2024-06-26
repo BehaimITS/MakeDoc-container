@@ -166,7 +166,7 @@ jobs:
           ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/RA_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
           
       - name: Transform MarkDown
-        if: ${{ env.md == 'true' }}
+        if: ${{ inputs.md == 'true' }}
         run: |
           chmod +x /home/makedoc/repository/makedoc/transform.sh
           cd /home/makedoc/server/storage/default/
@@ -185,13 +185,13 @@ jobs:
           rm -rf /home/makedoc/repository/docs/*
           cd /home/makedoc/server/storage/default/
           
-          if [[ "${{ env.md }}" == "true" ]]; then
+          if [[ "${{ inputs.md }}" == "true" ]]; then
             cp -r "$(\ls -1dt * | head -n 1)"/md/* /home/makedoc/repository/docs/
-          elif [[ "${{ env.html }}" == "true" ]]; then
+          elif [[ "${{ inputs.html }}" == "true" ]]; then
             cp -r "$(\ls -1dt * | head -n 1)"/html/* /home/makedoc/repository/docs/
-          elif [[ "${{ env.pdf }}" == "true" ]]; then
+          elif [[ "${{ inputs.pdf }}" == "true" ]]; then
             cp -r "$(\ls -1dt * | head -n 1)"/pdf/* /home/makedoc/repository/docs/
-          elif [[ "${{ env.docx }}" == "true" ]]; then
+          elif [[ "${{ inputs.docx }}" == "true" ]]; then
             cp -r "$(\ls -1dt * | head -n 1)"/docx/* /home/makedoc/repository/docs/
           fi
           
