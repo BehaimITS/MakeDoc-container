@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="QA rules content.">
+  <topicref href="WARNING_-_Missing_XSD_Annotation.dita" type="concept">
+    <topicref href="Missing_XSD_Annotation/violation1.dita" type="concept"/>
+  </topicref>
+</map>
