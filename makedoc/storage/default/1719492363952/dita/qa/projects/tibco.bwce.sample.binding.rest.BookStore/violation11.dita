@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="violation11" xml:lang="en-us">
+  <title>/Resources/JDBCConnectionResource.jdbcResource</title>
+  <titlealts>
+    <navtitle>Resources/JDBCConnectionResource.jdbcResource</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>List of violations which appeared in file <i>/Resources/JDBCConnectionResource.jdbcResource</i>
+    </p>
+  </conbody>
+  <concept id="Hardcoded_connection_parameters_JDBC_connections" xml:lang="en-us">
+    <title>ERROR - Hardcoded connection parameters - JDBC connections</title>
+    <conbody>
+      <p>Hardcoded JDBC connection parameters</p>
+      <ul>
+        <li>Hardcoded parameters</li>
+      </ul>
+    </conbody>
+  </concept>
+</concept>
