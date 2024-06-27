@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             PIKE ELECTRONIC                                -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : sharedjmscon.xml                                         -->
+<!-- originator      : ppavelka                                                 -->
+<!-- creation date   : 2007-04-05                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore.application_sharedjmss" xml:lang="en-us">
+   <title>Shared JMS Connections</title>
+   <titlealts><navtitle>Shared JMS Connections</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks Shared JMS Connections from project tibco.bwce.sample.binding.rest.BookStore.application.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+                     "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="Dependencies documentation">
+	<topicmeta>
+		<critdates>
+			<created date="2024/06/27 10:08"/>
+		</critdates>
+	</topicmeta>
+      <topicref href="resources/resources.dita">
+          <topicref format="ditamap" href="resources/content_DITA.ditamap"/>
+      </topicref>
+      <topicref href="processes/processes.dita">
+          <topicref format="ditamap" href="processes/content_DITA.ditamap"/>
+      </topicref>
+      <topicref href="xsds/xsds.dita">
+          <topicref format="ditamap" href="xsds/content_DITA.ditamap"/>
+      </topicref>
+      <topicref href="wsdls/wsdls.dita">
+          <topicref format="ditamap" href="wsdls/content_DITA.ditamap"/>
+      </topicref>
+</map>
