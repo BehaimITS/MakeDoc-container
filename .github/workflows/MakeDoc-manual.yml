@@ -70,7 +70,7 @@ jobs:
           
       - name: Copy makedoc key, storage and workspace
         run: |
-          cp /home/makedoc/repository/${{ env.makedoc_key }} /home/makedoc/makedoc.key
+          cp /home/makedoc/repository/${{ inputs.makedoc_key }} /home/makedoc/makedoc.key
           if [ "$(ls -A /home/makedoc/repository/makedoc/storage/)" ]; then
             mkdir -p /home/makedoc/server/storage/ && cp -r /home/makedoc/repository/makedoc/storage/* /home/makedoc/server/storage/
           else
