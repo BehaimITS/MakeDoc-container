@@ -185,13 +185,13 @@ jobs:
           cd /home/makedoc/server/storage/default/
           
           if [[ "${{ inputs.md }}" == "true" ]]; then
-            cp -r "$(find . -type d -name md -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/md$||')/md/" /home/makedoc/repository/docs/
+            cp -r "$(find . -type d -name md -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/md$||')/md/*" /home/makedoc/repository/docs/
           elif [[ "${{ inputs.html }}" == "true" ]]; then
-            cp -r "$(find . -type d -name html -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/html$||')/html/" /home/makedoc/repository/docs/
+            cp -r "$(find . -type d -name html -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/html$||')/html/*" /home/makedoc/repository/docs/
           elif [[ "${{ inputs.pdf }}" == "true" ]]; then
-            cp -r "$(find . -type d -name pdf -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/pdf$||')/pdf/" /home/makedoc/repository/docs/
+            cp -r "$(find . -type d -name pdf -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/pdf$||')/pdf/*" /home/makedoc/repository/docs/
           elif [[ "${{ inputs.docx }}" == "true" ]]; then
-            cp -r "$(find . -type d -name docx -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/docx$||')/docx/" /home/makedoc/repository/docs/
+            cp -r "$(find . -type d -name docx -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/docx$||')/docx/*" /home/makedoc/repository/docs/
           fi
           
       - name: Commit files
