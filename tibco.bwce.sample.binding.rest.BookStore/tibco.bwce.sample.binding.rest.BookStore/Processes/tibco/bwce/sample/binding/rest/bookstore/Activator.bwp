@@ -19,6 +19,37 @@
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
     xmlns:tibprop="http://ns.tibco.com/bw/property" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <tibex:VariableDescriptor type="MemorySaving">
+        <task name="create_books_table">
+            <endingVariables>
+                <variable>create_books_table-input</variable>
+                <variable>create_books_table</variable>
+            </endingVariables>
+        </task>
+        <task name="create_table_events">
+            <endingVariables>
+                <variable>create_table_events-input</variable>
+                <variable>create_table_events</variable>
+            </endingVariables>
+        </task>
+        <task name="insert_into_books">
+            <endingVariables>
+                <variable>insert_into_books-input</variable>
+                <variable>insert_into_books</variable>
+            </endingVariables>
+        </task>
+        <task name="Log">
+            <endingVariables>
+                <variable>Log-input</variable>
+                <variable>FaultDetails</variable>
+            </endingVariables>
+        </task>
+        <task name="ANOTHER_CHANGE">
+            <endingVariables>
+                <variable>ANOTHER_CHANGE-input</variable>
+            </endingVariables>
+        </task>
+    </tibex:VariableDescriptor>
     <tibex:Types>
         <xs:schema attributeFormDefault="unqualified"
             elementFormDefault="qualified"
@@ -762,6 +793,62 @@
                                     xsi:type="notation:Bounds" y="47"/>
                                     </children>
 
+                                    <children type="4002 bw.generalactivities.log">
+
+                                    <children type="4017">
+
+                                    <styles
+                                    fontName=".AppleSystemUIFont"
+                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
+
+                                    <layoutConstraint xsi:type="notation:Bounds"/>
+                                    </children>
+
+                                    <children type="4017">
+
+                                    <styles
+                                    fontName=".AppleSystemUIFont"
+                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
+
+                                    <layoutConstraint xsi:type="notation:Bounds"/>
+                                    </children>
+
+                                    <children type="4017">
+
+                                    <styles
+                                    fontName=".AppleSystemUIFont"
+                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
+
+                                    <layoutConstraint xsi:type="notation:Bounds"/>
+                                    </children>
+
+                                    <children type="4017">
+
+                                    <styles
+                                    fontName=".AppleSystemUIFont"
+                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
+
+                                    <layoutConstraint xsi:type="notation:Bounds"/>
+                                    </children>
+
+                                    <styles
+                                    fontName=".AppleSystemUIFont"
+                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
+
+                                    <styles
+                                    backgroundColor="16777215"
+                                    gradientEndColor="50431"
+                                    gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
+
+                                    <element href="//0/@process/@activity/@activity/@activities.0/@messages.0/@activity/@faultHandlers/@catchAll/@activity/@activity/@activities.1"/>
+
+                                    <layoutConstraint
+                                    height="40"
+                                    width="40"
+                                    x="108"
+                                    xsi:type="notation:Bounds" y="47"/>
+                                    </children>
+
                                     <styles xsi:type="notation:DrawerStyle"/>
 
                                     <styles xsi:type="notation:SortingStyle"/>
@@ -784,7 +871,7 @@
 
                                     <layoutConstraint
                                     height="168"
-                                    width="303" xsi:type="notation:Bounds"/>
+                                    width="424" xsi:type="notation:Bounds"/>
                                     </children>
 
                                     <styles xsi:type="notation:SortingStyle"/>
@@ -1172,7 +1259,22 @@
             <element href="//0/@process/@activity/@activity/@activities.0/@messages.0/@activity/@activity/@links/@children.1"/>
             <bendpoints points="[25, -22, -71, 63]$[72, -63, -24, 22]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
+        <edges
+            source="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2/@children.0/@children.1/@children.0/@children.0/@children.1/@children.0/@children.0/@children.1/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2/@children.0/@children.1/@children.0/@children.0/@children.1/@children.0/@children.0/@children.1/@children.0/@children.0/@children.1" type="4006">
+            <children type="6002">
+                <layoutConstraint xsi:type="notation:Location" y="40"/>
+            </children>
+            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
+            <styles fontName=".AppleSystemUIFont" xsi:type="notation:FontStyle"/>
+            <element href="//0/@process/@activity/@activity/@activities.0/@messages.0/@activity/@faultHandlers/@catchAll/@activity/@activity/@links/@children.0"/>
+            <bendpoints points="[0, 0, 0, 0]$[0, 0, 0, 0]" xsi:type="notation:RelativeBendpoints"/>
+        </edges>
     </notation:Diagram>
+    <tibex:NamespaceRegistry enabled="true">
+        <tibex:namespaceItem
+            namespace="http://www.tibco.com/pe/WriteToLogActivitySchema" prefix="tns"/>
+    </tibex:NamespaceRegistry>
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" namespace="http://tibco.com/bw/bw6/system/ModuleActivator"/>
     <bpws:partnerLinks>
         <bpws:partnerLink myRole="use" name="ModuleActivator"
@@ -1207,6 +1309,8 @@
             name="insert_into_books-input" sca-bpel:internal="true"/>
         <bpws:variable element="ns3:jdbcGeneralActivityOutput"
             name="insert_into_books" sca-bpel:internal="true"/>
+        <bpws:variable element="ns5:ActivityInput"
+            name="ANOTHER_CHANGE-input" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -1231,15 +1335,52 @@
                                 tibex:faultNameVar="FaultName" tibex:xpdlId="869c47c5-8e4b-4e1d-b8a7-d780d9a8ea66">
                                 <bpws:scope name="scope3">
                                     <bpws:flow name="flow3">
-                                    <bpws:links/>
+                                    <bpws:links>
+                                    <bpws:link name="LogToLog1" tibex:linkType="SUCCESS"/>
+                                    </bpws:links>
                                     <bpws:extensionActivity>
                                     <tibex:activityExtension
                                     inputVariable="Log-input"
                                     name="Log"
                                     tibex:xpdlId="82c25b3c-4951-4a22-bfae-a904d790e460" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                                    <bpws:sources>
+                                    <bpws:source linkName="LogToLog1"/>
+                                    </bpws:sources>
                                     <tibex:inputBindings>
                                     <tibex:inputBinding
                                     expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;FaultDetails&quot;/>&lt;xsl:template name=&quot;Log-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInput>&lt;message>&lt;xsl:value-of select=&quot;concat(&amp;quot;Caught An Exception&amp;quot;, &amp;quot; ===&amp;quot;, $FaultDetails/ActivityName)&quot;/>&lt;/message>&lt;/tns:ActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                                    </tibex:inputBindings>
+                                    <tibex:config>
+                                    <bwext:BWActivity
+                                    activityTypeID="bw.generalactivities.log"
+                                    version="6.0.0.001"
+                                    xmlns:activityconfig="http://tns.tibco.com/bw/model/activityconfig"
+                                    xmlns:bwext="http://tns.tibco.com/bw/model/core/bwext"
+                                    xmlns:generalactivities="http://ns.tibco.com/bw/palette/generalactivities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                    <activityConfig>
+                                    <properties
+                                    name="config" xsi:type="activityconfig:EMFProperty">
+                                    <type href="http://ns.tibco.com/bw/palette/generalactivities#//Log"/>
+                                    <value
+                                    role="Info"
+                                    suppressJobInfo="true" xsi:type="generalactivities:Log"/>
+                                    </properties>
+                                    </activityConfig>
+                                    </bwext:BWActivity>
+                                    </tibex:config>
+                                    </tibex:activityExtension>
+                                    </bpws:extensionActivity>
+                                    <bpws:extensionActivity>
+                                    <tibex:activityExtension
+                                    inputVariable="ANOTHER_CHANGE-input"
+                                    name="ANOTHER_CHANGE"
+                                    tibex:xpdlId="2e9efbae-7055-4cdb-8024-1bcda4ae69d5" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                                    <bpws:targets>
+                                    <bpws:target linkName="LogToLog1"/>
+                                    </bpws:targets>
+                                    <tibex:inputBindings>
+                                    <tibex:inputBinding
+                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;ANOTHER_CHANGE-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInput>&lt;message>&lt;xsl:value-of select=&quot;&amp;quot;&amp;quot;&quot;/>&lt;/message>&lt;/tns:ActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                                     </tibex:inputBindings>
                                     <tibex:config>
                                     <bwext:BWActivity
@@ -1287,7 +1428,7 @@
                                     </bpws:sources>
                                     <tibex:inputBindings>
                                     <tibex:inputBinding
-                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+6bce79bd-a67c-4a10-9d5b-9802683b746d+input&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;create_books_table-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInputType>&lt;statement>&lt;xsl:value-of select=&quot;'CREATE TABLE IF NOT EXISTS public.books (&amp;#xA;  isbn text,&amp;#xA;  name text,&amp;#xA;  description text,&amp;#xA;  &amp;quot;authorName&amp;quot; text,&amp;#xA;  &amp;quot;releaseDate&amp;quot; date,&amp;#xA;  vintage boolean,&amp;#xA;  signed boolean,&amp;#xA;  price double precision&amp;#xA;)&amp;#xA;WITH (&amp;#xA;  OIDS=FALSE&amp;#xA;)'&quot;/>&lt;/statement>&lt;/tns:ActivityInputType>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns1=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+6bce79bd-a67c-4a10-9d5b-9802683b746d+input&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:template name=&quot;create_books_table-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns1:ActivityInputType>&#xa;            &lt;statement>&#xa;                &lt;xsl:value-of select=&quot;'CREATE TABLE IF NOT EXISTS public.books (&amp;#xA;  isbn text,&amp;#xA;  name text,&amp;#xA;  description text,&amp;#xA;  &amp;quot;authorName&amp;quot; text,&amp;#xA;  &amp;quot;releaseDate&amp;quot; date,&amp;#xA;  vintage boolean,&amp;#xA;  signed boolean,&amp;#xA;  price double precision&amp;#xA;)&amp;#xA;WITH (&amp;#xA;  OIDS=FALSE&amp;#xA;)'&quot;/>&#xa;            &lt;/statement>&#xa;        &lt;/tns1:ActivityInputType>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                                     </tibex:inputBindings>
                                     <tibex:config>
                                     <bwext:BWActivity
@@ -1319,7 +1460,7 @@
                                     </bpws:targets>
                                     <tibex:inputBindings>
                                     <tibex:inputBinding
-                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+69412307-fbc4-4b65-8f42-4be7e5febb22+input&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;create_table_events-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInputType>&lt;statement>&lt;xsl:value-of select=&quot;'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, &amp;quot;authorName&amp;quot; text, bookisbn text, date text, id&amp;#xA;text ) WITH ( OIDS=FALSE );'&quot;/>&lt;/statement>&lt;/tns:ActivityInputType>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns1=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+69412307-fbc4-4b65-8f42-4be7e5febb22+input&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:template name=&quot;create_table_events-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns1:ActivityInputType>&#xa;            &lt;statement>&#xa;                &lt;xsl:value-of select=&quot;'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, &amp;quot;authorName&amp;quot; text, bookisbn text, date text, id&amp;#xA;text ) WITH ( OIDS=FALSE );'&quot;/>&#xa;            &lt;/statement>&#xa;        &lt;/tns1:ActivityInputType>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                                     </tibex:inputBindings>
                                     <tibex:config>
                                     <bwext:BWActivity
@@ -1354,7 +1495,7 @@
                                     </bpws:sources>
                                     <tibex:inputBindings>
                                     <tibex:inputBinding
-                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+360b9e74-0243-4ec8-be5f-c63824e82a05+input&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;insert_into_books-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInputType>&lt;statement>&lt;xsl:value-of select=&quot;&amp;quot;INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);&amp;quot;&amp;#xA;&quot;/>&lt;/statement>&lt;/tns:ActivityInputType>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns1=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+360b9e74-0243-4ec8-be5f-c63824e82a05+input&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:template name=&quot;insert_into_books-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns1:ActivityInputType>&#xa;            &lt;statement>&#xa;                &lt;xsl:value-of select=&quot;&amp;quot;INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);&amp;quot;&quot;/>&#xa;            &lt;/statement>&#xa;        &lt;/tns1:ActivityInputType>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                                     </tibex:inputBindings>
                                     <tibex:config>
                                     <bwext:BWActivity
