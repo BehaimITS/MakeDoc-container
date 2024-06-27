@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/home/makedoc/server/cfg/dtd/map.dtd">
+  <map title="Documentation content">
+    <topicref href="common/process.dita">
+      <topicref href="Processes/tibco/bwce/sample/binding/rest/bookstore/Activator.bwp.dita"/>
+      <topicref href="Processes/tibco/bwce/sample/binding/rest/bookstore/Books.bwp.dita"/>
+      <topicref href="Processes/tibco/bwce/sample/binding/rest/bookstore/Events.bwp.dita"/>
+      <topicref href="Processes/tibco/bwce/sample/binding/rest/bookstore/db/BooksDB.bwp.dita"/>
+      <topicref href="Processes/tibco/bwce/sample/binding/rest/bookstore/db/EventsDB.bwp.dita"/>
+    </topicref>
+    <topicref href="common/substvar.dita">
+      <topicref href="META-INF/default.substvar.dita"/>
+    </topicref>
+    <topicref href="common/wsdl.dita">
+      <topicref href="Service_Descriptors/Books.wsdl.dita"/>
+      <topicref href="Service_Descriptors/BooksDBService.wsdl.dita"/>
+      <topicref href="Service_Descriptors/Events.wsdl.dita"/>
+      <topicref href="Service_Descriptors/EventsDBService.wsdl.dita"/>
+      <topicref href="Service_Descriptors/ModuleActivator.wsdl.dita"/>
+    </topicref>
+    <topicref href="common/sharedjdbc.dita">
+      <topicref href="Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.dita"/>
+    </topicref>
+    <topicref href="common/httpConnector.dita">
+      <topicref href="Resources/tibco/bwce/sample/binding/rest/BookStore/Books.httpConnResource.dita"/>
+    </topicref>
+    <topicref href="common/sharedvariable.dita">
+      <topicref href="META-INF/module.msv.dita"/>
+    </topicref>
+    <topicref href="common/moduleDescriptor.dita">
+      <topicref href="META-INF/module.bwm.dita"/>
+    </topicref>
+    <topicref href="common/jobsharedvariable.dita">
+      <topicref href="META-INF/module.jsv.dita"/>
+    </topicref>
+    <topicref href="common/xsd.dita">
+      <topicref href="Schemas/Books.xsd.dita"/>
+      <topicref href="Schemas/BooksSchema.xsd.dita"/>
+      <topicref href="Schemas/Events.xsd.dita"/>
+      <topicref href="Schemas/EventsSchema.xsd.dita"/>
+      <topicref href="Schemas/RESTSchema.xsd.dita"/>
+    </topicref>
+  </map>
