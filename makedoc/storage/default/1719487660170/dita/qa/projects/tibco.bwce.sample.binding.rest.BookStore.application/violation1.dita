@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="violation1" xml:lang="en-us">
+  <title>/</title>
+  <titlealts>
+    <navtitle>/</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>List of violations which appeared in file <xref href="../../../projects/tibco.bwce.sample.binding.rest.BookStore.application/tibco.bwce.sample.binding.rest.BookStore.application.dita">/</xref>
+    </p>
+  </conbody>
+  <concept id="Incorrect_directory_structure_Directories" xml:lang="en-us">
+    <title>WARNING - Incorrect directory structure - Directories</title>
+    <conbody>
+      <p>Directory structure check failed</p>
+      <ul>
+        <li>does not contain required directories: '/ProcessDefinitions' '/SharedConnections' '/SharedResources' </li>
+      </ul>
+    </conbody>
+  </concept>
+</concept>
