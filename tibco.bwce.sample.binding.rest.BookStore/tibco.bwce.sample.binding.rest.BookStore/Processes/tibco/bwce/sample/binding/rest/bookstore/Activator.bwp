@@ -980,10 +980,13 @@
                                     fontName="Lucida Grande"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
                                     <styles xsi:type="bwnotation:BackgroundStyle"/>
-                                    <styles xsi:type="bwnotation:ResizingStyle"/>
+                                    <styles
+                                    restoreHeight="429"
+                                    restoreWidth="607"
+                                    restoreX="2" xsi:type="bwnotation:ResizingStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.0/@messages.0"/>
                                     <layoutConstraint
-                                    height="428"
+                                    height="318"
                                     width="607"
                                     x="2" xsi:type="notation:Bounds"/>
                                     </children>
@@ -1162,13 +1165,18 @@
                                     fontName="Lucida Grande"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
                                     <styles xsi:type="bwnotation:BackgroundStyle"/>
-                                    <styles xsi:type="bwnotation:ResizingStyle"/>
+                                    <styles
+                                    collapsed="true"
+                                    restoreHeight="156"
+                                    restoreWidth="607"
+                                    restoreX="2"
+                                    restoreY="21" xsi:type="bwnotation:ResizingStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.0/@messages.1"/>
                                     <layoutConstraint
-                                    height="155"
-                                    width="486"
+                                    height="22"
+                                    width="607"
                                     x="2"
-                                    xsi:type="notation:Bounds" y="157"/>
+                                    xsi:type="notation:Bounds" y="428"/>
                                     </children>
                                     <styles xsi:type="notation:SortingStyle"/>
                                     <styles xsi:type="notation:FilteringStyle"/>
@@ -1181,7 +1189,7 @@
                                     <styles xsi:type="bwnotation:ResizingStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint
-                                    height="614" width="626" xsi:type="notation:Bounds"/>
+                                    height="370" width="626" xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles xsi:type="notation:DrawerStyle"/>
                                     <styles xsi:type="notation:SortingStyle"/>
