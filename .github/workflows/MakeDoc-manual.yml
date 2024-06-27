@@ -167,7 +167,7 @@ jobs:
             -Drepository.to.compare="repository" \
             -Dgroup.to.compare="group" \
             -Dstorage.to.compare="default"
-          ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/RA_default_group_repository/ -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
+          ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/RA_default_group_repository -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
           
       - name: Transform MarkDown
         if: ${{ inputs.md == 'true' }}
