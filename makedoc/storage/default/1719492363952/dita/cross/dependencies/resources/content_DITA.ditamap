@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+                     "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="Resources cross-reference documentation">
+	<topicmeta>
+		<critdates>
+			<created date="2024/06/27 12:46"/>
+		</critdates>
+	</topicmeta>
+			<topicref href="cross_tibco.bwce.sample.binding.rest.BookStore.JDBCConnectionResource.dita"/>	
+</map>
