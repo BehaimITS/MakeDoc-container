@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+                     "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="Processes cross-reference documentation">
+		<topicmeta>
+		<critdates>
+			<created date="2024/06/28 08:50"/>
+		</critdates>
+	</topicmeta>
+					<topicref href="cross_tibco.bwce.sample.binding.rest.bookstore.db.EventsDB.dita"/>
+					<topicref href="cross_tibco.bwce.sample.binding.rest.bookstore.Activator.dita"/>
+					<topicref href="cross_tibco.bwce.sample.binding.rest.bookstore.db.BooksDB.dita"/>
+</map>
