@@ -44,11 +44,6 @@
                 <variable>FaultDetails</variable>
             </endingVariables>
         </task>
-        <task name="CHANGED">
-            <endingVariables>
-                <variable>CHANGED-input</variable>
-            </endingVariables>
-        </task>
     </tibex:VariableDescriptor>
     <tibex:Types>
         <xs:schema attributeFormDefault="unqualified"
