@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
-<concept id="INFO_-_Value_Ends_With" xml:lang="en-us">
-   <title>INFO - Value Ends With</title>
-   <titlealts><navtitle>INFO - Value Ends With</navtitle></titlealts>
-   <conbody>
-     <p>Chapter contains projects and their violations of rule &apos;Value Ends With&apos; - &apos;Check for Global Variables Values&apos;.</p>
-   </conbody>
-</concept>
