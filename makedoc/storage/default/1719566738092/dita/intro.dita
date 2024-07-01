@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="introduction" xml:lang="en-us">
+  <title>Introduction</title>
+  <titlealts>
+    <navtitle>Introduction</navtitle>
+  </titlealts>
+  <conbody>
+    <p>
+      This document describes which changes have been made between two snapshots,
+      <lines/>
+      OLD snapshot: 
+      <i>
+        <xref href="../../1719564583770/html/index.html" scope="peer">Fri Jun 28 08:49:43 GMT 2024</xref>
+      </i>
+      <lines/>
+      NEW snapshot: 
+      <i>
+        <xref href="../../1719565557786/html/index.html" scope="peer">Fri Jun 28 09:05:57 GMT 2024</xref>
+      </i>
+      <lines/>
+      The items could have been either added, removed or changed. Next list summarizes numbers of added, removed or changed items.
+      <lines/>
+    </p>
+    <p>
+      <b>ESB Statistic:</b>
+    </p>
+    <p>Number of added items: 0</p>
+    <p>Number of removed items: 0</p>
+    <p>Number of changed items: 0</p>
+  </conbody>
+</concept>
