@@ -148,7 +148,7 @@ jobs:
             -DprofileRelativePath="Profiles/Enterprise.profile" \
             -Dgroup="group" \
             -Dstorage="default" \
-            -Drepository="repository"  \
+            -Drepository="RArepository"  \
             -Ddocx="${{ inputs.docx == true && 'true' || 'false' }}" \
             -Dhtml="${{ inputs.html == true && 'true' || 'false' }}" \
             -Dpdf="${{ inputs.pdf == true && 'true' || 'false' }}" \
@@ -168,7 +168,6 @@ jobs:
             -Dgroup.to.compare="group" \
             -Dstorage.to.compare="default"
           ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/RA_default_group_RArepository -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
-          
       - name: Transform MarkDown
         if: ${{ inputs.md == true }}
         run: |
