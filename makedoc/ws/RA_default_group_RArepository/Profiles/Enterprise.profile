@@ -1,4 +1,4 @@
-#Tue, 02 Jul 2024 22:12:21 +0000
+#Tue, 02 Jul 2024 22:14:33 +0000
 settings.inputData={"projects":[{"repository":"repository","offset":-1,"group":"group","storage":"default"},{"repository":"repository","offset":0,"group":"group","storage":"default"}]}
 
 rita.maps=
@@ -12,9 +12,9 @@ profile.description=Enterprise profile
 profile.author=Behaim IT Solutions
 
 settings.docx=false
-settings.html=true
+settings.html=false
 settings.paperFormat=A4
 settings.pdf=false
-settings.md=false
+settings.md=true
 
 notification.recipients=
