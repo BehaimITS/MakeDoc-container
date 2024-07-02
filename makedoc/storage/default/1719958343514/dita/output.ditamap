@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="Changes in the filesystem OLD: 2024/07/02 17:57 NEW: 2024/07/02 22:08">
+  <topicmeta>
+    <publisher/>
+    <critdates>
+      <created date="2024/07/02 22:12"/>
+    </critdates>
+  </topicmeta>
+  <topicref href="intro.dita" type="concept"/>
+</map>
