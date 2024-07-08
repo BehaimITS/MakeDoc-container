@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : ldapConnection.xml                                    -->
+<!-- originator      : jkaspar                                                  -->
+<!-- creation date   : 2015-02-25                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore.application_ldapconnections" xml:lang="en-us">
+   <title>LDAP Connections</title>
+   <titlealts><navtitle>LDAP Connections</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks6 LDAP Connections from project tibco.bwce.sample.binding.rest.BookStore.application.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
