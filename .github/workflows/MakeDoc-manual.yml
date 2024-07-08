@@ -168,13 +168,21 @@ jobs:
             -Dgroup.to.compare="group" \
             -Dstorage.to.compare="default"
           ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ inputs.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/RA_default_group_RArepository -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
-      - name: Transform MarkDown
-        if: ${{ inputs.md == true }}
+      - name: Transform MarkDown BW
+        if: ${{ inputs.md == true && ( inputs.projectType == 'BusinessWorks 6' || inputs.projectType == 'BusinessWorks 5' ) }}
         run: |
           chmod +x /home/makedoc/repository/makedoc/transform.sh
           cd /home/makedoc/server/storage/default/
           cd "$(\ls -1dt * | head -n 1)"/md/
           /home/makedoc/repository/makedoc/transform.sh index.md /home/makedoc/repository/mkdocs.yml
+
+      - name: Transform MarkDown RA
+        if: ${{ inputs.md == true && inputs.projectType == 'Repository Analyst' }}
+        run: |
+          chmod +x /home/makedoc/repository/makedoc/transform_RA.sh
+          cd /home/makedoc/server/storage/default/
+          cd "$(\ls -1dt * | head -n 1)"/md/
+          /home/makedoc/repository/makedoc/transform_RA.sh index.md /home/makedoc/repository/mkdocs.yml
           
       - name: Copy project to github storage directory
         run: |          
