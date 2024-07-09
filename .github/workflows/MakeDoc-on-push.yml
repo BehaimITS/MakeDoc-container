@@ -163,10 +163,10 @@ jobs:
             -Dgroup="group" \
             -Dstorage="default" \
             -Drepository="RArepository"  \
-            -Ddocx="${{ env.docx == true && 'true' || 'false' }}" \
-            -Dhtml="${{ env.html == true && 'true' || 'false' }}" \
-            -Dpdf="${{ env.pdf == true && 'true' || 'false' }}" \
-            -Dmd="${{ env.md == true && 'true' || 'false' }}" \
+            -Ddocx="${{ env.docx }}" \
+            -Dhtml="${{ env.html }}" \
+            -Dpdf="${{ env.pdf }}" \
+            -Dmd="${{ env.md }}" \
             -Dformat="A4" \
             -Dfilter="Filters/FullDetail.filter" \
             -Daliases="-- no aliases --" \
