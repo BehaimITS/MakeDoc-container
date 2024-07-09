@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+                     "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="XSD cross-reference documentation">
+	<topicmeta>
+		<critdates>
+			<created date="2024/07/09 13:13"/>
+		</critdates>
+	</topicmeta>
+			<topicref href="cross_http___www.example.org_Books__XSD.dita"/>	
+			<topicref href="cross_http___tns.tibco.com_bw_REST__XSD.dita"/>	
+			<topicref href="cross_http___www.example.org_Events__XSD.dita"/>	
+</map>
