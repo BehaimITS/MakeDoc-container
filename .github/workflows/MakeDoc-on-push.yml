@@ -15,9 +15,10 @@ jobs:
     env:
       makedoc_key: './makedoc.key'
       BW_projects_dir: ''
-      #BW_version: 'BusinessWorks 5'
-      BW_version: 'BusinessWorks 6'
-      #BW_version: 'RepositoryAnalyst'
+      #projectType: 'BusinessWorks 5'
+      projectType: 'BusinessWorks 6'
+      #projectType: 'RepositoryAnalyst'
+      repoanalyst: 'true'
       html: 'false'
       md: 'true'
       pdf: 'false'
@@ -65,7 +66,7 @@ jobs:
           fi
       
       - name: Generate BW6 documentation
-        if: ${{ env.BW_version == 'BusinessWorks 6' }}
+        if: ${{ env.projectType == 'BusinessWorks 6' }}
         run: |
           ant customizeBW6Profile -f /home/makedoc/server/scripts/customization.xml \
             -Dtype="eagle" \
@@ -93,7 +94,7 @@ jobs:
             ant -f /home/makedoc/server/scripts/srv/server_interface.xml BusinessWorks6ProjectsDeployments -Dscripts.home=/home/makedoc/server/scripts -Ddirectory\=/home/makedoc/repository/${{ env.BW_projects_dir }} -DmakedocProject\=/home/makedoc/server/ws/MAKEDOC_default_group_repository/ -Dprofile\=Profiles/Enterprise.profile -Dmakedoc.configuration\=/home/makedoc/server/cfg -Dstandalone\=true
 
       - name: Generate BW5 documentation
-        if: ${{ env.BW_version == 'BusinessWorks 5' }}
+        if: ${{ env.projectType == 'BusinessWorks 5' }}
         run: |
           ant customizeBWProfile -f /home/makedoc/server/scripts/customization.xml \
             -Dtype="falcon" \
@@ -128,10 +129,11 @@ jobs:
           cd "$(\ls -1dt * | head -n 1)"/md/
           /home/makedoc/repository/makedoc/transform.sh index.md /home/makedoc/repository/mkdocs.yml
           
-      - name: Copy project to github storage directory
-        run: |
-          mkdir -p /home/makedoc/repository/makedoc/storage && cp -r /home/makedoc/server/storage/* /home/makedoc/repository/makedoc/storage/
-          mkdir -p /home/makedoc/repository/makedoc/ws && cp -r /home/makedoc/server/ws/* /home/makedoc/repository/makedoc/ws/
+          
+      #- name: Copy project to github storage directory
+       # run: |
+        #  mkdir -p /home/makedoc/repository/makedoc/storage && cp -r /home/makedoc/server/storage/* /home/makedoc/repository/makedoc/storage/
+         # mkdir -p /home/makedoc/repository/makedoc/ws && cp -r /home/makedoc/server/ws/* /home/makedoc/repository/makedoc/ws/
 
       - name: Replace latest project in docs directory
         run: |
@@ -148,6 +150,69 @@ jobs:
           elif [[ "${{ env.docx }}" == "true" ]]; then
             cp -r "$(find . -type d -name docx -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/docx$||')/docx/." /home/makedoc/repository/docs/
           fi
+      
+      
+      - name: Generate Repository Analyst documentation
+        if: ${{ env.repoanalyst == 'true' }}
+        run: |
+          ant customizeRitaProfile1Inputs -f /home/makedoc/server/scripts/customization.xml \
+            -Dtype="rita" \
+            -Drelease.path="/home/makedoc/server/bin" \
+            -DprojectTargetDestination="/home/makedoc/server/ws/RA_default_group_RArepository" \
+            -DprofileRelativePath="Profiles/Enterprise.profile" \
+            -Dgroup="group" \
+            -Dstorage="default" \
+            -Drepository="RArepository"  \
+            -Ddocx="${{ env.docx == true && 'true' || 'false' }}" \
+            -Dhtml="${{ env.html == true && 'true' || 'false' }}" \
+            -Dpdf="${{ env.pdf == true && 'true' || 'false' }}" \
+            -Dmd="${{ env.md == true && 'true' || 'false' }}" \
+            -Dformat="A4" \
+            -Dfilter="Filters/FullDetail.filter" \
+            -Daliases="-- no aliases --" \
+            -DallUnits="true" \
+            -DautoQA="false" \
+            -DinputBindingType="all" \
+            -DnotificationRecipients="" \
+            -DfailOnFatal="false" \
+            -DfailOnInfo="false" \
+            -DfailOnWarning="false" \
+            -DfailOnError="false" \
+            -Drepository.to.compare="repository" \
+            -Dgroup.to.compare="group" \
+            -Dstorage.to.compare="default"
+          ant -f /home/makedoc/server/scripts/srv/server_interface.xml generate -Dscripts.home=/home/makedoc/server/scripts -Ddirectory=/home/makedoc/repository/${{ env.BW_projects_dir }} -DmakedocProject=/home/makedoc/server/ws/RA_default_group_RArepository -Dprofile=Profiles/Enterprise.profile -Dmakedoc.configuration=/home/makedoc/server/cfg -Dstandalone=true
+
+      - name: Transform MarkDown
+        if: ${{ env.md == 'true' && env.repoanalyst == 'true' }}
+        run: |
+          chmod +x /home/makedoc/repository/makedoc/transform.sh
+          cd /home/makedoc/server/storage/default/
+          cd "$(\ls -1dt * | head -n 1)"/md/
+          /home/makedoc/repository/makedoc/transform.sh index.md /home/makedoc/repository/mkdocs.yml
+          
+          
+      - name: Replace latest repository analyst project in docs directory
+        if: ${{ env.repoanalyst == 'true' }}
+        run: |
+          mkdir -p /home/makedoc/repository/docs/ra/
+          rm -rf /home/makedoc/repository/docs/ra/*
+          cd /home/makedoc/server/storage/default/
+          
+          if [[ "${{ env.md }}" == "true" ]]; then
+            cp -r "$(find . -type d -name md -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/md$||')/md/." /home/makedoc/repository/docs/ra/
+          elif [[ "${{ env.html }}" == "true" ]]; then
+            cp -r "$(find . -type d -name html -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/html$||')/html/." /home/makedoc/repository/docs/ra/
+          elif [[ "${{ env.pdf }}" == "true" ]]; then
+            cp -r "$(find . -type d -name pdf -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/pdf$||')/pdf/." /home/makedoc/repository/docs/ra/
+          elif [[ "${{ env.docx }}" == "true" ]]; then
+            cp -r "$(find . -type d -name docx -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/docx$||')/docx/." /home/makedoc/repository/docs/ra/
+          fi
+
+      - name: Copy project to github storage directory
+        run: |
+          mkdir -p /home/makedoc/repository/makedoc/storage && cp -r /home/makedoc/server/storage/* /home/makedoc/repository/makedoc/storage/
+          mkdir -p /home/makedoc/repository/makedoc/ws && cp -r /home/makedoc/server/ws/* /home/makedoc/repository/makedoc/ws/
           
       - name: Commit files
         run: |
