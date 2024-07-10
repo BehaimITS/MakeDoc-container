@@ -8,6 +8,9 @@
     <wsdl:part element="extns:Books" name="item"/>
     <wsdl:part element="extns1:httpHeaders" name="httpHeaders" tibex:source="bw.rest"/>
   </wsdl:message>
+  <wsdl:message name="CHANGE">
+    <wsdl:part element="extns:CHANGE" name="CHANGE"/>
+  </wsdl:message>
   <wsdl:message name="postResponse">
     <wsdl:part element="extns:Books" name="item"/>
   </wsdl:message>

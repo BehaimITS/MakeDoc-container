@@ -3,5 +3,6 @@
   <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_Z8YYUIcFEeWGa47wSHjUzA" acceptQueueSize="-1">
     <substitutionBindings xmi:id="_Z8YYUYcFEeWGa47wSHjUzA" template="host" propName="BW.HOST.NAME"/>
     <substitutionBindings xmi:id="_egHCMIcFEeWGa47wSHjUzA" template="port" propName="BW.CLOUD.PORT"/>
+    <substitutionBindings xmi:id="_xxxxxxxxxxxxxxxxxxxxxx" template="CHANGE" propName="BW.CLOUD.CHANGE"/>
   </jndi:configuration>
 </jndi:namedResource>
