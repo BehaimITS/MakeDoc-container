@@ -3,6 +3,7 @@
 # Výchozí vstupní a výstupní cesty k souborům
 input_path=${1:-index.md}
 output_path=${2:-mkdocs.yml}
+temp_output_path="${output_path}.tmp"
 
 # Funkce pro transformaci řádku
 transform_line() {
@@ -19,10 +20,11 @@ calculate_indent_length() {
     echo $indent_length
 }
 
-# Smazání řádků za "Repository Analyst documentation:"
+# Smazání "Repository Analyst documentation"
 if grep -q "Repository Analyst documentation:" "$output_path"; then
-    # Pomocí sed k odstranění řádků od "Repository Analyst documentation:" včetně
-    sed -i '' '/Repository Analyst documentation:/,$d' "$output_path"
+    # Použití sed k odstranění řádků od "Repository Analyst documentation:" včetně
+    sed '/Repository Analyst documentation:/,$d' "$output_path" > "$temp_output_path"
+    mv "$temp_output_path" "$output_path"
 fi
 
 # Připojení transformovaných řádků do výstupního souboru
