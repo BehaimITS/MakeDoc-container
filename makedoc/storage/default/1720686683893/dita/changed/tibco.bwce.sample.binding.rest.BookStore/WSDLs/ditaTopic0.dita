@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="Books.wsdl.dita" xml:lang="en-us">
+  <title>Books</title>
+  <titlealts>
+    <navtitle>Service_Descriptors/Books</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>
+      Section contains documentation of changed WSDL Books (
+      <xref href="../../../../../1720531707774/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Books.wsdl.html" scope="peer">2024/07/09 13:28</xref>
+      , 
+      <xref href="../../../../../1720617195969/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Books.wsdl.html" scope="peer">2024/07/10 13:13</xref>
+      ).
+    </p>
+    <section>
+      <p>
+        <note othertype="repositoryAnalyticsAdded" type="other">Added element</note>
+        <note othertype="repositoryAnalyticsRemoved" type="other">Deleted element</note>
+      </p>
+    </section>
+  </conbody>
+  <concept id="Books.wsdl.dita_xmlComp" xml:lang="en-us">
+    <title>Changes:</title>
+    <titlealts>
+      <navtitle>Changes:</navtitle>
+    </titlealts>
+    <concept id="Wsdl" xml:lang="en-us">
+      <title>Books</title>
+      <titlealts>
+        <navtitle>Service Descriptors/Books</navtitle>
+      </titlealts>
+      <conbody>
+        <p>License for TIBCO Software Use Only! </p>
+        <p>
+                                      Section contains description of WSDL Schema
+                            
+          <q>Books.wsdl</q>
+        </p>
+        <p>
+                    Service:
+                    </p>
+        <p>
+                    Documentation:
+                    </p>
+      </conbody>
+      <concept id="FolderDescription" xml:lang="en-us">
+        <title>Folder description:</title>
+        <conbody>
+          <table>
+            <tgroup cols="2">
+              <colspec colname="folder" colwidth="75*"/>
+              <colspec colname="desc" colwidth="175*"/>
+              <thead>
+                <row>
+                  <entry colname="folder" valign="top">Folder</entry>
+                  <entry colname="desc" valign="top">Description</entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry> </entry>
+                  <entry>No description</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </conbody>
+      </concept>
+      <concept id="Diagram" xml:lang="en-us">
+        <title>Diagram:</title>
+        <conbody>
+          <p>Diagram
+                                    Books.wsdl.svg</p>
+          <object data="Books.wsdl.svg" height="890" type="image/svg+xml" width="606">
+            <desc>Diagram of Books.wsdl.</desc>
+          </object>
+        </conbody>
+      </concept>
+      <concept id="Namespaces" xml:lang="en-us">
+        <title>Namespaces:</title>
+        <conbody>
+          <p>
+            <ul>
+              <li>
+                                                xmlns:
+                                                extns1 - http://tns.tibco.com/bw/REST</li>
+              <li>
+                                                xmlns:
+                                                extns2 - http://www.example.org/Books/REST/1411989492608/ConceptSchema</li>
+              <li>
+                                                xmlns:
+                                                extns3 - http://www.example.org/Events</li>
+              <li>
+                                                xmlns:
+                                                extns - http://www.example.org/Books</li>
+              <li>
+                                                xmlns:
+                                                tibex - http://www.tibco.com/bpel/2007/extensions</li>
+              <li>
+                                                xmlns:
+                                                tns - http://www.example.org/Books/REST/1411989492608</li>
+              <li>
+                                                xmlns:
+                                                wsdl - http://schemas.xmlsoap.org/wsdl/</li>
+              <li>
+                                                xmlns:
+                                                xml - http://www.w3.org/XML/1998/namespace</li>
+              <li>
+                                                xmlns:
+                                                xsd - http://www.w3.org/2001/XMLSchema</li>
+            </ul>
+          </p>
+        </conbody>
+      </concept>
+      <concept id="Types" xml:lang="en-us">
+        <title>Types:</title>
+      </concept>
+      <concept id="PortConfig" xml:lang="en-us">
+        <title>Port configuration:</title>
+        <conbody>
+          <p>Empty</p>
+        </conbody>
+      </concept>
+      <concept id="Operations" xml:lang="en-us">
+        <title>Operations:</title>
+        <conbody>
+          <p>
+            <ul>
+              <li>
+                <b>Name: </b>
+                delete
+                <ul>
+                  <li>
+                    <b>Parameters: </b>
+                    <p>
+                      <ul>
+                        <li>
+                          <b>Input: </b>
+                          tns:deleteRequest
+                        </li>
+                        <li>
+                          <b>Output: </b>
+                          tns:deleteResponse
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:delete4XXFaultMessage
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:delete5XXFaultMessage
+                        </li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Name: </b>
+                get
+                <ul>
+                  <li>
+                    <b>Parameters: </b>
+                    <p>
+                      <ul>
+                        <li>
+                          <b>Input: </b>
+                          tns:getRequest
+                        </li>
+                        <li>
+                          <b>Output: </b>
+                          tns:getResponse
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:get4XXFaultMessage
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:get5XXFaultMessage
+                        </li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Name: </b>
+                get
+                <ul>
+                  <li>
+                    <b>Parameters: </b>
+                    <p>
+                      <ul>
+                        <li>
+                          <b>Input: </b>
+                          tns:getRequest1
+                        </li>
+                        <li>
+                          <b>Output: </b>
+                          tns:getResponse1
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:get4XXFaultMessage1
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:get5XXFaultMessage1
+                        </li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Name: </b>
+                get
+                <ul>
+                  <li>
+                    <b>Parameters: </b>
+                    <p>
+                      <ul>
+                        <li>
+                          <b>Input: </b>
+                          tns:getRequest2
+                        </li>
+                        <li>
+                          <b>Output: </b>
+                          tns:getResponse2
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:get4XXFaultMessage2
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:get5XXFaultMessage2
+                        </li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Name: </b>
+                post
+                <ul>
+                  <li>
+                    <b>Parameters: </b>
+                    <p>
+                      <ul>
+                        <li>
+                          <b>Input: </b>
+                          tns:postRequest
+                        </li>
+                        <li>
+                          <b>Output: </b>
+                          tns:postResponse
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:post4XXFaultMessage
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:post5XXFaultMessage
+                        </li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Name: </b>
+                put
+                <ul>
+                  <li>
+                    <b>Parameters: </b>
+                    <p>
+                      <ul>
+                        <li>
+                          <b>Input: </b>
+                          tns:putRequest
+                        </li>
+                        <li>
+                          <b>Output: </b>
+                          tns:putResponse
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:put4XXFaultMessage
+                        </li>
+                        <li>
+                          <b>Fault: </b>
+                          tns:put5XXFaultMessage
+                        </li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </p>
+        </conbody>
+      </concept>
+      <concept id="Messages" xml:lang="en-us">
+        <title>Messages:</title>
+        <conbody>
+          <p>
+            <ul>
+              <li id="CHANGE" outputclass="repositoryAnalyticsAdded">
+                <note othertype="repositoryAnalyticsAdded" type="other">
+                  <b>Name: </b>
+                </note>
+                <note othertype="repositoryAnalyticsAdded" type="other">CHANGE</note>
+                <note othertype="repositoryAnalyticsAdded" type="other">
+                  <ul>
+                    <li>
+                      <b>Part Element: </b>
+                      extns:CHANGE
+                    </li>
+                    <li>
+                      <b>Part Name: </b>
+                      CHANGE
+                    </li>
+                  </ul>
+                </note>
+              </li>
+              <li id="delete4XXFaultMessage">
+                <b>Name: </b>
+                delete4XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:client4XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    clientError
+                  </li>
+                </ul>
+              </li>
+              <li id="delete5XXFaultMessage">
+                <b>Name: </b>
+                delete5XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:server5XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    serverError
+                  </li>
+                </ul>
+              </li>
+              <li id="deleteRequest">
+                <b>Name: </b>
+                deleteRequest
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:httpHeaders
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    httpHeaders
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns2:BookParameters
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    parameters
+                  </li>
+                </ul>
+              </li>
+              <li id="deleteResponse">
+                <b>Name: </b>
+                deleteResponse
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    msg
+                  </li>
+                </ul>
+              </li>
+              <li id="get4XXFaultMessage">
+                <b>Name: </b>
+                get4XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:client4XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    clientError
+                  </li>
+                </ul>
+              </li>
+              <li id="get4XXFaultMessage1">
+                <b>Name: </b>
+                get4XXFaultMessage1
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:client4XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    clientError
+                  </li>
+                </ul>
+              </li>
+              <li id="get4XXFaultMessage2">
+                <b>Name: </b>
+                get4XXFaultMessage2
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:client4XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    clientError
+                  </li>
+                </ul>
+              </li>
+              <li id="get5XXFaultMessage">
+                <b>Name: </b>
+                get5XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:server5XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    serverError
+                  </li>
+                </ul>
+              </li>
+              <li id="get5XXFaultMessage1">
+                <b>Name: </b>
+                get5XXFaultMessage1
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:server5XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    serverError
+                  </li>
+                </ul>
+              </li>
+              <li id="get5XXFaultMessage2">
+                <b>Name: </b>
+                get5XXFaultMessage2
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:server5XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    serverError
+                  </li>
+                </ul>
+              </li>
+              <li id="getRequest">
+                <b>Name: </b>
+                getRequest
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:httpHeaders
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    httpHeaders
+                  </li>
+                </ul>
+              </li>
+              <li id="getRequest1">
+                <b>Name: </b>
+                getRequest1
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:httpHeaders
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    httpHeaders
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns2:BookParameters
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    parameters
+                  </li>
+                </ul>
+              </li>
+              <li id="getRequest2">
+                <b>Name: </b>
+                getRequest2
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:httpHeaders
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    httpHeaders
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns2:Book1Parameters
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    parameters
+                  </li>
+                </ul>
+              </li>
+              <li id="getResponse">
+                <b>Name: </b>
+                getResponse
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns:Books
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    item
+                  </li>
+                </ul>
+              </li>
+              <li id="getResponse1">
+                <b>Name: </b>
+                getResponse1
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns:Book
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    item
+                  </li>
+                </ul>
+              </li>
+              <li id="getResponse2">
+                <b>Name: </b>
+                getResponse2
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns3:Events
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    item
+                  </li>
+                </ul>
+              </li>
+              <li id="post4XXFaultMessage">
+                <b>Name: </b>
+                post4XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:client4XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    clientError
+                  </li>
+                </ul>
+              </li>
+              <li id="post5XXFaultMessage">
+                <b>Name: </b>
+                post5XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:server5XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    serverError
+                  </li>
+                </ul>
+              </li>
+              <li id="postRequest">
+                <b>Name: </b>
+                postRequest
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns:Books
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    item
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:httpHeaders
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    httpHeaders
+                  </li>
+                </ul>
+              </li>
+              <li id="postResponse">
+                <b>Name: </b>
+                postResponse
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns:Books
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    item
+                  </li>
+                </ul>
+              </li>
+              <li id="put4XXFaultMessage">
+                <b>Name: </b>
+                put4XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:client4XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    clientError
+                  </li>
+                </ul>
+              </li>
+              <li id="put5XXFaultMessage">
+                <b>Name: </b>
+                put5XXFaultMessage
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:server5XXError
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    serverError
+                  </li>
+                </ul>
+              </li>
+              <li id="putRequest">
+                <b>Name: </b>
+                putRequest
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns:Book
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    item
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns1:httpHeaders
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    httpHeaders
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns2:BookParameters
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    parameters
+                  </li>
+                </ul>
+              </li>
+              <li id="putResponse">
+                <b>Name: </b>
+                putResponse
+                <ul>
+                  <li>
+                    <b>Part Element: </b>
+                    extns:Book
+                  </li>
+                  <li>
+                    <b>Part Name: </b>
+                    item
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </p>
+        </conbody>
+      </concept>
+    </concept>
+  </concept>
+</concept>
