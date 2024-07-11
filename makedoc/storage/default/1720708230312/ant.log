@@ -1,0 +1,357 @@
+2024-07-11 14:30:31 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+2024-07-11 14:30:32 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+
+checkGeneralMakeDocPath:
+
+checkTask.check.generic:
+     [echo] Testing MakeDoc config - general
+
+checkTask.check.module:
+     [echo] Testing MakeDoc config - rita
+
+checkInputData:
+
+check:
+
+rita2dita:
+     [echo] Profile name: Enterprise
+[rita.genAnalysis] Calling setLogback /home/makedoc/server/cfg/log/snapshot.xml
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] creating table 'records'
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+[rita.genAnalysis] DB already Initialized!!
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Repository analytics
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] 
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Comparing directories - finding added/deleted/modified files...
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Comparing ESB
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Old dir: 	/home/makedoc/server/storage/default/1720531707774/dita/projects
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] New dir: 	/home/makedoc/server/storage/default/1720617195969/dita/projects
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Out dir: 	/home/makedoc/server/storage/default/1720708230312/dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/dependencies in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/dependencies
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/META-INF in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/META-INF
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/process.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/process.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedftp.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedftp.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedhttp.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedhttp.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedjdbc.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedjdbc.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedjmscon.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedjmscon.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedjndiconfig.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/sharedjndiconfig.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/substvar.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/substvar.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/time.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/time.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/wsdl.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/xsd.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/common/xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/default.substvar.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/META-INF/default.substvar.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/db
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest/BookStore in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest/BookStore
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Books.xsd.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Books.xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Generating dita topic file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/XSD_space_Schemas/ditaTopic0.dita...original file: /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Books.xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/BooksSchema.xsd.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/BooksSchema.xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Events.xsd.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Events.xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/EventsSchema.xsd.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/EventsSchema.xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/RESTSchema.xsd.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/RESTSchema.xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Books.wsdl.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Books.wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Generating dita topic file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/WSDLs/ditaTopic0.dita...original file: /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Books.wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/BooksDBService.wsdl.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/BooksDBService.wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Events.wsdl.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Events.wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/EventsDBService.wsdl.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/EventsDBService.wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/ModuleActivator.wsdl.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/ModuleActivator.wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/dependencies in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/dependencies
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/process.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/process.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedftp.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedftp.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedhttp.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedhttp.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedjdbc.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedjdbc.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedjmscon.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedjmscon.dita
+[rita.genAnalysis] 2024-07-11 14:30:33 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedjndiconfig.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/sharedjndiconfig.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/substvar.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/substvar.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/time.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/time.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/wsdl.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/wsdl.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/xsd.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/common/xsd.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/default.substvar.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/default.substvar.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/docker.substvar.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/docker.substvar.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Processing comparison of /home/makedoc/server/storage/default/1720531707774/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/local.substvar.dita in reference to /home/makedoc/server/storage/default/1720617195969/dita/projects/tibco.bwce.sample.binding.rest.BookStore.application/META-INF/local.substvar.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] ------------------------------------------------CONNECTING DITA STRUCTURE-------------------------------------------------
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita introduction file: /home/makedoc/server/storage/default/1720708230312/dita/intro.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita map file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/WSDLs/WSDLs.ditamap
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/WSDLs/files.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita map file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/XSD_space_Schemas/XSD_space_Schemas.ditamap
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/XSD_space_Schemas/files.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita map file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/tibco.bwce.sample.binding.rest.BookStore.ditamap
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita file: /home/makedoc/server/storage/default/1720708230312/dita/changed/tibco.bwce.sample.binding.rest.BookStore/files.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita map file: /home/makedoc/server/storage/default/1720708230312/dita/changed/changed.ditamap
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita file: /home/makedoc/server/storage/default/1720708230312/dita/changed/files.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Modyfing root file info: /home/makedoc/server/storage/default/1720708230312/dita/changed/files.dita
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] Generating dita root map file: /home/makedoc/server/storage/default/1720708230312/dita/output.ditamap
+[rita.genAnalysis] 2024-07-11 14:30:34 INFO [main] ------------------------------------------------DITA FINISHED-------------------------------------------------------------
+
+trySetDeveloperPath:
+
+trySetProdPath:
+     [echo] Setting the production classpath
+
+setClasspath:
+
+makeDocConfigurationPath:
+
+makeDocDeveopmentDebug:
+
+storage.start:
+
+storage.ditaDone:
+
+deployLogo:
+     [copy] Copying 1 file to /home/makedoc/server/cfg/portal/src/local/multistep/images
+     [copy] Copying /home/makedoc/server/cfg/img/LogoCustomer.png to /home/makedoc/server/cfg/portal/src/local/multistep/images/logoCustomer.png
+     [copy] Copying 1 file to /home/makedoc/server/cfg/portal/src/local/one-page/images
+     [copy] Copying /home/makedoc/server/cfg/img/LogoCustomer.png to /home/makedoc/server/cfg/portal/src/local/one-page/images/logoCustomer.png
+     [copy] Copying 1 file to /home/makedoc/server/cfg/portal/src/srv/multistep/images
+     [copy] Copying /home/makedoc/server/cfg/img/LogoCustomer.png to /home/makedoc/server/cfg/portal/src/srv/multistep/images/logoCustomer.png
+     [copy] Copying 1 file to /home/makedoc/server/cfg/portal/src/srv/one-page/images
+     [copy] Copying /home/makedoc/server/cfg/img/LogoCustomer.png to /home/makedoc/server/cfg/portal/src/srv/one-page/images/logoCustomer.png
+     [copy] Copying 1 file to /home/makedoc/server/bin/plugins/com.pike.packages_4.4.0.v1709166954000/packages/dita/md_internal/images
+     [copy] Copying /home/makedoc/server/cfg/img/LogoCustomer.png to /home/makedoc/server/bin/plugins/com.pike.packages_4.4.0.v1709166954000/packages/dita/md_internal/images/logoCustomer.png
+
+html-dita:
+
+html.full:
+
+html-dita-server:
+
+html.ondemand:
+
+html:
+
+md-dita:
+
+usage:
+
+createTempDir:
+    [mkdir] Created dir: /home/makedoc/server/storage/default/1720708230312/tmp/md
+
+job:
+     [echo] 
+     [echo] 		
+     [echo] ======================================================================
+     [echo] 
+     [echo] 		
+     [echo]                             Dita 2 MarkDown
+     [echo] 
+     [echo] 		
+     [echo] DOCUMENT_FILE : /home/makedoc/server/storage/default/1720708230312/dita/output.ditamap
+     [echo] OUTPUT_DIR    : /home/makedoc/server/storage/default/1720708230312/md
+     [echo] 
+     [echo] 		
+     [echo] Command:	dita --input /home/makedoc/server/storage/default/1720708230312/dita/output.ditamap --format markdown --output=/home/makedoc/server/storage/default/1720708230312/md --dita.temp.dir=/home/makedoc/server/storage/default/1720708230312/tmp/md --clean.temp=no
+     [echo] 		
+     [echo] 
+     [echo] 		
+     [echo]                                                            Starting...
+     [echo] ======================================================================
+     [echo] 
+     [echo] 		
+     [echo] [debug] ANT_XMX=16384m
+     [echo] 
+     [echo] 		
+     [echo] Converting dita to MarkDown...
+    [mkdir] Created dir: /home/makedoc/server/storage/default/1720708230312/md
+
+is_error:
+
+doCleanUp:
+     [echo] ==========================================
+     [echo]             Deleting directory Temp
+     [echo] 
+     [echo] 		
+   [delete] Deleting directory /home/makedoc/server/storage/default/1720708230312/tmp/md
+
+do:
+
+trySetDeveloperPath:
+
+trySetProdPath:
+     [echo] Setting the production classpath
+
+setClasspath:
+
+makeDocConfigurationPath:
+
+makeDocDeveopmentDebug:
+
+storage.start:
+
+storage.mdDone:
+
+md:
+
+pdf-dita:
+
+pdf:
+
+docx-dita:
+
+docx:
+
+storage.setDepend:
+
+storage.setStatistics:
+
+storage.cleanRecordTmp:
+   [delete] Deleting directory /home/makedoc/server/storage/default/1720708230312/tmp
+
+storage.closeRecord:
+
+storage.portal.licensing.test:
+
+storage.portal.licensing:
+
+storage.portal.licensing.warning.echo:
+
+notification.send:
+
+storage.portal:
+     [fmpp] - Executing: local/multistep/groups.html
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:51 INFO [main] creating table 'records'
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:51 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] - Copying: local/mult.../header-row-background-image.png
+     [fmpp] - Copying: local/multistep/images/logoCustomer.png
+     [fmpp] - Copying: local/mu.../small-makedoc-logos-pageTitle.png
+     [fmpp] - Copying: local/multistep.../title-background-image.png
+     [fmpp] - Executing: local/multistep/index.html
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:51 INFO [main] creating table 'records'
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:51 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] - Executing: local/multistep/storages.html
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:51 INFO [main] creating table 'records'
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:51 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] - Copying: local/one-.../header-row-background-image.png
+     [fmpp] - Copying: local/one-page/images/logoCustomer.png
+     [fmpp] - Copying: local/on.../small-makedoc-logos-pageTitle.png
+     [fmpp] - Copying: local/one-page/.../title-background-image.png
+     [fmpp] - Executing: local/one-page/index.html
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:51 INFO [main] creating table 'records'
+2024-07-11 14:30:51 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:51 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] - Executing: srv/multistep/groups.html
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:52 INFO [main] creating table 'records'
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:52 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] - Copying: srv/multis.../header-row-background-image.png
+     [fmpp] - Copying: srv/multistep/images/logoCustomer.png
+     [fmpp] - Copying: srv/mult.../small-makedoc-logos-pageTitle.png
+     [fmpp] - Copying: srv/multistep/i.../title-background-image.png
+     [fmpp] - Executing: srv/multistep/index.html
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:52 INFO [main] creating table 'records'
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:52 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] - Executing: srv/multistep/storages.html
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:52 INFO [main] creating table 'records'
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:52 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] - Copying: srv/one-pa.../header-row-background-image.png
+     [fmpp] - Copying: srv/one-page/images/logoCustomer.png
+     [fmpp] - Copying: srv/one-.../small-makedoc-logos-pageTitle.png
+     [fmpp] - Copying: srv/one-page/im.../title-background-image.png
+     [fmpp] - Executing: srv/one-page/index.html
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] creating table 'records'
+     [fmpp] 2024-07-11 14:30:52 INFO [main] creating table 'records'
+2024-07-11 14:30:52 INFO [main] [com.j256.ormlite.table.TableUtils:invoke0] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] 2024-07-11 14:30:52 INFO [main] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `records` (`close_date` TIMESTAMP , `create_date` TIMESTAMP , `html` INTEGER , `md` TINYINT(1) , `id` BIGINT AUTO_INCREMENT , `module` VARCHAR(255) , `pdf` TINYINT(1) , `dita` TINYINT(1) , `group` VARCHAR(255) , `repository` VARCHAR(255) , `type` VARCHAR(255) , `uri` VARCHAR(255) , `docx` TINYINT(1) , `depends` VARCHAR(255) , `stats` VARCHAR(255) , PRIMARY KEY (`id`) ) 
+     [fmpp] Summary: 8 exe. + 0 xml. + 16 cop. = 24 succ.; 0 warn.; 0 failed
+
+logs.compress:
+
+select-last-modified:
+     [echo] Last modified file: /home/makedoc/server/storage/default/1720708230312
+
+create-group-properties-folder:
+
+canDelete.check:
+
+delete-symlink:
+
+generateHTML.check:
+
+generateHTML:
+
+generateDOCX.check:
+
+generateDOCX:
+
+generatePDF.check:
+
+generatePDF:
+
+CanGenerate.check:
+
+make-unix-symlink:
+
+CanGenerateWindows.check:
+
+prepare-windows-symlink:
+
+windows.generatePDF.check:
+
+windows.pdf.replace-href:
+
+windows.generatePDF.checkEmpty:
+
+windows.pdf.replace-empty:
+
+windows.generatePDF:
+
+windows.generateHTML.check:
+
+windows.html.replace-href:
+
+windows.generateHTML.checkEmpty:
+
+windows.html.replace-empty:
+
+windows.generateHTML:
+
+windows.generateDOCX.check:
+
+windows.docx.replace-href:
+
+windows.generateDOCX.checkEmpty:
+
+windows.docx.replace-empty:
+
+windows.generateDOCX:
+
+make-windows-symlink:
+
+storage.create-symlink:
+     [echo] Operation system Linux
+
+qaReportFile.check:
+
+checkQaRules:
+
+all:
