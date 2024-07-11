@@ -148,11 +148,11 @@ nav:
                   -   local.substvar: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation5.md
                   -   tibco.bwce.sample.binding.rest.BookStore.application: qa/projects/tibco.bwce.sample.binding.rest.BookStore.application/violation2.md
       -   QA Rules Statistics: qa/common/invalidQARule.md
-
 -   Repository Analyst documentation:
+      -   Introduction: /ra/intro.md
       -   Changed items:
             -   tibco.bwce.sample.binding.rest.BookStore:
                   -   XSD Schemas:
                         -   Books: /ra/changed/tibco.bwce.sample.binding.rest.BookStore/XSD_space_Schemas/ditaTopic0.md
                   -   WSDLs:
-                    -   Books: /ra/changed/tibco.bwce.sample.binding.rest.BookStore/WSDLs/ditaTopic0.md
+                        -   Books: /ra/changed/tibco.bwce.sample.binding.rest.BookStore/WSDLs/ditaTopic0.md
