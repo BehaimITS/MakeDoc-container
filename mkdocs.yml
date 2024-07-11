@@ -150,9 +150,9 @@ nav:
       -   QA Rules Statistics: qa/common/invalidQARule.md
 -   Repository Analyst documentation:
       -   Introduction: ra/intro.md
-      -   Changed items: ra/changed/files.md
-            -   tibco.bwce.sample.binding.rest.BookStore: ra/changed/tibco.bwce.sample.binding.rest.BookStore/files.md
-                  -   XSD Schemas: ra/changed/tibco.bwce.sample.binding.rest.BookStore/XSD_space_Schemas/files.md
+      -   Changed items:
+            -   tibco.bwce.sample.binding.rest.BookStore:
+                  -   XSD Schemas:
                         -   Books: ra/changed/tibco.bwce.sample.binding.rest.BookStore/XSD_space_Schemas/ditaTopic0.md
-                  -   WSDLs: ra/changed/tibco.bwce.sample.binding.rest.BookStore/WSDLs/files.md
+                  -   WSDLs:
                         -   Books: ra/changed/tibco.bwce.sample.binding.rest.BookStore/WSDLs/ditaTopic0.md
