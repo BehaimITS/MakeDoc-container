@@ -190,6 +190,7 @@ jobs:
           mkdir -p /home/makedoc/repository/makedoc/ws && cp -r /home/makedoc/server/ws/* /home/makedoc/repository/makedoc/ws/
 
       - name: Replace latest project in docs directory
+        if: ${{ inputs.projectType == 'BusinessWorks 6' || inputs.projectType == 'BusinessWorks 5' }}
         run: |
           mkdir -p /home/makedoc/repository/docs/
           rm -rf /home/makedoc/repository/docs/*
@@ -203,6 +204,23 @@ jobs:
             cp -r "$(find . -type d -name pdf -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/pdf$||')/pdf/." /home/makedoc/repository/docs/
           elif [[ "${{ inputs.docx }}" == "true" ]]; then
             cp -r "$(find . -type d -name docx -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/docx$||')/docx/." /home/makedoc/repository/docs/
+          fi
+
+      - name: Replace latest repository analyst project in docs directory
+        if: ${{ inputs.projectType == 'Repository Analyst' }}
+        run: |
+          mkdir -p /home/makedoc/repository/docs/ra/
+          rm -rf /home/makedoc/repository/docs/ra/*
+          cd /home/makedoc/server/storage/default/
+          
+          if [[ "${{ env.md }}" == "true" ]]; then
+            cp -r "$(find . -type d -name md -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/md$||')/md/." /home/makedoc/repository/docs/ra/
+          elif [[ "${{ env.html }}" == "true" ]]; then
+            cp -r "$(find . -type d -name html -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/html$||')/html/." /home/makedoc/repository/docs/ra/
+          elif [[ "${{ env.pdf }}" == "true" ]]; then
+            cp -r "$(find . -type d -name pdf -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/pdf$||')/pdf/." /home/makedoc/repository/docs/ra/
+          elif [[ "${{ env.docx }}" == "true" ]]; then
+            cp -r "$(find . -type d -name docx -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2- | sed 's|/docx$||')/docx/." /home/makedoc/repository/docs/ra/
           fi
           
       - name: Commit files
