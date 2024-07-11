@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="WSDLs" xml:lang="en-us">
+  <title>WSDLs</title>
+  <titlealts>
+    <navtitle>WSDLs</navtitle>
+  </titlealts>
+  <conbody>
+    <p>Chapter contains description of changed WSDLs from project tibco.bwce.sample.binding.rest.BookStore.</p>
+  </conbody>
+</concept>

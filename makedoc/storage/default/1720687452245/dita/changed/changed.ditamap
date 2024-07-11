@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/home/makedoc/server/cfg/dtd/map.dtd">
+<map title="Changes in the filesystem">
+  <topicref href="files.dita" type="concept">
+    <topicref format="ditamap" href="tibco.bwce.sample.binding.rest.BookStore/tibco.bwce.sample.binding.rest.BookStore.ditamap"/>
+  </topicref>
+</map>
