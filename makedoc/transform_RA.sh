@@ -16,8 +16,7 @@ transform_line() {
 # Funkce pro výpočet délky odsazení
 calculate_indent_length() {
     local line="$1"
-    local indent_length=$(echo "$line" | sed -e 's/[^ \t].*//' | wc -c)
-    echo $indent_length
+    echo $(echo "$line" | sed -e 's/[^ \t].*//' | wc -c)
 }
 
 # Smazání "Repository Analyst documentation"
@@ -29,8 +28,6 @@ fi
 
 # Připojení transformovaných řádků do výstupního souboru
 {
-    echo '-   Repository Analyst documentation:'
-
     # Kontrola, zda výstupní soubor existuje a není prázdný
     if [[ ! -s "$output_path" ]]; then
         echo 'site_name: "bwce-integration-flow"'
@@ -41,33 +38,52 @@ fi
         echo 'nav:'
     fi
 
+    echo '-   Repository Analyst documentation:'
+    
+    # Initialize previous_line and previous_indent_length
+    previous_line=""
     previous_indent_length=0
 
     while IFS= read -r current_line || [ -n "$current_line" ]; do
         if [[ -n "$current_line" && ! "$current_line" =~ ^# ]]; then
             current_indent_length=$(calculate_indent_length "$current_line")
 
-            # Odsazení
-            indent=""
-            for (( i=2; i<current_indent_length; i+=4 )); do
-                indent="$indent  "
-            done
+            # Check if previous_line exists to process it
+            if [[ -n "$previous_line" ]]; then
+                indent="      "  # Přidání základního odsazení pro všechny řádky kromě prvního
+                for (( i=2; i<previous_indent_length; i+=4 )); do
+                    indent="$indent  "
+                done
+
+                if [[ $previous_indent_length -lt $current_indent_length ]]; then
+                    transformed_line=$(echo "$previous_line" | sed 's/\[\(.*\)\](\(.*\))/\1:/')
+                else
+                    transformed_line=$(transform_line "$previous_line")
+                fi
+
+                echo "${indent}$transformed_line"
+            fi
 
             # Transformace řádku
             transformed_line=$(transform_line "$current_line")
 
-            # Výstup transformovaného řádku
-            if [[ $previous_indent_length -lt $current_indent_length ]]; then
-                indent="      $indent"
-            else
-                indent="      $indent"
-            fi
-            echo "${indent}$transformed_line"
-
-            # Aktualizace previous_indent_length
+            # Update previous_line and previous_indent_length
+            previous_line="$current_line"
             previous_indent_length="$current_indent_length"
         fi
     done < "$input_path"
+
+    # Handle the last line if any
+    if [[ -n "$previous_line" && ! "$previous_line" =~ ^# ]]; then
+        indent="      "  # Přidání základního odsazení pro všechny řádky kromě prvního
+        for (( i=2; i<previous_indent_length; i+=4 )); do
+            indent="$indent  "
+        done
+
+        transformed_line=$(transform_line "$previous_line")
+        echo "${indent}$transformed_line"
+    fi
+
 } >> "$output_path"
 
 echo "Soubor transformován a připojen k $output_path"
