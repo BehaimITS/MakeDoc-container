@@ -21,11 +21,8 @@ calculate_indent_length() {
 
 # Smazání řádků za "Repository Analyst documentation:"
 if grep -q "Repository Analyst documentation:" "$output_path"; then
-    # Pomocí ed (textový editor) k odstranění řádků od "Repository Analyst documentation:" včetně
-    ed -s "$output_path" <<EOF
-/Repository Analyst documentation:/,\$d
-w
-EOF
+    # Pomocí sed k odstranění řádků od "Repository Analyst documentation:" včetně
+    sed -i '' '/Repository Analyst documentation:/,$d' "$output_path"
 fi
 
 # Připojení transformovaných řádků do výstupního souboru
