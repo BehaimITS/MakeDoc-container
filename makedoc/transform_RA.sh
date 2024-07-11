@@ -8,7 +8,7 @@ output_path=${2:-mkdocs.yml}
 transform_line() {
     local line=$1
     line=$(echo "$line" | sed -E 's|\[([^]]*/)?([^]/]+)\](\([^)]*\))|\[\2\]\3|; s|\[\](\([^)]*\))|\[default\](\1)|')
-    line=$(echo "$line" | sed 's/\[\(.*\)\](\(.*\))/\1: \/ra\/\2/')
+    line=$(echo "$line" | sed 's/\[\(.*\)\](\(.*\))/\1: ra\/\2/')
     echo "$line"
 }
 
