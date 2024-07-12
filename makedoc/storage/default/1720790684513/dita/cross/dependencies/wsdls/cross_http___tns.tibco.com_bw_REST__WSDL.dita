@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="http___tns.tibco.com_bw_REST__WSDL__unresolved" xml:lang="en-us">
+	<title>http___tns.tibco.com_bw_REST__WSDL__unresolved</title>
+	<titlealts><navtitle>http___tns.tibco.com_bw_REST__WSDL__unresolved</navtitle></titlealts>
+	<conbody>
+		<p>Chapter contains http___tns.tibco.com_bw_REST__WSDL__unresolved crossreferences documentation.</p>
+			<imagemap>
+				<image href="cross_http___tns.tibco.com_bw_REST__WSDL.png"/>		
+					<area><shape>poly</shape><coords>35,438,75,438,75,478,35,478</coords><xref href="../../dependencies/wsdls/cross_http___tns.tibco.com_bw_REST__WSDL.dita">http://tns.tibco.com/bw/REST::WSDL</xref></area>
+					<area><shape>poly</shape><coords>292,438,332,438,332,478,292,478</coords><xref href="../../dependencies/wsdls/cross_http___www.example.org_Events_REST_1412583816215_ConceptSchema__WSDL.dita">http://www.example.org/Events/REST/1412583816215/ConceptSchema::WSDL</xref></area>
+					<area><shape>poly</shape><coords>177,279,217,279,217,319,177,319</coords><xref href="../../dependencies/wsdls/cross_http___www.example.org_Events_REST_1412583816215__WSDL.dita">http://www.example.org/Events/REST/1412583816215::WSDL</xref></area>
+					<area><shape>poly</shape><coords>138,80,178,80,178,120,138,120</coords><xref href="../../dependencies/wsdls/cross_http___www.example.org_Events__WSDL.dita">http://www.example.org/Events::WSDL</xref></area>
+					<area><shape>poly</shape><coords>548,89,588,89,588,129,548,129</coords><xref href="../../dependencies/wsdls/cross_http___xmlns.example.com_20141006121028__WSDL.dita">http://xmlns.example.com/20141006121028::WSDL</xref></area>
+					<area><shape>poly</shape><coords>389,239,429,239,429,279,389,279</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.Events.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.Events</xref></area>
+					<area><shape>poly</shape><coords>568,271,608,271,608,311,568,311</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.db.EventsDB.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.db.EventsDB</xref></area>
+			</imagemap>
+		
+			    <p>Referenced From:
+			        <ul>
+			                <li>
+			                        <xref href="../../../projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/Events.wsdl.dita">http://www.example.org/Events/REST/1412583816215::WSDL</xref>
+			                </li>
+			        </ul>
+			    </p>
+		
+	</conbody>
+</concept>

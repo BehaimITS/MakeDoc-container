@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="Books.xsd.dita" xml:lang="en-us">
+  <title>Books</title>
+  <titlealts>
+    <navtitle>Schemas/Books</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>
+      Section contains documentation of changed XSD Schema Books (
+      <xref href="../../../../../1720617195969/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Books.xsd.html" scope="peer">2024/07/10 13:13</xref>
+      , 
+      <xref href="../../../../../1720790684513/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Schemas/Books.xsd.html" scope="peer">2024/07/12 13:24</xref>
+      ).
+    </p>
+    <section>
+      <p>
+        <note othertype="repositoryAnalyticsAdded" type="other">Added element</note>
+        <note othertype="repositoryAnalyticsRemoved" type="other">Deleted element</note>
+      </p>
+    </section>
+  </conbody>
+  <concept id="Books.xsd.dita_xmlComp" xml:lang="en-us">
+    <title>Changes:</title>
+    <titlealts>
+      <navtitle>Changes:</navtitle>
+    </titlealts>
+    <concept id="Xsd" xml:lang="en-us">
+      <title>Books</title>
+      <titlealts>
+        <navtitle>Schemas/Books</navtitle>
+      </titlealts>
+      <conbody>
+        <p>License for TIBCO Software Use Only! </p>
+        <p>
+          				Section contains description of XSD Schema Books.xsd
+          <q>Books.xsd</q>
+        </p>
+        <section/>
+      </conbody>
+      <concept id="FolderDescription" xml:lang="en-us">
+        <title>Folder description:</title>
+        <conbody>
+          <table>
+            <tgroup cols="2">
+              <colspec colname="folder" colwidth="75*"/>
+              <colspec colname="desc" colwidth="175*"/>
+              <thead>
+                <row>
+                  <entry colname="folder" valign="top">Folder</entry>
+                  <entry colname="desc" valign="top">Description</entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry> </entry>
+                  <entry>No description</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </conbody>
+      </concept>
+      <concept id="Diagram" xml:lang="en-us">
+        <title>Diagram:</title>
+        <conbody/>
+      </concept>
+      <concept id="Attributes" xml:lang="en-us">
+        <title>Attributes</title>
+        <conbody>
+          <ul>
+            <li> elementFormDefault
+				:
+			 qualified</li>
+            <li> targetNamespace
+				:
+			 http://www.example.org/Books</li>
+          </ul>
+        </conbody>
+      </concept>
+      <concept id="Overview" xml:lang="en-us">
+        <title>Overview</title>
+        <concept id="Elements" xml:lang="en-us">
+          <title>Elements</title>
+          <conbody>
+            <ul>
+              <li>Book</li>
+              <li>Books</li>
+            </ul>
+          </conbody>
+        </concept>
+        <concept id="ComplexTypes" xml:lang="en-us">
+          <title>Complex Types</title>
+          <conbody>
+            <ul>
+              <li>Book</li>
+              <li>Books</li>
+            </ul>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="Detail" xml:lang="en-us">
+        <title>Detail</title>
+        <concept id="type_Book" xml:lang="en-us">
+          <title>complexType Book</title>
+          <conbody>
+            <ul>
+              <li>element isbn minOccurs  0
+				,
+			 type  string</li>
+            </ul>
+            <ul>
+              <li>element name minOccurs  0
+				,
+			 type  string</li>
+            </ul>
+            <ul>
+              <li>element description minOccurs  0
+				,
+			 type  string</li>
+            </ul>
+            <ul>
+              <li>element authorName minOccurs  0
+				,
+			 type  string</li>
+            </ul>
+            <ul>
+              <li>element releaseDate minOccurs  0
+				,
+			 type  date</li>
+            </ul>
+            <ul>
+              <li>element vintage minOccurs  0
+				,
+			 type  boolean</li>
+            </ul>
+            <ul>
+              <li>element signed minOccurs  0
+				,
+			 type  boolean</li>
+            </ul>
+            <ul>
+              <li>element price minOccurs  0
+				,
+			 type  float</li>
+            </ul>
+                		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    	
+            <note othertype="repositoryAnalyticsRemoved" type="other">
+              <ul outputclass="repositoryAnalyticsRemoved">
+                <li>element CHANGE minOccurs  0
+				,
+			 type  float</li>
+              </ul>
+            </note>
+          </conbody>
+        </concept>
+        <concept id="element_Book" xml:lang="en-us">
+          <title>element Book</title>
+          <conbody>
+            <ul>
+              <li> type
+				:
+			 tns:Book</li>
+            </ul>
+          </conbody>
+        </concept>
+        <concept id="type_Books" xml:lang="en-us">
+          <title>complexType Books</title>
+          <conbody>
+            <ul>
+              <li>element maxOccurs  unbounded
+				,
+			 minOccurs  0
+				,
+			 ref  tns:Book</li>
+            </ul>
+                		
+    	
+          </conbody>
+        </concept>
+        <concept id="element_Books" xml:lang="en-us">
+          <title>element Books</title>
+          <conbody>
+            <ul>
+              <li> type
+				:
+			 tns:Books</li>
+            </ul>
+          </conbody>
+        </concept>
+      </concept>
+    </concept>
+  </concept>
+</concept>
