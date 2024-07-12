@@ -11,7 +11,6 @@
     		<element minOccurs="0" name="vintage" type="boolean"/>
     		<element minOccurs="0" name="signed" type="boolean"/>
     		<element minOccurs="0" name="price" type="float"/>
-            <element minOccurs="0" name="CHANGE" type="float"/>
     	</sequence>
     </complexType>
 
