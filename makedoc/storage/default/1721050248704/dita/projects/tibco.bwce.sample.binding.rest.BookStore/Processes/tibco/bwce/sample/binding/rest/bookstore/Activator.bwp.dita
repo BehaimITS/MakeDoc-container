@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd"><concept xml:lang="en-us" id="ProcessMain"><title>Activator</title><titlealts><navtitle>Processes/tibco/bwce/sample/binding/rest/bookstore/Activator</navtitle></titlealts><conbody><p>License for TIBCO Software Use Only! </p><p>
+                            Section contains description of Process "
+                            Activator.bwp
+                            " .
+                        </p></conbody><concept xml:lang="en-us" id="FolderDescription"><title>Folder description:</title><conbody><table><tgroup cols="2"><colspec colwidth="75*" colname="folder"/><colspec colwidth="175*" colname="desc"/><thead><row><entry valign="top" colname="folder">Folder</entry><entry valign="top" colname="desc">Description</entry></row></thead><tbody><row><entry/><entry>No description</entry></row></tbody></tgroup></table></conbody></concept><concept xml:lang="en-us" id="ProcessDescription"><title>Process description:</title><conbody><table><tgroup cols="1"><tbody><row><entry>
+                                            No description
+                                        </entry></row></tbody></tgroup></table></conbody></concept><concept xml:lang="en-us" id="ProcessDefinition"><title>Process definition:</title><conbody><p>
+                    Full process path:
+                    tibco.bwce.sample.binding.rest.bookstore.Activator</p></conbody></concept><concept xml:lang="en-us" id="Diagram"><title>Diagram:</title><conbody><imagemap><image href="Activator.bwp.png"/><area><shape>circle</shape><coords>240
+                                                ,
+                                                273
+                                                ,40
+                                            </coords><xref format="html" href="#Log">Log</xref></area><area><shape>circle</shape><coords>330
+                                                ,
+                                                273
+                                                ,40
+                                            </coords><xref format="html" href="#CHANGE">CHANGE</xref></area><area><shape>circle</shape><coords>160
+                                                ,
+                                                218
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageStart">OnMessageStart</xref></area><area><shape>circle</shape><coords>221
+                                                ,
+                                                157
+                                                ,28
+                                            </coords><xref format="html" href="#create_books_table">create_books_table</xref></area><area><shape>circle</shape><coords>530
+                                                ,
+                                                157
+                                                ,28
+                                            </coords><xref format="html" href="#create_table_events">create_table_events</xref></area><area><shape>circle</shape><coords>343
+                                                ,
+                                                157
+                                                ,28
+                                            </coords><xref format="html" href="#insert_into_books">insert_into_books</xref></area><area><shape>circle</shape><coords>773
+                                                ,
+                                                213
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageEnd">OnMessageEnd</xref></area><area><shape>circle</shape><coords>160
+                                                ,
+                                                478
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageStart1">OnMessageStart1</xref></area><area><shape>circle</shape><coords>773
+                                                ,
+                                                432
+                                                ,28
+                                            </coords><xref format="html" href="#OnMessageEnd1">OnMessageEnd1</xref></area><area><shape>poly</shape><coords>262
+                                                    ,
+                                                    279
+                                                    ,
+                                                    304
+                                                    ,
+                                                    279
+                                                    ,
+                                                    304
+                                                    ,
+                                                    269
+                                                    ,
+                                                    262
+                                                    ,
+                                                    269</coords><xref format="html" href="#Transitions__Log_CHANGE">From: Log To: CHANGE</xref></area><area><shape>poly</shape><coords>243
+                                                    ,
+                                                    163
+                                                    ,
+                                                    317
+                                                    ,
+                                                    163
+                                                    ,
+                                                    317
+                                                    ,
+                                                    153
+                                                    ,
+                                                    243
+                                                    ,
+                                                    153</coords><xref format="html" href="#Transitions__create_books_table_insert_into_books">From: create_books_table To: insert_into_books</xref></area><area><shape>poly</shape><coords>365
+                                                    ,
+                                                    163
+                                                    ,
+                                                    504
+                                                    ,
+                                                    163
+                                                    ,
+                                                    504
+                                                    ,
+                                                    153
+                                                    ,
+                                                    365
+                                                    ,
+                                                    153</coords><xref format="html" href="#Transitions__insert_into_books_create_table_events">From: insert_into_books To: create_table_events</xref></area><area><shape>poly</shape><coords>162
+                                                    ,
+                                                    132
+                                                    ,
+                                                    314
+                                                    ,
+                                                    132
+                                                    ,
+                                                    314
+                                                    ,
+                                                    116
+                                                    ,
+                                                    162
+                                                    ,
+                                                    116</coords><xref format="html" href="#onStartup_ModuleActivator">onStartup_ModuleActivator</xref></area><area><shape>poly</shape><coords>162
+                                                    ,
+                                                    440
+                                                    ,
+                                                    319
+                                                    ,
+                                                    440
+                                                    ,
+                                                    319
+                                                    ,
+                                                    424
+                                                    ,
+                                                    162
+                                                    ,
+                                                    424</coords><xref format="html" href="#onShutdown_ModuleActivator">onShutdown_ModuleActivator</xref></area><area><shape>poly</shape><coords>8
+                                                    ,
+                                                    184
+                                                    ,
+                                                    137
+                                                    ,
+                                                    184
+                                                    ,
+                                                    137
+                                                    ,
+                                                    168
+                                                    ,
+                                                    8
+                                                    ,
+                                                    168</coords><xref format="html" href="#onStartup_ModuleActivator">onStartup_ModuleActivator</xref></area><area><shape>poly</shape><coords>8
+                                                    ,
+                                                    204
+                                                    ,
+                                                    137
+                                                    ,
+                                                    204
+                                                    ,
+                                                    137
+                                                    ,
+                                                    188
+                                                    ,
+                                                    8
+                                                    ,
+                                                    188</coords><xref format="html" href="#onShutdown_ModuleActivator">onShutdown_ModuleActivator</xref></area></imagemap></conbody></concept><concept xml:lang="en-us" id="Starter"><title>Process starter activity:</title><concept id="OnMessageStart"><title>Name:
+                <b><i>OnMessageStart</i></b></title><conbody><p><ul><li>Constructor: onMessageStart</li><li>xpdlId: 79e1b9f0-e800-4503-b8c9-7fc6da565325</li></ul></p></conbody></concept><concept id="OnMessageStart1"><title>Name:
+                <b><i>OnMessageStart1</i></b></title><conbody><p><ul><li>Constructor: onMessageStart</li><li>xpdlId: 5097d35a-1b3f-4bf0-a4a1-0fc58a1e49bb</li></ul></p></conbody></concept></concept><concept xml:lang="en-us" id="EndActivity"><title>Process end activity:</title><concept id="OnMessageEnd"><title>Name:
+                <b><i>OnMessageEnd</i></b></title><conbody><p><ul><li>Constructor: onMessageEnd</li><li>xpdlId: 3e222161-75e7-4be8-8610-1a38704d8b18</li></ul></p></conbody></concept><concept id="OnMessageEnd1"><title>Name:
+                <b><i>OnMessageEnd1</i></b></title><conbody><p><ul><li>Constructor: onMessageEnd</li><li>xpdlId: 4cae5b29-d44c-4e3d-93d0-cff37cc96e99</li></ul></p></conbody></concept></concept><concept xml:lang="en-us" id="ProcessVariables"><title>Process properties and variables</title><conbody><table><tgroup cols="2"><colspec colwidth="75*" colname="folder"/><colspec colwidth="75*" colname="type"/><colspec colwidth="165*" colname="propertySource"/><colspec colwidth="125*" colname="defaultValue"/><thead><row><entry valign="top" colname="name">Name</entry><entry valign="top" colname="type">Type</entry><entry valign="top" colname="propertySource">Property Source</entry><entry valign="top" colname="defaultValue">Default Value</entry></row></thead><tbody><row><entry>_processContext</entry><entry/><entry/><entry/></row><row><entry>onStartup</entry><entry/><entry/><entry/></row><row><entry>onShutdown</entry><entry/><entry/><entry/></row><row><entry>create_books_table-input</entry><entry/><entry/><entry/></row><row><entry>create_books_table</entry><entry/><entry/><entry/></row><row><entry>jdbcProperty</entry><entry>xsd:string</entry><entry/><entry>tibco.bwce.sample.binding.rest.BookStore.JDBCConnectionResource</entry></row><row><entry>create_table_events-input</entry><entry/><entry/><entry/></row><row><entry>create_table_events</entry><entry/><entry/><entry/></row><row><entry>FaultName</entry><entry>xsd:string</entry><entry/><entry/></row><row><entry>FaultDetails</entry><entry/><entry/><entry/></row><row><entry>Log-input</entry><entry/><entry/><entry/></row><row><entry>insert_into_books-input</entry><entry/><entry/><entry/></row><row><entry>insert_into_books</entry><entry/><entry/><entry/></row><row><entry>CHANGE-input</entry><entry/><entry/><entry/></row></tbody></tgroup></table></conbody></concept><concept xml:lang="en-us" id="Activities"><title>Activities:</title><concept id="CHANGE"><title>Name:
+                <b><i>CHANGE</i></b></title><conbody><section><indexterm>CHANGE</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.generalactivities.log</li><li>Logger Name: </li><li>Log level: <i>Info</i></li><li>Suppress Job Info:
+                    <i>true</i></li><li>Input Variable:
+                                <i>CHANGE-input</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:ActivityInput</b><b>/message</b></entry><entry>&quot;&quot;</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>tns:ActivityInputmessage = </b>&amp;quot;&amp;quot;</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;&lt;xsl:template name="CHANGE-input" match="/"&gt;&lt;tns:ActivityInput&gt;&lt;message&gt;&lt;xsl:value-of select="&amp;quot;&amp;quot;"/&gt;&lt;/message&gt;&lt;/tns:ActivityInput&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="create_books_table"><title>Name:
+                <b><i>create_books_table</i></b></title><conbody><section><indexterm>create_books_table</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.jdbc.SQLDirect</li><li>JDBC Shared Resource: <xref href="../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.dita">jdbcProperty</xref></li><li>Timeout (sec): 10</li><li>Maximum rows: 100</li><li>Thread Pool Shared Resource: </li><li>Override Transaction Behavior: <i>false</i></li><li>Override JDBC Connection: <i>false</i></li><li>Input Variable:
+                                <i>create_books_table-input</i></li><li>Output Variable:
+                                <i>create_books_table</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns1:ActivityInputType</b><b>/statement</b></entry><entry>'CREATE TABLE IF NOT EXISTS public.books (&#xA;  isbn text,&#xA;  name text,&#xA;  description text,&#xA;  &quot;authorName&quot; text,&#xA;  &quot;releaseDate&quot; date,&#xA;  vintage boolean,&#xA;  signed boolean,&#xA;  price double precision&#xA;)&#xA;WITH (&#xA;  OIDS=FALSE&#xA;)'</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+        tns1:ActivityInputType
+            statement = </b>'CREATE TABLE IF NOT EXISTS public.books (&amp;#xA;  isbn text,&amp;#xA;  name text,&amp;#xA;  description text,&amp;#xA;  &amp;quot;authorName&amp;quot; text,&amp;#xA;  &amp;quot;releaseDate&amp;quot; date,&amp;#xA;  vintage boolean,&amp;#xA;  signed boolean,&amp;#xA;  price double precision&amp;#xA;)&amp;#xA;WITH (&amp;#xA;  OIDS=FALSE&amp;#xA;)'</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+6bce79bd-a67c-4a10-9d5b-9802683b746d+input" version="2.0"&gt;
+    &lt;xsl:template name="create_books_table-input" match="/"&gt;
+        &lt;tns1:ActivityInputType&gt;
+            &lt;statement&gt;
+                &lt;xsl:value-of select="'CREATE TABLE IF NOT EXISTS public.books (&amp;#xA;  isbn text,&amp;#xA;  name text,&amp;#xA;  description text,&amp;#xA;  &amp;quot;authorName&amp;quot; text,&amp;#xA;  &amp;quot;releaseDate&amp;quot; date,&amp;#xA;  vintage boolean,&amp;#xA;  signed boolean,&amp;#xA;  price double precision&amp;#xA;)&amp;#xA;WITH (&amp;#xA;  OIDS=FALSE&amp;#xA;)'"/&gt;
+            &lt;/statement&gt;
+        &lt;/tns1:ActivityInputType&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="create_table_events"><title>Name:
+                <b><i>create_table_events</i></b></title><conbody><section><indexterm>create_table_events</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.jdbc.SQLDirect</li><li>JDBC Shared Resource: <xref href="../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.dita">jdbcProperty</xref></li><li>Timeout (sec): 10</li><li>Maximum rows: 100</li><li>Thread Pool Shared Resource: </li><li>Override Transaction Behavior: <i>false</i></li><li>Override JDBC Connection: <i>false</i></li><li>Input Variable:
+                                <i>create_table_events-input</i></li><li>Output Variable:
+                                <i>create_table_events</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns1:ActivityInputType</b><b>/statement</b></entry><entry>'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, &quot;authorName&quot; text, bookisbn text, date text, id&#xA;text ) WITH ( OIDS=FALSE );'</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+        tns1:ActivityInputType
+            statement = </b>'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, &amp;quot;authorName&amp;quot; text, bookisbn text, date text, id&amp;#xA;text ) WITH ( OIDS=FALSE );'</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+69412307-fbc4-4b65-8f42-4be7e5febb22+input" version="2.0"&gt;
+    &lt;xsl:template name="create_table_events-input" match="/"&gt;
+        &lt;tns1:ActivityInputType&gt;
+            &lt;statement&gt;
+                &lt;xsl:value-of select="'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, &amp;quot;authorName&amp;quot; text, bookisbn text, date text, id&amp;#xA;text ) WITH ( OIDS=FALSE );'"/&gt;
+            &lt;/statement&gt;
+        &lt;/tns1:ActivityInputType&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="insert_into_books"><title>Name:
+                <b><i>insert_into_books</i></b></title><conbody><section><indexterm>insert_into_books</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.jdbc.SQLDirect</li><li>JDBC Shared Resource: <xref href="../../../../../../../Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.dita">jdbcProperty</xref></li><li>Timeout (sec): 10</li><li>Maximum rows: 100</li><li>Thread Pool Shared Resource: </li><li>Override Transaction Behavior: <i>false</i></li><li>Override JDBC Connection: <i>false</i></li><li>Input Variable:
+                                <i>insert_into_books-input</i></li><li>Output Variable:
+                                <i>insert_into_books</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns1:ActivityInputType</b><b>/statement</b></entry><entry>&quot;INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);&quot;</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>
+        tns1:ActivityInputType
+            statement = </b>&amp;quot;INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);&amp;quot;</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+360b9e74-0243-4ec8-be5f-c63824e82a05+input" version="2.0"&gt;
+    &lt;xsl:template name="insert_into_books-input" match="/"&gt;
+        &lt;tns1:ActivityInputType&gt;
+            &lt;statement&gt;
+                &lt;xsl:value-of select="&amp;quot;INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);&amp;quot;"/&gt;
+            &lt;/statement&gt;
+        &lt;/tns1:ActivityInputType&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept><concept id="Log"><title>Name:
+                <b><i>Log</i></b></title><conbody><section><indexterm>Log</indexterm><ul><li>Description:
+                            <i>No description</i></li><li>Type: bw.generalactivities.log</li><li>Logger Name: </li><li>Log level: <i>Info</i></li><li>Suppress Job Info:
+                    <i>true</i></li><li>Input Variable:
+                                <i>Log-input</i></li><li><i>Input bindings:</i><ul outputclass="mappings"><li outputclass="table"><lines outputclass="caption">Mapping table</lines><table outputclass="data"><tgroup cols="2"><thead><row><entry>Target</entry><entry>Source</entry></row></thead><tbody><row><entry><b>/tns:ActivityInput</b><b>/message</b></entry><entry>concat(&quot;Caught Another Exception&quot;, &quot; ===&quot;, $FaultDetails/ActivityName)</entry></row></tbody></tgroup></table></li><li outputclass="tree"><lines outputclass="caption">Mapping tree</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock><b>tns:ActivityInputmessage = </b>concat(&amp;quot;Caught Another Exception&amp;quot;, &amp;quot; ===&amp;quot;, $FaultDetails/ActivityName)</codeblock></entry></row></tbody></tgroup></table></li><li outputclass="raw"><lines outputclass="caption">Source code</lines><table outputclass="data"><tgroup cols="1"><thead><row><entry>Mapping</entry></row></thead><tbody><row><entry><codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;&lt;xsl:param name="FaultDetails"/&gt;&lt;xsl:template name="Log-input" match="/"&gt;&lt;tns:ActivityInput&gt;&lt;message&gt;&lt;xsl:value-of select="concat(&amp;quot;Caught Another Exception&amp;quot;, &amp;quot; ===&amp;quot;, $FaultDetails/ActivityName)"/&gt;&lt;/message&gt;&lt;/tns:ActivityInput&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</codeblock></entry></row></tbody></tgroup></table></li></ul></li></ul></section></conbody></concept></concept><concept xml:lang="en-us" id="References"><title>References:</title></concept><concept xml:lang="en-us" id="Transitions"><title>Transitions:</title><conbody><ul id="Log_CHANGE"><li>
+                            From:
+                            <b><i>Log</i></b>
+                            -To:
+                            <b><i>CHANGE</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="create_books_table_insert_into_books"><li>
+                            From:
+                            <b><i>create_books_table</i></b>
+                            -To:
+                            <b><i>insert_into_books</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul><ul id="insert_into_books_create_table_events"><li>
+                            From:
+                            <b><i>insert_into_books</i></b>
+                            -To:
+                            <b><i>create_table_events</i></b><p><ul><li>
+                                        Label:
+                                        <i/></li><li>Type: SUCCESS</li></ul></p></li></ul></conbody></concept></concept>
