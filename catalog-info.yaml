@@ -6,6 +6,10 @@ metadata:
   annotations:
     github.com/project-slug: BehaimITS/MakeDoc-container
     backstage.io/techdocs-ref: dir:./
+  links:
+    - title: Behaim ITS
+      url: https://www.behaimits.com/
+      icon: home
 spec:
   type: service
   lifecycle: development
