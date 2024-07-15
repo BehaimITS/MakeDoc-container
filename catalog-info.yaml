@@ -11,7 +11,7 @@ metadata:
       url: https://www.behaimits.com/
       icon: home
 spec:
-  type: service
+  type: integration
   lifecycle: development
   owner: "group:default/tibco-templates"
   providesApis: ['bwce-integration-flow-api']
