@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: BehaimITS/MakeDoc-container
     backstage.io/techdocs-ref: dir:./
 spec:
-  type: integration
+  type: service
   lifecycle: development
   owner: "group:default/tibco-templates"
   providesApis: ['bwce-integration-flow-api']
