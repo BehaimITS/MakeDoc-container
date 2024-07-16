@@ -4446,7 +4446,6 @@
                     </li>
                     <li>Action: <xsl:call-template name="getItalicValue">
                         <xsl:with-param name="value" select="local-name(./tibex:*)"/></xsl:call-template></li>
-                    <!--li>Mapping: <xsl:choose><xsl:when test="./tibex:*/tibex:query/@expression"><codeblock><xsl:value-of select="./tibex:*/tibex:query/@expression"/></codeblock></xsl:when><xsl:otherwise>No Mapping</xsl:otherwise></xsl:choose></li-->
 
                     <li outputclass="raw">
                         <lines outputclass="caption">Mapping</lines>
@@ -4460,7 +4459,12 @@
                                 <tbody>
                                     <row>
                                         <entry>
-                                            <codeblock><xsl:choose><xsl:when test="./tibex:*/tibex:query/@expression"><codeblock><xsl:value-of select="./tibex:*/tibex:query/@expression"/></codeblock></xsl:when><xsl:otherwise>No Mapping</xsl:otherwise></xsl:choose></codeblock>
+                                            <xsl:choose>
+                                            	<xsl:when test="./tibex:*/tibex:query/@expression">
+                                            		<xsl:value-of select="./tibex:*/tibex:query/@expression"/>
+                                           		</xsl:when>
+                                           		<xsl:otherwise>No Mapping</xsl:otherwise>
+                                       		</xsl:choose>
                                         </entry>
                                     </row>
                                 </tbody>
@@ -4621,62 +4625,34 @@
                     </xsl:apply-templates>
                 </xsl:variable>
                 <xsl:if test="$ibTableBody != ''">
-                    <table>
-                        <tgroup cols="1">
-                            <thead>
-                                <row>
-                                    <entry>Mapping</entry>
-                                </row>
-                            </thead>
-                            <tbody>
-                                <row>
-                                    <entry>
-                                        <codeblock><xsl:value-of select="./@expression"/></codeblock>
-                                    </entry>
-                                </row>
-                            </tbody>
-                        </tgroup>
-                    </table>
+	                <codeblock>
+	                	<xsl:value-of select="./@expression"/>
+	               	</codeblock>
                 </xsl:if>
             </xsl:when>
             <xsl:when test="$mappingType='tree'">
-                <table>
-                    <tgroup cols="1">
-                        <thead>
-                            <row>
-                                <entry>Mapping</entry>
-                            </row>
-                        </thead>
-                        <tbody>
-                            <row>
-                                <entry>
-                                    <codeblock>
-                                        <xsl:choose>
-                                            <xsl:when test="./../../@expression">
-                                                <xsl:variable name="replacedChars">
-                                                    <xsl:call-template name="string-replace">
-                                                        <xsl:with-param name="string" select="./../../@expression" />
-                                                        <xsl:with-param name="replace" select="'&lt;'" />
-                                                        <xsl:with-param name="with" select="'&#xa;&lt;'" />
-                                                    </xsl:call-template>
-                                                </xsl:variable>
-                                                <xsl:call-template name="MT-MappingTree">
-                                                    <xsl:with-param name="string" select="substring-after(substring-after($replacedChars,'&lt;xsl:template'),'>')"/>
-                                                    <!--<xsl:with-param name="string" select="substring-after(substring-after(replace(./../../@expression,'&lt;','&#xa;&lt;'),'&lt;xsl:template'),'>')"/>-->
-                                                </xsl:call-template>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:call-template name="MT-MappingTree">
-                                                    <xsl:with-param name="string" select="substring-after(substring-after(./@expression,'&lt;xsl:template'),'>')"/>
-                                                </xsl:call-template>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </codeblock>
-                                </entry>
-                            </row>
-                        </tbody>
-                    </tgroup>
-                </table>
+	            <codeblock>
+	                <xsl:choose>
+	                    <xsl:when test="./../../@expression">
+	                        <xsl:variable name="replacedChars">
+	                            <xsl:call-template name="string-replace">
+	                                <xsl:with-param name="string" select="./../../@expression" />
+	                                <xsl:with-param name="replace" select="'&lt;'" />
+	                                <xsl:with-param name="with" select="'&#xa;&lt;'" />
+	                            </xsl:call-template>
+	                        </xsl:variable>
+	                        <xsl:call-template name="MT-MappingTree">
+	                            <xsl:with-param name="string" select="substring-after(substring-after($replacedChars,'&lt;xsl:template'),'>')"/>
+	                            <!--<xsl:with-param name="string" select="substring-after(substring-after(replace(./../../@expression,'&lt;','&#xa;&lt;'),'&lt;xsl:template'),'>')"/>-->
+	                        </xsl:call-template>
+	                    </xsl:when>
+	                    <xsl:otherwise>
+	                        <xsl:call-template name="MT-MappingTree">
+	                            <xsl:with-param name="string" select="substring-after(substring-after(./@expression,'&lt;xsl:template'),'>')"/>
+	                        </xsl:call-template>
+	                    </xsl:otherwise>
+	                </xsl:choose>
+	            </codeblock>
             </xsl:when>
             <xsl:when test="$mappingType='all'">
                 <ul outputclass="mappings">
@@ -4728,93 +4704,55 @@
                     </li>
                     <li outputclass="tree">
                         <lines outputclass="caption">Mapping tree</lines>
-                        <table outputclass="data">
-                            <tgroup cols="1">
-                                <thead>
-                                    <row>
-                                        <entry>Mapping</entry>
-                                    </row>
-                                </thead>
-                                <tbody>
-                                    <row>
-                                        <entry>
-                                            <codeblock>
-                                                <xsl:choose>
-                                                    <xsl:when test="./../../@expression">
-                                                        <xsl:variable name="replacedChars">
-                                                            <xsl:call-template name="string-replace">
-                                                                <xsl:with-param name="string" select="CustomFunctions:prettyFormat(./../../@expression)" />
-                                                                <xsl:with-param name="replace" select="'    '" />
-                                                                <xsl:with-param name="with" select="'&#x9;'" />
-                                                            </xsl:call-template>
-                                                        </xsl:variable>
-                                                        <xsl:call-template name="MT-MappingTree">
-                                                            <xsl:with-param name="string" select="substring-after(substring-after($replacedChars,'&lt;xsl:template'),'>')"/>
-                                                        </xsl:call-template>
-                                                    </xsl:when>
-                                                    <xsl:when test="./../../tibex:inputBinding">
-                                                        <xsl:variable name="replacedChars">
-                                                            <xsl:call-template name="string-replace">
-                                                                <xsl:with-param name="string" select="CustomFunctions:prettyFormat(./../../tibex:inputBinding/text())" />
-                                                                <xsl:with-param name="replace" select="'    '" />
-                                                                <xsl:with-param name="with" select="'&#x9;'" />
-                                                            </xsl:call-template>
-                                                        </xsl:variable>
-                                                        <xsl:call-template name="MT-MappingTree">
-                                                            <xsl:with-param name="string" select="substring-after(substring-after($replacedChars,'&lt;xsl:template'),'>')"/>
-                                                        </xsl:call-template>
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <xsl:call-template name="MT-MappingTree">
-                                                            <xsl:with-param name="string" select="substring-after(substring-after(./@expression,'&lt;xsl:template'),'>')"/>
-                                                        </xsl:call-template>
-                                                    </xsl:otherwise>
-                                                </xsl:choose>
-                                            </codeblock>
-                                        </entry>
-                                    </row>
-                                </tbody>
-                            </tgroup>
-                        </table>
-                        <!-- /xsl:if-->
+	                        <codeblock>
+	                            <xsl:choose>
+	                                <xsl:when test="./../../@expression">
+	                                    <xsl:variable name="replacedChars">
+	                                        <xsl:call-template name="string-replace">
+	                                            <xsl:with-param name="string" select="CustomFunctions:prettyFormat(./../../@expression)" />
+	                                            <xsl:with-param name="replace" select="'    '" />
+	                                            <xsl:with-param name="with" select="'&#x9;'" />
+	                                        </xsl:call-template>
+	                                    </xsl:variable>
+	                                    <xsl:call-template name="MT-MappingTree">
+	                                        <xsl:with-param name="string" select="substring-after(substring-after($replacedChars,'&lt;xsl:template'),'>')"/>
+	                                    </xsl:call-template>
+	                                </xsl:when>
+	                                <xsl:when test="./../../tibex:inputBinding">
+	                                    <xsl:variable name="replacedChars">
+	                                        <xsl:call-template name="string-replace">
+	                                            <xsl:with-param name="string" select="CustomFunctions:prettyFormat(./../../tibex:inputBinding/text())" />
+	                                            <xsl:with-param name="replace" select="'    '" />
+	                                            <xsl:with-param name="with" select="'&#x9;'" />
+	                                        </xsl:call-template>
+	                                    </xsl:variable>
+	                                    <xsl:call-template name="MT-MappingTree">
+	                                        <xsl:with-param name="string" select="substring-after(substring-after($replacedChars,'&lt;xsl:template'),'>')"/>
+	                                    </xsl:call-template>
+	                                </xsl:when>
+	                                <xsl:otherwise>
+	                                    <xsl:call-template name="MT-MappingTree">
+	                                        <xsl:with-param name="string" select="substring-after(substring-after(./@expression,'&lt;xsl:template'),'>')"/>
+	                                    </xsl:call-template>
+	                                </xsl:otherwise>
+	                            </xsl:choose>
+	                        </codeblock>
                     </li>
                     <li outputclass="raw">
                         <lines outputclass="caption">Source code</lines>
-                        <!-- xsl:variable name="ibTableBody_raw">
-              <xsl:apply-templates select="node()" mode="MT3_AsIs">
-                <xsl:with-param name="sep" select="''"/>
-              </xsl:apply-templates>
-            </xsl:variable>
-            <xsl:if test="$ibTableBody_raw != ''"-->
-                        <table outputclass="data">
-                            <tgroup cols="1">
-                                <thead>
-                                    <row>
-                                        <entry>Mapping</entry>
-                                    </row>
-                                </thead>
-                                <tbody>
-                                    <row>
-                                        <entry>
-                                            <codeblock>
-                                                <xsl:choose>
-                                                    <xsl:when test="./../../@expression">
-                                                        <xsl:value-of select="CustomFunctions:prettyFormat(./../../@expression)"/>
-                                                    </xsl:when>
-                                                    <xsl:when test="./../../tibex:inputBinding">
-                                                        <xsl:value-of select="CustomFunctions:prettyFormat(./../../tibex:inputBinding/text())"/>
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <xsl:value-of select="./@expression"/>
-                                                    </xsl:otherwise>
-                                                </xsl:choose>
-                                            </codeblock>
-                                        </entry>
-                                    </row>
-                                </tbody>
-                            </tgroup>
-                        </table>
-                        <!-- /xsl:if-->
+                         <codeblock>
+                             <xsl:choose>
+                                 <xsl:when test="./../../@expression">
+                                     <xsl:value-of select="CustomFunctions:prettyFormat(./../../@expression)"/>
+                                 </xsl:when>
+                                 <xsl:when test="./../../tibex:inputBinding">
+                                     <xsl:value-of select="CustomFunctions:prettyFormat(./../../tibex:inputBinding/text())"/>
+                                 </xsl:when>
+                                 <xsl:otherwise>
+                                     <xsl:value-of select="./@expression"/>
+                                 </xsl:otherwise>
+                             </xsl:choose>
+                         </codeblock>
                     </li>
                 </ul>
             </xsl:when>

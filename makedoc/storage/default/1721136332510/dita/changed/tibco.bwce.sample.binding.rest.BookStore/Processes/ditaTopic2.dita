@@ -1,0 +1,3419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="Events.bwp.dita" xml:lang="en-us">
+  <title>Events</title>
+  <titlealts>
+    <navtitle>Processes/tibco/bwce/sample/binding/rest/bookstore/Events</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>
+      Section contains documentation of changed Process Events (
+      <xref href="../../../../../1721117756264/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Events.bwp.html" scope="peer">2024/07/16 08:15</xref>
+      , 
+      <xref href="../../../../../1721136250430/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Events.bwp.html" scope="peer">2024/07/16 13:24</xref>
+      ).
+    </p>
+    <section>
+      <p>
+        <note othertype="repositoryAnalyticsAdded" type="other">Added element</note>
+        <note othertype="repositoryAnalyticsRemoved" type="other">Deleted element</note>
+      </p>
+    </section>
+  </conbody>
+  <concept id="Events.bwp.dita_xmlComp" xml:lang="en-us">
+    <title>Changes:</title>
+    <titlealts>
+      <navtitle>Changes:</navtitle>
+    </titlealts>
+    <concept id="ProcessMain" xml:lang="en-us">
+      <title>Events</title>
+      <titlealts>
+        <navtitle>Processes/tibco/bwce/sample/binding/rest/bookstore/Events</navtitle>
+      </titlealts>
+      <conbody>
+        <p>License for TIBCO Software Use Only! </p>
+        <p>
+                            Section contains description of Process "
+                            Events.bwp
+                            " .
+                        </p>
+      </conbody>
+      <concept id="FolderDescription" xml:lang="en-us">
+        <title>Folder description:</title>
+        <conbody>
+          <table>
+            <tgroup cols="2">
+              <colspec colname="folder" colwidth="75*"/>
+              <colspec colname="desc" colwidth="175*"/>
+              <thead>
+                <row>
+                  <entry colname="folder" valign="top">Folder</entry>
+                  <entry colname="desc" valign="top">Description</entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry> </entry>
+                  <entry>No description</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </conbody>
+      </concept>
+      <concept id="ProcessDescription" xml:lang="en-us">
+        <title>Process description:</title>
+        <conbody>
+          <table>
+            <tgroup cols="1">
+              <tbody>
+                <row>
+                  <entry>
+                                            No description
+                                        </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </conbody>
+      </concept>
+      <concept id="ProcessDefinition" xml:lang="en-us">
+        <title>Process definition:</title>
+        <conbody>
+          <p>
+                    Full process path:
+                    tibco.bwce.sample.binding.rest.bookstore.Events</p>
+        </conbody>
+      </concept>
+      <concept id="Diagram" xml:lang="en-us">
+        <title>Diagram:</title>
+        <conbody/>
+      </concept>
+      <concept id="Starter" xml:lang="en-us">
+        <title>Process starter activity:</title>
+        <concept id="OnMessageStart">
+          <title>
+            Name:
+                
+            <b>OnMessageStart</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageStart</li>
+                <li>xpdlId: 95806ab1-fb08-40b8-b87f-82de33805bbb</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageStart1">
+          <title>
+            Name:
+                
+            <b>OnMessageStart1</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageStart</li>
+                <li>xpdlId: 70d055d1-fa2f-4c45-96dd-061b8d047c0c</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageStart2">
+          <title>
+            Name:
+                
+            <b>OnMessageStart2</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageStart</li>
+                <li>xpdlId: bed59b7f-bfa8-45d0-8cca-06d7558324d7</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageStart3">
+          <title>
+            Name:
+                
+            <b>OnMessageStart3</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageStart</li>
+                <li>xpdlId: 1ad486c4-db53-49a9-98fb-c5376d3c743a</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageStart4">
+          <title>
+            Name:
+                
+            <b>OnMessageStart4</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageStart</li>
+                <li>xpdlId: f596347d-dddc-4e00-98d0-15e804f7ac0f</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="EndActivity" xml:lang="en-us">
+        <title>Process end activity:</title>
+        <concept id="OnMessageEnd">
+          <title>
+            Name:
+                
+            <b>OnMessageEnd</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageEnd</li>
+                <li>xpdlId: 953ba909-f7be-4c99-9b95-fd1e65b13863</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageEnd1">
+          <title>
+            Name:
+                
+            <b>OnMessageEnd1</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageEnd</li>
+                <li>xpdlId: f6399dcf-9e68-4e9d-9093-1bc6a1c4435c</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageEnd2">
+          <title>
+            Name:
+                
+            <b>OnMessageEnd2</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageEnd</li>
+                <li>xpdlId: 51dc75f8-7ad9-4971-9a76-6fb911393670</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageEnd3">
+          <title>
+            Name:
+                
+            <b>OnMessageEnd3</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageEnd</li>
+                <li>xpdlId: fc10f60e-b149-4e90-97cd-8d25cf3b93dc</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageEnd4">
+          <title>
+            Name:
+                
+            <b>OnMessageEnd4</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageEnd</li>
+                <li>xpdlId: 3ce4019b-3d51-480b-9bf2-0775a0824022</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="NoVariablesDefined" xml:lang="en-us">
+        <title>Process properties and variables</title>
+        <conbody>
+          <p>No variables defined</p>
+        </conbody>
+      </concept>
+      <concept id="Activities" xml:lang="en-us">
+        <title>Activities:</title>
+        <concept id="addEvents">
+          <title>
+            Name:
+                
+            <b>addEvents</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Service / operation: addEvents
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b> = </b>
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="post"/&gt;
+   &lt;xsl:template name="addEvents-input" match="/"&gt;
+      &lt;tns:addEventsRequest&gt;
+         &lt;parameters&gt;
+            &lt;xsl:copy-of select="$post/item/tns1:Events"/&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:addEventsRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Description: </li>
+                <li>Activity Timeout (seconds):
+                            Default Timeout</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:addEventsRequest</b>
+                                <b>/parameters</b>
+                              </entry>
+                              <entry>/[COPY-OF]  $post/item/tns1:Events </entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b> = </b>
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="post"/&gt;
+   &lt;xsl:template name="addEvents-input" match="/"&gt;
+      &lt;tns:addEventsRequest&gt;
+         &lt;parameters&gt;
+            &lt;xsl:copy-of select="$post/item/tns1:Events"/&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:addEventsRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="deleteEvent">
+          <title>
+            Name:
+                
+            <b>deleteEvent</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Service / operation: deleteEvent
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:deleteEventRequest
+		 parameters
+			tns:deleteEventRequest
+			   EventID = </b>
+                                $delete/parameters/tns1:EventParameters/EventID
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" version="2.0"&gt;
+   &lt;xsl:param name="delete"/&gt;
+   &lt;xsl:template name="deleteEvent-input" match="/"&gt;
+      &lt;tns:deleteEventRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:deleteEventRequest&gt;
+               &lt;EventID&gt;
+                  &lt;xsl:value-of select="$delete/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/EventID&gt;
+            &lt;/tns:deleteEventRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:deleteEventRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Description: </li>
+                <li>Activity Timeout (seconds):
+                            Default Timeout</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:deleteEventRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns:deleteEventRequest</b>
+                                <b>/EventID</b>
+                              </entry>
+                              <entry>$delete/parameters/tns1:EventParameters/EventID</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:deleteEventRequest
+		 parameters
+			tns:deleteEventRequest
+			   EventID = </b>
+                          $delete/parameters/tns1:EventParameters/EventID
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" version="2.0"&gt;
+   &lt;xsl:param name="delete"/&gt;
+   &lt;xsl:template name="deleteEvent-input" match="/"&gt;
+      &lt;tns:deleteEventRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:deleteEventRequest&gt;
+               &lt;EventID&gt;
+                  &lt;xsl:value-of select="$delete/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/EventID&gt;
+            &lt;/tns:deleteEventRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:deleteEventRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="deleteOut">
+          <title>
+            Name:
+                
+            <b>deleteOut</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Event / operation: delete
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:deleteResponse
+		 msg = </b>
+                                $deleteEvent/parameters/tns1:deleteEventResponse/out
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://xmlns.example.com/20141006121028" version="2.0"&gt;
+   &lt;xsl:param name="deleteEvent"/&gt;
+   &lt;xsl:template name="deleteOut-input" match="/"&gt;
+      &lt;tns:deleteResponse&gt;
+         &lt;msg&gt;
+            &lt;xsl:value-of select="$deleteEvent/parameters/tns1:deleteEventResponse/out"/&gt;
+         &lt;/msg&gt;
+      &lt;/tns:deleteResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: Output Message</li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:deleteResponse</b>
+                                <b>/msg</b>
+                              </entry>
+                              <entry>$deleteEvent/parameters/tns1:deleteEventResponse/out</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:deleteResponse
+		 msg = </b>
+                          $deleteEvent/parameters/tns1:deleteEventResponse/out
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://xmlns.example.com/20141006121028" version="2.0"&gt;
+   &lt;xsl:param name="deleteEvent"/&gt;
+   &lt;xsl:template name="deleteOut-input" match="/"&gt;
+      &lt;tns:deleteResponse&gt;
+         &lt;msg&gt;
+            &lt;xsl:value-of select="$deleteEvent/parameters/tns1:deleteEventResponse/out"/&gt;
+         &lt;/msg&gt;
+      &lt;/tns:deleteResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="getAllEvents">
+          <title>
+            Name:
+                
+            <b>getAllEvents</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Service / operation: getAllEvents
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:getAllEventsRequest
+		 parameters
+			tns:getAllEventsRequest
+			   in = </b>
+                                &amp;quot;Get All Events&amp;quot;
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" version="2.0"&gt;
+   &lt;xsl:template name="getAllEvents-input" match="/"&gt;
+      &lt;tns:getAllEventsRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:getAllEventsRequest&gt;
+               &lt;in&gt;
+                  &lt;xsl:value-of select="&amp;quot;Get All Events&amp;quot;"/&gt;
+               &lt;/in&gt;
+            &lt;/tns:getAllEventsRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getAllEventsRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Description: </li>
+                <li>Activity Timeout (seconds):
+                            Default Timeout</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:getAllEventsRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns:getAllEventsRequest</b>
+                                <b>/in</b>
+                              </entry>
+                              <entry>"Get All Events"</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:getAllEventsRequest
+		 parameters
+			tns:getAllEventsRequest
+			   in = </b>
+                          &amp;quot;Get All Events&amp;quot;
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" version="2.0"&gt;
+   &lt;xsl:template name="getAllEvents-input" match="/"&gt;
+      &lt;tns:getAllEventsRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:getAllEventsRequest&gt;
+               &lt;in&gt;
+                  &lt;xsl:value-of select="&amp;quot;Get All Events&amp;quot;"/&gt;
+               &lt;/in&gt;
+            &lt;/tns:getAllEventsRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getAllEventsRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="getEventByID">
+          <title>
+            Name:
+                
+            <b>getEventByID</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Service / operation: getEventByID
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:getEventByIDRequest
+		 parameters
+			tns:getEventByIDRequest
+			   EventID = </b>
+                                $get1/parameters/tns1:EventParameters/EventID
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" version="2.0"&gt;
+   &lt;xsl:param name="get1"/&gt;
+   &lt;xsl:template name="getEventByID-input" match="/"&gt;
+      &lt;tns:getEventByIDRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:getEventByIDRequest&gt;
+               &lt;EventID&gt;
+                  &lt;xsl:value-of select="$get1/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/EventID&gt;
+            &lt;/tns:getEventByIDRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getEventByIDRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Description: </li>
+                <li>Activity Timeout (seconds):
+                            Default Timeout</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:getEventByIDRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns:getEventByIDRequest</b>
+                                <b>/EventID</b>
+                              </entry>
+                              <entry>$get1/parameters/tns1:EventParameters/EventID</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:getEventByIDRequest
+		 parameters
+			tns:getEventByIDRequest
+			   EventID = </b>
+                          $get1/parameters/tns1:EventParameters/EventID
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" version="2.0"&gt;
+   &lt;xsl:param name="get1"/&gt;
+   &lt;xsl:template name="getEventByID-input" match="/"&gt;
+      &lt;tns:getEventByIDRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns:getEventByIDRequest&gt;
+               &lt;EventID&gt;
+                  &lt;xsl:value-of select="$get1/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/EventID&gt;
+            &lt;/tns:getEventByIDRequest&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:getEventByIDRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="getOut">
+          <title>
+            Name:
+                
+            <b>getOut</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Events / operation: get
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b> = </b>
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="getAllEvents"/&gt;
+   &lt;xsl:template name="getOut-input" match="/"&gt;
+      &lt;tns:getResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$getAllEvents/parameters/tns1:Events"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:getResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: Output Message</li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:getResponse</b>
+                                <b>/item</b>
+                              </entry>
+                              <entry>/[COPY-OF]  $getAllEvents/parameters/tns1:Events </entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b> = </b>
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="getAllEvents"/&gt;
+   &lt;xsl:template name="getOut-input" match="/"&gt;
+      &lt;tns:getResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$getAllEvents/parameters/tns1:Events"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:getResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="getOut1">
+          <title>
+            Name:
+                
+            <b>getOut1</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Event / operation: get
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b> = </b>
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="getEventByID"/&gt;
+   &lt;xsl:template name="getOut1-input" match="/"&gt;
+      &lt;tns:getResponse1&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$getEventByID/parameters/tns1:Event"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:getResponse1&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: Output Message</li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:getResponse1</b>
+                                <b>/item</b>
+                              </entry>
+                              <entry>/[COPY-OF]  $getEventByID/parameters/tns1:Event </entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b> = </b>
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="getEventByID"/&gt;
+   &lt;xsl:template name="getOut1-input" match="/"&gt;
+      &lt;tns:getResponse1&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$getEventByID/parameters/tns1:Event"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:getResponse1&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="Log">
+          <title>
+            Name:
+                
+            <b>Log</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>
+                  Description:
+                            No description
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                                &amp;quot;1503&amp;quot;
+                                <b>
+		 message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Type: bw.generalactivities.log</li>
+                <li>Logger Name: </li>
+                <li>Log level: Info</li>
+                <li>Suppress Job Info:
+                    true</li>
+                <li>Input Variable:
+                                Log-input</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/msgCode</b>
+                              </entry>
+                              <entry>"1503"</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                          &amp;quot;1503&amp;quot;
+                          <b>
+		 message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="Log1">
+          <title>
+            Name:
+                
+            <b>Log1</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>
+                  Description:
+                            No description
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                                &amp;quot;1503&amp;quot;
+                                <b>
+		 message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log1-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Type: bw.generalactivities.log</li>
+                <li>Logger Name: </li>
+                <li>Log level: Info</li>
+                <li>Suppress Job Info:
+                    true</li>
+                <li>Input Variable:
+                                Log1-input</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/msgCode</b>
+                              </entry>
+                              <entry>"1503"</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                          &amp;quot;1503&amp;quot;
+                          <b>
+		 message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log1-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="Log2">
+          <title>
+            Name:
+                
+            <b>Log2</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>
+                  Description:
+                            No description
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                                &amp;quot;1503&amp;quot;
+                                <b>
+		 message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log2-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Type: bw.generalactivities.log</li>
+                <li>Logger Name: </li>
+                <li>Log level: Info</li>
+                <li>Suppress Job Info:
+                    true</li>
+                <li>Input Variable:
+                                Log2-input</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/msgCode</b>
+                              </entry>
+                              <entry>"1503"</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                          &amp;quot;1503&amp;quot;
+                          <b>
+		 message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log2-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="Log3">
+          <title>
+            Name:
+                
+            <b>Log3</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>
+                  Description:
+                            No description
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                                &amp;quot;1503&amp;quot;
+                                <b>
+		 message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log3-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Type: bw.generalactivities.log</li>
+                <li>Logger Name: </li>
+                <li>Log level: Info</li>
+                <li>Suppress Job Info:
+                    true</li>
+                <li>Input Variable:
+                                Log3-input</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/msgCode</b>
+                              </entry>
+                              <entry>"1503"</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                          &amp;quot;1503&amp;quot;
+                          <b>
+		 message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log3-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="Log4">
+          <title>
+            Name:
+                
+            <b>Log4</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>
+                  Description:
+                            No description
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                                &amp;quot;1503&amp;quot;
+                                <b>
+		 message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log4-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Type: bw.generalactivities.log</li>
+                <li>Logger Name: </li>
+                <li>Log level: Info</li>
+                <li>Suppress Job Info:
+                    true</li>
+                <li>Input Variable:
+                                Log4-input</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/msgCode</b>
+                              </entry>
+                              <entry>"1503"</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:ActivityInput
+		 msgCode = </b>
+                          &amp;quot;1503&amp;quot;
+                          <b>
+		 message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Log4-input" match="/"&gt;
+      &lt;tns:ActivityInput&gt;
+         &lt;msgCode&gt;
+            &lt;xsl:value-of select="&amp;quot;1503&amp;quot;"/&gt;
+         &lt;/msgCode&gt;
+         &lt;message&gt;
+            &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+         &lt;/message&gt;
+      &lt;/tns:ActivityInput&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="postOut">
+          <title>
+            Name:
+                
+            <b>postOut</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Events / operation: post
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b> = </b>
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="addEvents"/&gt;
+   &lt;xsl:template name="postOut-input" match="/"&gt;
+      &lt;tns:postResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$addEvents/parameters/tns1:Events"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:postResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: Output Message</li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:postResponse</b>
+                                <b>/item</b>
+                              </entry>
+                              <entry>/[COPY-OF]  $addEvents/parameters/tns1:Events </entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b> = </b>
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="addEvents"/&gt;
+   &lt;xsl:template name="postOut-input" match="/"&gt;
+      &lt;tns:postResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$addEvents/parameters/tns1:Events"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:postResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="putOut">
+          <title>
+            Name:
+                
+            <b>putOut</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Event / operation: put
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b> = </b>
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="updateEvent"/&gt;
+   &lt;xsl:template name="putOut-input" match="/"&gt;
+      &lt;tns:putResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$updateEvent/parameters/tns1:Event"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:putResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: Output Message</li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:putResponse</b>
+                                <b>/item</b>
+                              </entry>
+                              <entry>/[COPY-OF]  $updateEvent/parameters/tns1:Event </entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b> = </b>
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="updateEvent"/&gt;
+   &lt;xsl:template name="putOut-input" match="/"&gt;
+      &lt;tns:putResponse&gt;
+         &lt;item&gt;
+            &lt;xsl:copy-of select="$updateEvent/parameters/tns1:Event"/&gt;
+         &lt;/item&gt;
+      &lt;/tns:putResponse&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="Reply">
+          <title>
+            Name:
+                
+            <b>Reply</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Events / operation: post
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:post5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                                xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                                <b>
+			   message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply-input" match="/"&gt;
+      &lt;tns:post5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:post5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: </li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:post5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/statusCode</b>
+                              </entry>
+                              <entry>xsd:integer(bw:getModuleProperty("ec_ServiceUnavailable"))</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:post5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:post5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                          xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                          <b>
+			   message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply-input" match="/"&gt;
+      &lt;tns:post5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:post5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="Reply1">
+          <title>
+            Name:
+                
+            <b>Reply1</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Events / operation: get
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:get5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                                xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                                <b>
+			   message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply1-input" match="/"&gt;
+      &lt;tns:get5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:get5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: </li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:get5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/statusCode</b>
+                              </entry>
+                              <entry>xsd:integer(bw:getModuleProperty("ec_ServiceUnavailable"))</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:get5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:get5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                          xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                          <b>
+			   message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply1-input" match="/"&gt;
+      &lt;tns:get5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:get5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="Reply2">
+          <title>
+            Name:
+                
+            <b>Reply2</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Event / operation: get
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:get5XXFaultMessage1
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                                xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                                <b>
+			   message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply2-input" match="/"&gt;
+      &lt;tns:get5XXFaultMessage1&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:get5XXFaultMessage1&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: </li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:get5XXFaultMessage1</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/statusCode</b>
+                              </entry>
+                              <entry>xsd:integer(bw:getModuleProperty("ec_ServiceUnavailable"))</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:get5XXFaultMessage1</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:get5XXFaultMessage1
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                          xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                          <b>
+			   message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply2-input" match="/"&gt;
+      &lt;tns:get5XXFaultMessage1&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:get5XXFaultMessage1&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="Reply3">
+          <title>
+            Name:
+                
+            <b>Reply3</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Event / operation: put
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:put5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                                xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                                <b>
+			   message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply3-input" match="/"&gt;
+      &lt;tns:put5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:put5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: </li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:put5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/statusCode</b>
+                              </entry>
+                              <entry>xsd:integer(bw:getModuleProperty("ec_ServiceUnavailable"))</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:put5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:put5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                          xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                          <b>
+			   message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply3-input" match="/"&gt;
+      &lt;tns:put5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:put5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="Reply4">
+          <title>
+            Name:
+                
+            <b>Reply4</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Event / operation: delete
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:delete5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                                xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                                <b>
+			   message = </b>
+                                concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply4-input" match="/"&gt;
+      &lt;tns:delete5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:delete5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>ReplyWith: </li>
+                <li>Description: </li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:delete5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/statusCode</b>
+                              </entry>
+                              <entry>xsd:integer(bw:getModuleProperty("ec_ServiceUnavailable"))</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:delete5XXFaultMessage</b>
+                                <b>/serverError</b>
+                                <b>/tns1:server5XXError</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat($ServiceOp, " failed: ", $FaultDetails/Msg)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:delete5XXFaultMessage
+		 serverError
+			tns1:server5XXError
+			   statusCode = </b>
+                          xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))
+                          <b>
+			   message = </b>
+                          concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/Events/REST/1412583816215" xmlns:tns1="http://tns.tibco.com/bw/REST" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions" version="2.0"&gt;
+   &lt;xsl:param name="ServiceOp"/&gt;
+   &lt;xsl:param name="FaultDetails"/&gt;
+   &lt;xsl:template name="Reply4-input" match="/"&gt;
+      &lt;tns:delete5XXFaultMessage&gt;
+         &lt;serverError&gt;
+            &lt;tns1:server5XXError&gt;
+               &lt;statusCode&gt;
+                  &lt;xsl:value-of select="xsd:integer(bw:getModuleProperty(&amp;quot;ec_ServiceUnavailable&amp;quot;))"/&gt;
+               &lt;/statusCode&gt;
+               &lt;message&gt;
+                  &lt;xsl:value-of select="concat($ServiceOp, &amp;quot; failed: &amp;quot;, $FaultDetails/Msg)"/&gt;
+               &lt;/message&gt;
+            &lt;/tns1:server5XXError&gt;
+         &lt;/serverError&gt;
+      &lt;/tns:delete5XXFaultMessage&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="updateEvent">
+          <title>
+            Name:
+                
+            <b>updateEvent</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>
+                  Service: Service / operation: updateEvent
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>
+                                <b>
+	  tns:updateEventRequest
+		 parameters
+			tns2:Event
+			   tns2:id = </b>
+                                $put/parameters/tns1:EventParameters/EventID
+                                <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:summary"
+				  tns2:summary = </b>
+                                $put/item/tns2:Event/tns2:summary
+                                <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:description"
+				  tns2:description = </b>
+                                $put/item/tns2:Event/tns2:description
+                                <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:authorName"
+				  tns2:authorName = </b>
+                                $put/item/tns2:Event/tns2:authorName
+                                <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:bookIsbn"
+				  tns2:bookIsbn = </b>
+                                $put/item/tns2:Event/tns2:bookIsbn
+                                <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:date"
+				  tns2:date = </b>
+                                $put/item/tns2:Event/tns2:date
+                              </codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                  <note othertype="repositoryAnalyticsRemoved" type="other">
+                    <table outputclass="repositoryAnalyticsRemoved">
+                      <tgroup cols="1">
+                        <thead>
+                          <row>
+                            <entry>Mapping</entry>
+                          </row>
+                        </thead>
+                        <tbody>
+                          <row>
+                            <entry>
+                              <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" xmlns:tns2="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="put"/&gt;
+   &lt;xsl:template name="updateEvent-input" match="/"&gt;
+      &lt;tns:updateEventRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns2:Event&gt;
+               &lt;tns2:id&gt;
+                  &lt;xsl:value-of select="$put/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/tns2:id&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:summary"&gt;
+                  &lt;tns2:summary&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:summary"/&gt;
+                  &lt;/tns2:summary&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:description"&gt;
+                  &lt;tns2:description&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:description"/&gt;
+                  &lt;/tns2:description&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:authorName"&gt;
+                  &lt;tns2:authorName&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:authorName"/&gt;
+                  &lt;/tns2:authorName&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:bookIsbn"&gt;
+                  &lt;tns2:bookIsbn&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:bookIsbn"/&gt;
+                  &lt;/tns2:bookIsbn&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:date"&gt;
+                  &lt;tns2:date&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:date"/&gt;
+                  &lt;/tns2:date&gt;
+               &lt;/xsl:if&gt;
+            &lt;/tns2:Event&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:updateEventRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                            </entry>
+                          </row>
+                        </tbody>
+                      </tgroup>
+                    </table>
+                  </note>
+                </li>
+                <li>Description: </li>
+                <li>Activity Timeout (seconds):
+                            Default Timeout</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:updateEventRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns2:Event</b>
+                                <b>/tns2:id</b>
+                              </entry>
+                              <entry>$put/parameters/tns1:EventParameters/EventID</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:updateEventRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns2:Event</b>
+                                /[IF]  $put/item/tns2:Event/tns2:summary 
+                                <b>/tns2:summary</b>
+                              </entry>
+                              <entry>$put/item/tns2:Event/tns2:summary</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:updateEventRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns2:Event</b>
+                                /[IF]  $put/item/tns2:Event/tns2:description 
+                                <b>/tns2:description</b>
+                              </entry>
+                              <entry>$put/item/tns2:Event/tns2:description</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:updateEventRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns2:Event</b>
+                                /[IF]  $put/item/tns2:Event/tns2:authorName 
+                                <b>/tns2:authorName</b>
+                              </entry>
+                              <entry>$put/item/tns2:Event/tns2:authorName</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:updateEventRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns2:Event</b>
+                                /[IF]  $put/item/tns2:Event/tns2:bookIsbn 
+                                <b>/tns2:bookIsbn</b>
+                              </entry>
+                              <entry>$put/item/tns2:Event/tns2:bookIsbn</entry>
+                            </row>
+                            <row>
+                              <entry>
+                                <b>/tns:updateEventRequest</b>
+                                <b>/parameters</b>
+                                <b>/tns2:Event</b>
+                                /[IF]  $put/item/tns2:Event/tns2:date 
+                                <b>/tns2:date</b>
+                              </entry>
+                              <entry>$put/item/tns2:Event/tns2:date</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>
+                          <b>
+	  tns:updateEventRequest
+		 parameters
+			tns2:Event
+			   tns2:id = </b>
+                          $put/parameters/tns1:EventParameters/EventID
+                          <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:summary"
+				  tns2:summary = </b>
+                          $put/item/tns2:Event/tns2:summary
+                          <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:description"
+				  tns2:description = </b>
+                          $put/item/tns2:Event/tns2:description
+                          <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:authorName"
+				  tns2:authorName = </b>
+                          $put/item/tns2:Event/tns2:authorName
+                          <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:bookIsbn"
+				  tns2:bookIsbn = </b>
+                          $put/item/tns2:Event/tns2:bookIsbn
+                          <b>
+			   xsl:if test="$put/item/tns2:Event/tns2:date"
+				  tns2:date = </b>
+                          $put/item/tns2:Event/tns2:date
+                        </codeblock>
+                      </note>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <note othertype="repositoryAnalyticsAdded" type="other">
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://xmlns.example.com/20141006121028" xmlns:tns1="http://www.example.org/Events/REST/1412583816215/ConceptSchema" xmlns:tns2="http://www.example.org/Events" version="2.0"&gt;
+   &lt;xsl:param name="put"/&gt;
+   &lt;xsl:template name="updateEvent-input" match="/"&gt;
+      &lt;tns:updateEventRequest&gt;
+         &lt;parameters&gt;
+            &lt;tns2:Event&gt;
+               &lt;tns2:id&gt;
+                  &lt;xsl:value-of select="$put/parameters/tns1:EventParameters/EventID"/&gt;
+               &lt;/tns2:id&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:summary"&gt;
+                  &lt;tns2:summary&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:summary"/&gt;
+                  &lt;/tns2:summary&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:description"&gt;
+                  &lt;tns2:description&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:description"/&gt;
+                  &lt;/tns2:description&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:authorName"&gt;
+                  &lt;tns2:authorName&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:authorName"/&gt;
+                  &lt;/tns2:authorName&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:bookIsbn"&gt;
+                  &lt;tns2:bookIsbn&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:bookIsbn"/&gt;
+                  &lt;/tns2:bookIsbn&gt;
+               &lt;/xsl:if&gt;
+               &lt;xsl:if test="$put/item/tns2:Event/tns2:date"&gt;
+                  &lt;tns2:date&gt;
+                     &lt;xsl:value-of select="$put/item/tns2:Event/tns2:date"/&gt;
+                  &lt;/tns2:date&gt;
+               &lt;/xsl:if&gt;
+            &lt;/tns2:Event&gt;
+         &lt;/parameters&gt;
+      &lt;/tns:updateEventRequest&gt;
+   &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</codeblock>
+                      </note>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="References" xml:lang="en-us">
+        <title>References:</title>
+        <concept id="Service">
+          <title>
+            Name:
+                
+            <b>Service</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>partnerLinkType: ns:ServicePLT</li>
+                <li>partnerRole: use</li>
+                <li>sca-bpel:ignore: true</li>
+                <li>sca-bpel:reference: Service</li>
+                <li>sca-bpel:wiredByImpl: false</li>
+                <li>dynamic: false</li>
+                <li>inline: false</li>
+                <li>processName: tibco.bwce.sample.binding.rest.bookstore.db.EventsDB</li>
+                <li>serviceName: EventsPersist</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="Transitions" xml:lang="en-us">
+        <title>Transitions:</title>
+        <conbody>
+          <ul id="Log_Reply">
+            <li>
+                                          From:
+                            
+              <b>Log</b>
+                                          -To:
+                            
+              <b>Reply</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="addEvents_postOut">
+            <li>
+                                          From:
+                            
+              <b>addEvents</b>
+                                          -To:
+                            
+              <b>postOut</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="Log1_Reply1">
+            <li>
+                                          From:
+                            
+              <b>Log1</b>
+                                          -To:
+                            
+              <b>Reply1</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="getAllEvents_getOut">
+            <li>
+                                          From:
+                            
+              <b>getAllEvents</b>
+                                          -To:
+                            
+              <b>getOut</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="Log2_Reply2">
+            <li>
+                                          From:
+                            
+              <b>Log2</b>
+                                          -To:
+                            
+              <b>Reply2</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="getEventByID_getOut1">
+            <li>
+                                          From:
+                            
+              <b>getEventByID</b>
+                                          -To:
+                            
+              <b>getOut1</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="Log3_Reply3">
+            <li>
+                                          From:
+                            
+              <b>Log3</b>
+                                          -To:
+                            
+              <b>Reply3</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="updateEvent_putOut">
+            <li>
+                                          From:
+                            
+              <b>updateEvent</b>
+                                          -To:
+                            
+              <b>putOut</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="Log4_Reply4">
+            <li>
+                                          From:
+                            
+              <b>Log4</b>
+                                          -To:
+                            
+              <b>Reply4</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="deleteEvent_deleteOut">
+            <li>
+                                          From:
+                            
+              <b>deleteEvent</b>
+                                          -To:
+                            
+              <b>deleteOut</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+        </conbody>
+      </concept>
+    </concept>
+  </concept>
+</concept>
