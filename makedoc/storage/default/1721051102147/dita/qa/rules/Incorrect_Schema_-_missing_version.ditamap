@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/home/makedoc/server/cfg/dtd/map.dtd">
-<map title="QA rules content.">
-  <topicref href="WARNING_-_Incorrect_Schema_-_missing_version.dita" type="concept">
-    <topicref href="Incorrect_Schema_-_missing_version/violation1.dita" type="concept"/>
-  </topicref>
-</map>
