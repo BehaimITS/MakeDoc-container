@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="Activator.bwp.dita" xml:lang="en-us">
+  <title>Activator</title>
+  <titlealts>
+    <navtitle>Processes/tibco/bwce/sample/binding/rest/bookstore/Activator</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>
+      Section contains documentation of changed Process Activator (
+      <xref href="../../../../../1721136250430/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Activator.bwp.html" scope="peer">2024/07/16 13:24</xref>
+      , 
+      <xref href="../../../../../1721139466017/html/index.html?go=projects/tibco.bwce.sample.binding.rest.BookStore/Processes/tibco/bwce/sample/binding/rest/bookstore/Activator.bwp.html" scope="peer">2024/07/16 14:17</xref>
+      ).
+    </p>
+    <section>
+      <p>
+        <note othertype="repositoryAnalyticsAdded" type="other">Added element</note>
+        <note othertype="repositoryAnalyticsRemoved" type="other">Deleted element</note>
+      </p>
+    </section>
+  </conbody>
+  <concept id="Activator.bwp.dita_xmlComp" xml:lang="en-us">
+    <title>Changes:</title>
+    <titlealts>
+      <navtitle>Changes:</navtitle>
+    </titlealts>
+    <concept id="ProcessMain" xml:lang="en-us">
+      <title>Activator</title>
+      <titlealts>
+        <navtitle>Processes/tibco/bwce/sample/binding/rest/bookstore/Activator</navtitle>
+      </titlealts>
+      <conbody>
+        <p>License for TIBCO Software Use Only! </p>
+        <p>
+                            Section contains description of Process "
+                            Activator.bwp
+                            " .
+                        </p>
+      </conbody>
+      <concept id="FolderDescription" xml:lang="en-us">
+        <title>Folder description:</title>
+        <conbody>
+          <table>
+            <tgroup cols="2">
+              <colspec colname="folder" colwidth="75*"/>
+              <colspec colname="desc" colwidth="175*"/>
+              <thead>
+                <row>
+                  <entry colname="folder" valign="top">Folder</entry>
+                  <entry colname="desc" valign="top">Description</entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry> </entry>
+                  <entry>No description</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </conbody>
+      </concept>
+      <concept id="ProcessDescription" xml:lang="en-us">
+        <title>Process description:</title>
+        <conbody>
+          <table>
+            <tgroup cols="1">
+              <tbody>
+                <row>
+                  <entry>
+                                            No description
+                                        </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </conbody>
+      </concept>
+      <concept id="ProcessDefinition" xml:lang="en-us">
+        <title>Process definition:</title>
+        <conbody>
+          <p>
+                    Full process path:
+                    tibco.bwce.sample.binding.rest.bookstore.Activator</p>
+        </conbody>
+      </concept>
+      <concept id="Diagram" xml:lang="en-us">
+        <title>Diagram:</title>
+        <conbody/>
+      </concept>
+      <concept id="Starter" xml:lang="en-us">
+        <title>Process starter activity:</title>
+        <concept id="OnMessageStart">
+          <title>
+            Name:
+                
+            <b>OnMessageStart</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageStart</li>
+                <li>xpdlId: 79e1b9f0-e800-4503-b8c9-7fc6da565325</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageStart1">
+          <title>
+            Name:
+                
+            <b>OnMessageStart1</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageStart</li>
+                <li>xpdlId: 5097d35a-1b3f-4bf0-a4a1-0fc58a1e49bb</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="EndActivity" xml:lang="en-us">
+        <title>Process end activity:</title>
+        <concept id="OnMessageEnd">
+          <title>
+            Name:
+                
+            <b>OnMessageEnd</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageEnd</li>
+                <li>xpdlId: 3e222161-75e7-4be8-8610-1a38704d8b18</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+        <concept id="OnMessageEnd1">
+          <title>
+            Name:
+                
+            <b>OnMessageEnd1</b>
+          </title>
+          <conbody>
+            <p>
+              <ul>
+                <li>Constructor: onMessageEnd</li>
+                <li>xpdlId: 4cae5b29-d44c-4e3d-93d0-cff37cc96e99</li>
+              </ul>
+            </p>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="ProcessVariables" xml:lang="en-us">
+        <title>Process properties and variables</title>
+        <conbody>
+          <table>
+            <tgroup cols="2">
+              <colspec colname="folder" colwidth="75*"/>
+              <colspec colname="type" colwidth="75*"/>
+              <colspec colname="propertySource" colwidth="165*"/>
+              <colspec colname="defaultValue" colwidth="125*"/>
+              <thead>
+                <row>
+                  <entry colname="name" valign="top">Name</entry>
+                  <entry colname="type" valign="top">Type</entry>
+                  <entry colname="propertySource" valign="top">Property Source</entry>
+                  <entry colname="defaultValue" valign="top">Default Value</entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>_processContext</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>onStartup</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>onShutdown</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>create_books_table-input</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>create_books_table</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>jdbcProperty</entry>
+                  <entry>xsd:string</entry>
+                  <entry> </entry>
+                  <entry>tibco.bwce.sample.binding.rest.BookStore.JDBCConnectionResource</entry>
+                </row>
+                <row>
+                  <entry>create_table_events-input</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>create_table_events</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>FaultName</entry>
+                  <entry>xsd:string</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>FaultDetails</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>Log-input</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>insert_into_books-input</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>insert_into_books</entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </conbody>
+      </concept>
+      <concept id="Activities" xml:lang="en-us">
+        <title>Activities:</title>
+        <concept id="CHANGED" outputclass="repositoryAnalyticsRemoved">
+          <title>
+            <b outputclass="repositoryAnalyticsRemoved">Name:
+                </b>
+            <b outputclass="repositoryAnalyticsRemoved">
+              <b>CHANGED</b>
+            </b>
+          </title>
+          <conbody>
+            <section>
+              <note othertype="repositoryAnalyticsRemoved" type="other">
+                <ul>
+                  <li>Description:
+                            No description</li>
+                  <li>Type: bw.generalactivities.log</li>
+                  <li>Logger Name: </li>
+                  <li>Log level: Info</li>
+                  <li>Suppress Job Info:
+                    true</li>
+                  <li>Input Variable:
+                                CHANGED-input</li>
+                  <li>
+                    Input bindings:
+                    <ul outputclass="mappings">
+                      <li outputclass="table">
+                        <lines outputclass="caption">Mapping table</lines>
+                        <table outputclass="data">
+                          <tgroup cols="2">
+                            <thead>
+                              <row>
+                                <entry>Target</entry>
+                                <entry>Source</entry>
+                              </row>
+                            </thead>
+                            <tbody>
+                              <row>
+                                <entry>
+                                  <b>/tns:ActivityInput</b>
+                                  <b>/message</b>
+                                </entry>
+                                <entry>""</entry>
+                              </row>
+                            </tbody>
+                          </tgroup>
+                        </table>
+                      </li>
+                      <li outputclass="tree">
+                        <lines outputclass="caption">Mapping tree</lines>
+                        <codeblock>
+                          <b>tns:ActivityInputmessage = </b>
+                          &amp;quot;&amp;quot;
+                        </codeblock>
+                      </li>
+                      <li outputclass="raw">
+                        <lines outputclass="caption">Source code</lines>
+                        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;&lt;xsl:template name="CHANGED-input" match="/"&gt;&lt;tns:ActivityInput&gt;&lt;message&gt;&lt;xsl:value-of select="&amp;quot;&amp;quot;"/&gt;&lt;/message&gt;&lt;/tns:ActivityInput&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</codeblock>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </note>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="create_books_table">
+          <title>
+            Name:
+                
+            <b>create_books_table</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>Description:
+                            No description</li>
+                <li>Type: bw.jdbc.SQLDirect</li>
+                <li>JDBC Shared Resource: jdbcProperty</li>
+                <li>Timeout (sec): 10</li>
+                <li>Maximum rows: 100</li>
+                <li>Thread Pool Shared Resource: </li>
+                <li>Override Transaction Behavior: false</li>
+                <li>Override JDBC Connection: false</li>
+                <li>Input Variable:
+                                create_books_table-input</li>
+                <li>Output Variable:
+                                create_books_table</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns1:ActivityInputType</b>
+                                <b>/statement</b>
+                              </entry>
+                              <entry>'CREATE TABLE IF NOT EXISTS public.books (
+  isbn text,
+  name text,
+  description text,
+  "authorName" text,
+  "releaseDate" date,
+  vintage boolean,
+  signed boolean,
+  price double precision
+)
+WITH (
+  OIDS=FALSE
+)'</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <codeblock>
+                        <b>
+        tns1:ActivityInputType
+            statement = </b>
+                        'CREATE TABLE IF NOT EXISTS public.books (&amp;#xA;  isbn text,&amp;#xA;  name text,&amp;#xA;  description text,&amp;#xA;  &amp;quot;authorName&amp;quot; text,&amp;#xA;  &amp;quot;releaseDate&amp;quot; date,&amp;#xA;  vintage boolean,&amp;#xA;  signed boolean,&amp;#xA;  price double precision&amp;#xA;)&amp;#xA;WITH (&amp;#xA;  OIDS=FALSE&amp;#xA;)'
+                      </codeblock>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+6bce79bd-a67c-4a10-9d5b-9802683b746d+input" version="2.0"&gt;
+    &lt;xsl:template name="create_books_table-input" match="/"&gt;
+        &lt;tns1:ActivityInputType&gt;
+            &lt;statement&gt;
+                &lt;xsl:value-of select="'CREATE TABLE IF NOT EXISTS public.books (&amp;#xA;  isbn text,&amp;#xA;  name text,&amp;#xA;  description text,&amp;#xA;  &amp;quot;authorName&amp;quot; text,&amp;#xA;  &amp;quot;releaseDate&amp;quot; date,&amp;#xA;  vintage boolean,&amp;#xA;  signed boolean,&amp;#xA;  price double precision&amp;#xA;)&amp;#xA;WITH (&amp;#xA;  OIDS=FALSE&amp;#xA;)'"/&gt;
+            &lt;/statement&gt;
+        &lt;/tns1:ActivityInputType&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</codeblock>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="create_table_events">
+          <title>
+            Name:
+                
+            <b>create_table_events</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>Description:
+                            No description</li>
+                <li>Type: bw.jdbc.SQLDirect</li>
+                <li>JDBC Shared Resource: jdbcProperty</li>
+                <li>Timeout (sec): 10</li>
+                <li>Maximum rows: 100</li>
+                <li>Thread Pool Shared Resource: </li>
+                <li>Override Transaction Behavior: false</li>
+                <li>Override JDBC Connection: false</li>
+                <li>Input Variable:
+                                create_table_events-input</li>
+                <li>Output Variable:
+                                create_table_events</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns1:ActivityInputType</b>
+                                <b>/statement</b>
+                              </entry>
+                              <entry>'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, "authorName" text, bookisbn text, date text, id
+text ) WITH ( OIDS=FALSE );'</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <codeblock>
+                        <b>
+        tns1:ActivityInputType
+            statement = </b>
+                        'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, &amp;quot;authorName&amp;quot; text, bookisbn text, date text, id&amp;#xA;text ) WITH ( OIDS=FALSE );'
+                      </codeblock>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+69412307-fbc4-4b65-8f42-4be7e5febb22+input" version="2.0"&gt;
+    &lt;xsl:template name="create_table_events-input" match="/"&gt;
+        &lt;tns1:ActivityInputType&gt;
+            &lt;statement&gt;
+                &lt;xsl:value-of select="'CREATE TABLE IF NOT EXISTS public.events ( summary text, description text, &amp;quot;authorName&amp;quot; text, bookisbn text, date text, id&amp;#xA;text ) WITH ( OIDS=FALSE );'"/&gt;
+            &lt;/statement&gt;
+        &lt;/tns1:ActivityInputType&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</codeblock>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="insert_into_books">
+          <title>
+            Name:
+                
+            <b>insert_into_books</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>Description:
+                            No description</li>
+                <li>Type: bw.jdbc.SQLDirect</li>
+                <li>JDBC Shared Resource: jdbcProperty</li>
+                <li>Timeout (sec): 10</li>
+                <li>Maximum rows: 100</li>
+                <li>Thread Pool Shared Resource: </li>
+                <li>Override Transaction Behavior: false</li>
+                <li>Override JDBC Connection: false</li>
+                <li>Input Variable:
+                                insert_into_books-input</li>
+                <li>Output Variable:
+                                insert_into_books</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns1:ActivityInputType</b>
+                                <b>/statement</b>
+                              </entry>
+                              <entry>"INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);"</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <codeblock>
+                        <b>
+        tns1:ActivityInputType
+            statement = </b>
+                        &amp;quot;INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);&amp;quot;
+                      </codeblock>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://www.tibco.com/namespaces/tnt/plugins/jdbc+360b9e74-0243-4ec8-be5f-c63824e82a05+input" version="2.0"&gt;
+    &lt;xsl:template name="insert_into_books-input" match="/"&gt;
+        &lt;tns1:ActivityInputType&gt;
+            &lt;statement&gt;
+                &lt;xsl:value-of select="&amp;quot;INSERT INTO public.books values('0071450149', 'The Power to Predict', 'How Real Time Businesses Anticipate Customer Needs, Create Opportunities, and Beat the Competition', 'Vivek Ranadive', '2006/01/26', false, true, 15.90);INSERT INTO public.books values('0061122416', 'The Alchemist', 'Every few decades a book is published that changes the lives of its readers forever. The Alchemist is such a book', 'Paul Coelho', '2006/04/25', true, true, 11.90);&amp;quot;"/&gt;
+            &lt;/statement&gt;
+        &lt;/tns1:ActivityInputType&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</codeblock>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+        <concept id="Log">
+          <title>
+            Name:
+                
+            <b>Log</b>
+          </title>
+          <conbody>
+            <section>
+              <ul>
+                <li>Description:
+                            No description</li>
+                <li>Type: bw.generalactivities.log</li>
+                <li>Logger Name: </li>
+                <li>Log level: Info</li>
+                <li>Suppress Job Info:
+                    true</li>
+                <li>Input Variable:
+                                Log-input</li>
+                <li>
+                  Input bindings:
+                  <ul outputclass="mappings">
+                    <li outputclass="table">
+                      <lines outputclass="caption">Mapping table</lines>
+                      <table outputclass="data">
+                        <tgroup cols="2">
+                          <thead>
+                            <row>
+                              <entry>Target</entry>
+                              <entry>Source</entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row>
+                              <entry>
+                                <b>/tns:ActivityInput</b>
+                                <b>/message</b>
+                              </entry>
+                              <entry>concat("Caught Another Exception", " ===", $FaultDetails/ActivityName)</entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>
+                    </li>
+                    <li outputclass="tree">
+                      <lines outputclass="caption">Mapping tree</lines>
+                      <codeblock>
+                        <b>tns:ActivityInputmessage = </b>
+                        concat(&amp;quot;Caught Another Exception&amp;quot;, &amp;quot; ===&amp;quot;, $FaultDetails/ActivityName)
+                      </codeblock>
+                    </li>
+                    <li outputclass="raw">
+                      <lines outputclass="caption">Source code</lines>
+                      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.tibco.com/pe/WriteToLogActivitySchema" version="2.0"&gt;&lt;xsl:param name="FaultDetails"/&gt;&lt;xsl:template name="Log-input" match="/"&gt;&lt;tns:ActivityInput&gt;&lt;message&gt;&lt;xsl:value-of select="concat(&amp;quot;Caught Another Exception&amp;quot;, &amp;quot; ===&amp;quot;, $FaultDetails/ActivityName)"/&gt;&lt;/message&gt;&lt;/tns:ActivityInput&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</codeblock>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </conbody>
+        </concept>
+      </concept>
+      <concept id="References" xml:lang="en-us">
+        <title>References:</title>
+      </concept>
+      <concept id="Transitions" xml:lang="en-us">
+        <title>Transitions:</title>
+        <conbody>
+          <ul id="create_books_table_insert_into_books">
+            <li>
+                                          From:
+                            
+              <b>create_books_table</b>
+                                          -To:
+                            
+              <b>insert_into_books</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <ul id="insert_into_books_create_table_events">
+            <li>
+                                          From:
+                            
+              <b>insert_into_books</b>
+                                          -To:
+                            
+              <b>create_table_events</b>
+              <p>
+                <ul>
+                  <li>
+                                        Label:
+                                        </li>
+                  <li>Type: SUCCESS</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          <note othertype="repositoryAnalyticsRemoved" type="other">
+            <ul id="Log_CHANGED" outputclass="repositoryAnalyticsRemoved">
+              <li>
+                                            From:
+                            
+                <b>Log</b>
+                                            -To:
+                            
+                <b>CHANGED</b>
+                <p>
+                  <ul>
+                    <li>
+                                        Label:
+                                        </li>
+                    <li>Type: SUCCESS</li>
+                  </ul>
+                </p>
+              </li>
+            </ul>
+          </note>
+        </conbody>
+      </concept>
+    </concept>
+  </concept>
+</concept>

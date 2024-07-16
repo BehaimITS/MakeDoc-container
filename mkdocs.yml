@@ -155,9 +155,4 @@ nav:
       -   Changed items:
             -   tibco.bwce.sample.binding.rest.BookStore:
                   -   Processes:
-                        -   EventsDB: ra/changed/tibco.bwce.sample.binding.rest.BookStore/Processes/ditaTopic5.md
-                        -   LogProcess: ra/changed/tibco.bwce.sample.binding.rest.BookStore/Processes/ditaTopic3.md
-                        -   BooksDB: ra/changed/tibco.bwce.sample.binding.rest.BookStore/Processes/ditaTopic4.md
                         -   Activator: ra/changed/tibco.bwce.sample.binding.rest.BookStore/Processes/ditaTopic0.md
-                        -   Events: ra/changed/tibco.bwce.sample.binding.rest.BookStore/Processes/ditaTopic2.md
-                        -   Books: ra/changed/tibco.bwce.sample.binding.rest.BookStore/Processes/ditaTopic1.md
