@@ -119,28 +119,6 @@
 			</conbody>
 		</concept>
 		</xsl:if>		
-		<concept id="JMSConnectionsAdvanced">
-			<title>Advanced Configuration</title>
-			<conbody>
-				<ul>
-					<li>
-						Auto-generate Client ID:
-						<xsl:choose>
-							<xsl:when test="@autoGenerateClientID">
-								<xsl:value-of select="@autoGenerateClientID"/>
-							</xsl:when>
-							<xsl:otherwise>
-								<xsl:value-of select="'true'"/>
-							</xsl:otherwise>
-						</xsl:choose>
-					</li>
-					<li>
-						Client ID:
-						<xsl:value-of select="@clientID"/>
-					</li>
-				</ul>
-			</conbody>
-		</concept>
 		<concept id="JMSConnectionsSSL">
 			<title>SSL</title>
 			<conbody>
@@ -183,58 +161,7 @@
                     </ul>
                 </conbody>
 		</concept>
-		<concept id="JMSConnectionsSSL">
-			<title>SSL</title>
-			<conbody>
-				<xsl:apply-templates select="/" mode="SSL"></xsl:apply-templates>
-			</conbody>
-		</concept>
 	</concept>
-	</xsl:template>
-	
-	<!-- Sub template -->
-	<xsl:template match="/" mode="SSL">
-		<ul>		
-			<xsl:choose>
-					<xsl:when test="/jndi:namedResource/identitySet/sca_ext:intentMap/sca_ext:qualifier/id:IdentityReference/@URI != ''">
-						<li>
-							Confidentiality: true
-							<ul>
-								<li>
-									SSL Client:
-									<xsl:variable name="sslClient" select="/jndi:namedResource/identitySet/sca_ext:intentMap/sca_ext:qualifier/id:IdentityReference/@URI"/>
-									<xsl:variable name="sslClientFile" select="concat(CustomFunctionsEagle:getRelativeRootDir($level), $resourcesFolder, translate($sslClient, '.','/'), '.sslClientResource.dita')"/>
-									<xsl:variable name="sslClientRef" select="concat(CustomFunctionsEagle:getRelativeRootDir($level+1),CustomFunctions:getPath(CustomFunctions:substringBeforeLast($projectRoot,'/'),concat('/',substring-before(substring-after($sslClientFile,CustomFunctionsEagle:getRelativeRootDir($level)),'.dita'))),'.dita')"/>
-									<xsl:element name="xref">
-										<xsl:attribute name="href"><xsl:value-of select="$sslClientRef"/></xsl:attribute>
-										<xsl:value-of select="$sslClient"/>
-									</xsl:element>
-								</li>
-								<li>
-								Connection Factory SSL Password: 
-									<xsl:choose>
-										<xsl:when test="/jndi:namedResource/jndi:configuration/@sslConnectionFactoryPassword !=''"> **** </xsl:when>
-										<xsl:otherwise>
-											<xsl:call-template name="getValueFromLiteralModule">
-												<xsl:with-param name="valueLiteral" select="''"/>
-												<xsl:with-param name="valueModuleProp" select="/jndi:namedResource/jndi:configuration/substitutionBindings[@template='sslConnectionFactoryPassword']/@propName"/>
-												<xsl:with-param name="defaultValue" select="''"/>
-											</xsl:call-template>
-										</xsl:otherwise>
-									</xsl:choose>
-								</li>
-							</ul>
-						</li>
-						</xsl:when>
-						<xsl:otherwise>
-							<li>Confidentiality: false
-							<ul>
-								<li>No SSL Client chosen.</li>
-							</ul>
-							</li>
-						</xsl:otherwise>	
-			</xsl:choose>
-		</ul>
 	</xsl:template>
 	
 	<!-- Sub template -->

@@ -4625,12 +4625,15 @@
                     </xsl:apply-templates>
                 </xsl:variable>
                 <xsl:if test="$ibTableBody != ''">
+                <p>
 	                <codeblock>
 	                	<xsl:value-of select="./@expression"/>
 	               	</codeblock>
+               	</p>
                 </xsl:if>
             </xsl:when>
             <xsl:when test="$mappingType='tree'">
+            <p>
 	            <codeblock>
 	                <xsl:choose>
 	                    <xsl:when test="./../../@expression">
@@ -4653,6 +4656,7 @@
 	                    </xsl:otherwise>
 	                </xsl:choose>
 	            </codeblock>
+            </p>
             </xsl:when>
             <xsl:when test="$mappingType='all'">
                 <ul outputclass="mappings">
@@ -4704,6 +4708,7 @@
                     </li>
                     <li outputclass="tree">
                         <lines outputclass="caption">Mapping tree</lines>
+                       	<p>
 	                        <codeblock>
 	                            <xsl:choose>
 	                                <xsl:when test="./../../@expression">
@@ -4737,9 +4742,11 @@
 	                                </xsl:otherwise>
 	                            </xsl:choose>
 	                        </codeblock>
+                        </p>
                     </li>
                     <li outputclass="raw">
                         <lines outputclass="caption">Source code</lines>
+                        <p>
                          <codeblock>
                              <xsl:choose>
                                  <xsl:when test="./../../@expression">
@@ -4753,6 +4760,7 @@
                                  </xsl:otherwise>
                              </xsl:choose>
                          </codeblock>
+                         </p>
                     </li>
                 </ul>
             </xsl:when>

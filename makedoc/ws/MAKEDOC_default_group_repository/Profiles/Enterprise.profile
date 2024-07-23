@@ -1,12 +1,12 @@
 settings.qa.checkReport.failOnInfo=false
 notification.recipients=
-settings.md=true
+settings.md=false
 settings.qa.checkReport.failOnWarning=false
 settings.substituteGlobalVars=true
 settings.inputBindingsType=all
 settings.paperFormat=A4
 profile.name=Enterprise
-settings.html=false
+settings.html=true
 settings.automaticallyDocumentNewUnits=true
 profile.author=Behaim IT Solutions
 settings.qa.checkReport.failOnError=false

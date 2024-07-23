@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<concept id="ERROR_-_Hardcoded_connection_parameters" xml:lang="en-us">
+   <title>ERROR - Hardcoded connection parameters</title>
+   <titlealts><navtitle>ERROR - Hardcoded connection parameters</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains projects and their violations of rule &apos;Hardcoded connection parameters&apos; - &apos;Check for hardcoded connection&apos;.</p>
+   </conbody>
+</concept>
