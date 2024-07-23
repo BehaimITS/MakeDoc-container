@@ -80,8 +80,6 @@ jobs:
 
       - name: Copy makedoc key, storage and workspace
         run: |
-          ls /home/makedoc/repository/makedoc/ws/
-          cat /home/makedoc/repository/makedoc/ws/MAKEDOC_default_group_repository/build.xml
           cp /home/makedoc/repository/${{ inputs.makedoc_key }} /home/makedoc/makedoc.key
           if [ "$(ls -A /home/makedoc/repository/makedoc/storage/)" ]; then
             mkdir -p /home/makedoc/server/storage/ && cp -r /home/makedoc/repository/makedoc/storage/* /home/makedoc/server/storage/
@@ -93,8 +91,6 @@ jobs:
           else
               echo "Workspace is empty."
           fi
-          cat /home/makedoc/server/ws/MAKEDOC_default_group_repository/build.xml
-
           
       - name: Generate BW6 documentation
         if: ${{ inputs.projectType == 'BusinessWorks 6' }}
