@@ -23,6 +23,11 @@ jobs:
       md: 'true'
       pdf: 'false'
       docx: 'false'
+      filter: 'FullDetail'
+      #filter: 'DiagramsOnly'
+      #filter: 'QAOnly'
+      #filter: 'WithoutCrossReference'
+      #filter: 'Custom'
       
     container:
 
@@ -81,7 +86,7 @@ jobs:
             -Dpdf="${{ env.pdf }}" \
             -Dmd="${{ env.md }}" \
             -Dformat="A4" \
-            -Dfilter="Filters/FullDetail.filter" \
+            -Dfilter="Filters/${{ env.filter }}.filter" \
             -Daliases="-- no aliases --" \
             -DallUnits="true" \
             -DautoQA="false" \
@@ -109,7 +114,7 @@ jobs:
             -Dpdf="${{ env.pdf }}" \
             -Dmd="${{ env.md }}" \
             -Dformat="A4" \
-            -Dfilter="Filters/FullDetail.filter" \
+            -Dfilter="Filters/${{ env.filter }}.filter" \
             -Daliases="-- no aliases --" \
             -DallUnits="true" \
             -DautoQA="false" \
@@ -168,7 +173,7 @@ jobs:
             -Dpdf="${{ env.pdf }}" \
             -Dmd="${{ env.md }}" \
             -Dformat="A4" \
-            -Dfilter="Filters/FullDetail.filter" \
+            -Dfilter="Filters/${{ env.filter }}.filter" \
             -Daliases="-- no aliases --" \
             -DallUnits="true" \
             -DautoQA="false" \
