@@ -152,7 +152,3 @@ nav:
       -   QA Rules Statistics: qa/common/invalidQARule.md
 -   Repository Analyst documentation:
       -   Introduction: ra/intro.md
-      -   Changed items:
-            -   tibco.bwce.sample.binding.rest.BookStore:
-                  -   Processes:
-                        -   Activator: ra/changed/tibco.bwce.sample.binding.rest.BookStore/Processes/ditaTopic0.md

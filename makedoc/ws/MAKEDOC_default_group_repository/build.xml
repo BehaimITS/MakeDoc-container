@@ -276,13 +276,7 @@
 
 	</target>
 
-	<target name="checkSrcExists">
-	    <!-- Check if the source directory exists -->
-	    <available property="src.exists" file="${storage.record.path}/dita/projects" type="dir"/>
-	</target>
-
-	<target name="copyWsdlXsdAe2Html" depends="checkSrcExists" if="src.exists">
-	    <!-- Copy the files only if the source directory exists -->
+	<target name="copyWsdlXsdAe2Html">
 	  	<copy toDir="${storage.record.path}/html/projects">
 	    	<fileset dir="${storage.record.path}/dita/projects">
 	        	<include name="**/*.wsdl"/>

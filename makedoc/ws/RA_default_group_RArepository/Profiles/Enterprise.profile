@@ -1,4 +1,4 @@
-#Tue, 16 Jul 2024 14:19:03 +0000
+#Tue, 23 Jul 2024 10:47:06 +0000
 settings.inputData={"projects":[{"repository":"repository","offset":-1,"group":"group","storage":"default"},{"repository":"repository","offset":0,"group":"group","storage":"default"}]}
 
 rita.maps=
