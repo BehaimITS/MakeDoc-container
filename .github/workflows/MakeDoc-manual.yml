@@ -29,6 +29,7 @@ on:
         - DiagramsOnly
         - QAOnly
         - WithoutCrossReference
+        - Custom
         default: 'FullDetail'
       html:
         type: boolean
@@ -89,6 +90,11 @@ jobs:
               mkdir -p /home/makedoc/server/ws/ && cp -r /home/makedoc/repository/makedoc/ws/* /home/makedoc/server/ws/
           else
               echo "Workspace is empty."
+          fi
+           if [ "$(ls -A /home/makedoc/repository/makedoc/ws/)" ]; then
+              mkdir -p /home/makedoc/server/filters/ && cp -r /home/makedoc/repository/makedoc/ws/* /home/makedoc/server/ws/
+          else
+              echo "Filters are empty."
           fi
           
       - name: Generate BW6 documentation
