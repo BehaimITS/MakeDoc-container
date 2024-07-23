@@ -21,6 +21,15 @@ on:
         - BusinessWorks 6
         - Repository Analyst
         default: 'BusinessWorks 6'
+      filter:
+        type: choice
+        description: 'Filter'
+        options: 
+        - FullDetail
+        - DiagramsOnly
+        - QAOnly
+        - WithoutCrossReference
+        default: 'FullDetail'
       html:
         type: boolean
         description: Generate HTML output
@@ -98,7 +107,7 @@ jobs:
             -Dpdf="${{ inputs.pdf == true && 'true' || 'false' }}" \
             -Dmd="${{ inputs.md == true && 'true' || 'false' }}" \
             -Dformat="A4" \
-            -Dfilter="Filters/FullDetail.filter" \
+            -Dfilter="Filters/${{ inputs.filter }}.filter" \
             -Daliases="-- no aliases --" \
             -DallUnits="true" \
             -DautoQA="false" \
@@ -126,7 +135,7 @@ jobs:
             -Dpdf="${{ inputs.pdf == true && 'true' || 'false' }}" \
             -Dmd="${{ inputs.md == true && 'true' || 'false' }}" \
             -Dformat="A4" \
-            -Dfilter="Filters/FullDetail.filter" \
+            -Dfilter="Filters/${{ inputs.filter }}.filter" \
             -Daliases="-- no aliases --" \
             -DallUnits="true" \
             -DautoQA="false" \
@@ -154,7 +163,7 @@ jobs:
             -Dpdf="${{ inputs.pdf == true && 'true' || 'false' }}" \
             -Dmd="${{ inputs.md == true && 'true' || 'false' }}" \
             -Dformat="A4" \
-            -Dfilter="Filters/FullDetail.filter" \
+            -Dfilter="Filters/${{ inputs.filter }}.filter" \
             -Daliases="-- no aliases --" \
             -DallUnits="true" \
             -DautoQA="false" \
