@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="violation4" xml:lang="en-us">
+  <title>/META-INF/docker.substvar</title>
+  <titlealts>
+    <navtitle>META-INF/docker.substvar</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>List of violations which appeared in file <i>/META-INF/docker.substvar</i>
+    </p>
+  </conbody>
+  <concept id="Value_Contains_Global_Variables" xml:lang="en-us">
+    <title>INFO - Value Contains - Global Variables</title>
+    <conbody>
+      <p>Global Variable WILDCARD</p>
+    </conbody>
+  </concept>
+  <concept id="Value_Ends_With_Global_Variables" xml:lang="en-us">
+    <title>INFO - Value Ends With - Global Variables</title>
+    <conbody>
+      <p>Global Variable WILDCARD</p>
+      <ul>
+        <li>variable</li>
+      </ul>
+    </conbody>
+  </concept>
+</concept>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="violation20" xml:lang="en-us">
+  <title>/Service Descriptors/Events.wsdl</title>
+  <titlealts>
+    <navtitle>Service Descriptors/Events.wsdl</navtitle>
+  </titlealts>
+  <conbody>
+    <p>License for TIBCO Software Use Only! </p>
+    <p>List of violations which appeared in file <i>/Service Descriptors/Events.wsdl</i>
+    </p>
+  </conbody>
+  <concept id="Incorrect_description_WSDLs" xml:lang="en-us">
+    <title>WARNING - Incorrect description - WSDLs</title>
+    <conbody>
+      <p>Item doesn't contain any description or description too short</p>
+    </conbody>
+  </concept>
+</concept>
