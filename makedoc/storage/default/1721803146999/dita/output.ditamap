@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+                     "../dtd/map.dtd">
+<map title="Enterprise">
+	<topicmeta>
+		<critdates>
+			<created date="2024/07/24 06:39"/>
+		</critdates>
+	</topicmeta>
+	<topicref href="intro.dita"/>
+    <topicref href="projects/projects.dita">
+                <topicref format="ditamap" href="projects/projects_DITA.ditamap"/>
+    </topicref>
+      <topicref href="cross/cross.dita">
+          <topicref format="ditamap" href="cross/cross_DITA.ditamap"/>
+      </topicref>
+      <topicref href="qa/qa.dita">
+          <topicref format="ditamap" href="qa/qa.ditamap"/>
+      </topicref>
+</map>
