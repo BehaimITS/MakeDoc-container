@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
-<concept id="WARNING_-_Missing_XSD_Annotation" xml:lang="en-us">
-   <title>WARNING - Missing XSD Annotation</title>
-   <titlealts><navtitle>WARNING - Missing XSD Annotation</navtitle></titlealts>
-   <conbody>
-     <p>Chapter contains projects and their violations of rule &apos;Missing XSD Annotation&apos; - &apos;Check for annotation in XML schema.&apos;.</p>
-   </conbody>
-</concept>

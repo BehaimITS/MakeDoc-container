@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
-<concept id="WARNING_-_Incorrect_Structure" xml:lang="en-us">
-   <title>WARNING - Incorrect Structure</title>
-   <titlealts><navtitle>WARNING - Incorrect Structure</navtitle></titlealts>
-   <conbody>
-     <p>Chapter contains projects and their violations of rule &apos;Incorrect Structure&apos; - &apos;Check for correct structure of module properties&apos;.</p>
-   </conbody>
-</concept>

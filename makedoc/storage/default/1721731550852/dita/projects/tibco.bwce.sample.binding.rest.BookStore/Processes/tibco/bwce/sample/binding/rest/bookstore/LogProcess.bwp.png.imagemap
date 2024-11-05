@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<imagemap>
-    <activity name="Start" x="212" y="173"/>
-    <activity name="End" x="439" y="173"/>
-    <activity name="Log" x="320" y="173"/>
-    <transition name="StartToEnd" from="Start" to="Log" x1="234" y1="174" x2="294" y2="174"/>
-    <transition name="LogToEnd" from="Log" to="End" x1="342" y1="174" x2="413" y2="174"/>
-</imagemap>
