@@ -1,0 +1,25 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/concept.dtd">
+<!--============================================================================-->
+<!--                                                                            -->
+<!--                             Behaim IT Solutions                            -->
+<!--                                                                            -->
+<!--                            All Rights Reserved                             -->
+<!--                                                                            -->
+<!--                                                                            -->
+<!-- project         : MakeDoc                                                  -->
+<!-- filename        : trustProvider.xml                                     -->
+<!-- originator      : jkaspar                                                  -->
+<!-- creation date   : 2016-02-23                                               -->
+<!-- description     : This header was automatically created                    -->
+<!--                                                                            -->
+<!--============================================================================-->
+
+<concept id="tibco.bwce.sample.binding.rest.BookStore_trustproviders" xml:lang="en-us">
+   <title>Trust Providers</title>
+   <titlealts><navtitle>Trust Providers</navtitle></titlealts>
+   <conbody>
+     <p>Chapter contains description of BusinessWorks6 Trust Providers from project tibco.bwce.sample.binding.rest.BookStore.</p>  
+   </conbody>
+</concept>
+
+<!-- ================================= END OF FILE ============================== -->
