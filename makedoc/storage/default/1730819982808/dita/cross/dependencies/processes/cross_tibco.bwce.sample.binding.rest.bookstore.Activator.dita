@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "/home/makedoc/server/cfg/dtd/concept.dtd">
+<concept id="Activator.bwp" xml:lang="en-us">
+	<title>Activator.bwp</title>
+	<titlealts><navtitle>Activator.bwp</navtitle></titlealts>
+	<conbody>
+		<p>Chapter contains Activator.bwp crossreferences documentation.</p>
+			<imagemap>
+				<image href="cross_tibco.bwce.sample.binding.rest.bookstore.Activator.png"/>		
+					<area><shape>poly</shape><coords>445,80,485,80,485,120,445,120</coords><xref href="../../dependencies/wsdls/cross_http___tibco.com_bw_bw6_system_ModuleActivator__WSDL.dita">http://tibco.com/bw/bw6/system/ModuleActivator::WSDL</xref></area>
+					<area><shape>poly</shape><coords>77,166,117,166,117,206,77,206</coords><xref href="../../dependencies/wsdls/cross_http___xmlns.example.com_20140929140236__WSDL.dita">http://xmlns.example.com/20140929140236::WSDL</xref></area>
+					<area><shape>poly</shape><coords>135,651,175,651,175,691,135,691</coords><xref href="../../dependencies/wsdls/cross_http___xmlns.example.com_20141006121028__WSDL.dita">http://xmlns.example.com/20141006121028::WSDL</xref></area>
+					<area><shape>poly</shape><coords>367,414,407,414,407,454,367,454</coords><xref href="../../dependencies/resources/cross_tibco.bwce.sample.binding.rest.BookStore.JDBCConnectionResource.dita">tibco.bwce.sample.binding.rest.BookStore.JDBCConnectionResource</xref></area>
+					<area><shape>poly</shape><coords>394,237,434,237,434,277,394,277</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.Activator.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.Activator</xref></area>
+					<area><shape>poly</shape><coords>11,391,51,391,51,431,11,431</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.Books.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.Books</xref></area>
+					<area><shape>poly</shape><coords>2,616,42,616,42,656,2,656</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.Events.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.Events</xref></area>
+					<area><shape>poly</shape><coords>178,309,218,309,218,349,178,349</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.db.BooksDB.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.db.BooksDB</xref></area>
+					<area><shape>poly</shape><coords>244,563,284,563,284,603,244,603</coords><xref href="../../dependencies/processes/cross_tibco.bwce.sample.binding.rest.bookstore.db.EventsDB.dita">tibco.bwce.sample.binding.rest.BookStore:tibco.bwce.sample.binding.rest.bookstore.db.EventsDB</xref></area>
+			</imagemap>
+		
+				<p>References To:
+					<ul>
+							<li>
+									<xref href="../../../projects/tibco.bwce.sample.binding.rest.BookStore/Service_Descriptors/ModuleActivator.wsdl.dita">http://tibco.com/bw/bw6/system/ModuleActivator::WSDL</xref>
+							</li>
+							<li>
+									<xref href="../../../projects/tibco.bwce.sample.binding.rest.BookStore/Resources/tibco/bwce/sample/binding/rest/BookStore/JDBCConnectionResource.jdbcResource.dita">tibco.bwce.sample.binding.rest.BookStore.JDBCConnectionResource</xref>
+							</li>
+					</ul>
+				</p>
+		
+	</conbody>
+</concept>
