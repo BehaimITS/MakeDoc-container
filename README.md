@@ -25,3 +25,8 @@
 
 - In case you want to generate MakeDoc documentation automatically on push, you should check the workflow configuration (`.github/workflows/MakeDoc-on-push.yml`) - select correct BW version, output format and filters 
 
+**Important Note:**  
+For generating RepositoryAnalyst (differential documentation), there must be a previously successfully generated BW documentation available for comparison. If such documentation is not available, the workflow will fail.
+
+
+
