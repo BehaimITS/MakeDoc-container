@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<imagemap>
+    <process name="onStartup_ModuleActivator" x1="162" y1="124" x2="314" y2="124"/>
+    <activity name="Log" x="240" y="273"/>
+    <activity name="CHANGED" x="330" y="273"/>
+    <transition name="LogToLog1" from="Log" to="CHANGED" x1="262" y1="274" x2="304" y2="274"/>
+    <activity name="OnMessageStart" x="160" y="218"/>
+    <activity name="create_books_table" x="221" y="157"/>
+    <activity name="create_table_events" x="530" y="157"/>
+    <activity name="insert_into_books" x="343" y="157"/>
+    <activity name="OnMessageEnd" x="773" y="213"/>
+    <transition name="create_books_tableToinsert_into_books" from="create_books_table" to="insert_into_books" x1="243" y1="158" x2="317" y2="158"/>
+    <transition name="insert_into_booksTocreate_table_events" from="insert_into_books" to="create_table_events" x1="365" y1="158" x2="504" y2="158"/>
+    <process name="onShutdown_ModuleActivator" x1="162" y1="432" x2="319" y2="432"/>
+    <activity name="OnMessageStart1" x="160" y="478"/>
+    <activity name="OnMessageEnd1" x="773" y="432"/>
+    <process name="onStartup_ModuleActivator" x1="8" y1="176" x2="137" y2="176"/>
+    <process name="onShutdown_ModuleActivator" x1="8" y1="196" x2="137" y2="196"/>
+</imagemap>
