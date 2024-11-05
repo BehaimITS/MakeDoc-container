@@ -183,7 +183,7 @@ jobs:
         run: |
           chmod +x /home/makedoc/repository/makedoc/transform.sh
           cd /home/makedoc/server/storage/default/
-          cd "$(\ls -1dt * | head -n 1)"/md/
+          cd "$(ls -1dt [0-9]* | head -n 1)"/md/
           /home/makedoc/repository/makedoc/transform.sh index.md /home/makedoc/repository/mkdocs.yml
 
       - name: Transform MarkDown RA
@@ -191,7 +191,7 @@ jobs:
         run: |
           chmod +x /home/makedoc/repository/makedoc/transform_RA.sh
           cd /home/makedoc/server/storage/default/
-          cd "$(\ls -1dt * | head -n 1)"/md/
+          cd "$(ls -1dt [0-9]* | head -n 1)"/md/
           /home/makedoc/repository/makedoc/transform_RA.sh index.md /home/makedoc/repository/mkdocs.yml
           
       - name: Copy project to github storage directory
