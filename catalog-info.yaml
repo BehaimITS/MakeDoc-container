@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "MakeDocWebinar"
-  description: "This integrates everything with everything"
+  name: "MakeDoc-Examples"
+  description: "MakeDoc for TIBCO examples and tips how to generate a documentation and how to use it"
   annotations:
     github.com/project-slug: BehaimITS/MakeDoc-container
     backstage.io/techdocs-ref: dir:./
@@ -12,14 +12,14 @@ metadata:
       icon: home
 spec:
   type: integration
-  lifecycle: development
+  lifecycle: production
   owner: "group:default/tibco-templates"
-  providesApis: ['bwce-integration-flow-api']
+  providesApis: ['makedoc-examples-api']
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: bwce-integration-flow-api-location
+  name: makedoc-examples-location
 spec:
   targets:
     - ./catalog-api.yaml
