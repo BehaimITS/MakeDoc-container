@@ -1,5 +1,3 @@
-# Introduction {#introduction .concept}
-
 <img src="./behaimits.png" width="200" style="display:block; margin:auto;">
 &nbsp;
 
