@@ -254,5 +254,144 @@ nav:
             -   QA Rules Statistics: examples/bw5/qa/common/invalidQARule.md
         -   Repository Analyst documentation:
             -   Introduction: examples/bw5/ra/intro.md
-    -  BWCE: examples/bwce/bwce.md
+    -  BWCE:
+        - Introduction: examples/bwce/intro.md
+        - Project documentation:
+            - com.behaimits.sample.http.requestor.application:
+                - Module Properties:
+                    - default.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor.application/META-INF/default.substvar.md
+                    - UnixProfile.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor.application/META-INF/UnixProfile.substvar.md
+                    - WindowsProfile.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor.application/META-INF/WindowsProfile.substvar.md
+                - Application settings:
+                    - Application: examples/bwce/projects/com.behaimits.sample.http.requestor.application/META-INF/TIBCO.application.md
+            - com.behaimits.sample.http.requestor:
+                - Processes:
+                    - WriteFact: examples/bwce/projects/com.behaimits.sample.http.requestor/Processes/com/behaimits/sample/db/store/WriteFact.bwp.md
+                    - WriteLog: examples/bwce/projects/com.behaimits.sample.http.requestor/Processes/com/behaimits/sample/db/store/WriteLog.bwp.md
+                    - Dispatcher: examples/bwce/projects/com.behaimits.sample.http.requestor/Processes/com/behaimits/sample/http/requestor/Dispatcher.bwp.md
+                    - HTTPReceiver: examples/bwce/projects/com.behaimits.sample.http.requestor/Processes/com/behaimits/sample/http/requestor/HTTPReceiver.bwp.md
+                    - Log: examples/bwce/projects/com.behaimits.sample.http.requestor/Processes/com/behaimits/sample/jms/logging/Log.bwp.md
+                    - ReceiveLog: examples/bwce/projects/com.behaimits.sample.http.requestor/Processes/com/behaimits/sample/jms/receiver/ReceiveLog.bwp.md
+                - Module Properties:
+                    - default.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor/META-INF/default.substvar.md
+                - Shared JMS Connections:
+                    - JMSConnectionResource: examples/bwce/projects/com.behaimits.sample.http.requestor/Resources/com/behaimits/sample/http/requestor/JMSConnectionResource.jmsConnResource.md
+                - Shared JDBC Connections:
+                    - JDBCConnectionResource: examples/bwce/projects/com.behaimits.sample.http.requestor/Resources/com/behaimits/sample/http/requestor/JDBCConnectionResource.jdbcResource.md
+                - HTTP Client Configurations:
+                    - RequestingHTTPConnection: examples/bwce/projects/com.behaimits.sample.http.requestor/Resources/com/behaimits/sample/http/requestor/RequestingHTTPConnection.httpClientResource.md
+                - HTTP Connectors:
+                    - ListeningHTTPConnection: examples/bwce/projects/com.behaimits.sample.http.requestor/Resources/com/behaimits/sample/http/requestor/ListeningHTTPConnection.httpConnResource.md
+                - Shared Variables:
+                    - module: examples/bwce/projects/com.behaimits.sample.http.requestor/META-INF/module.msv.md
+                - Module Descriptor:
+                    - Module: examples/bwce/projects/com.behaimits.sample.http.requestor/META-INF/module.bwm.md
+                - Job Shared Variables:
+                    - module: examples/bwce/projects/com.behaimits.sample.http.requestor/META-INF/module.jsv.md
+                - XSD Schemas:
+                    - AsciiContent: examples/bwce/projects/com.behaimits.sample.http.requestor/Schemas/AsciiContent.xsd.md
+                    - Fact: examples/bwce/projects/com.behaimits.sample.http.requestor/Schemas/Fact.xsd.md
+                    - LogMessage: examples/bwce/projects/com.behaimits.sample.http.requestor/Schemas/LogMessage.xsd.md
+        - Cross-reference documentation:
+            - Dependencies:
+                - Resources:
+                    - ListeningHTTPConnection.httpConnResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.ListeningHTTPConnection.md
+                    - JMSConnectionResource.jmsConnResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.JMSConnectionResource.md
+                    - RequestingHTTPConnection.httpClientResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.RequestingHTTPConnection.md
+                    - JDBCConnectionResource.jdbcResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.JDBCConnectionResource.md
+                - Processes:
+                    - HTTPReceiver.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.http.requestor.HTTPReceiver.md
+                    - WriteLog.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.db.store.WriteLog.md
+                    - ReceiveLog.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.jms.receiver.ReceiveLog.md
+                    - Log.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.jms.logging.Log.md
+                    - Dispatcher.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.http.requestor.Dispatcher.md
+                    - WriteFact.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.db.store.WriteFact.md
+                - WSDLs:
+                    - schemas.tibco.com_bw_pe_plugin_5.0_exceptions_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_pe_plugin_5.0_exceptions__WSDL.md
+                    - schemas.tibco.com_bw_plugins_xml_5.0_JSONActivitiesExceptions_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_xml_5.0_JSONActivitiesExceptions__WSDL.md
+                    - schemas.tibco.com_bw_plugins_xml_5.0_xmlExceptions_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_xml_5.0_xmlExceptions__WSDL.md
+                    - www.example.com_namespaces_tns_1753776435241_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753776435241__WSDL.md
+                    - schemas.tibco.com_bw_plugins_jms_5.0_jmsExceptions_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_jms_5.0_jmsExceptions__WSDL.md
+                    - xmlns.tibco.com_encodings_mime_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___xmlns.tibco.com_encodings_mime__WSDL.md
+                    - www.example.com_namespaces_tns_1753776792422_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753776792422__WSDL.md
+                    - schemas.tibco.com_bw_plugins_http_5.0_httpExceptions_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_http_5.0_httpExceptions__WSDL.md
+                    - schemas.tibco.com_bw_plugins_jdbc_5.0_jdbcExceptions_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_jdbc_5.0_jdbcExceptions__WSDL.md
+                    - www.example.com_namespaces_tns_1753802312202_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753802312202__WSDL.md
+                    - xmlns.tibco.com_bw_security_tokens_WSDL_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___xmlns.tibco.com_bw_security_tokens__WSDL.md
+            - Dataflow:
+                - JMS Messages:
+                    - tcp___localhost_7222_LOGGING_QUEUE: examples/bwce/cross/dataflow/jmsmessages/cross_tcp___localhost_7222__LOGGING_QUEUE.md
+                - Processes:
+                    - com.behaimits.sample.http.requestor.HTTPReceiver: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.http.requestor.HTTPReceiver.md
+                    - com.behaimits.sample.db.store.WriteLog: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.db.store.WriteLog.md
+                    - com.behaimits.sample.jms.receiver.ReceiveLog: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.jms.receiver.ReceiveLog.md
+                    - com.behaimits.sample.jms.logging.Log: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.jms.logging.Log.md
+                    - com.behaimits.sample.http.requestor.Dispatcher: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.http.requestor.Dispatcher.md
+                    - com.behaimits.sample.db.store.WriteFact: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.db.store.WriteFact.md
+                - Database objects:
+                    - jdbcProperty: examples/bwce/cross/dataflow/databaseobjects/cross_jdbcProperty.md
+                - Http:
+                    - httpConnectorResource: examples/bwce/cross/dataflow/http/cross_httpConnectorResource.md
+        - Quality Assurance documentation:
+            - Rules:
+                - ERROR - Hardcoded activities timeout:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Hardcoded_activities_timeout/violation1.md
+                - ERROR - Hardcoded connection parameters:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Hardcoded_connection_parameters/violation1.md
+                - ERROR - Hardcoded destination parameter:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Hardcoded_destination_parameter/violation1.md
+                - INFO - Counter Objects:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Counter_Objects/violation1.md
+                - INFO - Name analyzing:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Name_analyzing/violation1.md
+                - INFO - Value Contains:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Value_Contains/violation1.md
+                    - com.behaimits.sample.http.requestor.application: examples/bwce/qa/rules/Value_Contains/violation2.md
+                - INFO - Value Ends With:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Value_Ends_With/violation1.md
+                    - com.behaimits.sample.http.requestor.application: examples/bwce/qa/rules/Value_Ends_With/violation2.md
+                - WARNING - Incorrect description:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Incorrect_description/violation1.md
+                    - com.behaimits.sample.http.requestor.application: examples/bwce/qa/rules/Incorrect_description/violation2.md
+                - WARNING - Incorrect directory structure:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Incorrect_directory_structure/violation1.md
+                    - com.behaimits.sample.http.requestor.application: examples/bwce/qa/rules/Incorrect_directory_structure/violation2.md
+                - WARNING - Incorrect Schema - missing header:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Incorrect_Schema_-_missing_header/violation1.md
+                - WARNING - Incorrect Schema - missing version:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Incorrect_Schema_-_missing_version/violation1.md
+                - WARNING - Incorrect Structure:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Incorrect_Structure/violation1.md
+                    - com.behaimits.sample.http.requestor.application: examples/bwce/qa/rules/Incorrect_Structure/violation2.md
+                - WARNING - Missing XSD Annotation:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Missing_XSD_Annotation/violation1.md
+                - WARNING - Unused properties:
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Unused_properties/violation1.md
+            - Projects:
+                - com.behaimits.sample.http.requestor:
+                    - /: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation1.md
+                    - com.behaimits.sample.http.requestor: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation2.md
+                    - META-INF/default.substvar: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation3.md
+                    - META-INF/module.bwm: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation4.md
+                    - Processes/Dispatcher.bwp: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation5.md
+                    - Processes/HTTPReceiver.bwp: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation6.md
+                    - Processes/Log.bwp: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation7.md
+                    - Processes/ReceiveLog.bwp: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation8.md
+                    - Processes/WriteFact.bwp: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation9.md
+                    - Processes/WriteLog.bwp: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation10.md
+                    - Resources/JDBCConnectionResource.jdbcResource: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation11.md
+                    - Resources/JMSConnectionResource.jmsConnResource: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation12.md
+                    - Resources/ListeningHTTPConnection.httpConnResource: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation13.md
+                    - Resources/RequestingHTTPConnection.httpClientResource: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation14.md
+                    - Schemas/AsciiContent.xsd: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation15.md
+                    - Schemas/Fact.xsd: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation16.md
+                    - Schemas/LogMessage.xsd: examples/bwce/qa/projects/com.behaimits.sample.http.requestor/violation17.md
+                - com.behaimits.sample.http.requestor.application:
+                    - /: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation1.md
+                    - com.behaimits.sample.http.requestor.application: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation2.md
+                    - META-INF/default.substvar: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation6.md
+                    - META-INF/TIBCO.xml: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation3.md
+                    - META-INF/UnixProfile.substvar: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation4.md
+                    - META-INF/WindowsProfile.substvar: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation5.md
+            - QA Rules Statistics: examples/bwce/qa/common/invalidQARule.md
     -  EMS: examples/ems/ems.md

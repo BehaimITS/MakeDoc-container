@@ -1,0 +1,16 @@
+# com.behaimits.sample.http.requestor.application {#violation2 .concept}
+
+License for TIBCO Software Use Only!
+
+Description of rule: Global Variable WILDCARD
+
+Violation appeared in following files:
+
+**Parent topic:**[INFO - Value Ends With](../../../qa/rules/INFO_-_Value_Ends_With.md)
+
+## Global Variables {#Global_Variables}
+
+-   [/META-INF/UnixProfile.substvar](../../../projects/com.behaimits.sample.http.requestor.application/META-INF/UnixProfile.substvar.md) - variable
+-   [/META-INF/WindowsProfile.substvar](../../../projects/com.behaimits.sample.http.requestor.application/META-INF/WindowsProfile.substvar.md) - variable
+-   [/META-INF/default.substvar](../../../projects/com.behaimits.sample.http.requestor.application/META-INF/default.substvar.md) - variable
+
