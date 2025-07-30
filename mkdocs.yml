@@ -1,110 +1,211 @@
 site_name: "MakeDoc-Examples"
 site_description: "MakeDoc for TIBCO examples and tips how to generate a documentation and how to use it"
 
-# docs_dir: ./
-
 nav:
 -   Introduction: index.md
--   MakeDoc User manual:
-    - Preface: manual/md/intro.md
-    - MakeDoc Modules section:
-      - MakeDoc Modules: manual/md/modules/index.md
-      - Base Module Section:
-        - Base Module: manual/md/modules/base/index.md
-        - Common GUI Principles Section:
-          - Common GUI Principles: manual/md/modules/base/gui/index.md
-          - Standard Workspace: manual/md/modules/base/gui/workspace.md
-          - Wizards: manual/md/modules/base/gui/wizards.md
-        - Common Configuration Principles: manual/md/modules/base/configuration/index.md
-        - Storage Section:
-          - Storage: manual/md/modules/base/storage/index.md
-          - GUI: manual/md/modules/base/storage/gui.md
-          - ANT Interface: manual/md/modules/base/storage/ant.md
-          - Configuration: manual/md/modules/base/storage/config.md
-        - Portal Section:
-          - Portal: manual/md/modules/base/portal/index.md
-          - Setup: manual/md/modules/base/portal/setup/index.md
-          - Generated Output: manual/md/modules/base/portal/output/index.md
-      - TIBCO BusinessWorks Module Section:
-        - TIBCO BusinessWorks Module: manual/md/modules/falcon/index.md
-        - Configuration: manual/md/modules/falcon/configuration/index.md
-        - Setup Section:
-          - Setup: manual/md/modules/falcon/setup/index.md
-          - Working with projects: manual/md/modules/falcon/setup/project.md
-          - Working with design time libraries and aliases: manual/md/modules/falcon/setup/library.md
-          - Working with profiles: manual/md/modules/falcon/setup/profile.md
-        - Generated output Section:
-          - Generated output: manual/md/modules/falcon/output/index.md
-          - How To Use HTML Documentation: manual/md/modules/falcon/output/howToUseHtmlDocumentation.md
-          - Search functionality: manual/md/modules/falcon/output/howToUseHtmlDocumentationSearch.md
-          - ESB documentation Section:
-            - ESB documentation: manual/md/modules/falcon/output/projectDocESB.md
-            - Project Documentation Section:
-              - Project Documentation: manual/md/modules/falcon/output/projectDoc.md
-              - Supported Resources: manual/md/modules/falcon/output/supportedResources.md
-              - Processes: manual/md/modules/falcon/output/processes.md
-              - Adapters: manual/md/modules/falcon/output/adapters.md
-              - AE Schemas: manual/md/modules/falcon/output/aeSchemas.md
-              - XSD Schemas: manual/md/modules/falcon/output/xsdSchemas.md
-              - WSDLs: manual/md/modules/falcon/output/WSDLs.md
-              - BE Concepts: manual/md/modules/falcon/output/beConcepts.md
-              - BE Concept Views: manual/md/modules/falcon/output/beConceptViews.md
-          - Cross-Reference Documentation Section:
-            - Cross-Reference Documentation: manual/md/modules/falcon/output/crossRefDoc.md
-            - Destinations: manual/md/modules/falcon/output/crossRefDestinations.md
-            - Global Variables: manual/md/modules/falcon/output/crossRefGlobalVariables.md
-            - Database Objects: manual/md/modules/falcon/output/crossRefDatabaseObjects.md
-      - TIBCO BusinessEvents Module Section:
-        - TIBCO BusinessEvents Module: manual/md/modules/bebe/index.md
-        - Setup Section:
-          - Setup: manual/md/modules/bebe/setup/index.md
-          - Configuration: manual/md/modules/bebe/setup/configuration/configuration.md
-          - Dialogs Section:
-            - Dialogs: manual/md/modules/bebe/setup/dialogs/dialogs.md
-            - Creating TIBCO BusinessEvents Module Project: manual/md/modules/bebe/setup/dialogs/creatingBEModulProject.md
-            - Working with TIBCO BusinessEvents projects Section: 
-              - Working with TIBCO BusinessEvents projects: manual/md/modules/bebe/setup/dialogs/workingWithBEProject.md
-              - Creating TIBCO BusinessEvents project: manual/md/modules/bebe/setup/dialogs/creatingBEProject.md
-              - Editing BusinessEvents project: manual/md/modules/bebe/setup/dialogs/editingBEProject.md
-            - Working with Profiles Section: 
-              - Working with Profiles: manual/md/modules/bebe/setup/dialogs/workingWithProfile.md
-              - Creating BusinessEvents Profiles: manual/md/modules/bebe/setup/dialogs/creatingProfile.md
-              - Editing BusinessEvents Profiles: manual/md/modules/bebe/setup/dialogs/editingProfile.md
-            - Working with Filters Section: 
-              - Working with Filters: manual/md/modules/bebe/setup/dialogs/workingWithFilters.md
-              - Editing filters: manual/md/modules/bebe/setup/dialogs/editingFilters.md
-            - Working with Project Libraries: manual/md/modules/bebe/setup/dialogs/workingWithLibrary.md
-            - Working with Custom Functions: manual/md/modules/bebe/setup/dialogs/workingWithCustomFunctions.md
-            - Working with ThirdParty Libraries: manual/md/modules/bebe/setup/dialogs/workingWithThirdPartyLibrary.md
-            - Working with Rules: manual/md/modules/bebe/setup/dialogs/workingWithRules.md
-        - Generated Output Section:
-          - Generated Output: manual/md/modules/bebe/output/index.md
-          - Project Documentation Section:
-            - Project Documentation: manual/md/modules/bebe/output/ProjectDocumentation.md
-            - Supported Resources: manual/md/modules/bebe/output/SupportedResources.md
-            - Cluster Deployment Descriptors: manual/md/modules/bebe/output/cdd.md
-            - Concepts: manual/md/modules/bebe/output/Concept.md
-            - Concept Views: manual/md/modules/bebe/output/ConceptView.md
-            - Event Views: manual/md/modules/bebe/output/EventView.md
-            - Global Variables: manual/md/modules/bebe/output/GV.md
-            - Channels: manual/md/modules/bebe/output/Channel.md
-            - Project Views: manual/md/modules/bebe/output/ProjectView.md
-            - Rules: manual/md/modules/bebe/output/Rule.md
-            - Rule Functions: manual/md/modules/bebe/output/RuleFunction.md
-            - Scorecards: manual/md/modules/bebe/output/Scorecard.md
-            - Shared HTTP Connection: manual/md/modules/bebe/output/SharedHTTPConnection.md
-            - Shared JMS Connection: manual/md/modules/bebe/output/SharedJMSConnection.md
-            - Shared JNDI Configuration: manual/md/modules/bebe/output/SharedJNDIConfiguration.md
-            - Simple Events: manual/md/modules/bebe/output/SimpleEvent.md
-            - Time Events: manual/md/modules/bebe/output/TimeEvent.md
-            - State Machines: manual/md/modules/bebe/output/StateMachine.md
-          - Cross-Reference Documentation Section:
-            - Cross-Reference Documentation: manual/md/modules/bebe/output/CrossReferenceDocumentation.md
-            - Global Variables: manual/md/modules/bebe/output/GVCross.md
-            - Destinations: manual/md/modules/bebe/output/Destination.md
-            - User Defined CrossReference: manual/md/modules/bebe/output/UserDefCross.md
-          - Quality Assurance Documentation: manual/md/modules/bebe/output/QADocumentation.md
-    - Troubleshooting: manual/md/troubleshooting.md
+-   MakeDoc Manuals: 
+    -   Server Manual:
+        - Preface: manual/server_manual/intro.md
+        - Features and benefits: manual/server_manual/features_benefits/features_benefits.md
+        - Architecture section:
+            - Architecture: manual/server_manual/architecture/architecture.md
+            - General description: manual/server_manual/architecture/architecture_general.md
+            - Tomcat servlet container: manual/server_manual/architecture/architecture_tomcat.md
+            - Jenkins: manual/server_manual/architecture/architecture_jenkins.md
+            - Core application: manual/server_manual/architecture/architecture_core.md
+            - Portal: manual/server_manual/architecture/architecture_portal.md
+            - Storage: manual/server_manual/architecture/architecture_storage.md
+        - Jenkins section:
+            - Jenkins: manual/server_manual/jenkins/jenkins.md
+            - Basics: manual/server_manual/jenkins/basics.md
+            - General configuration: manual/server_manual/jenkins/general_configuration.md
+            - Job anatomy section:
+                - Job anatomy: manual/server_manual/jenkins/job_anatomy/job_anatomy.md
+                - General section: manual/server_manual/jenkins/job_anatomy/general.md
+                - Source code management: manual/server_manual/jenkins/job_anatomy/source_code_management.md
+                - Build triggers: manual/server_manual/jenkins/job_anatomy/build_triggers.md
+                - Build steps: manual/server_manual/jenkins/job_anatomy/build_steps.md
+                - Post-build steps: manual/server_manual/jenkins/job_anatomy/post_build_steps.md
+            - MakeDoc build steps section:
+                - MakeDoc build steps: manual/server_manual/jenkins/md_build_steps/md_build_steps.md
+                - BusinessWorks build step: manual/server_manual/jenkins/md_build_steps/bw_step.md
+                - BusinessEvents build step: manual/server_manual/jenkins/md_build_steps/be_step.md
+                - iProcess build step: manual/server_manual/jenkins/md_build_steps/ip_step.md
+                - EMS build step: manual/server_manual/jenkins/md_build_steps/ems_step.md
+                - CrossReference build step: manual/server_manual/jenkins/md_build_steps/cr_step.md
+                - RepositoryAnalyst build step: manual/server_manual/jenkins/md_build_steps/ra_step.md
+                - Production data fetching steps: manual/server_manual/jenkins/md_build_steps/production_data_fetching_steps.md
+                - BusinessWorks production deployments step: manual/server_manual/jenkins/md_build_steps/remote_bw_step.md
+            - Advanced section:
+                - Advanced: manual/server_manual/jenkins/advanced/advanced.md
+                - MakeDoc server directory structure: manual/server_manual/jenkins/advanced/md_directory_structure.md
+                - MakeDoc documentation job workflow: manual/server_manual/jenkins/advanced/documentation_job_workflow.md
+                - Jenkins plugins: manual/server_manual/jenkins/advanced/jenkins_plugins.md
+        - Portal section:
+            - Portal: manual/server_manual/portal/portal.md
+            - Layers - storages, groups, repositories: manual/server_manual/portal/layers.md
+            - Binding to real environment: manual/server_manual/portal/binding.md
+        - Core section:
+            - Core: manual/server_manual/core/core.md
+            - MakeDoc project structure section:
+                - MakeDoc project structure: manual/server_manual/core/makedoc_project_structure/md_project_structure.md
+                - Project: manual/server_manual/core/makedoc_project_structure/project.md
+                - Profile: manual/server_manual/core/makedoc_project_structure/profile.md
+                - Filter: manual/server_manual/core/makedoc_project_structure/filter.md
+                - Rule: manual/server_manual/core/makedoc_project_structure/rule.md
+                - Templates: manual/server_manual/core/makedoc_project_structure/templates.md
+                - Build: manual/server_manual/core/makedoc_project_structure/build.md
+            - Documentation modules section:
+                - Documentation modules (Project documentation): manual/server_manual/core/documentation_modules/documentation_modules.md
+                - BusinessWorks Section:
+                    - BusinessWorks: manual/server_manual/core/documentation_modules/bw/bw.md
+                    - Adapters: manual/server_manual/core/documentation_modules/bw/adapters.md
+                    - AE Schemas: manual/server_manual/core/documentation_modules/bw/aeSchemas.md
+                    - BE Concepts: manual/server_manual/core/documentation_modules/bw/beConcepts.md
+                    - BE Concept Views: manual/server_manual/core/documentation_modules/bw/beConceptViews.md
+                    - Processes: manual/server_manual/core/documentation_modules/bw/processes.md
+                    - Supported Resources: manual/server_manual/core/documentation_modules/bw/supportedResources.md
+                    - WSDLs: manual/server_manual/core/documentation_modules/bw/WSDLs.md
+                    - XSD Schemas: manual/server_manual/core/documentation_modules/bw/xsdSchemas.md
+                - BusinessEvents Section: 
+                    - BusinessEvents: manual/server_manual/core/documentation_modules/be/be.md
+                    - Events: manual/server_manual/core/documentation_modules/be/events.md
+                    - Cluster Deployment Descriptors: manual/server_manual/core/documentation_modules/be/cdd.md
+                    - Concepts: manual/server_manual/core/documentation_modules/be/Concept.md
+                    - Concept Views: manual/server_manual/core/documentation_modules/be/ConceptView.md
+                    - Event Views: manual/server_manual/core/documentation_modules/be/EventView.md
+                    - Global Variables: manual/server_manual/core/documentation_modules/be/GV.md
+                    - Channels: manual/server_manual/core/documentation_modules/be/Channel.md
+                    - Project Views: manual/server_manual/core/documentation_modules/be/ProjectView.md
+                    - Rules: manual/server_manual/core/documentation_modules/be/Rule.md
+                    - Rule Functions: manual/server_manual/core/documentation_modules/be/RuleFunction.md
+                    - Shared HTTP Connection: manual/server_manual/core/documentation_modules/be/SharedHTTPConnection.md
+                    - Shared JMS Connection: manual/server_manual/core/documentation_modules/be/SharedJMSConnection.md
+                    - Shared JNDI Configuration: manual/server_manual/core/documentation_modules/be/SharedJNDIConfiguration.md
+                    - Simple Events: manual/server_manual/core/documentation_modules/be/SimpleEvent.md
+                    - Time Events: manual/server_manual/core/documentation_modules/be/TimeEvent.md
+                    - State Machines: manual/server_manual/core/documentation_modules/be/StateMachine.md
+                - EnterpriseMessageService Section:
+                    - EnterpriseMessageService: manual/server_manual/core/documentation_modules/ems/ems.md
+                    - Queues: manual/server_manual/core/documentation_modules/ems/queues.md
+                    - Topics: manual/server_manual/core/documentation_modules/ems/topics.md
+                    - Routes: manual/server_manual/core/documentation_modules/ems/routes.md
+                    - Groups: manual/server_manual/core/documentation_modules/ems/groups.md
+                    - Users: manual/server_manual/core/documentation_modules/ems/users.md
+                - iProcess Section:
+                    - iProcess: manual/server_manual/core/documentation_modules/ip/ip.md
+                    - Procedure: manual/server_manual/core/documentation_modules/ip/procedures.md
+                    - Sub-Procedure: manual/server_manual/core/documentation_modules/ip/subProcedures.md
+            - Analytical modules section:
+                - Analytical modules: manual/server_manual/core/analytical_modules/analytical_modules.md
+                - CrossReference: manual/server_manual/core/analytical_modules/cross.md
+                - RepositoryAnalyst: manual/server_manual/core/analytical_modules/ra.md
+                - QualityAssurance: manual/server_manual/core/analytical_modules/qa.md
+        - Storage section:
+            - Storage: manual/server_manual/storage/storage.md
+            - Purpose: manual/server_manual/storage/purpose.md
+            - Cleaning: manual/server_manual/storage/cleaning.md
+        - Troubleshooting: manual/server_manual/troubleshooting.md
+    -   User manual:
+        - Preface: manual/user_manual/intro.md
+        - MakeDoc Modules section:
+          - MakeDoc Modules: manual/user_manual/modules/index.md
+          - Base Module Section:
+            - Base Module: manual/user_manual/modules/base/index.md
+            - Common GUI Principles Section:
+              - Common GUI Principles: manual/user_manual/modules/base/gui/index.md
+              - Standard Workspace: manual/user_manual/modules/base/gui/workspace.md
+              - Wizards: manual/user_manual/modules/base/gui/wizards.md
+            - Common Configuration Principles: manual/user_manual/modules/base/configuration/index.md
+            - Storage Section:
+              - Storage: manual/user_manual/modules/base/storage/index.md
+              - GUI: manual/user_manual/modules/base/storage/gui.md
+              - ANT Interface: manual/user_manual/modules/base/storage/ant.md
+              - Configuration: manual/user_manual/modules/base/storage/config.md
+            - Portal Section:
+              - Portal: manual/user_manual/modules/base/portal/index.md
+              - Setup: manual/user_manual/modules/base/portal/setup/index.md
+              - Generated Output: manual/user_manual/modules/base/portal/output/index.md
+          - TIBCO BusinessWorks Module Section:
+            - TIBCO BusinessWorks Module: manual/user_manual/modules/falcon/index.md
+            - Configuration: manual/user_manual/modules/falcon/configuration/index.md
+            - Setup Section:
+              - Setup: manual/user_manual/modules/falcon/setup/index.md
+              - Working with projects: manual/user_manual/modules/falcon/setup/project.md
+              - Working with design time libraries and aliases: manual/user_manual/modules/falcon/setup/library.md
+              - Working with profiles: manual/user_manual/modules/falcon/setup/profile.md
+            - Generated output Section:
+              - Generated output: manual/user_manual/modules/falcon/output/index.md
+              - How To Use HTML Documentation: manual/user_manual/modules/falcon/output/howToUseHtmlDocumentation.md
+              - Search functionality: manual/user_manual/modules/falcon/output/howToUseHtmlDocumentationSearch.md
+              - ESB documentation Section:
+                - ESB documentation: manual/user_manual/modules/falcon/output/projectDocESB.md
+                - Project Documentation Section:
+                  - Project Documentation: manual/user_manual/modules/falcon/output/projectDoc.md
+                  - Supported Resources: manual/user_manual/modules/falcon/output/supportedResources.md
+                  - Processes: manual/user_manual/modules/falcon/output/processes.md
+                  - Adapters: manual/user_manual/modules/falcon/output/adapters.md
+                  - AE Schemas: manual/user_manual/modules/falcon/output/aeSchemas.md
+                  - XSD Schemas: manual/user_manual/modules/falcon/output/xsdSchemas.md
+                  - WSDLs: manual/user_manual/modules/falcon/output/WSDLs.md
+                  - BE Concepts: manual/user_manual/modules/falcon/output/beConcepts.md
+                  - BE Concept Views: manual/user_manual/modules/falcon/output/beConceptViews.md
+              - Cross-Reference Documentation Section:
+                - Cross-Reference Documentation: manual/user_manual/modules/falcon/output/crossRefDoc.md
+                - Destinations: manual/user_manual/modules/falcon/output/crossRefDestinations.md
+                - Global Variables: manual/user_manual/modules/falcon/output/crossRefGlobalVariables.md
+                - Database Objects: manual/user_manual/modules/falcon/output/crossRefDatabaseObjects.md
+          - TIBCO BusinessEvents Module Section:
+            - TIBCO BusinessEvents Module: manual/user_manual/modules/bebe/index.md
+            - Setup Section:
+              - Setup: manual/user_manual/modules/bebe/setup/index.md
+              - Configuration: manual/user_manual/modules/bebe/setup/configuration/configuration.md
+              - Dialogs Section:
+                - Dialogs: manual/user_manual/modules/bebe/setup/dialogs/dialogs.md
+                - Creating TIBCO BusinessEvents Module Project: manual/user_manual/modules/bebe/setup/dialogs/creatingBEModulProject.md
+                - Working with TIBCO BusinessEvents projects Section: 
+                  - Working with TIBCO BusinessEvents projects: manual/user_manual/modules/bebe/setup/dialogs/workingWithBEProject.md
+                  - Creating TIBCO BusinessEvents project: manual/user_manual/modules/bebe/setup/dialogs/creatingBEProject.md
+                  - Editing BusinessEvents project: manual/user_manual/modules/bebe/setup/dialogs/editingBEProject.md
+                - Working with Profiles Section: 
+                  - Working with Profiles: manual/user_manual/modules/bebe/setup/dialogs/workingWithProfile.md
+                  - Creating BusinessEvents Profiles: manual/user_manual/modules/bebe/setup/dialogs/creatingProfile.md
+                  - Editing BusinessEvents Profiles: manual/user_manual/modules/bebe/setup/dialogs/editingProfile.md
+                - Working with Filters Section: 
+                  - Working with Filters: manual/user_manual/modules/bebe/setup/dialogs/workingWithFilters.md
+                  - Editing filters: manual/user_manual/modules/bebe/setup/dialogs/editingFilters.md
+                - Working with Project Libraries: manual/user_manual/modules/bebe/setup/dialogs/workingWithLibrary.md
+                - Working with Custom Functions: manual/user_manual/modules/bebe/setup/dialogs/workingWithCustomFunctions.md
+                - Working with ThirdParty Libraries: manual/user_manual/modules/bebe/setup/dialogs/workingWithThirdPartyLibrary.md
+                - Working with Rules: manual/user_manual/modules/bebe/setup/dialogs/workingWithRules.md
+            - Generated Output Section:
+              - Generated Output: manual/user_manual/modules/bebe/output/index.md
+              - Project Documentation Section:
+                - Project Documentation: manual/user_manual/modules/bebe/output/ProjectDocumentation.md
+                - Supported Resources: manual/user_manual/modules/bebe/output/SupportedResources.md
+                - Cluster Deployment Descriptors: manual/user_manual/modules/bebe/output/cdd.md
+                - Concepts: manual/user_manual/modules/bebe/output/Concept.md
+                - Concept Views: manual/user_manual/modules/bebe/output/ConceptView.md
+                - Event Views: manual/user_manual/modules/bebe/output/EventView.md
+                - Global Variables: manual/user_manual/modules/bebe/output/GV.md
+                - Channels: manual/user_manual/modules/bebe/output/Channel.md
+                - Project Views: manual/user_manual/modules/bebe/output/ProjectView.md
+                - Rules: manual/user_manual/modules/bebe/output/Rule.md
+                - Rule Functions: manual/user_manual/modules/bebe/output/RuleFunction.md
+                - Scorecards: manual/user_manual/modules/bebe/output/Scorecard.md
+                - Shared HTTP Connection: manual/user_manual/modules/bebe/output/SharedHTTPConnection.md
+                - Shared JMS Connection: manual/user_manual/modules/bebe/output/SharedJMSConnection.md
+                - Shared JNDI Configuration: manual/user_manual/modules/bebe/output/SharedJNDIConfiguration.md
+                - Simple Events: manual/user_manual/modules/bebe/output/SimpleEvent.md
+                - Time Events: manual/user_manual/modules/bebe/output/TimeEvent.md
+                - State Machines: manual/user_manual/modules/bebe/output/StateMachine.md
+              - Cross-Reference Documentation Section:
+                - Cross-Reference Documentation: manual/user_manual/modules/bebe/output/CrossReferenceDocumentation.md
+                - Global Variables: manual/user_manual/modules/bebe/output/GVCross.md
+                - Destinations: manual/user_manual/modules/bebe/output/Destination.md
+                - User Defined CrossReference: manual/user_manual/modules/bebe/output/UserDefCross.md
+              - Quality Assurance Documentation: manual/user_manual/modules/bebe/output/QADocumentation.md
+        - Troubleshooting: manual/user_manual/troubleshooting.md
 -   MakeDoc Examples:
     -   BW5:
         -   Project documentation:
