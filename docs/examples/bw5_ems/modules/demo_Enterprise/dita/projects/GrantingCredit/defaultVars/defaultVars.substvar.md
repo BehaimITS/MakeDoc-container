@@ -1,0 +1,198 @@
+# defaultVars {#Substvar .concept}
+
+Section contains description of Global Variables " defaultVars "
+
+Source Library: " CalculateBonita, envDL "
+
+-   **Name:**AppraisalJMSQueueRequestName
+    -   **Value:**BANK.PAWN.CREDITREQ
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:23 CET
+    -   **Design Library:**
+-   **Name:**AppraisalJMSQueueResultName
+    -   **Value:**BANK.EXAMINATION.APPRVALUE
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:23 CET
+    -   **Design Library:**
+-   **Name:**CalculateBonitaHTTPSOAPPort
+    -   **Value:**9997
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**CalculateBonitaJMSQueueName
+    -   **Value:**BANK.CALCULATEBONITA.REQUEST
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**CalculateBonitaJNDIContextFactory
+    -   **Value:**com.tibco.tibjms.naming.TibjmsInitialContextFactory
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**CalculateBonitaJNDIContextURL
+    -   **Value:**tibjmsnaming://localhost:7222
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**DefaultInputParametersFile
+    -   **Value:**X:\\MakeDoc\\demo\\trialBE\\trialProjects\\GrantingCredit\\XML\\InputParameters.xml
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-03-14 13:14:49 CET
+    -   **Design Library:**
+-   **Name:**DefaultObligatorsRegistrFile
+    -   **Value:**X:\\MakeDoc\\demo\\trial30\\trialProjects\\GrantingCredit\\XML\\ObligatorsRegistr.xml
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-03-14 13:33:47 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**Deployment
+    -   **Value:**GrantingCredit
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-12 15:55:49 CET
+    -   **Design Library:**
+-   **Name:**Domain
+    -   **Value:**domain
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-12 15:55:49 CET
+    -   **Design Library:**
+-   **Name:**ENV
+    -   **Value:**DEV
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-24 20:28:12 CET
+    -   **Design Library:**envDL
+-   **Name:**ExaminationJMSQueueName
+    -   **Value:**BANK.EXAMINATION.BONITAVALUE
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:27:14 CET
+    -   **Design Library:**
+-   **Name:**GetObligatorServiceEndpointURL
+    -   **Value:**http://localhost:9997/ProcessDefinitions/GetObligator/GetObligatorService
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**HTTPSOAPPort
+    -   **Value:**9998
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:23 CET
+    -   **Design Library:**
+-   **Name:**Host
+    -   **Value:**localhost
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:23 CET
+    -   **Design Library:**
+-   **Name:**InputHTTPPort
+    -   **Value:**9999
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:23 CET
+    -   **Design Library:**
+-   **Name:**JMSQueueName
+    -   **Value:**BANK.EXAMINATION.TEST
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2011-12-01 13:18:23 CET
+    -   **Design Library:**
+-   **Name:**JmsProviderUrl
+    -   **Value:**tcp://localhost:7222
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:23 CET
+    -   **Design Library:**
+-   **Name:**JmsSslProviderUrl
+    -   **Value:**ssl://localhost:7243
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:24 CET
+    -   **Design Library:**
+-   **Name:**LoadParametersServiceEndpointURL
+    -   **Value:**http://localhost:9998/ProcessDefinitions/LoadParameters/LoadParametersService
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:24 CET
+    -   **Design Library:**
+-   **Name:**OutputHTTPPort
+    -   **Value:**9996
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 14:23:24 CET
+    -   **Design Library:**
+-   **Name:**RemoteRvDaemon
+    -   **Value:**
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-25 15:03:23 CET
+    -   **Design Library:**
+-   **Name:**RvDaemon
+    -   **Value:**tcp:7500
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-25 15:03:23 CET
+    -   **Design Library:**
+-   **Name:**RvNetwork
+    -   **Value:**
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-25 15:03:23 CET
+    -   **Design Library:**
+-   **Name:**RvService
+    -   **Value:**7500
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-25 15:03:23 CET
+    -   **Design Library:**
+-   **Name:**RvaHost
+    -   **Value:**localhost
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-25 15:03:23 CET
+    -   **Design Library:**
+-   **Name:**RvaPort
+    -   **Value:**7600
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-25 15:03:23 CET
+    -   **Design Library:**
+
+**Parent topic:**[Global Variables](../../../../../../modules/demo_Enterprise/dita/projects/GrantingCredit/common/substvar.md)
+

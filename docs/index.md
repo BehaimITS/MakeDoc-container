@@ -1,6 +1,8 @@
 # MakeDoc for TIBCO
 
 MakeDoc® provides automatic code review and analysis of TIBCO projects. With a single click, the tool generates technical documentation for your ActiveMatrix BusinessWorks®, EMS server, and other projects or deployments. Based on this analysis, MakeDoc® performs automated code reviews, highlights differences between TIBCO environments or project versions over time, and visually displays dependencies across an unlimited number of TIBCO projects.
+
+&nbsp;
 ![MakeDoc Features](pictures/makedoc.png)
 ## MakeDoc Story
 
