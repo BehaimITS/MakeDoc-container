@@ -14,12 +14,15 @@ spec:
   type: integration
   lifecycle: production
   owner: "group:default/tibco-templates"
-  providesApis: ['makedoc-examples-api']
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Group
 metadata:
-  name: makedoc-examples-location
+  name: behaim-its
+  description: Behaim ITS SW Company
 spec:
-  targets:
-    - ./catalog-api.yaml
+  type: organization
+  profile:
+    displayName: Behaim ITS
+    email: contact_us@behaimits.com
+  children: []
