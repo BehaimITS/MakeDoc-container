@@ -470,3 +470,7 @@ nav:
                     - META-INF/UnixProfile.substvar: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation4.md
                     - META-INF/WindowsProfile.substvar: examples/bwce/qa/projects/com.behaimits.sample.http.requestor.application/violation5.md
             - QA Rules Statistics: examples/bwce/qa/common/invalidQARule.md
+            
+           
+hooks:
+  - remove-extensions.py
