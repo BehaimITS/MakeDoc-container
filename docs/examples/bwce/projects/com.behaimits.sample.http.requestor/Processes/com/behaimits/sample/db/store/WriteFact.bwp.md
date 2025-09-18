@@ -63,12 +63,12 @@ Full process path: com.behaimits.sample.db.store.WriteFact
 
         |Target|Source|
         |------|------|
-        |**/tns6:AsciiContent****/tns6:asciiContent**|$ParseJSON/tns5:fact|
+        |*/tns6:AsciiContent/tns6:asciiContent*|**\$ParseJSON/tns5:fact**|
 
     -   Mapping tree
 
         ```
-        **tns6:AsciiContenttns6:asciiContent = **$ParseJSON/tns5:fact
+        tns6:AsciiContenttns6:asciiContent = $ParseJSON/tns5:fact
         ```
 
     -   Source code
@@ -103,13 +103,13 @@ Full process path: com.behaimits.sample.db.store.WriteFact
 
         |Target|Source|
         |------|------|
-        |**/tns3:jdbcUpdateActivityInput****/FACT**|$ParseJSON/tns5:fact|
-        |**/tns3:jdbcUpdateActivityInput****/REQUEST\_DATE\_TIME**|current-dateTime\(\)|
+        |*/tns3:jdbcUpdateActivityInput/FACT*|**\$ParseJSON/tns5:fact**|
+        |*/tns3:jdbcUpdateActivityInput/REQUEST\_DATE\_TIME*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **tns3:jdbcUpdateActivityInputFACT = **$ParseJSON/tns5:fact**REQUEST\_DATE\_TIME = **current-dateTime()
+        tns3:jdbcUpdateActivityInputFACT = $ParseJSON/tns5:factREQUEST\_DATE\_TIME = current-dateTime()
         ```
 
     -   Source code
@@ -133,14 +133,14 @@ Full process path: com.behaimits.sample.db.store.WriteFact
 
         |Target|Source|
         |------|------|
-        |**/tns:ActivityInput***/\[IF\] $\_error/MsgCode***/msgCode**|$\_error/MsgCode|
-        |**/tns:ActivityInput****/logLevel**|"Error"|
-        |**/tns:ActivityInput****/message**|$\_error/Msg|
+        |*/tns:ActivityInput/\[IF\] **\$\_error/MsgCode**/msgCode*|**\$\_error/MsgCode**|
+        |*/tns:ActivityInput/logLevel*|**"Error"**|
+        |*/tns:ActivityInput/message*|**\$\_error/Msg**|
 
     -   Mapping tree
 
         ```
-        **tns:ActivityInputxsl:if test="$\_error/MsgCode"msgCode = **$_error/MsgCode**logLevel = **&quot;Error&quot;**message = **$_error/Msg
+        tns:ActivityInputxsl:if test="\$\_error/MsgCode"msgCode = $_error/MsgCodelogLevel = &quot;Error&quot;message = $_error/Msg
         ```
 
     -   Source code
@@ -166,14 +166,14 @@ Full process path: com.behaimits.sample.db.store.WriteFact
 
         |Target|Source|
         |------|------|
-        |**/tns4:ActivityInputClass****/jsonString**|$Start/tns6:asciiContent|
+        |*/tns4:ActivityInputClass/jsonString*|**\$Start/tns6:asciiContent**|
 
     -   Mapping tree
 
         ```
-        **
+        
                 tns4:ActivityInputClass
-                    jsonString = **$Start/tns6:asciiContent
+                    jsonString = $Start/tns6:asciiContent
         ```
 
     -   Source code

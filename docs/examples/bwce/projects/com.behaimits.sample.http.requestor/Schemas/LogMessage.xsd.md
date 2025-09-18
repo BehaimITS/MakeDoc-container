@@ -19,8 +19,8 @@ Section contains description of XSD Schema LogMessage.xsd“[LogMessage.xsd](Log
 
 ## Attributes {#Attributes}
 
--   *elementFormDefault :**qualified*
--   *targetNamespace :**http://www.example.com/namespaces/tns/1753776792422*
+-   *elementFormDefault :* *qualified*
+-   *targetNamespace :* *http://www.example.com/namespaces/tns/1753776792422*
 
 ## Overview {#Overview}
 
@@ -32,9 +32,9 @@ Section contains description of XSD Schema LogMessage.xsd“[LogMessage.xsd](Log
 
 ### element LogMessage {#element_LogMessage}
 
--   element LOG\_LEVEL*maxOccurs**1* , *minOccurs**1* , *type**xsd:string*
+-   element LOG\_LEVEL *maxOccurs* *1* , *minOccurs* *1* , *type* *xsd:string*
 
--   element LOG\_MESSAGE*type**xsd:string*
+-   element LOG\_MESSAGE *type* *xsd:string*
 
--   element OCCURED*type**xsd:dateTime*
+-   element OCCURED *type* *xsd:dateTime*
 

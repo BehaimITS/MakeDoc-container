@@ -77,12 +77,12 @@ Full process path: com.behaimits.sample.jms.logging.Log
 
         |Target|Source|
         |------|------|
-        |**/tns1:ActivityInput****/Body**|tib:render-xml\($Start\)|
+        |*/tns1:ActivityInput/Body*|**tib:render-xml\(\$Start\)**|
 
     -   Mapping tree
 
         ```
-        **tns1:ActivityInputBody = **tib:render-xml($Start)
+        tns1:ActivityInputBody = tib:render-xml($Start)
         ```
 
     -   Source code
@@ -106,14 +106,14 @@ Full process path: com.behaimits.sample.jms.logging.Log
 
         |Target|Source|
         |------|------|
-        |**/tns:ActivityInput****/msgCode**|$FaultDetails/MsgCode|
-        |**/tns:ActivityInput****/logLevel**|"Error"|
-        |**/tns:ActivityInput****/message**|$FaultDetails/Msg|
+        |*/tns:ActivityInput/msgCode*|**\$FaultDetails/MsgCode**|
+        |*/tns:ActivityInput/logLevel*|**"Error"**|
+        |*/tns:ActivityInput/message*|**\$FaultDetails/Msg**|
 
     -   Mapping tree
 
         ```
-        **tns:ActivityInputmsgCode = **$FaultDetails/MsgCode**logLevel = **&quot;Error&quot;**message = **$FaultDetails/Msg
+        tns:ActivityInputmsgCode = $FaultDetails/MsgCodelogLevel = &quot;Error&quot;message = $FaultDetails/Msg
         ```
 
     -   Source code

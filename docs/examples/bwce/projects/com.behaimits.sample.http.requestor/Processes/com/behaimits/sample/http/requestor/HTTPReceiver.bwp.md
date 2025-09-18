@@ -71,18 +71,18 @@ Full process path: com.behaimits.sample.http.requestor.HTTPReceiver
 
         |Target|Source|
         |------|------|
-        |**/tns4:LogMessage****/tns4:LOG\_LEVEL**|"Info"|
-        |**/tns4:LogMessage****/tns4:LOG\_MESSAGE**|concat\("Request received:" , $HTTPReceiver/RequestURI\)|
-        |**/tns4:LogMessage****/tns4:OCCURED**|current-dateTime\(\)|
+        |*/tns4:LogMessage/tns4:LOG\_LEVEL*|**"Info"**|
+        |*/tns4:LogMessage/tns4:LOG\_MESSAGE*|**concat\("Request received:" , \$HTTPReceiver/RequestURI\)**|
+        |*/tns4:LogMessage/tns4:OCCURED*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **
+        
                 tns4:LogMessage
-                    tns4:LOG\_LEVEL = **&quot;Info&quot;**
-                    tns4:LOG\_MESSAGE = **concat(&quot;Request received:&quot; , $HTTPReceiver/RequestURI)**
-                    tns4:OCCURED = **current-dateTime()
+                    tns4:LOG\_LEVEL = &quot;Info&quot;
+                    tns4:LOG\_MESSAGE = concat(&quot;Request received:&quot; , $HTTPReceiver/RequestURI)
+                    tns4:OCCURED = current-dateTime()
         ```
 
     -   Source code
@@ -119,14 +119,14 @@ Full process path: com.behaimits.sample.http.requestor.HTTPReceiver
 
         |Target|Source|
         |------|------|
-        |**/tns4:LogMessage****/tns4:LOG\_LEVEL**|"Info"|
-        |**/tns4:LogMessage****/tns4:LOG\_MESSAGE**|concat\("Sending response to client:" , $Dispatcher/tns1:asciiContent\)|
-        |**/tns4:LogMessage****/tns4:OCCURED**|current-dateTime\(\)|
+        |*/tns4:LogMessage/tns4:LOG\_LEVEL*|**"Info"**|
+        |*/tns4:LogMessage/tns4:LOG\_MESSAGE*|**concat\("Sending response to client:" , \$Dispatcher/tns1:asciiContent\)**|
+        |*/tns4:LogMessage/tns4:OCCURED*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **tns4:LogMessagetns4:LOG\_LEVEL = **&quot;Info&quot;**tns4:LOG\_MESSAGE = **concat(&quot;Sending response to client:&quot; , $Dispatcher/tns1:asciiContent)**tns4:OCCURED = **current-dateTime()
+        tns4:LogMessagetns4:LOG\_LEVEL = &quot;Info&quot;tns4:LOG\_MESSAGE = concat(&quot;Sending response to client:&quot; , $Dispatcher/tns1:asciiContent)tns4:OCCURED = current-dateTime()
         ```
 
     -   Source code
@@ -152,13 +152,13 @@ Full process path: com.behaimits.sample.http.requestor.HTTPReceiver
 
         |Target|Source|
         |------|------|
-        |**/tns2:ResponseActivityInput****/asciiContent**|$Dispatcher/tns1:asciiContent|
-        |**/tns2:ResponseActivityInput****/Headers****/Content-Type**|"text/plain"|
+        |*/tns2:ResponseActivityInput/asciiContent*|**\$Dispatcher/tns1:asciiContent**|
+        |*/tns2:ResponseActivityInput/Headers/Content-Type*|**"text/plain"**|
 
     -   Mapping tree
 
         ```
-        **tns2:ResponseActivityInputasciiContent = **$Dispatcher/tns1:asciiContent**HeadersContent-Type = **&quot;text/plain&quot;
+        tns2:ResponseActivityInputasciiContent = $Dispatcher/tns1:asciiContentHeadersContent-Type = &quot;text/plain&quot;
         ```
 
     -   Source code

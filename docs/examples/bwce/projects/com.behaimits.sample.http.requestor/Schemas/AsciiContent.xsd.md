@@ -19,8 +19,8 @@ Section contains description of XSD Schema AsciiContent.xsd“[AsciiContent.xsd]
 
 ## Attributes {#Attributes}
 
--   *elementFormDefault :**qualified*
--   *targetNamespace :**http://www.example.com/namespaces/tns/1753802312202*
+-   *elementFormDefault :* *qualified*
+-   *targetNamespace :* *http://www.example.com/namespaces/tns/1753802312202*
 
 ## Overview {#Overview}
 
@@ -32,5 +32,5 @@ Section contains description of XSD Schema AsciiContent.xsd“[AsciiContent.xsd]
 
 ### element AsciiContent {#element_AsciiContent}
 
--   element asciiContent*maxOccurs**1* , *minOccurs**1* , *type**xsd:string*
+-   element asciiContent *maxOccurs* *1* , *minOccurs* *1* , *type* *xsd:string*
 

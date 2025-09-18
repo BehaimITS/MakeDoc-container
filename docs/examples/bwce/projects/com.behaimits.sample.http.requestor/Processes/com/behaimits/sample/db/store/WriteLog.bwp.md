@@ -79,14 +79,14 @@ Full process path: com.behaimits.sample.db.store.WriteLog
 
         |Target|Source|
         |------|------|
-        |**/tns3:jdbcUpdateActivityInput****/LOG\_LEVEL**|$Start/tns2:LOG\_LEVEL|
-        |**/tns3:jdbcUpdateActivityInput****/LOG\_MESSAGE**|$Start/tns2:LOG\_MESSAGE|
-        |**/tns3:jdbcUpdateActivityInput****/OCCURED**|$Start/tns2:OCCURED|
+        |*/tns3:jdbcUpdateActivityInput/LOG\_LEVEL*|**\$Start/tns2:LOG\_LEVEL**|
+        |*/tns3:jdbcUpdateActivityInput/LOG\_MESSAGE*|**\$Start/tns2:LOG\_MESSAGE**|
+        |*/tns3:jdbcUpdateActivityInput/OCCURED*|**\$Start/tns2:OCCURED**|
 
     -   Mapping tree
 
         ```
-        **tns3:jdbcUpdateActivityInputLOG\_LEVEL = **$Start/tns2:LOG_LEVEL**LOG\_MESSAGE = **$Start/tns2:LOG_MESSAGE**OCCURED = **$Start/tns2:OCCURED
+        tns3:jdbcUpdateActivityInputLOG\_LEVEL = $Start/tns2:LOG_LEVELLOG\_MESSAGE = $Start/tns2:LOG_MESSAGEOCCURED = $Start/tns2:OCCURED
         ```
 
     -   Source code
@@ -110,14 +110,14 @@ Full process path: com.behaimits.sample.db.store.WriteLog
 
         |Target|Source|
         |------|------|
-        |**/tns:ActivityInput***/\[IF\] $\_error/MsgCode***/msgCode**|$\_error/MsgCode|
-        |**/tns:ActivityInput****/logLevel**|"Error"|
-        |**/tns:ActivityInput****/message**|$\_error/Msg|
+        |*/tns:ActivityInput/\[IF\] **\$\_error/MsgCode**/msgCode*|**\$\_error/MsgCode**|
+        |*/tns:ActivityInput/logLevel*|**"Error"**|
+        |*/tns:ActivityInput/message*|**\$\_error/Msg**|
 
     -   Mapping tree
 
         ```
-        **tns:ActivityInputxsl:if test="$\_error/MsgCode"msgCode = **$_error/MsgCode**logLevel = **&quot;Error&quot;**message = **$_error/Msg
+        tns:ActivityInputxsl:if test="\$\_error/MsgCode"msgCode = $_error/MsgCodelogLevel = &quot;Error&quot;message = $_error/Msg
         ```
 
     -   Source code

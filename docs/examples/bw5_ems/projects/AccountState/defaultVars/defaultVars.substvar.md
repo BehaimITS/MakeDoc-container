@@ -1,0 +1,123 @@
+# defaultVars {#Substvar .concept}
+
+License for TIBCO Software Use Only!
+
+Section contains description of Global Variables " defaultVars "
+
+Source Library: " CalculateBonita, envDL "
+
+-   **Name:**AccountStateJMSQueueName
+    -   **Value:**BANK.ACCOUNTSTATE.BONITAVALUE
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-03-19 12:27:27 CET
+    -   **Design Library:**
+-   **Name:**AccountStateServiceEndpointURL
+    -   **Value:**http://localhost:9998/ProcessDefinitions/GetAccountState/GetAccountStateService
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:39:43 CET
+    -   **Design Library:**
+-   **Name:**CalculateBonitaHTTPSOAPPort
+    -   **Value:**9997
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**CalculateBonitaJMSQueueName
+    -   **Value:**BANK.CALCULATEBONITA.REQUEST
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**CalculateBonitaJNDIContextFactory
+    -   **Value:**com.tibco.tibjms.naming.TibjmsInitialContextFactory
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**CalculateBonitaJNDIContextURL
+    -   **Value:**tibjmsnaming://localhost:7222
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**DefaultAccountsFile
+    -   **Value:**X:\\MakeDoc\\demo\\trialBE\\trialProjects\\GrantingCredit\\XML\\Accounts.xml
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-03-14 13:22:13 CET
+    -   **Design Library:**
+-   **Name:**DefaultObligatorsRegistrFile
+    -   **Value:**X:\\MakeDoc\\demo\\trial30\\trialProjects\\GrantingCredit\\XML\\ObligatorsRegistr.xml
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-03-14 13:33:47 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**Deployment
+    -   **Value:**AccountState
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-15 16:44:43 CET
+    -   **Design Library:**
+-   **Name:**Domain
+    -   **Value:**domain
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**false
+    -   **Modification Time:**2007-02-15 16:44:43 CET
+    -   **Design Library:**
+-   **Name:**ENV
+    -   **Value:**DEV
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-24 20:28:12 CET
+    -   **Design Library:**envDL
+-   **Name:**GetObligatorServiceEndpointURL
+    -   **Value:**http://localhost:9997/ProcessDefinitions/GetObligator/GetObligatorService
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:24:56 CET
+    -   **Design Library:**CalculateBonita
+-   **Name:**HTTPSOAPPort
+    -   **Value:**9998
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:39:43 CET
+    -   **Design Library:**
+-   **Name:**IOHTTPPort
+    -   **Value:**9999
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:39:43 CET
+    -   **Design Library:**
+-   **Name:**JmsProviderUrl
+    -   **Value:**tcp://localhost:7222
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:39:43 CET
+    -   **Design Library:**
+-   **Name:**JmsSslProviderUrl
+    -   **Value:**ssl://localhost:7243
+    -   **Type:**String
+    -   **Deployment Settable:**true
+    -   **Service Settable:**true
+    -   **Modification Time:**2007-02-25 15:39:43 CET
+    -   **Design Library:**
+
+**Parent topic:**[Global Variables](../../../projects/AccountState/common/substvar.md)
+
