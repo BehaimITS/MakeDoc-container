@@ -8,8 +8,6 @@ nav:
             -   Introduction: examples/bw5_ems/intro.md
             -   Project documentation:
                   -   AccountState:
-                        -   Adapters:
-                              -   FileAdapterConfiguration: examples/bw5_ems/projects/AccountState/SharedResources/FileAdapterConfiguration.adfiles.md
                         -   Processes:
                               -   envDLEmptyProcess: examples/bw5_ems/projects/AccountState/envDLEmptyProcess.process.md
                               -   AccountState: examples/bw5_ems/projects/AccountState/ProcessDefinitions/AccountState.process.md
