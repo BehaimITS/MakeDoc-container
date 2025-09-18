@@ -4,9 +4,9 @@ Chapter contains JMS Queues from all projects.
 
 -   **[BANK.EXAMINATION.TEST](../../../crossref/dest/msgs/dest_Id132.md)**  
 
--   **[concat\($\_globalVariables/ns1:GlobalVariables/ENV, $\_globalVariables/ns1:GlobalVariables/ExaminationJMSQueueName\)](../../../crossref/dest/msgs/dest_Id113.md)**  
+-   **[concat\(\$\_globalVariables/ns1:GlobalVariables/ENV, \$\_globalVariables/ns1:GlobalVariables/ExaminationJMSQueueName\)](../../../crossref/dest/msgs/dest_Id113.md)**  
 
--   **[concat\($\_globalVariables/ns1:GlobalVariables/ENV,$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\)](../../../crossref/dest/msgs/dest_Id90.md)**  
+-   **[concat\(\$\_globalVariables/ns1:GlobalVariables/ENV,\$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\)](../../../crossref/dest/msgs/dest_Id90.md)**  
 
 -   **[DEV.BANK.CALCULATEBONITA.REQUEST](../../../crossref/dest/msgs/dest_Id89.md)**  
 

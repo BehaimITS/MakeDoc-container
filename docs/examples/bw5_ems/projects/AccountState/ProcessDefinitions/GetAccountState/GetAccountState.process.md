@@ -52,13 +52,13 @@ Return bindings:
 
     |Target|Source|
     |------|------|
-    | |*\[COPY-OF\] < $Schema0/pfx:Account \>*|
+    | |*\[COPY-OF\] < \$Schema0/pfx:Account \>*|
 
 -   Mapping tree
 
     ```
-    **
-    Account** = *\[COPY-OF\] *< $Schema0/pfx:Account >
+    
+    Account = *\[COPY-OF\] *< $Schema0/pfx:Account >
     ```
 
 -   Source code
@@ -88,13 +88,13 @@ Schema: Schema0
 
         |Target|Source|
         |------|------|
-        | |*\[COPY-OF\] < $ParseXML-AccountsList/pfx:AccountsList\[$AccountIndex\]/pfx:Account \>*|
+        | |*\[COPY-OF\] < \$ParseXML-AccountsList/pfx:AccountsList\[\$AccountIndex\]/pfx:Account \>*|
 
     -   Mapping tree
 
         ```
-        **
-        Account** = *\[COPY-OF\] *< $ParseXML-AccountsList/pfx:AccountsList[$AccountIndex]/pfx:Account >
+        
+        Account = *\[COPY-OF\] *< $ParseXML-AccountsList/pfx:AccountsList[$AccountIndex]/pfx:Account >
         ```
 
     -   Source code
@@ -128,12 +128,12 @@ Schema: Schema0
 
         ```
         
-        **Account**
-         **Number** = ""
-         **Name** = ""
-         **Value** = 0
-         **MonthIncrement** = 0
-         **Password** = ""
+        Account
+         Number = ""
+         Name = ""
+         Value = 0
+         MonthIncrement = 0
+         Password = ""
         ```
 
     -   Source code
@@ -189,8 +189,8 @@ Schema: Schema0
 
         ```
         
-        **jdbcQueryActivityInput**
-         **subsetSize** = 1
+        jdbcQueryActivityInput
+         subsetSize = 1
         ```
 
     -   Source code
@@ -228,7 +228,7 @@ Schema: Schema0
 
         ```
         
-        **xmlString** = $ReadFile-Accounts/ns1:ReadActivityOutputTextClass/fileContent/textContent
+        xmlString = $ReadFile-Accounts/ns1:ReadActivityOutputTextClass/fileContent/textContent
         ```
 
     -   Source code
@@ -260,8 +260,8 @@ Schema: Schema0
 
         ```
         
-        **ReadActivityInputClass**
-         **fileName** = $_globalVariables/ns:GlobalVariables/DefaultAccountsFile
+        ReadActivityInputClass
+         fileName = $_globalVariables/ns:GlobalVariables/DefaultAccountsFile
         ```
 
     -   Source code
@@ -307,9 +307,9 @@ Schema: Schema0
 
         ```
         
-        **jdbcUpdateActivityInput**
-         **date\_now** = current-dateTime()
-         **id** = $Start/root/ID
+        jdbcUpdateActivityInput
+         date\_now = current-dateTime()
+         id = $Start/root/ID
         ```
 
     -   Source code
@@ -385,6 +385,6 @@ Schema: Schema0
         -   serializable = false
         -   indexSlot = AccountIndex
         -   activityOutputName =
-        -   repeatCondition = \($AccountIndex \>= $ParseXML-AccountsList/pfx:AccountsList/@Count\) or \($ParseXML-AccountsList/pfx:AccountsList/pfx:Account\[$AccountIndex\]/pfx:Name =$Start/pfx:Name\)
+        -   repeatCondition = \(\$AccountIndex \>= \$ParseXML-AccountsList/pfx:AccountsList/@Count\) or \(\$ParseXML-AccountsList/pfx:AccountsList/pfx:Account\[\$AccountIndex\]/pfx:Name =\$Start/pfx:Name\)
         -   accumulateOutput = false
 

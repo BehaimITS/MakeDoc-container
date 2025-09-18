@@ -65,14 +65,14 @@ Name: End
 
         |Target|Source|
         |------|------|
-        |/**outputMessage**|*\[COPY-OF\] < $LoadParameters/ns:InputParameters \>*|
+        |/**outputMessage**|*\[COPY-OF\] < \$LoadParameters/ns:InputParameters \>*|
 
     -   Mapping tree
 
         ```
         
-        **outputMessage****
-         InputParameters** = *\[COPY-OF\] *< $LoadParameters/ns:InputParameters >
+        outputMessage
+         InputParameters = *\[COPY-OF\] *< $LoadParameters/ns:InputParameters >
         ```
 
     -   Source code
@@ -98,13 +98,13 @@ Name: End
 
         |Target|Source|
         |------|------|
-        | |*\[COPY-OF\] < $InputFileName-from-SOAPEventSource/inputMessage/ns:InputFile \>*|
+        | |*\[COPY-OF\] < \$InputFileName-from-SOAPEventSource/inputMessage/ns:InputFile \>*|
 
     -   Mapping tree
 
         ```
-        **
-        InputFile** = *\[COPY-OF\] *< $InputFileName-from-SOAPEventSource/inputMessage/ns:InputFile >
+        
+        InputFile = *\[COPY-OF\] *< $InputFileName-from-SOAPEventSource/inputMessage/ns:InputFile >
         ```
 
     -   Source code

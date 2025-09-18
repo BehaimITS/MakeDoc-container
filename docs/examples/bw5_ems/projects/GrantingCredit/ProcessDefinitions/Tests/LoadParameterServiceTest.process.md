@@ -63,9 +63,9 @@ Name: End
 
         ```
         
-        **inputMessage**
-         **InputFile**
-          **FileName** = $_globalVariables/ns:GlobalVariables/DefaultInputParametersFile
+        inputMessage
+         InputFile
+          FileName = $_globalVariables/ns:GlobalVariables/DefaultInputParametersFile
         ```
 
     -   Source code

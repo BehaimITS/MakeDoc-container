@@ -66,14 +66,14 @@ Name: End
 
         ```
         
-        **InputParameters**
-         **Name** = "Jan Novak"
-         **Value** = 750000
-         **Refund** = 5000
-         **Salary** = 20000
-         **Pawn** = 1
-         **RealtyDetail** = "Realty no: 1587649"
-         **RealtyValue** = 1500000
+        InputParameters
+         Name = "Jan Novak"
+         Value = 750000
+         Refund = 5000
+         Salary = 20000
+         Pawn = 1
+         RealtyDetail = "Realty no: 1587649"
+         RealtyValue = 1500000
         ```
 
     -   Source code
@@ -127,9 +127,9 @@ Name: End
 
         ```
         
-        **WriteActivityInputTextClass**
-         **fileName** = $_globalVariables/ns:GlobalVariables/DefaultInputParametersFile
-         **textContent** = $RenderXML-InputParameters/xmlString
+        WriteActivityInputTextClass
+         fileName = $_globalVariables/ns:GlobalVariables/DefaultInputParametersFile
+         textContent = $RenderXML-InputParameters/xmlString
         ```
 
     -   Source code

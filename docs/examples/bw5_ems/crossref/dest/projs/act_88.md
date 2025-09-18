@@ -14,7 +14,7 @@ License for TIBCO Software Use Only!
 |**JNDI Context Factory:**|com.tibco.tibjms.naming.TibjmsInitialContextFactory|
 |**Topic Connection Factory:**|TopicConnectionFactory|
 |**Priority:**|4|
-|**Reply Destination:**|=concat\($\_globalVariables/ns1:GlobalVariables/ENV,$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\)|
+|**Reply Destination:**|=concat\(\$\_globalVariables/ns1:GlobalVariables/ENV,\$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\)|
 |**Expiration:**|0|
 |**Transport Format:**|JMS|
 

@@ -66,14 +66,14 @@ Name: End
 
         ```
         
-        **AccountsList**
-         **@Count** = 1
-         **Account**
-          **Number** = 123456789
-          **Name** = "Jan Novak"
-          **Value** = 1545738
-          **MonthIncrement** = 75000
-          **Password** = "key"
+        AccountsList
+         @Count = 1
+         Account
+          Number = 123456789
+          Name = "Jan Novak"
+          Value = 1545738
+          MonthIncrement = 75000
+          Password = "key"
         ```
 
     -   Source code
@@ -126,9 +126,9 @@ Name: End
 
         ```
         
-        **WriteActivityInputTextClass**
-         **fileName** = $_globalVariables/ns:GlobalVariables/DefaultAccountsFile
-         **textContent** = $RenderXML-Accounts/xmlString
+        WriteActivityInputTextClass
+         fileName = $_globalVariables/ns:GlobalVariables/DefaultAccountsFile
+         textContent = $RenderXML-Accounts/xmlString
         ```
 
     -   Source code

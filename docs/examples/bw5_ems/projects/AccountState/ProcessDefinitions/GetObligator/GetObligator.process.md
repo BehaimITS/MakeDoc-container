@@ -54,13 +54,13 @@ Return bindings:
 
     |Target|Source|
     |------|------|
-    | |*\[COPY-OF\] < $Schema0/pfx:Obligator \>*|
+    | |*\[COPY-OF\] < \$Schema0/pfx:Obligator \>*|
 
 -   Mapping tree
 
     ```
-    **
-    Obligator** = *\[COPY-OF\] *< $Schema0/pfx:Obligator >
+    
+    Obligator = *\[COPY-OF\] *< $Schema0/pfx:Obligator >
     ```
 
 -   Source code
@@ -90,13 +90,13 @@ Schema: Schema0
 
         |Target|Source|
         |------|------|
-        | |*\[COPY-OF\] < $ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator\[$ObligatorIndex\] \>*|
+        | |*\[COPY-OF\] < \$ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator\[\$ObligatorIndex\] \>*|
 
     -   Mapping tree
 
         ```
-        **
-        Obligator\[$ObligatorIndex\]** = *\[COPY-OF\] *< $ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator[$ObligatorIndex] >
+        
+        Obligator\[\$ObligatorIndex\] = *\[COPY-OF\] *< $ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator[$ObligatorIndex] >
         ```
 
     -   Source code
@@ -129,11 +129,11 @@ Schema: Schema0
 
         ```
         
-        **Obligator**
-         **Name** = ""
-         **Value** = 0
-         **Problem** = 0
-         **Refund** = 0
+        Obligator
+         Name = ""
+         Value = 0
+         Problem = 0
+         Refund = 0
         ```
 
     -   Source code
@@ -186,7 +186,7 @@ Schema: Schema0
 
         ```
         
-        **xmlString** = $ReadFile-ObligatorsRegistr/ns1:ReadActivityOutputTextClass/fileContent/textContent
+        xmlString = $ReadFile-ObligatorsRegistr/ns1:ReadActivityOutputTextClass/fileContent/textContent
         ```
 
     -   Source code
@@ -218,8 +218,8 @@ Schema: Schema0
 
         ```
         
-        **ReadActivityInputClass**
-         **fileName** = $_globalVariables/ns:GlobalVariables/DefaultObligatorsRegistrFile
+        ReadActivityInputClass
+         fileName = $_globalVariables/ns:GlobalVariables/DefaultObligatorsRegistrFile
         ```
 
     -   Source code
@@ -265,9 +265,9 @@ Schema: Schema0
 
         ```
         
-        **jdbcUpdateActivityInput**
-         **obligator\_name** = $ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator[$ObligatorIndex]/pfx:Name
-         **customer\_id** = $Start/root/cust_id
+        jdbcUpdateActivityInput
+         obligator\_name = $ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator[$ObligatorIndex]/pfx:Name
+         customer\_id = $Start/root/cust_id
         ```
 
     -   Source code
@@ -320,7 +320,7 @@ Schema: Schema0
 
 -   From: ***start*** -To: ***Assign ActualObligator***
     -   Label:
-    -   Condition: *$Start/pfx:Name = $ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator\[$ObligatorIndex\]/pfx:Name*
+    -   Condition: *\$Start/pfx:Name = \$ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator\[\$ObligatorIndex\]/pfx:Name*
     -   Description:
 
 -   From: ***start*** -To: ***Null***
@@ -348,6 +348,6 @@ Schema: Schema0
         -   serializable = false
         -   indexSlot = ObligatorIndex
         -   activityOutputName =
-        -   repeatCondition = \($ObligatorIndex \>= $ParseXML-ObligatorsList/pfx:ObligatorsList/@Count\) or \($ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator\[$ObligatorIndex\]/pfx:Name =$Start/pfx:Name\)
+        -   repeatCondition = \(\$ObligatorIndex \>= \$ParseXML-ObligatorsList/pfx:ObligatorsList/@Count\) or \(\$ParseXML-ObligatorsList/pfx:ObligatorsList/pfx:Obligator\[\$ObligatorIndex\]/pfx:Name =\$Start/pfx:Name\)
         -   accumulateOutput = false
 

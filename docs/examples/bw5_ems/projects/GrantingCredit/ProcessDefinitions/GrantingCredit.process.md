@@ -94,12 +94,12 @@ Name: End
 
         ```
         
-        **ActivityInput**
-         **Body**
-          **AppraisalRequest**
-           **Name** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Name
-           **RealtyDetail** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:RealtyDetail
-           **Pawn** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Pawn
+        ActivityInput
+         Body
+          AppraisalRequest
+           Name = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Name
+           RealtyDetail = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:RealtyDetail
+           Pawn = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Pawn
         ```
 
     -   Source code
@@ -164,18 +164,18 @@ Name: End
 
         ```
         
-        **ActivityInput**
-         **OtherProperties**
-          **Part** = "InputParameters"
-         **Body**
-          **InputParameters**
-           **Name** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Name
-           **Value** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Value
-           **Salary** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Salary
-           **Refund** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Refund
-           **Pawn** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Pawn
-           **RealtyDetail** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:RealtyDetail
-           **RealtyValue** = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:RealtyValue
+        ActivityInput
+         OtherProperties
+          Part = "InputParameters"
+         Body
+          InputParameters
+           Name = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Name
+           Value = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Value
+           Salary = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Salary
+           Refund = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Refund
+           Pawn = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Pawn
+           RealtyDetail = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:RealtyDetail
+           RealtyValue = $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:RealtyValue
         ```
 
     -   Source code
@@ -244,8 +244,8 @@ Name: End
 
         ```
         
-        **ResponseActivityInput**
-         **asciiContent** = concat("<H1>InputParameters:</H1><B>Name:</B>  ",
+        ResponseActivityInput
+         asciiContent = concat("<H1>InputParameters:</H1><B>Name:</B>  ",
          $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Name,
          "<BR><B>Value: </B>", 
         $InputParameters-SOAPRequestReply/outputMessage/ns:InputParameters/ns:Value,
@@ -300,9 +300,9 @@ Name: End
 
         ```
         
-        **inputMessage**
-         **InputFile**
-          **FileName** = $InputFileName-HTTPReceiver/ProcessStarterOutput/parameters/InputParameters
+        inputMessage
+         InputFile
+          FileName = $InputFileName-HTTPReceiver/ProcessStarterOutput/parameters/InputParameters
         ```
 
     -   Source code

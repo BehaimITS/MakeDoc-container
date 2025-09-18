@@ -65,9 +65,9 @@ Return bindings:
 
     ```
     
-    **ExaminationResult**
-     **State** = if(($GetMinRefund-JavaCode/javaCodeActivityOutput/MinRefund <= $Start/InputParameters/Refund) and  ($Schema0/Interest > 0))then 1 else 0
-     **Interest** = $Schema0/Interest
+    ExaminationResult
+     State = if(($GetMinRefund-JavaCode/javaCodeActivityOutput/MinRefund <= $Start/InputParameters/Refund) and  ($Schema0/Interest > 0))then 1 else 0
+     Interest = $Schema0/Interest
     ```
 
 -   Source code
@@ -138,10 +138,10 @@ Schema: Schema0
 
         ```
         
-        **javaCodeActivityInput**
-         **Years** = 20
-         **Interest** = $Schema0/Interest * 0.01
-         **Value** = $Start/InputParameters/Value
+        javaCodeActivityInput
+         Years = 20
+         Interest = $Schema0/Interest * 0.01
+         Value = $Start/InputParameters/Value
         ```
 
     -   Source code
@@ -181,7 +181,7 @@ Schema: Schema0
 
         ```
         
-        **Interest** = if($Start/InputParameters/Bonita >= 4) then 3 else
+        Interest = if($Start/InputParameters/Bonita >= 4) then 3 else
         if($Start/InputParameters/Bonita >= 3) then 3.5 else
         if($Start/InputParameters/Bonita >= 2) then 4 else
         if($Start/InputParameters/Bonita >= 1) then 4.5 else 0
@@ -228,9 +228,9 @@ Schema: Schema0
 
         ```
         
-        **jdbcUpdateActivityInput**
-         **interest** = $Schema0/Interest
-         **customer\_id** = $Start/InputParameters/ID
+        jdbcUpdateActivityInput
+         interest = $Schema0/Interest
+         customer\_id = $Start/InputParameters/ID
         ```
 
     -   Source code

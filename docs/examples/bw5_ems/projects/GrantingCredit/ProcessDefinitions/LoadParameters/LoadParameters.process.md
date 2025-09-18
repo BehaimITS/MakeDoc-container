@@ -49,13 +49,13 @@ Return bindings:
 
     |Target|Source|
     |------|------|
-    | |*\[COPY-OF\] < $ParseXML-as-InputParameters/pfx:InputParameters \>*|
+    | |*\[COPY-OF\] < \$ParseXML-as-InputParameters/pfx:InputParameters \>*|
 
 -   Mapping tree
 
     ```
-    **
-    InputParameters** = *\[COPY-OF\] *< $ParseXML-as-InputParameters/pfx:InputParameters >
+    
+    InputParameters = *\[COPY-OF\] *< $ParseXML-as-InputParameters/pfx:InputParameters >
     ```
 
 -   Source code
@@ -91,7 +91,7 @@ Return bindings:
 
         ```
         
-        **xmlString** = $ReadFile-with-InputName/ns:ReadActivityOutputTextClass/fileContent/textContent
+        xmlString = $ReadFile-with-InputName/ns:ReadActivityOutputTextClass/fileContent/textContent
         ```
 
     -   Source code
@@ -123,8 +123,8 @@ Return bindings:
 
         ```
         
-        **ReadActivityInputClass**
-         **fileName** = if ($Start/pfx:InputFile/pfx:FileName="") then $_globalVariables/ns3:GlobalVariables/DefaultInputParametersFile else $Start/pfx:InputFile/pfx:FileName
+        ReadActivityInputClass
+         fileName = if ($Start/pfx:InputFile/pfx:FileName="") then $_globalVariables/ns3:GlobalVariables/DefaultInputParametersFile else $Start/pfx:InputFile/pfx:FileName
         ```
 
     -   Source code

@@ -64,7 +64,7 @@ Return bindings:
 
     ```
     
-    **Bonita** = $Schema0/Bonita +
+    Bonita = $Schema0/Bonita +
     (if(( $Start/InputParameters/Problem = 1) and ($Schema0/Bonita > 0))then  -1 else 0)
     +
     (if($Start/InputParameters/Value >= 1000000)then floor($Start/InputParameters/Value div 1000000) else 0)
@@ -107,7 +107,7 @@ Schema: Schema0
 
         ```
         
-        **Bonita** = if($Start/InputParameters/MonthIncrement < 10000) then 0 else
+        Bonita = if($Start/InputParameters/MonthIncrement < 10000) then 0 else
         if((($Start/InputParameters/RealtyValue * 0.7)< (-$Start/InputParameters/Value))and
           (((-$Start/InputParameters/Value) + $Start/InputParameters/Loan)> 300000))then 0 else 
         if($Start/InputParameters/MonthIncrement - $Start/InputParameters/Refund < 7000) then 0 else

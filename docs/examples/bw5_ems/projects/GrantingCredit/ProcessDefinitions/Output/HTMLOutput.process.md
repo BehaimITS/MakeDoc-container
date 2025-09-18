@@ -82,8 +82,8 @@ Name: End
 
         ```
         
-        **ResponseActivityInput**
-         **asciiContent** = concat("<H1>Granting Credit Result</H1><B>Name: </B>", $Result-JMSQueueReceiver/ns1:ActivityOutput/Body/pfx:GrantingCreditResult/Name, 
+        ResponseActivityInput
+         asciiContent = concat("<H1>Granting Credit Result</H1><B>Name: </B>", $Result-JMSQueueReceiver/ns1:ActivityOutput/Body/pfx:GrantingCreditResult/Name, 
         "<BR><B>Value: </B>",  $Result-JMSQueueReceiver/ns1:ActivityOutput/Body/pfx:GrantingCreditResult/Value,
         "<BR><B>Refund: </B>",  $Result-JMSQueueReceiver/ns1:ActivityOutput/Body/pfx:GrantingCreditResult/Refund,
         "<BR><B>Pawn: </B>",  $Result-JMSQueueReceiver/ns1:ActivityOutput/Body/pfx:GrantingCreditResult/Pawn,

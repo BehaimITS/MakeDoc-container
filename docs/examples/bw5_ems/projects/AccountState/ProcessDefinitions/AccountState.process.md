@@ -91,8 +91,8 @@ Name: End
 
         ```
         
-        **ResponseActivityInput**
-         **asciiContent** = concat("<H1>Account state</H1><B>Account no: </B>",$AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Number,
+        ResponseActivityInput
+         asciiContent = concat("<H1>Account state</H1><B>Account no: </B>",$AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Number,
         "<BR><B>Name: </B>", $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Name,
         "<BR><B>Value: </B>", $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Value,
         "<BR><B>Account status: </B>",
@@ -139,8 +139,8 @@ Name: End
 
         ```
         
-        **inputMessage**
-         **Name** = $Autentification-HTTPReceiver/ProcessStarterOutput/parameters/Name
+        inputMessage
+         Name = $Autentification-HTTPReceiver/ProcessStarterOutput/parameters/Name
         ```
 
     -   Source code
@@ -195,17 +195,17 @@ Name: End
 
         ```
         
-        **ActivityInput**
-         **replyToQueue** = concat($_globalVariables/ns1:GlobalVariables/ENV,$_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName)
-         **OtherProperties**
-          **Part** = "CalculateBonita"
-         **Body**
-          **InputParameters**
-           **Name** = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Name
-           **Value** = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Value
-           **MonthIncrement** = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:MonthIncrement
-           **RealtyValue** = 0
-           **Refund** = 0
+        ActivityInput
+         replyToQueue = concat($_globalVariables/ns1:GlobalVariables/ENV,$_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName)
+         OtherProperties
+          Part = "CalculateBonita"
+         Body
+          InputParameters
+           Name = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Name
+           Value = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Value
+           MonthIncrement = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:MonthIncrement
+           RealtyValue = 0
+           Refund = 0
         ```
 
     -   Source code
@@ -254,7 +254,7 @@ Name: End
 
 -   From: ***AccountState SOAPRequestReply*** -To: ***Bonita JMSQueueRequestor***
     -   Label:
-    -   Condition: *\($Autentification-HTTPReceiver/ProcessStarterOutput/parameters/Name = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Name\) and \($Autentification-HTTPReceiver/ProcessStarterOutput/parameters/Password = $AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Password\)*
+    -   Condition: *\(\$Autentification-HTTPReceiver/ProcessStarterOutput/parameters/Name = \$AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Name\) and \(\$Autentification-HTTPReceiver/ProcessStarterOutput/parameters/Password = \$AccountState-SOAPRequestReply/outputMessage/ns:Account/ns:Password\)*
     -   Description:
 
 -   From: ***Autentification HTTPReceiver*** -To: ***AccountState SOAPRequestReply***

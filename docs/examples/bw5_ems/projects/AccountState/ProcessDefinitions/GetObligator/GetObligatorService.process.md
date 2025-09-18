@@ -72,7 +72,7 @@ Name: End
 
         ```
         
-        **Name** = $ObligatorName-SOAPEventSource/inputMessage/ns:Name
+        Name = $ObligatorName-SOAPEventSource/inputMessage/ns:Name
         ```
 
     -   Source code
@@ -98,14 +98,14 @@ Name: End
 
         |Target|Source|
         |------|------|
-        |/**outputMessage**|*\[COPY-OF\] < $GetObligator/ns:Obligator \>*|
+        |/**outputMessage**|*\[COPY-OF\] < \$GetObligator/ns:Obligator \>*|
 
     -   Mapping tree
 
         ```
         
-        **outputMessage****
-         Obligator** = *\[COPY-OF\] *< $GetObligator/ns:Obligator >
+        outputMessage
+         Obligator = *\[COPY-OF\] *< $GetObligator/ns:Obligator >
         ```
 
     -   Source code

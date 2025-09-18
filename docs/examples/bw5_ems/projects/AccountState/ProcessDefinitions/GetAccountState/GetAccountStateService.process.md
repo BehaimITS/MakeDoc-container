@@ -64,14 +64,14 @@ Name: End
 
         |Target|Source|
         |------|------|
-        |/**outputMessage**|*\[COPY-OF\] < $GetAccountState/ns:Account \>*|
+        |/**outputMessage**|*\[COPY-OF\] < \$GetAccountState/ns:Account \>*|
 
     -   Mapping tree
 
         ```
         
-        **outputMessage****
-         Account** = *\[COPY-OF\] *< $GetAccountState/ns:Account >
+        outputMessage
+         Account = *\[COPY-OF\] *< $GetAccountState/ns:Account >
         ```
 
     -   Source code
@@ -103,7 +103,7 @@ Name: End
 
         ```
         
-        **Name** = $UserName-SOAPEventSource/inputMessage/ns:Name
+        Name = $UserName-SOAPEventSource/inputMessage/ns:Name
         ```
 
     -   Source code

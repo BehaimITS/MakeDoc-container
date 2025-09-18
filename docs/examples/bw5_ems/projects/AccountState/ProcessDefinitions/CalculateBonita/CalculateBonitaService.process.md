@@ -82,13 +82,13 @@ Name: End
 
         ```
         
-        **InputParameters**
-         **MonthIncrement** = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/MonthIncrement
-         **Value** = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Value
-         **RealtyValue** = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/RealtyValue
-         **Problem** = $Obligators-SOAPRequestReply/outputMessage/ns2:Obligator/ns2:Problem
-         **Loan** = $Obligators-SOAPRequestReply/outputMessage/ns2:Obligator/ns2:Value
-         **Refund** = $Obligators-SOAPRequestReply/outputMessage/ns2:Obligator/ns2:Refund + $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Refund
+        InputParameters
+         MonthIncrement = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/MonthIncrement
+         Value = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Value
+         RealtyValue = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/RealtyValue
+         Problem = $Obligators-SOAPRequestReply/outputMessage/ns2:Obligator/ns2:Problem
+         Loan = $Obligators-SOAPRequestReply/outputMessage/ns2:Obligator/ns2:Value
+         Refund = $Obligators-SOAPRequestReply/outputMessage/ns2:Obligator/ns2:Refund + $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Refund
         ```
 
     -   Source code
@@ -145,8 +145,8 @@ Name: End
 
         ```
         
-        **inputMessage**
-         **Name** = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name
+        inputMessage
+         Name = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name
         ```
 
     -   Source code
@@ -187,23 +187,23 @@ Name: End
         |Target|Source|
         |------|------|
         |/**ActivityInput**/**OtherProperties**/**Part**|CalculateBonita|
-        |/**ActivityInput**/**Body**/**PretenderBonita**/*\[IF\]<$InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name\>*/**Name**|*\[COPY-OF\] < $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name/@xsi:nil \>*|
-        |/**ActivityInput**/**Body**/**PretenderBonita**/*\[IF\]<$InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name\>*/**Name**| |
+        |/**ActivityInput**/**Body**/**PretenderBonita**/*\[IF\]<\$InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name\>*/**Name**|*\[COPY-OF\] < \$InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name/@xsi:nil \>*|
+        |/**ActivityInput**/**Body**/**PretenderBonita**/*\[IF\]<\$InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name\>*/**Name**| |
         |/**ActivityInput**/**Body**/**PretenderBonita**/**Bonita**| |
 
     -   Mapping tree
 
         ```
         
-        **ActivityInput**
-         **OtherProperties**
-          **Part** = "CalculateBonita"
-         **Body**
-          **PretenderBonita**
+        ActivityInput
+         OtherProperties
+          Part = "CalculateBonita"
+         Body
+          PretenderBonita
            *\[IF\] *< $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name >
-            **Name** = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name**
-             nil** = *\[COPY-OF\] *< $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name/@xsi:nil >
-           **Bonita** = $CalculateBonita/Bonita
+            Name = $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name
+             nil = *\[COPY-OF\] *< $InputParameters-JMSQueueReceiver/ns:ActivityOutput/Body/pfx:InputParameters/Name/@xsi:nil >
+           Bonita = $CalculateBonita/Bonita
         ```
 
     -   Source code

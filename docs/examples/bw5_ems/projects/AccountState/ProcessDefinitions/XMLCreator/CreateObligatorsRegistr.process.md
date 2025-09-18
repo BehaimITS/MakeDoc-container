@@ -67,13 +67,13 @@ Name: End
 
         ```
         
-        **ObligatorsList**
-         **@Count** = 1
-         **Obligator**
-          **Name** = "Jan Novak"
-          **Value** = 100000
-          **Problem** = 0
-          **Refund** = 5000
+        ObligatorsList
+         @Count = 1
+         Obligator
+          Name = "Jan Novak"
+          Value = 100000
+          Problem = 0
+          Refund = 5000
         ```
 
     -   Source code
@@ -123,9 +123,9 @@ Name: End
 
         ```
         
-        **WriteActivityInputTextClass**
-         **fileName** = $_globalVariables/ns:GlobalVariables/DefaultObligatorsRegistrFile
-         **textContent** = $RenderXML-ObligatorsList/xmlString
+        WriteActivityInputTextClass
+         fileName = $_globalVariables/ns:GlobalVariables/DefaultObligatorsRegistrFile
+         textContent = $RenderXML-ObligatorsList/xmlString
         ```
 
     -   Source code

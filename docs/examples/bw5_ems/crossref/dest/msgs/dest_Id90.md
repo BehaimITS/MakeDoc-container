@@ -1,8 +1,8 @@
-# concat\($\_globalVariables/ns1:GlobalVariables/ENV,$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\) {#destconcat___globalVariables_ns1_GlobalVariables_ENV___globalVariables_ns1_GlobalVariables_AccountStateJMSQueueName_ .concept}
+# concat\(\$\_globalVariables/ns1:GlobalVariables/ENV,\$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\) {#destconcat___globalVariables_ns1_GlobalVariables_ENV___globalVariables_ns1_GlobalVariables_AccountStateJMSQueueName_ .concept}
 
 License for TIBCO Software Use Only!
 
-Section contains list of middleware objects using “concat\($\_globalVariables/ns1:GlobalVariables/ENV,$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\)”
+Section contains list of middleware objects using “concat\(\$\_globalVariables/ns1:GlobalVariables/ENV,\$\_globalVariables/ns1:GlobalVariables/AccountStateJMSQueueName\)”
 
 ![](dest_Id90.png)
 
