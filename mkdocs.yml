@@ -283,7 +283,7 @@ nav:
                               -   LoadParametersServiceAbstractWSDL.wsdl: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation27.md
                               -   LoadParametersServiceConcreteWSDL.wsdl: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation28.md
                               -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation29.md
-                  -   QA Rules Statistics: examples/bw5_ems/qa/common/invalidQARule.md   
+                  -   QA Rules Statistics: examples/bw5_ems/qa/common/invalidQARule.md
       - BWCE:
             -   Introduction: examples/bwceintro.md
             -   Project documentation:
