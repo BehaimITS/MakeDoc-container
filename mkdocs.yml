@@ -331,22 +331,33 @@ nav:
                   -   AccountState:
                         -   10.246.4.34:1521;SID=ACCOUNTS \(JDBCUpdate\): examples/bw5_ems/crossref/dest/projs/act_95.md
                         -   10.246.4.34:1521;SID=TIBCO \(JDBCQuery\): examples/bw5_ems/crossref/dest/projs/act_93.md
-                        -   Queue: DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_88.md
+                        -   Queue: 
+                              DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_88.md
                         -   GetAccountStateService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_91.md
                         -   GetAccountStateService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_97.md
                         -   GetAccountStateService \(Reply\): examples/bw5_ems/crossref/dest/projs/act_99.md
-                        -   Subject: domain.AccountState.adfiles.%%InstanceId%%.exit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_101.md
-                        -   Subject: domain.AccountState.adfiles.%%InstanceId%%.userExit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_105.md
-                        -   Subject: domain.AccountState.FileAdapter.FileAdapterConfiguration.SubscriptionService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_103.md
+                        -   Subject: 
+                              domain.AccountState.adfiles.%%InstanceId%%.exit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_101.md
+                        -   Subject: 
+                              domain.AccountState.adfiles.%%InstanceId%%.userExit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_105.md
+                        -   Subject: 
+                              domain.AccountState.FileAdapter.FileAdapterConfiguration.SubscriptionService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_103.md
                   -   GrantingCredit:
                         -   10.246.4.34:1521;SID=ACCOUNTS \(JDBCUpdate\): examples/bw5_ems/crossref/dest/projs/act_107.md
-                        -   Queue: BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_131.md
-                        -   Queue: DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_111.md
-                        -   Queue: DEV.BANK.EXAMINATION.APPRVALUE \(Receive\): examples/bw5_ems/crossref/dest/projs/act_117.md
-                        -   Queue: DEV.BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_109.md
-                        -   Queue: DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_114.md
-                        -   Queue: DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_119.md
-                        -   Queue: DEV.BANK.PAWN.CREDITREQ \(Send\): examples/bw5_ems/crossref/dest/projs/act_122.md
+                        -   Queue: 
+                              BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_131.md
+                        -   Queue: 
+                              DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_111.md
+                        -   Queue: 
+                              DEV.BANK.EXAMINATION.APPRVALUE \(Receive\): examples/bw5_ems/crossref/dest/projs/act_117.md
+                        -   Queue: 
+                              DEV.BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_109.md
+                        -   Queue: 
+                              DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_114.md
+                        -   Queue: 
+                              DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_119.md
+                        -   Queue: 
+                              DEV.BANK.PAWN.CREDITREQ \(Send\): examples/bw5_ems/crossref/dest/projs/act_122.md
                         -   LoadParametersService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_125.md
                         -   LoadParametersService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_127.md
                         -   LoadParametersService \(Reply\): examples/bw5_ems/crossref/dest/projs/act_129.md
