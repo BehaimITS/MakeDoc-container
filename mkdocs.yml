@@ -5,140 +5,233 @@ nav:
 -   Introduction: index.md
 -   MakeDoc Examples:
       -   BW5:
+            -   Introduction: examples/bw5_ems/intro.md
+            -   Project documentation:
+                  -   AccountState:
+                        -   Adapters:
+                              -   FileAdapterConfiguration: examples/bw5_ems/projects/AccountState/SharedResources/FileAdapterConfiguration.adfiles.md
+                        -   Processes:
+                              -   envDLEmptyProcess: examples/bw5_ems/projects/AccountState/envDLEmptyProcess.process.md
+                              -   AccountState: examples/bw5_ems/projects/AccountState/ProcessDefinitions/AccountState.process.md
+                              -   CalculateBonita: examples/bw5_ems/projects/AccountState/ProcessDefinitions/CalculateBonita/CalculateBonita.process.md
+                              -   CalculateBonitaService: examples/bw5_ems/projects/AccountState/ProcessDefinitions/CalculateBonita/CalculateBonitaService.process.md
+                              -   GetAccountState: examples/bw5_ems/projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md
+                              -   GetAccountStateService: examples/bw5_ems/projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountStateService.process.md
+                              -   GetObligator: examples/bw5_ems/projects/AccountState/ProcessDefinitions/GetObligator/GetObligator.process.md
+                              -   GetObligatorService: examples/bw5_ems/projects/AccountState/ProcessDefinitions/GetObligator/GetObligatorService.process.md
+                              -   CreateAccounts: examples/bw5_ems/projects/AccountState/ProcessDefinitions/XMLCreator/CreateAccounts.process.md
+                              -   CreateObligatorsRegistr: examples/bw5_ems/projects/AccountState/ProcessDefinitions/XMLCreator/CreateObligatorsRegistr.process.md
+                        -   AE Schemas:
+                              -   ae: examples/bw5_ems/projects/AccountState/AESchemas/ae.aeschema.md
+                              -   corba: examples/bw5_ems/projects/AccountState/AESchemas/corba.aeschema.md
+                              -   java: examples/bw5_ems/projects/AccountState/AESchemas/java.aeschema.md
+                              -   sql: examples/bw5_ems/projects/AccountState/AESchemas/sql.aeschema.md
+                              -   baseDocument: examples/bw5_ems/projects/AccountState/AESchemas/ae/baseDocument.aeschema.md
+                              -   operation: examples/bw5_ems/projects/AccountState/AESchemas/ae/FileAdapter/operation.aeschema.md
+                              -   CalculateBonitaAESchema: examples/bw5_ems/projects/AccountState/AESchemas/EMS/CalculateBonitaAESchema.aeschema.md
+                        -   Global Variables:
+                              -   defaultVars: examples/bw5_ems/projects/AccountState/defaultVars/defaultVars.substvar.md
+                              -   jdbc: examples/bw5_ems/projects/AccountState/defaultVars/jdbc/defaultVars.substvar.md
+                              -   database: examples/bw5_ems/projects/AccountState/defaultVars/jdbcTIBCO/database/defaultVars.substvar.md
+                        -   WSDLs:
+                              -   GetAccountStateAbstractWSDL: examples/bw5_ems/projects/AccountState/SharedResources/GetAccountStateAbstractWSDL.wsdl.md
+                              -   GetAccountStateConcreteWSDL: examples/bw5_ems/projects/AccountState/SharedResources/GetAccountStateConcreteWSDL.wsdl.md
+                              -   GetObligatorServiceAbstractWSDL: examples/bw5_ems/projects/AccountState/SharedResources/GetObligatorServiceAbstractWSDL.wsdl.md
+                              -   GetObligatorServiceConcreteWSDL: examples/bw5_ems/projects/AccountState/SharedResources/GetObligatorServiceConcreteWSDL.wsdl.md
+                        -   Shared JMS Connections:
+                              -   CalculateBonitaEMSConnection: examples/bw5_ems/projects/AccountState/SharedConnections/CalculateBonitaEMSConnection.sharedjmscon.md
+                        -   Shared JDBC Connections:
+                              -   SharedTibco: examples/bw5_ems/projects/AccountState/SharedConnections/SharedTibco.sharedjdbc.md
+                              -   Tibco: examples/bw5_ems/projects/AccountState/SharedConnections/Tibco.sharedjdbc.md
+                        -   Shared HTTP Connections:
+                              -   CalculateBonitaSOAPHTTPConnection: examples/bw5_ems/projects/AccountState/SharedConnections/CalculateBonitaSOAPHTTPConnection.sharedhttp.md
+                              -   IOHTTPConnection: examples/bw5_ems/projects/AccountState/SharedConnections/IOHTTPConnection.sharedhttp.md
+                              -   SOAPHTTPConnection: examples/bw5_ems/projects/AccountState/SharedConnections/SOAPHTTPConnection.sharedhttp.md
+                        -   Data Format Resources:
+                              -   Data Format: examples/bw5_ems/projects/AccountState/SharedResources/Data_Format.sharedparse.md
+                        -   XSD Schemas:
+                              -   AccountsXSD: examples/bw5_ems/projects/AccountState/SharedResources/AccountsXSD.xsd.md
+                              -   ObligatorsRegistrXSD: examples/bw5_ems/projects/AccountState/SharedResources/ObligatorsRegistrXSD.xsd.md
+                  -   GrantingCredit:
+                        -   Processes:
+                              -   envDLEmptyProcess: examples/bw5_ems/projects/GrantingCredit/envDLEmptyProcess.process.md
+                              -   GrantingCredit: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/GrantingCredit.process.md
+                              -   CalculateBonita: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/CalculateBonita/CalculateBonita.process.md
+                              -   CalculateBonitaService: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/CalculateBonita/CalculateBonitaService.process.md
+                              -   Examination: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/Examination/Examination.process.md
+                              -   ExaminationService: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/Examination/ExaminationService.process.md
+                              -   GetObligator: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/GetObligator/GetObligator.process.md
+                              -   GetObligatorService: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/GetObligator/GetObligatorService.process.md
+                              -   LoadParameters: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/LoadParameters/LoadParameters.process.md
+                              -   LoadParametersService: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/LoadParameters/LoadParametersService.process.md
+                              -   HTMLOutput: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/Output/HTMLOutput.process.md
+                              -   LoadParameterServiceTest: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/Tests/LoadParameterServiceTest.process.md
+                              -   CreateInputFile: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/XMLCreator/CreateInputFile.process.md
+                              -   CreateObligatorsRegistr: examples/bw5_ems/projects/GrantingCredit/ProcessDefinitions/XMLCreator/CreateObligatorsRegistr.process.md
+                        -   AE Schemas:
+                              -   ae: examples/bw5_ems/projects/GrantingCredit/AESchemas/ae.aeschema.md
+                              -   corba: examples/bw5_ems/projects/GrantingCredit/AESchemas/corba.aeschema.md
+                              -   java: examples/bw5_ems/projects/GrantingCredit/AESchemas/java.aeschema.md
+                              -   sql: examples/bw5_ems/projects/GrantingCredit/AESchemas/sql.aeschema.md
+                              -   baseDocument: examples/bw5_ems/projects/GrantingCredit/AESchemas/ae/baseDocument.aeschema.md
+                              -   AppraisalAESchema: examples/bw5_ems/projects/GrantingCredit/AESchemas/Appraisal/AppraisalAESchema.aeschema.md
+                              -   CalculateBonitaAESchema: examples/bw5_ems/projects/GrantingCredit/AESchemas/EMS/CalculateBonitaAESchema.aeschema.md
+                              -   GrantingCreditAESchema: examples/bw5_ems/projects/GrantingCredit/AESchemas/EMS/GrantingCreditAESchema.aeschema.md
+                        -   Global Variables:
+                              -   defaultVars: examples/bw5_ems/projects/GrantingCredit/defaultVars/defaultVars.substvar.md
+                              -   jdbc: examples/bw5_ems/projects/GrantingCredit/defaultVars/jdbc/defaultVars.substvar.md
+                        -   WSDLs:
+                              -   GetObligatorServiceAbstractWSDL: examples/bw5_ems/projects/GrantingCredit/SharedResources/GetObligatorServiceAbstractWSDL.wsdl.md
+                              -   GetObligatorServiceConcreteWSDL: examples/bw5_ems/projects/GrantingCredit/SharedResources/GetObligatorServiceConcreteWSDL.wsdl.md
+                              -   LoadParametersServiceAbstractWSDL: examples/bw5_ems/projects/GrantingCredit/SharedResources/LoadParametersServiceAbstractWSDL.wsdl.md
+                              -   LoadParametersServiceConcreteWSDL: examples/bw5_ems/projects/GrantingCredit/SharedResources/LoadParametersServiceConcreteWSDL.wsdl.md
+                        -   Shared JMS Connections:
+                              -   CalculateBonitaEMSConnection: examples/bw5_ems/projects/GrantingCredit/SharedConnections/CalculateBonitaEMSConnection.sharedjmscon.md
+                              -   EMSConnection: examples/bw5_ems/projects/GrantingCredit/SharedConnections/EMSConnection.sharedjmscon.md
+                        -   Shared JDBC Connections:
+                              -   SharedTibco: examples/bw5_ems/projects/GrantingCredit/SharedConnections/SharedTibco.sharedjdbc.md
+                        -   Shared HTTP Connections:
+                              -   CalculateBonitaSOAPHTTPConnection: examples/bw5_ems/projects/GrantingCredit/SharedConnections/CalculateBonitaSOAPHTTPConnection.sharedhttp.md
+                              -   InputHTTPConnection: examples/bw5_ems/projects/GrantingCredit/SharedConnections/InputHTTPConnection.sharedhttp.md
+                              -   OutputHTTPConnection: examples/bw5_ems/projects/GrantingCredit/SharedConnections/OutputHTTPConnection.sharedhttp.md
+                              -   SOAPHTTPConnection: examples/bw5_ems/projects/GrantingCredit/SharedConnections/SOAPHTTPConnection.sharedhttp.md
+                        -   XSD Schemas:
+                              -   InputParametersXSD: examples/bw5_ems/projects/GrantingCredit/SharedResources/InputParametersXSD.xsd.md
+                              -   ObligatorsRegistrXSD: examples/bw5_ems/projects/GrantingCredit/SharedResources/ObligatorsRegistrXSD.xsd.md
             -   Cross-reference documentation:
                   -   Destinations:
-                  -   Destinations Reference:
-                        -   JDBC Connections:
-                              -   JDBC:
-                                    -   10.246.4.34:1521;SID=ACCOUNTS: examples/bw5_ems/crossref/dest/msgs/dest_Id96.md
-                                    -   10.246.4.34:1521;SID=TIBCO: examples/bw5_ems/crossref/dest/msgs/dest_Id94.md
-                        -   JMS Messages:
-                              -   JNDI connection \( context URL="tibjmsnaming://localhost:7222", context factory="com.tibco.tibjms.naming.TibjmsInitialContextFactory" \):
-                                    -   Queues:
-                                          -   BANK.EXAMINATION.TEST: examples/bw5_ems/crossref/dest/msgs/dest_Id132.md
-                                          -   ExaminationJMSQueueName\): examples/bw5_ems/crossref/dest/msgs/dest_Id113.md
-                                          -   AccountStateJMSQueueName\): examples/bw5_ems/crossref/dest/msgs/dest_Id90.md
-                                          -   DEV.BANK.CALCULATEBONITA.REQUEST: examples/bw5_ems/crossref/dest/msgs/dest_Id89.md
-                                          -   DEV.BANK.EXAMINATION.APPRVALUE: examples/bw5_ems/crossref/dest/msgs/dest_Id118.md
-                                          -   DEV.BANK.EXAMINATION.TEST: examples/bw5_ems/crossref/dest/msgs/dest_Id110.md
-                                          -   DEV.BANK.PAWN.CREDITREQ: examples/bw5_ems/crossref/dest/msgs/dest_Id123.md
-                        -   Rendezvous Messages:
-                              -   domain.AccountState.adfiles.%%InstanceId%%.exit: examples/bw5_ems/crossref/dest/msgs/dest_Id102.md
-                              -   domain.AccountState.adfiles.%%InstanceId%%.userExit: examples/bw5_ems/crossref/dest/msgs/dest_Id106.md
-                              -   domain.AccountState.FileAdapter.FileAdapterConfiguration.SubscriptionService: examples/bw5_ems/crossref/dest/msgs/dest_Id104.md
-                        -   SOAP Actions:
-                              -   SOAP URL \( endpoint URL="http://localhost:9998" \):
-                                    -   GetAccountStateService: examples/bw5_ems/crossref/dest/msgs/dest_Id92.md
-                                    -   LoadParametersService: examples/bw5_ems/crossref/dest/msgs/dest_Id126.md
-                  -   Projects Reference:
-                        -   AccountState:
-                              -   10.246.4.34:1521;SID=ACCOUNTS \(JDBCUpdate\): examples/bw5_ems/crossref/dest/projs/act_95.md
-                              -   10.246.4.34:1521;SID=TIBCO \(JDBCQuery\): examples/bw5_ems/crossref/dest/projs/act_93.md
-                              -   Queue: 
-                                    DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_88.md
-                              -   GetAccountStateService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_91.md
-                              -   GetAccountStateService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_97.md
-                              -   GetAccountStateService \(Reply\): examples/bw5_ems/crossref/dest/projs/act_99.md
-                              -   Subject: 
-                                    domain.AccountState.adfiles.%%InstanceId%%.exit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_101.md
-                              -   Subject: 
-                                    domain.AccountState.adfiles.%%InstanceId%%.userExit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_105.md
-                              -   Subject: 
-                                    domain.AccountState.FileAdapter.FileAdapterConfiguration.SubscriptionService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_103.md
-                        -   GrantingCredit:
-                              -   10.246.4.34:1521;SID=ACCOUNTS \(JDBCUpdate\): examples/bw5_ems/crossref/dest/projs/act_107.md
-                              -   Queue: 'BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_131.md'
-                              -   Queue: 'DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_111.md'
-                              -   Queue: 'DEV.BANK.EXAMINATION.APPRVALUE \(Receive\): examples/bw5_ems/crossref/dest/projs/act_117.md'
-                              -   Queue: 'DEV.BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_109.md'
-                              -   Queue: 'DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_114.md'
-                              -   Queue: 'DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_119.md'
-                              -   Queue: 'DEV.BANK.PAWN.CREDITREQ \(Send\): examples/bw5_ems/crossref/dest/projs/act_122.md'
-                              -   LoadParametersService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_125.md
-                              -   LoadParametersService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_127.md
-                              -   LoadParametersService \(Reply\): examples/bw5_ems/crossref/dest/projs/act_129.md
-                              -   LoadParametersService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_133.md
+                        -   Destinations Reference:
+                              -   JDBC Connections:
+                                    -   JDBC:
+                                          -   10.246.4.34:1521;SID=ACCOUNTS: examples/bw5_ems/crossref/dest/msgs/dest_Id96.md
+                                          -   10.246.4.34:1521;SID=TIBCO: examples/bw5_ems/crossref/dest/msgs/dest_Id94.md
+                              -   JMS Messages:
+                                    -   JNDI connection \( context URL="tibjmsnaming://localhost:7222", context factory="com.tibco.tibjms.naming.TibjmsInitialContextFactory" \):
+                                          -   Queues:
+                                                -   BANK.EXAMINATION.TEST: examples/bw5_ems/crossref/dest/msgs/dest_Id132.md
+                                                -   ExaminationJMSQueueName\): examples/bw5_ems/crossref/dest/msgs/dest_Id113.md
+                                                -   AccountStateJMSQueueName\): examples/bw5_ems/crossref/dest/msgs/dest_Id90.md
+                                                -   DEV.BANK.CALCULATEBONITA.REQUEST: examples/bw5_ems/crossref/dest/msgs/dest_Id89.md
+                                                -   DEV.BANK.EXAMINATION.APPRVALUE: examples/bw5_ems/crossref/dest/msgs/dest_Id118.md
+                                                -   DEV.BANK.EXAMINATION.TEST: examples/bw5_ems/crossref/dest/msgs/dest_Id110.md
+                                                -   DEV.BANK.PAWN.CREDITREQ: examples/bw5_ems/crossref/dest/msgs/dest_Id123.md
+                              -   Rendezvous Messages:
+                                    -   domain.AccountState.adfiles.%%InstanceId%%.exit: examples/bw5_ems/crossref/dest/msgs/dest_Id102.md
+                                    -   domain.AccountState.adfiles.%%InstanceId%%.userExit: examples/bw5_ems/crossref/dest/msgs/dest_Id106.md
+                                    -   domain.AccountState.FileAdapter.FileAdapterConfiguration.SubscriptionService: examples/bw5_ems/crossref/dest/msgs/dest_Id104.md
+                              -   SOAP Actions:
+                                    -   SOAP URL \( endpoint URL="http://localhost:9998" \):
+                                          -   GetAccountStateService: examples/bw5_ems/crossref/dest/msgs/dest_Id92.md
+                                          -   LoadParametersService: examples/bw5_ems/crossref/dest/msgs/dest_Id126.md
+                              -   Projects Reference:
+                                    -   AccountState:
+                                          -   10.246.4.34:1521;SID=ACCOUNTS \(JDBCUpdate\): examples/bw5_ems/crossref/dest/projs/act_95.md
+                                          -   10.246.4.34:1521;SID=TIBCO \(JDBCQuery\): examples/bw5_ems/crossref/dest/projs/act_93.md
+                                          -   Queue: 
+                                                DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_88.md
+                                          -   GetAccountStateService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_91.md
+                                          -   GetAccountStateService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_97.md
+                                          -   GetAccountStateService \(Reply\): examples/bw5_ems/crossref/dest/projs/act_99.md
+                                          -   Subject: 
+                                                domain.AccountState.adfiles.%%InstanceId%%.exit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_101.md
+                                          -   Subject: 
+                                                domain.AccountState.adfiles.%%InstanceId%%.userExit \(Receive\): examples/bw5_ems/crossref/dest/projs/act_105.md
+                                          -   Subject: 
+                                                domain.AccountState.FileAdapter.FileAdapterConfiguration.SubscriptionService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_103.md
+                                    -   GrantingCredit:
+                                          -   10.246.4.34:1521;SID=ACCOUNTS \(JDBCUpdate\): examples/bw5_ems/crossref/dest/projs/act_107.md
+                                          -   Queue: 'BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_131.md'
+                                          -   Queue: 'DEV.BANK.CALCULATEBONITA.REQUEST \(Request\): examples/bw5_ems/crossref/dest/projs/act_111.md'
+                                          -   Queue: 'DEV.BANK.EXAMINATION.APPRVALUE \(Receive\): examples/bw5_ems/crossref/dest/projs/act_117.md'
+                                          -   Queue: 'DEV.BANK.EXAMINATION.TEST \(ReceiveRequest\): examples/bw5_ems/crossref/dest/projs/act_109.md'
+                                          -   Queue: 'DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_114.md'
+                                          -   Queue: 'DEV.BANK.EXAMINATION.TEST \(Send\): examples/bw5_ems/crossref/dest/projs/act_119.md'
+                                          -   Queue: 'DEV.BANK.PAWN.CREDITREQ \(Send\): examples/bw5_ems/crossref/dest/projs/act_122.md'
+                                          -   LoadParametersService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_125.md
+                                          -   LoadParametersService \(Receive\): examples/bw5_ems/crossref/dest/projs/act_127.md
+                                          -   LoadParametersService \(Reply\): examples/bw5_ems/crossref/dest/projs/act_129.md
+                                          -   LoadParametersService \(RequestReply\): examples/bw5_ems/crossref/dest/projs/act_133.md
                   -   Global Variables:
-                  -   Global Variables Reference:
-                        -   jdbc:
-                              -   password: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id31.md
-                              -   sid: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id27.md
-                              -   url\_port: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id32.md
-                              -   user: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id29.md
-                        -   jdbcTIBCO:
-                              -   database:
-                                    -   password: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id60.md
-                                    -   sid: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id58.md
-                                    -   url\_port: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id57.md
-                                    -   user: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id49.md
-                        -   AccountStateJMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id48.md
-                        -   AccountStateServiceEndpointURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id54.md
-                        -   AppraisalJMSQueueRequestName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id12.md
-                        -   AppraisalJMSQueueResultName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id13.md
-                        -   CalculateBonitaHTTPSOAPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id30.md
-                        -   CalculateBonitaJMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id35.md
-                        -   CalculateBonitaJNDIContextFactory: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id25.md
-                        -   CalculateBonitaJNDIContextURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id34.md
-                        -   DefaultAccountsFile: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id56.md
-                        -   DefaultInputParametersFile: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id7.md
-                        -   DefaultObligatorsRegistrFile: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id28.md
-                        -   Deployment: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id3.md
-                        -   Domain: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id8.md
-                        -   ENV: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id21.md
-                        -   ExaminationJMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id15.md
-                        -   GetObligatorServiceEndpointURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id24.md
-                        -   Host: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id18.md
-                        -   HTTPSOAPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id20.md
-                        -   InputHTTPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id16.md
-                        -   IOHTTPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id50.md
-                        -   JmsProviderUrl: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id9.md
-                        -   JMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id2.md
-                        -   JmsSslProviderUrl: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id4.md
-                        -   LoadParametersServiceEndpointURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id11.md
-                        -   OutputHTTPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id1.md
-                        -   RemoteRvDaemon: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id17.md
-                        -   RvaHost: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id19.md
-                        -   RvaPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id14.md
-                        -   RvDaemon: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id10.md
-                        -   RvNetwork: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id6.md
-                        -   RvService: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id5.md
-                  -   Projects Reference:
-                        -   AccountState: examples/bw5_ems/crossref/globVars/projsRef/AccountState.md
-                        -   GrantingCredit: examples/bw5_ems/crossref/globVars/projsRef/GrantingCredit.md
+                        -   Global Variables Reference:
+                              -   jdbc:
+                                    -   password: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id31.md
+                                    -   sid: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id27.md
+                                    -   url\_port: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id32.md
+                                    -   user: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id29.md
+                              -   jdbcTIBCO:
+                                    -   database:
+                                          -   password: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id60.md
+                                          -   sid: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id58.md
+                                          -   url\_port: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id57.md
+                                          -   user: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id49.md
+                              -   AccountStateJMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id48.md
+                              -   AccountStateServiceEndpointURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id54.md
+                              -   AppraisalJMSQueueRequestName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id12.md
+                              -   AppraisalJMSQueueResultName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id13.md
+                              -   CalculateBonitaHTTPSOAPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id30.md
+                              -   CalculateBonitaJMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id35.md
+                              -   CalculateBonitaJNDIContextFactory: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id25.md
+                              -   CalculateBonitaJNDIContextURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id34.md
+                              -   DefaultAccountsFile: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id56.md
+                              -   DefaultInputParametersFile: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id7.md
+                              -   DefaultObligatorsRegistrFile: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id28.md
+                              -   Deployment: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id3.md
+                              -   Domain: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id8.md
+                              -   ENV: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id21.md
+                              -   ExaminationJMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id15.md
+                              -   GetObligatorServiceEndpointURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id24.md
+                              -   Host: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id18.md
+                              -   HTTPSOAPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id20.md
+                              -   InputHTTPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id16.md
+                              -   IOHTTPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id50.md
+                              -   JmsProviderUrl: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id9.md
+                              -   JMSQueueName: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id2.md
+                              -   JmsSslProviderUrl: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id4.md
+                              -   LoadParametersServiceEndpointURL: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id11.md
+                              -   OutputHTTPPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id1.md
+                              -   RemoteRvDaemon: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id17.md
+                              -   RvaHost: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id19.md
+                              -   RvaPort: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id14.md
+                              -   RvDaemon: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id10.md
+                              -   RvNetwork: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id6.md
+                              -   RvService: examples/bw5_ems/crossref/globVars/globVarsRef/res_Id5.md
+                        -   Projects Reference:
+                              -   AccountState: examples/bw5_ems/crossref/globVars/projsRef/AccountState.md
+                              -   GrantingCredit: examples/bw5_ems/crossref/globVars/projsRef/GrantingCredit.md
                   -   Database Objects:
-                  -   Database Objects Reference:
-                        -   10.246.4.34:1521;SID=ACCOUNTS:
-                              -   UPDATE:
-                                    -   CUSTOMER: examples/bw5_ems/crossref/dbo/dboRef/res_Id87.md
-                                    -   STATES: examples/bw5_ems/crossref/dbo/dboRef/res_Id47.md
-                        -   10.246.4.34:1521;SID=TIBCO:
-                              -   SELECT:
-                                    -   ACCOUNTS: examples/bw5_ems/crossref/dbo/dboRef/res_Id86.md
-                  -   Projects Reference:
-                        -   AccountState: examples/bw5_ems/crossref/dbo/projsRef/AccountState.md
-                        -   GrantingCredit: examples/bw5_ems/crossref/dbo/projsRef/GrantingCredit.md
+                        -   Database Objects Reference:
+                              -   10.246.4.34:1521;SID=ACCOUNTS:
+                                    -   UPDATE:
+                                          -   CUSTOMER: examples/bw5_ems/crossref/dbo/dboRef/res_Id87.md
+                                          -   STATES: examples/bw5_ems/crossref/dbo/dboRef/res_Id47.md
+                              -   10.246.4.34:1521;SID=TIBCO:
+                                    -   SELECT:
+                                          -   ACCOUNTS: examples/bw5_ems/crossref/dbo/dboRef/res_Id86.md
+                        -   Projects Reference:
+                              -   AccountState: examples/bw5_ems/crossref/dbo/projsRef/AccountState.md
+                              -   GrantingCredit: examples/bw5_ems/crossref/dbo/projsRef/GrantingCredit.md
                   -   XSD Schemas:
-                  -   XSD Reference:
-                        -   AccountsXSD.xsd: examples/bw5_ems/crossref/xsd/xsdRef/res_Id76.md
-                        -   InputParametersXSD.xsd: examples/bw5_ems/crossref/xsd/xsdRef/res_Id36.md
-                        -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/crossref/xsd/xsdRef/res_Id37.md
-                  -   Projects Reference:
-                        -   AccountState: examples/bw5_ems/crossref/xsd/projsRef/AccountState.md
-                        -   GrantingCredit: examples/bw5_ems/crossref/xsd/projsRef/GrantingCredit.md
+                        -   XSD Reference:
+                              -   AccountsXSD.xsd: examples/bw5_ems/crossref/xsd/xsdRef/res_Id76.md
+                              -   InputParametersXSD.xsd: examples/bw5_ems/crossref/xsd/xsdRef/res_Id36.md
+                              -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/crossref/xsd/xsdRef/res_Id37.md
+                        -   Projects Reference:
+                              -   AccountState: examples/bw5_ems/crossref/xsd/projsRef/AccountState.md
+                              -   GrantingCredit: examples/bw5_ems/crossref/xsd/projsRef/GrantingCredit.md
                   -   AE Schemas:
-                  -   AE Reference:
-                        -   ae.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id40.md
-                        -   AppraisalAESchema.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id38.md
-                        -   baseDocument.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id41.md
-                        -   CalculateBonitaAESchema.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id45.md
-                        -   corba.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id42.md
-                        -   GrantingCreditAESchema.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id39.md
-                        -   java.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id43.md
-                        -   operation.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id79.md
-                        -   sql.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id44.md
-                  -   Projects Reference:
-                        -   AccountState: examples/bw5_ems/crossref/ae/projsRef/AccountState.md
-                        -   GrantingCredit: examples/bw5_ems/crossref/ae/projsRef/GrantingCredit.md
+                        -   AE Reference:
+                              -   ae.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id40.md
+                              -   AppraisalAESchema.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id38.md
+                              -   baseDocument.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id41.md
+                              -   CalculateBonitaAESchema.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id45.md
+                              -   corba.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id42.md
+                              -   GrantingCreditAESchema.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id39.md
+                              -   java.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id43.md
+                              -   operation.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id79.md
+                              -   sql.aeschema: examples/bw5_ems/crossref/ae/aeRef/res_Id44.md
+                        -   Projects Reference:
+                              -   AccountState: examples/bw5_ems/crossref/ae/projsRef/AccountState.md
+                              -   GrantingCredit: examples/bw5_ems/crossref/ae/projsRef/GrantingCredit.md
             -   Quality Assurance documentation:
                   -   Rules:
                         -   ERROR - Hardcoded activities timeout:
