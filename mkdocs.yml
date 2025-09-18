@@ -206,7 +206,6 @@ nav:
                 - User Defined CrossReference: manual/user_manual/modules/bebe/output/UserDefCross.md
               - Quality Assurance Documentation: manual/user_manual/modules/bebe/output/QADocumentation.md
         - Troubleshooting: manual/user_manual/troubleshooting.md
-        
 -   MakeDoc Examples:
     -   BW5:
     -   Introduction: examples/bw5_ems/intro.md
@@ -515,9 +514,7 @@ nav:
                         -   LoadParametersServiceAbstractWSDL.wsdl: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation27.md
                         -   LoadParametersServiceConcreteWSDL.wsdl: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation28.md
                         -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation29.md
-            -   QA Rules Statistics: examples/bw5_ems/qa/common/invalidQARule.md
-            
-      
+            -   QA Rules Statistics: examples/bw5_ems/qa/common/invalidQARule.md   
     - BWCE:
       -   Introduction: examples/bwceintro.md
       -   Project documentation:
