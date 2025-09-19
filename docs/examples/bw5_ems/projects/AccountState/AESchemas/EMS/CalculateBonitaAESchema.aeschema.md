@@ -26,36 +26,36 @@ Source Library: “CalculateBonita”
 Attributes:
 
 -   **MonthIncrement**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Name**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 -   **RealtyValue**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Refund**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Value**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 
 ### Class name: PretenderBonita {#class.PretenderBonita}
 
 Attributes:
 
 -   **Bonita**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Name**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 

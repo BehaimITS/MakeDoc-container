@@ -24,68 +24,68 @@ Section contains description of AE Schema “[GrantingCreditAESchema.aeschema](G
 Attributes:
 
 -   **Interest**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.r8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.r8](../ae.aeschema.md#)
 -   **Name**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 -   **Pawn**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
 -   **RealtyDetail**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 -   **RealtyValue**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Refund**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **State**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
 -   **Value**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 
 ### Class name: InputParameters {#class.InputParameters}
 
 Attributes:
 
 -   **Name**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 -   **Pawn**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
 -   **RealtyDetail**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 -   **RealtyValue**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Refund**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Salary**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 -   **Value**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 

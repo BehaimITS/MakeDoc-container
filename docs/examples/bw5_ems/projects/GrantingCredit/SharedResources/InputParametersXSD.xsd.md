@@ -19,9 +19,9 @@ Section contains description of XSD Schema InputParametersXSD.xsd“[InputParame
 
 ## Attributes {#Attributes}
 
--   *targetNamespace :**http://www.tibco.com/schemas/GrantingCredit/SharedConnections/Schema.xsd*
--   *elementFormDefault :**qualified*
--   *attributeFormDefault :**unqualified*
+-   *targetNamespace :* *http://www.tibco.com/schemas/GrantingCredit/SharedConnections/Schema.xsd*
+-   *elementFormDefault :* *qualified*
+-   *attributeFormDefault :* *unqualified*
 
 ## Overview {#Overview}
 
@@ -42,53 +42,53 @@ Section contains description of XSD Schema InputParametersXSD.xsd“[InputParame
 
 ### element InputFile {#element_InputFile}
 
--   element*ref**FileName*
+-   element*ref* *FileName*
 
 ### element FileName {#element_FileName}
 
--   *type :**xs:string*
+-   *type :* *xs:string*
 
 ### element InputParameters {#element_InputParameters}
 
--   element*ref**Name*
+-   element*ref* *Name*
 
--   element*ref**Value*
+-   element*ref* *Value*
 
--   element*ref**Refund*
+-   element*ref* *Refund*
 
--   element*ref**Salary*
+-   element*ref* *Salary*
 
--   element*ref**Pawn*
+-   element*ref* *Pawn*
 
--   element*ref**RealtyDetail*
+-   element*ref* *RealtyDetail*
 
--   element*ref**RealtyValue*
+-   element*ref* *RealtyValue*
 
 ### element Name {#element_Name}
 
--   *type :**xs:string*
+-   *type :* *xs:string*
 
 ### element Value {#element_Value}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 
 ### element Salary {#element_Salary}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 
 ### element Pawn {#element_Pawn}
 
--   *type :**xs:boolean*
+-   *type :* *xs:boolean*
 
 ### element RealtyDetail {#element_RealtyDetail}
 
--   *type :**xs:string*
+-   *type :* *xs:string*
 
 ### element RealtyValue {#element_RealtyValue}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 
 ### element Refund {#element_Refund}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 

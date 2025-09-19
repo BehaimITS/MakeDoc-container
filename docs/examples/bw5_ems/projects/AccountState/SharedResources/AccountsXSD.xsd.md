@@ -20,9 +20,9 @@ Section contains description of XSD Schema AccountsXSD.xsd“[AccountsXSD.xsd](A
 
 ## Attributes {#Attributes}
 
--   *targetNamespace :**http://www.tibco.com/schemas/AccountState/SharedResources/Schema.xsd*
--   *elementFormDefault :**qualified*
--   *attributeFormDefault :**unqualified*
+-   *targetNamespace :* *http://www.tibco.com/schemas/AccountState/SharedResources/Schema.xsd*
+-   *elementFormDefault :* *qualified*
+-   *attributeFormDefault :* *unqualified*
 
 ## Overview {#Overview}
 
@@ -40,39 +40,39 @@ Section contains description of XSD Schema AccountsXSD.xsd“[AccountsXSD.xsd](A
 
 ### element AccountsList {#element_AccountsList}
 
--   element*ref**Account* , *maxOccurs**unbounded*
+-   element*ref* *Account* , *maxOccurs* *unbounded*
 
--   attribute Count*type**xs:string* , *use**required*
+-   attribute Count*type* *xs:string* , *use* *required*
 
 ### element Account {#element_Account}
 
--   element*ref**Number*
+-   element*ref* *Number*
 
--   element*ref**Name*
+-   element*ref* *Name*
 
--   element*ref**Value*
+-   element*ref* *Value*
 
--   element*ref**MonthIncrement*
+-   element*ref* *MonthIncrement*
 
--   element*ref**Password*
+-   element*ref* *Password*
 
 ### element Name {#element_Name}
 
--   *type :**xs:string*
+-   *type :* *xs:string*
 
 ### element Value {#element_Value}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 
 ### element Number {#element_Number}
 
--   *type :**xs:string*
+-   *type :* *xs:string*
 
 ### element MonthIncrement {#element_MonthIncrement}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 
 ### element Password {#element_Password}
 
--   *type :**xs:string*
+-   *type :* *xs:string*
 

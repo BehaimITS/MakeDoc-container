@@ -45,23 +45,23 @@ Diagram of GetObligatorServiceConcreteWSDL.wsdl.
 
 ## Port configuration: {#PortConfig}
 
--   **Binding:**tns:ObligatorName\_sp\_SOAPEventSourceBinding
--   **Name:**ObligatorName\_sp\_SOAPEventSource
--   **Soap Address:**http://localhost:9997/ProcessDefinitions/GetObligator/GetObligatorService
+-   **Binding:** tns:ObligatorName\_sp\_SOAPEventSourceBinding
+-   **Name:** ObligatorName\_sp\_SOAPEventSource
+-   **Soap Address:** http://localhost:9997/ProcessDefinitions/GetObligator/GetObligatorService
 
 ## Operations: {#Operations}
 
--   **Name:**GetObligatorServiceOperation
+-   **Name:** GetObligatorServiceOperation
     -   **Parameters:**
-        -   **Input:**[tns:GetObligatorServiceInputMessage](#Messages)
-        -   **Output:**[tns:GetObligatorServiceOutputMessage](#Messages)
+        -   **Input:** [tns:GetObligatorServiceInputMessage](#Messages)
+        -   **Output:** [tns:GetObligatorServiceOutputMessage](#Messages)
 
 ## Messages: {#Messages}
 
--   **Name:**GetObligatorServiceInputMessage
-    -   **Part Element:**ns0:Name
-    -   **Part Name:**part1
--   **Name:**GetObligatorServiceOutputMessage
-    -   **Part Element:**ns0:Obligator
-    -   **Part Name:**part1
+-   **Name:** GetObligatorServiceInputMessage
+    -   **Part Element:** ns0:Name
+    -   **Part Name:** part1
+-   **Name:** GetObligatorServiceOutputMessage
+    -   **Part Element:** ns0:Obligator
+    -   **Part Name:** part1
 

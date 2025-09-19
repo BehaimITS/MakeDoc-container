@@ -39,17 +39,17 @@ Diagram of GetObligatorServiceAbstractWSDL.wsdl.
 
 ## Operations: {#Operations}
 
--   **Name:**GetObligatorServiceOperation
+-   **Name:** GetObligatorServiceOperation
     -   **Parameters:**
-        -   **Input:**[tns:GetObligatorServiceInputMessage](#Messages)
-        -   **Output:**[tns:GetObligatorServiceOutputMessage](#Messages)
+        -   **Input:** [tns:GetObligatorServiceInputMessage](#Messages)
+        -   **Output:** [tns:GetObligatorServiceOutputMessage](#Messages)
 
 ## Messages: {#Messages}
 
--   **Name:**GetObligatorServiceInputMessage
-    -   **Part Element:**ns:Name
-    -   **Part Name:**part1
--   **Name:**GetObligatorServiceOutputMessage
-    -   **Part Element:**ns:Obligator
-    -   **Part Name:**part1
+-   **Name:** GetObligatorServiceInputMessage
+    -   **Part Element:** ns:Name
+    -   **Part Name:** part1
+-   **Name:** GetObligatorServiceOutputMessage
+    -   **Part Element:** ns:Obligator
+    -   **Part Name:** part1
 

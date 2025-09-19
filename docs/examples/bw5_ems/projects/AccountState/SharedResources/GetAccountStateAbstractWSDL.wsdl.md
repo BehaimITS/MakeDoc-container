@@ -39,17 +39,17 @@ Diagram of GetAccountStateAbstractWSDL.wsdl.
 
 ## Operations: {#Operations}
 
--   **Name:**GetAccountStateOperation
+-   **Name:** GetAccountStateOperation
     -   **Parameters:**
-        -   **Input:**[tns:GetAccountStateServiceInputMessage](#Messages)
-        -   **Output:**[tns:GetAccountStateServiceOutputMessage](#Messages)
+        -   **Input:** [tns:GetAccountStateServiceInputMessage](#Messages)
+        -   **Output:** [tns:GetAccountStateServiceOutputMessage](#Messages)
 
 ## Messages: {#Messages}
 
--   **Name:**GetAccountStateServiceInputMessage
-    -   **Part Element:**ns:Name
-    -   **Part Name:**part1
--   **Name:**GetAccountStateServiceOutputMessage
-    -   **Part Element:**ns:Account
-    -   **Part Name:**part1
+-   **Name:** GetAccountStateServiceInputMessage
+    -   **Part Element:** ns:Name
+    -   **Part Name:** part1
+-   **Name:** GetAccountStateServiceOutputMessage
+    -   **Part Element:** ns:Account
+    -   **Part Name:** part1
 

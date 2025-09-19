@@ -46,23 +46,23 @@ Diagram of GetAccountStateConcreteWSDL.wsdl.
 
 ## Port configuration: {#PortConfig}
 
--   **Binding:**tns:UserName\_sp\_SOAPEventSourceBinding
--   **Name:**UserName\_sp\_SOAPEventSource
--   **Soap Address:**http://localhost:9998/ProcessDefinitions/GetAccountState/GetAccountStateService
+-   **Binding:** tns:UserName\_sp\_SOAPEventSourceBinding
+-   **Name:** UserName\_sp\_SOAPEventSource
+-   **Soap Address:** http://localhost:9998/ProcessDefinitions/GetAccountState/GetAccountStateService
 
 ## Operations: {#Operations}
 
--   **Name:**GetAccountStateOperation
+-   **Name:** GetAccountStateOperation
     -   **Parameters:**
-        -   **Input:**[tns:GetAccountStateServiceInputMessage](#Messages)
-        -   **Output:**[tns:GetAccountStateServiceOutputMessage](#Messages)
+        -   **Input:** [tns:GetAccountStateServiceInputMessage](#Messages)
+        -   **Output:** [tns:GetAccountStateServiceOutputMessage](#Messages)
 
 ## Messages: {#Messages}
 
--   **Name:**GetAccountStateServiceInputMessage
-    -   **Part Element:**ns0:Name
-    -   **Part Name:**part1
--   **Name:**GetAccountStateServiceOutputMessage
-    -   **Part Element:**ns0:Account
-    -   **Part Name:**part1
+-   **Name:** GetAccountStateServiceInputMessage
+    -   **Part Element:** ns0:Name
+    -   **Part Name:** part1
+-   **Name:** GetAccountStateServiceOutputMessage
+    -   **Part Element:** ns0:Account
+    -   **Part Name:** part1
 

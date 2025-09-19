@@ -23,28 +23,28 @@ Section contains description of AE Schema “[AppraisalAESchema.aeschema](Apprai
 Attributes:
 
 -   **Name**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 -   **Pawn**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.boolean](../ae.aeschema.md#)
 -   **RealtyDetail**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 
 ### Class name: AppraisalResult {#class.AppraisalResult}
 
 Attributes:
 
 -   **customerName**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.string](../ae.aeschema.md#)
 -   **realtyValue**
-    -   **Readable:**true
-    -   **Writeable:**true
-    -   **Type:**[/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
+    -   **Readable:** true
+    -   **Writeable:** true
+    -   **Type:** [/AESchemas/ae.aeschema\#scalar.i8](../ae.aeschema.md#)
 

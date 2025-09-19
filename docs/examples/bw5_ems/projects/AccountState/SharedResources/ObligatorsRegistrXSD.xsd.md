@@ -20,9 +20,9 @@ Section contains description of XSD Schema ObligatorsRegistrXSD.xsd“[Obligator
 
 ## Attributes {#Attributes}
 
--   *targetNamespace :**http://www.tibco.com/schemas/GrantingCredit/SharedConnections/Schema1.xsd*
--   *elementFormDefault :**qualified*
--   *attributeFormDefault :**unqualified*
+-   *targetNamespace :* *http://www.tibco.com/schemas/GrantingCredit/SharedConnections/Schema1.xsd*
+-   *elementFormDefault :* *qualified*
+-   *attributeFormDefault :* *unqualified*
 
 ## Overview {#Overview}
 
@@ -39,33 +39,33 @@ Section contains description of XSD Schema ObligatorsRegistrXSD.xsd“[Obligator
 
 ### element ObligatorsList {#element_ObligatorsList}
 
--   element*ref**Obligator* , *maxOccurs**unbounded*
+-   element*ref* *Obligator* , *maxOccurs* *unbounded*
 
--   attribute Count*type**xs:string* , *use**required*
+-   attribute Count*type* *xs:string* , *use* *required*
 
 ### element Obligator {#element_Obligator}
 
--   element*ref**Name*
+-   element*ref* *Name*
 
--   element*ref**Value*
+-   element*ref* *Value*
 
--   element*ref**Problem*
+-   element*ref* *Problem*
 
--   element*ref**Refund*
+-   element*ref* *Refund*
 
 ### element Name {#element_Name}
 
--   *type :**xs:string*
+-   *type :* *xs:string*
 
 ### element Value {#element_Value}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 
 ### element Problem {#element_Problem}
 
--   *type :**xs:boolean*
+-   *type :* *xs:boolean*
 
 ### element Refund {#element_Refund}
 
--   *type :**xs:long*
+-   *type :* *xs:long*
 
