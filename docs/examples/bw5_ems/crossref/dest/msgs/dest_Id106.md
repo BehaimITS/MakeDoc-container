@@ -7,7 +7,7 @@ Section contains list of middleware objects using “domain.AccountState.adfiles
 ![](dest_Id106.png)
 
 -   **Project:** [AccountState](../projs/AccountState.md)
-    -   **Source:**Adapter Service [/SharedResources/FileAdapterConfiguration](../../../projects/AccountState/SharedResources/FileAdapterConfiguration.adfiles.md)
+    -   **Source:** Adapter Service [/SharedResources/FileAdapterConfiguration](../../../projects/AccountState/SharedResources/FileAdapterConfiguration.adfiles.md)
         -   **Activity:** [UserExitClient](../projs/act_105.md)
         -   **Action Type:**Receive
         -   **Transport Type:**

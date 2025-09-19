@@ -7,7 +7,7 @@ Section contains list of middleware objects using “concat\(\$\_globalVariables
 ![](dest_Id113.png)
 
 -   **Project:** [GrantingCredit](../projs/GrantingCredit.md)
-    -   **Source:**BW Process [/ProcessDefinitions/Examination/ExaminationService](../../../projects/GrantingCredit/ProcessDefinitions/Examination/ExaminationService.process.md)
+    -   **Source:** BW Process [/ProcessDefinitions/Examination/ExaminationService](../../../projects/GrantingCredit/ProcessDefinitions/Examination/ExaminationService.process.md)
         -   **Activity:** [Bonita JMSQueueRequestor](../projs/act_111.md)
         -   **Action Type:**ReceivedReply
         -   **Transport Type:**

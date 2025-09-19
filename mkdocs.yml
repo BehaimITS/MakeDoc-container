@@ -3,6 +3,7 @@ site_description: "MakeDoc for TIBCO examples and tips how to generate a documen
 
 nav:
 -   Introduction: index.md
+-   MakeDoc Manuals: manual/index.md
 -   MakeDoc Examples:
       -   BW5:
             -   Introduction: examples/bw5_ems/intro.md

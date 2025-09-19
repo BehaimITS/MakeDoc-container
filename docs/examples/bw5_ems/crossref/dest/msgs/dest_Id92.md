@@ -7,15 +7,15 @@ Section contains list of middleware objects using “/ProcessDefinitions/GetAcco
 ![](dest_Id92.png)
 
 -   **Project:** [AccountState](../projs/AccountState.md)
-    -   **Source:**BW Process [/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md)
+    -   **Source:** BW Process [/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md)
         -   **Activity:** [AccountState SOAPRequestReply](../projs/act_91.md)
         -   **Action Type:**RequestReply
         -   **Transport Type:**
-    -   **Source:**BW Process [/ProcessDefinitions/GetAccountState/GetAccountStateService](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountStateService.process.md)
+    -   **Source:** BW Process [/ProcessDefinitions/GetAccountState/GetAccountStateService](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountStateService.process.md)
         -   **Activity:** [UserName SOAPEventSource](../projs/act_97.md)
         -   **Action Type:**Receive
         -   **Transport Type:**
-    -   **Source:**BW Process [/ProcessDefinitions/GetAccountState/GetAccountStateService](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountStateService.process.md)
+    -   **Source:** BW Process [/ProcessDefinitions/GetAccountState/GetAccountStateService](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountStateService.process.md)
         -   **Activity:** [AccountState SOAPSendReply](../projs/act_99.md)
         -   **Action Type:**Reply
         -   **Transport Type:**

@@ -7,7 +7,7 @@ Section contains list of middleware objects using “DEV.BANK.PAWN.CREDITREQ”
 ![](dest_Id123.png)
 
 -   **Project:** [GrantingCredit](../projs/GrantingCredit.md)
-    -   **Source:**BW Process [/ProcessDefinitions/GrantingCredit](../../../projects/GrantingCredit/ProcessDefinitions/GrantingCredit.process.md)
+    -   **Source:** BW Process [/ProcessDefinitions/GrantingCredit](../../../projects/GrantingCredit/ProcessDefinitions/GrantingCredit.process.md)
         -   **Activity:** [Appraisal JMSQueueSender](../projs/act_122.md)
         -   **Action Type:**Send
         -   **Transport Type:**

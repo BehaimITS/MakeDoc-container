@@ -6,7 +6,7 @@ License for TIBCO Software Use Only!
 
 |**Action:**|JDBCQuery|
 |**Activity:**|GetAccount \(JDBCCall\)|
-|**Source:**|[/ProcessDefinitions/GetAccountState/GetAccountState](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md) \(BW Process\)|
+|**Source:** |[/ProcessDefinitions/GetAccountState/GetAccountState](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md) \(BW Process\)|
 |**Maximum rows:**|100|
 |**Query timeout:**|10|
 |**Override transaction behaviour:**|true|

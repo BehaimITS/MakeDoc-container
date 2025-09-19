@@ -6,7 +6,7 @@ License for TIBCO Software Use Only!
 
 |**Action:**|Request|
 |**Activity:**|Bonita JMSQueueRequestor \(BW Activity\)|
-|**Source:**|[/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md) \(BW Process\)|
+|**Source:** |[/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md) \(BW Process\)|
 |**Queue Connection Factory:**|QueueConnectionFactory|
 |**JMS Message Type:**|XMLText|
 |**JNDI Context URL:**|tibjmsnaming://localhost:7222|

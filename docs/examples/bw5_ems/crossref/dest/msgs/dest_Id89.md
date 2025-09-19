@@ -7,12 +7,12 @@ Section contains list of middleware objects using “DEV.BANK.CALCULATEBONITA.RE
 ![](dest_Id89.png)
 
 -   **Project:** [AccountState](../projs/AccountState.md)
-    -   **Source:**BW Process [/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md)
+    -   **Source:** BW Process [/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md)
         -   **Activity:** [Bonita JMSQueueRequestor](../projs/act_88.md)
         -   **Action Type:**SendRequest
         -   **Transport Type:**
 -   **Project:** [GrantingCredit](../projs/GrantingCredit.md)
-    -   **Source:**BW Process [/ProcessDefinitions/Examination/ExaminationService](../../../projects/GrantingCredit/ProcessDefinitions/Examination/ExaminationService.process.md)
+    -   **Source:** BW Process [/ProcessDefinitions/Examination/ExaminationService](../../../projects/GrantingCredit/ProcessDefinitions/Examination/ExaminationService.process.md)
         -   **Activity:** [Bonita JMSQueueRequestor](../projs/act_111.md)
         -   **Action Type:**SendRequest
         -   **Transport Type:**
