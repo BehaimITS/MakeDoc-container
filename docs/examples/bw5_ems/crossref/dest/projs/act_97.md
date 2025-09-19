@@ -6,7 +6,7 @@ License for TIBCO Software Use Only!
 
 |**Action:**|Receive|
 |**Activity:**|UserName SOAPEventSource \(BW Activity\)|
-|**Source:** |[/ProcessDefinitions/GetAccountState/GetAccountStateService](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountStateService.process.md) \(BW Process\)|
+|**Source:**  |[/ProcessDefinitions/GetAccountState/GetAccountStateService](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountStateService.process.md) \(BW Process\)|
 |**SOAP action:**|/ProcessDefinitions/GetAccountState/GetAccountStateService|
 |**SOAP typ URL:**|endpoint URL|
 |**SOAP URL:**|http://localhost:9998|

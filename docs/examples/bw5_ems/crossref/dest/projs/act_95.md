@@ -6,7 +6,7 @@ License for TIBCO Software Use Only!
 
 |**Action:**|JDBCUpdate|
 |**Activity:**|UpdateCustomerDB \(JDBCCall\)|
-|**Source:** |[/ProcessDefinitions/GetAccountState/GetAccountState](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md) \(BW Process\)|
+|**Source:**  |[/ProcessDefinitions/GetAccountState/GetAccountState](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md) \(BW Process\)|
 |**Query timeout:**|10|
 |**Override transaction behaviour:**|true|
 |**Database URL:**|jdbc:tibcosoftwareinc:oracle://%%jdbc/url\_port%%;SID=%%jdbc/sid%%|

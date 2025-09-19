@@ -7,7 +7,7 @@ Section contains list of middleware objects using “domain.AccountState.FileAda
 ![](dest_Id104.png)
 
 -   **Project:** [AccountState](../projs/AccountState.md)
-    -   **Source:** Adapter Service [/SharedResources/FileAdapterConfiguration](../../../projects/AccountState/SharedResources/FileAdapterConfiguration.adfiles.md)
+    -   **Source:**  Adapter Service [/SharedResources/FileAdapterConfiguration](../../../projects/AccountState/SharedResources/FileAdapterConfiguration.adfiles.md)
         -   **Activity:** [SubscriptionServiceEndPoint](../projs/act_103.md)
         -   **Action Type:**Receive
         -   **Transport Type:**

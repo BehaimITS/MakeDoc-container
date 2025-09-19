@@ -7,7 +7,7 @@ Section contains list of middleware objects using “DEV.BANK.EXAMINATION.APPRVA
 ![](dest_Id118.png)
 
 -   **Project:** [GrantingCredit](../projs/GrantingCredit.md)
-    -   **Source:** BW Process [/ProcessDefinitions/Examination/ExaminationService](../../../projects/GrantingCredit/ProcessDefinitions/Examination/ExaminationService.process.md)
+    -   **Source:**  BW Process [/ProcessDefinitions/Examination/ExaminationService](../../../projects/GrantingCredit/ProcessDefinitions/Examination/ExaminationService.process.md)
         -   **Activity:** [Appraisal WaitForJMSQueueMessage](../projs/act_117.md)
         -   **Action Type:**Receive
         -   **Transport Type:**

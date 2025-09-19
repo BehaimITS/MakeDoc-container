@@ -7,7 +7,7 @@ Section contains list of middleware objects using “concat\(\$\_globalVariables
 ![](dest_Id90.png)
 
 -   **Project:** [AccountState](../projs/AccountState.md)
-    -   **Source:** BW Process [/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md)
+    -   **Source:**  BW Process [/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md)
         -   **Activity:** [Bonita JMSQueueRequestor](../projs/act_88.md)
         -   **Action Type:**ReceivedReply
         -   **Transport Type:**

@@ -7,13 +7,13 @@ Section contains list of middleware objects using “jdbc:tibcosoftwareinc:oracl
 ![](dest_Id96.png)
 
 -   **Project:** [AccountState](../projs/AccountState.md)
-    -   **Source:** BW Process [/ProcessDefinitions/GetAccountState/GetAccountState](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md)
+    -   **Source:**  BW Process [/ProcessDefinitions/GetAccountState/GetAccountState](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md)
         -   **Activity:** [UpdateCustomerDB](../projs/act_95.md)
         -   **Action Type:**JDBCUpdate
         -   **JDBC Connection:** [/SharedConnections/SharedTibco.sharedjdbc](../../../projects/AccountState/SharedConnections/SharedTibco.sharedjdbc.md)
         -   **DB User:**%%jdbc/user%%
 -   **Project:** [GrantingCredit](../projs/GrantingCredit.md)
-    -   **Source:** BW Process [/ProcessDefinitions/Examination/Examination](../../../projects/GrantingCredit/ProcessDefinitions/Examination/Examination.process.md)
+    -   **Source:**  BW Process [/ProcessDefinitions/Examination/Examination](../../../projects/GrantingCredit/ProcessDefinitions/Examination/Examination.process.md)
         -   **Activity:** [UpdateCustomerDB](../projs/act_107.md)
         -   **Action Type:**JDBCUpdate
         -   **JDBC Connection:** [/SharedConnections/SharedTibco.sharedjdbc](../../../projects/GrantingCredit/SharedConnections/SharedTibco.sharedjdbc.md)
