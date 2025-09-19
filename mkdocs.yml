@@ -260,57 +260,57 @@ nav:
                               -   GrantingCredit: examples/bw5_ems/qa/rules/Missing_XSD_Annotation/violation1.md
                   -   Projects:
                         -   AccountState:
-                              -   ae.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation2.md
-                              -   baseDocument.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation3.md
-                              -   CalculateBonitaAESchema.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation1.md
-                              -   corba.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation4.md
-                              -   java.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation5.md
-                              -   operation.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation6.md
-                              -   sql.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation7.md
-                              -   defaultVars.substvar: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation20.md
-                              -   AccountState.archive: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation8.md
-                              -   AccountState.process: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation9.md
-                              -   CalculateBonita.process: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation10.md
-                              -   CalculateBonitaService.process: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation11.md
-                              -   CreateAccounts.process: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation12.md
-                              -   CalculateBonitaSOAPHTTPConnection.sharedhttp: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation13.md
-                              -   IOHTTPConnection.sharedhttp: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation14.md
-                              -   SharedTibco.sharedjdbc: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation16.md
-                              -   SOAPHTTPConnection.sharedhttp: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation15.md
-                              -   Tibco.sharedjdbc: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation17.md
-                              -   AccountsXSD.xsd: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation18.md
-                              -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/qa/examples/bw5_ems/projects/AccountState/violation19.md
+                              -   ae.aeschema: examples/bw5_ems/projects/AccountState/violation2.md
+                              -   baseDocument.aeschema: examples/bw5_ems/projects/AccountState/violation3.md
+                              -   CalculateBonitaAESchema.aeschema: examples/bw5_ems/projects/AccountState/violation1.md
+                              -   corba.aeschema: examples/bw5_ems/projects/AccountState/violation4.md
+                              -   java.aeschema: examples/bw5_ems/projects/AccountState/violation5.md
+                              -   operation.aeschema: examples/bw5_ems/projects/AccountState/violation6.md
+                              -   sql.aeschema: examples/bw5_ems/projects/AccountState/violation7.md
+                              -   defaultVars.substvar: examples/bw5_ems/projects/AccountState/violation20.md
+                              -   AccountState.archive: examples/bw5_ems/projects/AccountState/violation8.md
+                              -   AccountState.process: examples/bw5_ems/projects/AccountState/violation9.md
+                              -   CalculateBonita.process: examples/bw5_ems/projects/AccountState/violation10.md
+                              -   CalculateBonitaService.process: examples/bw5_ems/projects/AccountState/violation11.md
+                              -   CreateAccounts.process: examples/bw5_ems/projects/AccountState/violation12.md
+                              -   CalculateBonitaSOAPHTTPConnection.sharedhttp: examples/bw5_ems/projects/AccountState/violation13.md
+                              -   IOHTTPConnection.sharedhttp: examples/bw5_ems/projects/AccountState/violation14.md
+                              -   SharedTibco.sharedjdbc: examples/bw5_ems/projects/AccountState/violation16.md
+                              -   SOAPHTTPConnection.sharedhttp: examples/bw5_ems/projects/AccountState/violation15.md
+                              -   Tibco.sharedjdbc: examples/bw5_ems/projects/AccountState/violation17.md
+                              -   AccountsXSD.xsd: examples/bw5_ems/projects/AccountState/violation18.md
+                              -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/projects/AccountState/violation19.md
                         -   GrantingCredit:
-                              -   ae.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation4.md
-                              -   AppraisalAESchema.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation1.md
-                              -   baseDocument.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation5.md
-                              -   CalculateBonitaAESchema.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation2.md
-                              -   corba.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation6.md
-                              -   GrantingCreditAESchema.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation3.md
-                              -   java.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation7.md
-                              -   sql.aeschema: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation8.md
-                              -   defaultVars.substvar: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation30.md
-                              -   GrantingCredit.archive: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation9.md
-                              -   CalculateBonita.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation10.md
-                              -   CalculateBonitaService.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation11.md
-                              -   CreateInputFile.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation12.md
-                              -   Examination.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation13.md
-                              -   ExaminationService.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation14.md
-                              -   GrantingCredit.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation15.md
-                              -   HTMLOutput.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation16.md
-                              -   LoadParameters.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation18.md
-                              -   LoadParameterServiceTest.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation17.md
-                              -   LoadParametersService.process: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation19.md
-                              -   CalculateBonitaSOAPHTTPConnection.sharedhttp: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation20.md
-                              -   EMSConnection.sharedjmscon: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation21.md
-                              -   InputHTTPConnection.sharedhttp: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation22.md
-                              -   OutputHTTPConnection.sharedhttp: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation23.md
-                              -   SharedTibco.sharedjdbc: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation25.md
-                              -   SOAPHTTPConnection.sharedhttp: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation24.md
-                              -   InputParametersXSD.xsd: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation26.md
-                              -   LoadParametersServiceAbstractWSDL.wsdl: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation27.md
-                              -   LoadParametersServiceConcreteWSDL.wsdl: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation28.md
-                              -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/qa/examples/bw5_ems/projects/GrantingCredit/violation29.md
+                              -   ae.aeschema: examples/bw5_ems/projects/GrantingCredit/violation4.md
+                              -   AppraisalAESchema.aeschema: examples/bw5_ems/projects/GrantingCredit/violation1.md
+                              -   baseDocument.aeschema: examples/bw5_ems/projects/GrantingCredit/violation5.md
+                              -   CalculateBonitaAESchema.aeschema: examples/bw5_ems/projects/GrantingCredit/violation2.md
+                              -   corba.aeschema: examples/bw5_ems/projects/GrantingCredit/violation6.md
+                              -   GrantingCreditAESchema.aeschema: examples/bw5_ems/projects/GrantingCredit/violation3.md
+                              -   java.aeschema: examples/bw5_ems/projects/GrantingCredit/violation7.md
+                              -   sql.aeschema: examples/bw5_ems/projects/GrantingCredit/violation8.md
+                              -   defaultVars.substvar: examples/bw5_ems/projects/GrantingCredit/violation30.md
+                              -   GrantingCredit.archive: examples/bw5_ems/projects/GrantingCredit/violation9.md
+                              -   CalculateBonita.process: examples/bw5_ems/projects/GrantingCredit/violation10.md
+                              -   CalculateBonitaService.process: examples/bw5_ems/projects/GrantingCredit/violation11.md
+                              -   CreateInputFile.process: examples/bw5_ems/projects/GrantingCredit/violation12.md
+                              -   Examination.process: examples/bw5_ems/projects/GrantingCredit/violation13.md
+                              -   ExaminationService.process: examples/bw5_ems/projects/GrantingCredit/violation14.md
+                              -   GrantingCredit.process: examples/bw5_ems/projects/GrantingCredit/violation15.md
+                              -   HTMLOutput.process: examples/bw5_ems/projects/GrantingCredit/violation16.md
+                              -   LoadParameters.process: examples/bw5_ems/projects/GrantingCredit/violation18.md
+                              -   LoadParameterServiceTest.process: examples/bw5_ems/projects/GrantingCredit/violation17.md
+                              -   LoadParametersService.process: examples/bw5_ems/projects/GrantingCredit/violation19.md
+                              -   CalculateBonitaSOAPHTTPConnection.sharedhttp: examples/bw5_ems/projects/GrantingCredit/violation20.md
+                              -   EMSConnection.sharedjmscon: examples/bw5_ems/projects/GrantingCredit/violation21.md
+                              -   InputHTTPConnection.sharedhttp: examples/bw5_ems/projects/GrantingCredit/violation22.md
+                              -   OutputHTTPConnection.sharedhttp: examples/bw5_ems/projects/GrantingCredit/violation23.md
+                              -   SharedTibco.sharedjdbc: examples/bw5_ems/projects/GrantingCredit/violation25.md
+                              -   SOAPHTTPConnection.sharedhttp: examples/bw5_ems/projects/GrantingCredit/violation24.md
+                              -   InputParametersXSD.xsd: examples/bw5_ems/projects/GrantingCredit/violation26.md
+                              -   LoadParametersServiceAbstractWSDL.wsdl: examples/bw5_ems/projects/GrantingCredit/violation27.md
+                              -   LoadParametersServiceConcreteWSDL.wsdl: examples/bw5_ems/projects/GrantingCredit/violation28.md
+                              -   ObligatorsRegistrXSD.xsd: examples/bw5_ems/projects/GrantingCredit/violation29.md
                   -   QA Rules Statistics: examples/bw5_ems/qa/common/invalidQARule.md   
       - BWCE:
             -   Introduction: examples/bwceintro.md
@@ -427,30 +427,30 @@ nav:
                               -   com.behaimits.sample.http.requestor: examples/bwce/qa/rules/Unused_properties/violation1.md
                   -   Projects:
                         -   com.behaimits.sample.http.requestor:
-                              -   /: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation1.md
-                              -   com.behaimits.sample.http.requestor: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation2.md
-                              -   default.substvar: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation3.md
-                              -   module.bwm: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation4.md
-                              -   Dispatcher.bwp: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation5.md
-                              -   HTTPReceiver.bwp: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation6.md
-                              -   Log.bwp: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation7.md
-                              -   ReceiveLog.bwp: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation8.md
-                              -   WriteFact.bwp: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation9.md
-                              -   WriteLog.bwp: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation10.md
-                              -   JDBCConnectionResource.jdbcResource: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation11.md
-                              -   JMSConnectionResource.jmsConnResource: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation12.md
-                              -   ListeningHTTPConnection.httpConnResource: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation13.md
-                              -   RequestingHTTPConnection.httpClientResource: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation14.md
-                              -   AsciiContent.xsd: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation15.md
-                              -   Fact.xsd: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation16.md
-                              -   LogMessage.xsd: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor/violation17.md
+                              -   /: examples/bwce/projects/com.behaimits.sample.http.requestor/violation1.md
+                              -   com.behaimits.sample.http.requestor: examples/bwce/projects/com.behaimits.sample.http.requestor/violation2.md
+                              -   default.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor/violation3.md
+                              -   module.bwm: examples/bwce/projects/com.behaimits.sample.http.requestor/violation4.md
+                              -   Dispatcher.bwp: examples/bwce/projects/com.behaimits.sample.http.requestor/violation5.md
+                              -   HTTPReceiver.bwp: examples/bwce/projects/com.behaimits.sample.http.requestor/violation6.md
+                              -   Log.bwp: examples/bwce/projects/com.behaimits.sample.http.requestor/violation7.md
+                              -   ReceiveLog.bwp: examples/bwce/projects/com.behaimits.sample.http.requestor/violation8.md
+                              -   WriteFact.bwp: examples/bwce/projects/com.behaimits.sample.http.requestor/violation9.md
+                              -   WriteLog.bwp: examples/bwce/projects/com.behaimits.sample.http.requestor/violation10.md
+                              -   JDBCConnectionResource.jdbcResource: examples/bwce/projects/com.behaimits.sample.http.requestor/violation11.md
+                              -   JMSConnectionResource.jmsConnResource: examples/bwce/projects/com.behaimits.sample.http.requestor/violation12.md
+                              -   ListeningHTTPConnection.httpConnResource: examples/bwce/projects/com.behaimits.sample.http.requestor/violation13.md
+                              -   RequestingHTTPConnection.httpClientResource: examples/bwce/projects/com.behaimits.sample.http.requestor/violation14.md
+                              -   AsciiContent.xsd: examples/bwce/projects/com.behaimits.sample.http.requestor/violation15.md
+                              -   Fact.xsd: examples/bwce/projects/com.behaimits.sample.http.requestor/violation16.md
+                              -   LogMessage.xsd: examples/bwce/projects/com.behaimits.sample.http.requestor/violation17.md
                         -   com.behaimits.sample.http.requestor.application:
-                              -   /: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation1.md
-                              -   com.behaimits.sample.http.requestor.application: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation2.md
-                              -   default.substvar: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation6.md
-                              -   TIBCO.xml: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation3.md
-                              -   UnixProfile.substvar: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation4.md
-                              -   WindowsProfile.substvar: examples/bwce/qa/examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation5.md
+                              -   /: examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation1.md
+                              -   com.behaimits.sample.http.requestor.application: examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation2.md
+                              -   default.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation6.md
+                              -   TIBCO.xml: examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation3.md
+                              -   UnixProfile.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation4.md
+                              -   WindowsProfile.substvar: examples/bwce/projects/com.behaimits.sample.http.requestor.application/violation5.md
                   -   QA Rules Statistics: examples/bwce/qa/common/invalidQARule.md
                   
             
