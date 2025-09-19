@@ -9,7 +9,7 @@ Section contains list of middleware objects using “BANK.EXAMINATION.TEST”
 -   **Project:** [GrantingCredit](../projs/GrantingCredit.md)
     -   **Source:**  BW Process [/ProcessDefinitions/Output/HTMLOutput](../../../projects/GrantingCredit/ProcessDefinitions/Output/HTMLOutput.process.md)
         -   **Activity:** [Result JMSQueueReceiver](../projs/act_131.md)
-        -   **Action Type:**ReceiveRequest
+        -   **Action Type:** ReceiveRequest
         -   **Transport Type:**
 
 **Parent topic:**[Queues](../../../crossref/dest/msgs/Group_Id152.md)

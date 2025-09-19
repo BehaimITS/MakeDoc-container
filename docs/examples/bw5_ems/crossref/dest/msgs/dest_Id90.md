@@ -9,7 +9,7 @@ Section contains list of middleware objects using “concat\(\$\_globalVariables
 -   **Project:** [AccountState](../projs/AccountState.md)
     -   **Source:**  BW Process [/ProcessDefinitions/AccountState](../../../projects/AccountState/ProcessDefinitions/AccountState.process.md)
         -   **Activity:** [Bonita JMSQueueRequestor](../projs/act_88.md)
-        -   **Action Type:**ReceivedReply
+        -   **Action Type:** ReceivedReply
         -   **Transport Type:**
 
 **Parent topic:**[Queues](../../../crossref/dest/msgs/Group_Id152.md)

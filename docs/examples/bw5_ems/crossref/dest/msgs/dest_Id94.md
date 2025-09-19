@@ -9,7 +9,7 @@ Section contains list of middleware objects using “jdbc:tibcosoftwareinc:oracl
 -   **Project:** [AccountState](../projs/AccountState.md)
     -   **Source:**  BW Process [/ProcessDefinitions/GetAccountState/GetAccountState](../../../projects/AccountState/ProcessDefinitions/GetAccountState/GetAccountState.process.md)
         -   **Activity:** [GetAccount](../projs/act_93.md)
-        -   **Action Type:**JDBCQuery
+        -   **Action Type:** JDBCQuery
         -   **JDBC Connection:** [/SharedConnections/Tibco.sharedjdbc](../../../projects/AccountState/SharedConnections/Tibco.sharedjdbc.md)
         -   **DB User:**%%jdbcTIBCO/database/user%%
 
