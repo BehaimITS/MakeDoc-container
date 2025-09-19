@@ -353,43 +353,43 @@ nav:
             -   Cross-reference documentation:
                   -   Dependencies:
                         -   Resources:
-                              -   ListeningHTTPConnection.httpConnResource: cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.ListeningHTTPConnection.md
-                              -   JMSConnectionResource.jmsConnResource: cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.JMSConnectionResource.md
-                              -   RequestingHTTPConnection.httpClientResource: cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.RequestingHTTPConnection.md
-                              -   JDBCConnectionResource.jdbcResource: cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.JDBCConnectionResource.md
+                              -   ListeningHTTPConnection.httpConnResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.ListeningHTTPConnection.md
+                              -   JMSConnectionResource.jmsConnResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.JMSConnectionResource.md
+                              -   RequestingHTTPConnection.httpClientResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.RequestingHTTPConnection.md
+                              -   JDBCConnectionResource.jdbcResource: examples/bwce/cross/dependencies/resources/cross_com.behaimits.sample.http.requestor.JDBCConnectionResource.md
                         -   Processes:
-                              -   Dispatcher.bwp: cross/dependencies/processes/cross_com.behaimits.sample.http.requestor.Dispatcher.md
-                              -   HTTPReceiver.bwp: cross/dependencies/processes/cross_com.behaimits.sample.http.requestor.HTTPReceiver.md
-                              -   WriteFact.bwp: cross/dependencies/processes/cross_com.behaimits.sample.db.store.WriteFact.md
-                              -   WriteLog.bwp: cross/dependencies/processes/cross_com.behaimits.sample.db.store.WriteLog.md
-                              -   ReceiveLog.bwp: cross/dependencies/processes/cross_com.behaimits.sample.jms.receiver.ReceiveLog.md
-                              -   Log.bwp: cross/dependencies/processes/cross_com.behaimits.sample.jms.logging.Log.md
+                              -   Dispatcher.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.http.requestor.Dispatcher.md
+                              -   HTTPReceiver.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.http.requestor.HTTPReceiver.md
+                              -   WriteFact.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.db.store.WriteFact.md
+                              -   WriteLog.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.db.store.WriteLog.md
+                              -   ReceiveLog.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.jms.receiver.ReceiveLog.md
+                              -   Log.bwp: examples/bwce/cross/dependencies/processes/cross_com.behaimits.sample.jms.logging.Log.md
                         -   WSDLs:
-                              -   http\_\_\_schemas.tibco.com\_bw\_pe\_plugin\_5.0\_exceptions\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_pe_plugin_5.0_exceptions__WSDL.md
-                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_xml\_5.0\_JSONActivitiesExceptions\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_xml_5.0_JSONActivitiesExceptions__WSDL.md
-                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_xml\_5.0\_xmlExceptions\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_xml_5.0_xmlExceptions__WSDL.md
-                              -   http\_\_\_www.example.com\_namespaces\_tns\_1753776435241\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753776435241__WSDL.md
-                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_jms\_5.0\_jmsExceptions\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_jms_5.0_jmsExceptions__WSDL.md
-                              -   http\_\_\_xmlns.tibco.com\_encodings\_mime\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___xmlns.tibco.com_encodings_mime__WSDL.md
+                              -   http\_\_\_schemas.tibco.com\_bw\_pe\_plugin\_5.0\_exceptions\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_pe_plugin_5.0_exceptions__WSDL.md
+                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_xml\_5.0\_JSONActivitiesExceptions\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_xml_5.0_JSONActivitiesExceptions__WSDL.md
+                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_xml\_5.0\_xmlExceptions\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_xml_5.0_xmlExceptions__WSDL.md
+                              -   http\_\_\_www.example.com\_namespaces\_tns\_1753776435241\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753776435241__WSDL.md
+                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_jms\_5.0\_jmsExceptions\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_jms_5.0_jmsExceptions__WSDL.md
+                              -   http\_\_\_xmlns.tibco.com\_encodings\_mime\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___xmlns.tibco.com_encodings_mime__WSDL.md
                               -   http\_\_\_www.example.com\_namespaces\_tns\_1753776792422\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753776792422__WSDL.md
-                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_http\_5.0\_httpExceptions\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_http_5.0_httpExceptions__WSDL.md
-                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_jdbc\_5.0\_jdbcExceptions\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_jdbc_5.0_jdbcExceptions__WSDL.md
-                              -   http\_\_\_www.example.com\_namespaces\_tns\_1753802312202\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753802312202__WSDL.md
-                              -   http\_\_\_xmlns.tibco.com\_bw\_security\_tokens\_\_WSDL\_\_unresolved: cross/dependencies/wsdls/cross_http___xmlns.tibco.com_bw_security_tokens__WSDL.md
+                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_http\_5.0\_httpExceptions\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_http_5.0_httpExceptions__WSDL.md
+                              -   http\_\_\_schemas.tibco.com\_bw\_plugins\_jdbc\_5.0\_jdbcExceptions\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___schemas.tibco.com_bw_plugins_jdbc_5.0_jdbcExceptions__WSDL.md
+                              -   http\_\_\_www.example.com\_namespaces\_tns\_1753802312202\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___www.example.com_namespaces_tns_1753802312202__WSDL.md
+                              -   http\_\_\_xmlns.tibco.com\_bw\_security\_tokens\_\_WSDL\_\_unresolved: examples/bwce/cross/dependencies/wsdls/cross_http___xmlns.tibco.com_bw_security_tokens__WSDL.md
                   -   Dataflow:
                         -   JMS Messages:
-                              -   tcp\_\_\_localhost\_7222\_\_LOGGING\_QUEUE: cross/dataflow/jmsmessages/cross_tcp___localhost_7222__LOGGING_QUEUE.md
+                              -   tcp\_\_\_localhost\_7222\_\_LOGGING\_QUEUE: examples/bwce/cross/dataflow/jmsmessages/cross_tcp___localhost_7222__LOGGING_QUEUE.md
                         -   Processes:
-                              -   com.behaimits.sample.http.requestor.Dispatcher: cross/dataflow/processes/cross_com.behaimits.sample.http.requestor.Dispatcher.md
-                              -   com.behaimits.sample.http.requestor.HTTPReceiver: cross/dataflow/processes/cross_com.behaimits.sample.http.requestor.HTTPReceiver.md
-                              -   com.behaimits.sample.db.store.WriteFact: cross/dataflow/processes/cross_com.behaimits.sample.db.store.WriteFact.md
-                              -   com.behaimits.sample.db.store.WriteLog: cross/dataflow/processes/cross_com.behaimits.sample.db.store.WriteLog.md
-                              -   com.behaimits.sample.jms.receiver.ReceiveLog: cross/dataflow/processes/cross_com.behaimits.sample.jms.receiver.ReceiveLog.md
-                              -   com.behaimits.sample.jms.logging.Log: cross/dataflow/processes/cross_com.behaimits.sample.jms.logging.Log.md
+                              -   com.behaimits.sample.http.requestor.Dispatcher: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.http.requestor.Dispatcher.md
+                              -   com.behaimits.sample.http.requestor.HTTPReceiver: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.http.requestor.HTTPReceiver.md
+                              -   com.behaimits.sample.db.store.WriteFact: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.db.store.WriteFact.md
+                              -   com.behaimits.sample.db.store.WriteLog: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.db.store.WriteLog.md
+                              -   com.behaimits.sample.jms.receiver.ReceiveLog: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.jms.receiver.ReceiveLog.md
+                              -   com.behaimits.sample.jms.logging.Log: examples/bwce/cross/dataflow/processes/cross_com.behaimits.sample.jms.logging.Log.md
                         -   Database objects:
-                              -   jdbcProperty: cross/dataflow/databaseobjects/cross_jdbcProperty.md
+                              -   jdbcProperty: examples/bwce/cross/dataflow/databaseobjects/cross_jdbcProperty.md
                         -   Http:
-                              -   httpConnectorResource: cross/dataflow/http/cross_httpConnectorResource.md
+                              -   httpConnectorResource: examples/bwce/cross/dataflow/http/cross_httpConnectorResource.md
             -   Quality Assurance documentation:
                   -   Rules:
                         -   ERROR - Hardcoded activities timeout:
