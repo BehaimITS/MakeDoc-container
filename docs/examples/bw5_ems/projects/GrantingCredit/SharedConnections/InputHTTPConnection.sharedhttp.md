@@ -1,25 +1,6 @@
-# InputHTTPConnection {#Sharedhttp .concept}
+# InputHTTPConnection {#SharedHttp .concept}
 
-License for TIBCO Software Use Only!
-
-Section contains description of Shared HTTP Resource " InputHTTPConnection.sharedhttp "
+The File, which was made as result of transformation by DITA, isn't valid against DTD schema. That is why it was replaced by this file.
 
 **Parent topic:**[Shared HTTP Connections](../../../projects/GrantingCredit/common/sharedhttp.md)
-
-## Folder description: {#FolderDescription}
-
-|Folder|Description|
-|------|-----------|
-|GrantingCredit|The application Granting credit provides resolution whether a credit \(or mortgage\) can be granded to a user. Information about user is the input of the application.|
-
-## HTTP description: {#HTTPDescription}
-
-|No description|
-
-## HTTP configuration: {#Config}
-
-|Name|Value|
-|----|-----|
-|Host|localhost|
-|Port|%%InputHTTPPort%%|
 
