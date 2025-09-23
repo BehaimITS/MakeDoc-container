@@ -29,14 +29,14 @@ Full process path: com.behaimits.sample.jms.receiver.ReceiveLog
 ### Name: ***JMSReceiveMessage*** {#JMSReceiveMessage}
 
 -   Messaging Style: Queue
--   JMS Connection:
--   Destination:
+-   JMS Connection: [EMS\_CONNECTOR](#default:%20com.behaimits.sample.http.requestor.JMSConnectionResource,%20UnixProfile:%20com.behaimits.sample.http.requestor.JMSConnectionResource,%20WindowsProfile:%20com.behaimits.sample.http.requestor.JMSConnectionResource,)
+-   Destination: [LOGGING\_QUEUE](#default:%20com.behaimits.sample.http.requestor.logging,%20UnixProfile:%20com.behaimits.sample.http.requestor.logging,%20WindowsProfile:%20com.behaimits.sample.http.requestor.logging,)
 -   Message Type: Text
 -   Subscription Name:
 -   Supress local Messages: false
 -   Acknowledge Mode: Auto
 -   Message Selector:
--   Polling Interval\(sec\):
+-   Polling Interval\(sec\): 2
 -   Create Instance: yes
 -   Description:
 
@@ -71,14 +71,14 @@ Full process path: com.behaimits.sample.jms.receiver.ReceiveLog
 
         |Target|Source|
         |------|------|
-        |**/tns:ActivityInput****/msgCode**|$FaultDetails/MsgCode|
-        |**/tns:ActivityInput****/logLevel**|"Error"|
-        |**/tns:ActivityInput****/message**|$FaultDetails/Msg|
+        |*/tns:ActivityInput/msgCode*|**\$FaultDetails/MsgCode**|
+        |*/tns:ActivityInput/logLevel*|**"Error"**|
+        |*/tns:ActivityInput/message*|**\$FaultDetails/Msg**|
 
     -   Mapping tree
 
         ```
-        **tns:ActivityInputmsgCode = **$FaultDetails/MsgCode**logLevel = **&quot;Error&quot;**message = **$FaultDetails/Msg
+        tns:ActivityInputmsgCode = $FaultDetails/MsgCodelogLevel = &quot;Error&quot;message = $FaultDetails/Msg
         ```
 
     -   Source code
@@ -101,12 +101,12 @@ Full process path: com.behaimits.sample.jms.receiver.ReceiveLog
 
         |Target|Source|
         |------|------|
-        |**/tns4:xmlString**|$JMSReceiveMessage/Body|
+        |*/tns4:xmlString*|**\$JMSReceiveMessage/Body**|
 
     -   Mapping tree
 
         ```
-        **tns4:xmlString = **$JMSReceiveMessage/Body
+        tns4:xmlString = $JMSReceiveMessage/Body
         ```
 
     -   Source code
@@ -126,12 +126,12 @@ Full process path: com.behaimits.sample.jms.receiver.ReceiveLog
 
         |Target|Source|
         |------|------|
-        | |*/\[COPY-OF\] $ParseXml*|
+        |**|/\[COPY-OF\] **\$ParseXml**|
 
     -   Mapping tree
 
         ```
-        ** = **
+         = 
         ```
 
     -   Source code

@@ -19,8 +19,8 @@ Section contains description of XSD Schema Fact.xsd“[Fact.xsd](Fact.xsd)”
 
 ## Attributes {#Attributes}
 
--   *elementFormDefault :**qualified*
--   *targetNamespace :**http://www.example.com/namespaces/tns/1753776435241*
+-   *elementFormDefault :* *qualified*
+-   *targetNamespace :* *http://www.example.com/namespaces/tns/1753776435241*
 
 ## Overview {#Overview}
 
@@ -32,7 +32,7 @@ Section contains description of XSD Schema Fact.xsd“[Fact.xsd](Fact.xsd)”
 
 ### element Fact {#element_Fact}
 
--   element fact*maxOccurs**1* , *minOccurs**1* , *type**xsd:string*
+-   element fact *maxOccurs* *1* , *minOccurs* *1* , *type* *xsd:string*
 
--   element length*maxOccurs**1* , *minOccurs**0* , *type**xsd:integer*
+-   element length *maxOccurs* *1* , *minOccurs* *0* , *type* *xsd:integer*
 

@@ -63,12 +63,12 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns3:AsciiContent****/tns3:asciiContent**|$StoreFact/tns3:asciiContent|
+        |*/tns3:AsciiContent/tns3:asciiContent*|**\$StoreFact/tns3:asciiContent**|
 
     -   Mapping tree
 
         ```
-        **tns3:AsciiContenttns3:asciiContent = **$StoreFact/tns3:asciiContent
+        tns3:AsciiContenttns3:asciiContent = $StoreFact/tns3:asciiContent
         ```
 
     -   Source code
@@ -88,14 +88,14 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns:LogMessage****/tns:LOG\_LEVEL**|"Error"|
-        |**/tns:LogMessage****/tns:LOG\_MESSAGE**|concat\("Calling cat facts failed: ",tib:render-xml\($\_error\_SendHTTPRequest/\*, true\(\), true\(\)\)\)|
-        |**/tns:LogMessage****/tns:OCCURED**|current-dateTime\(\)|
+        |*/tns:LogMessage/tns:LOG\_LEVEL*|**"Error"**|
+        |*/tns:LogMessage/tns:LOG\_MESSAGE*|**concat\("Calling cat facts failed: ",tib:render-xml\(\$\_error\_SendHTTPRequest/\*, true\(\), true\(\)\)\)**|
+        |*/tns:LogMessage/tns:OCCURED*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **tns:LogMessagetns:LOG\_LEVEL = **&quot;Error&quot;**tns:LOG\_MESSAGE = **concat(&quot;Calling cat facts failed: &quot;,tib:render-xml($_error_SendHTTPRequest/*, true(), true()))**tns:OCCURED = **current-dateTime()
+        tns:LogMessagetns:LOG\_LEVEL = &quot;Error&quot;tns:LOG\_MESSAGE = concat(&quot;Calling cat facts failed: &quot;,tib:render-xml($_error_SendHTTPRequest/*, true(), true()))tns:OCCURED = current-dateTime()
         ```
 
     -   Source code
@@ -117,14 +117,14 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns:LogMessage****/tns:LOG\_LEVEL**|"Info"|
-        |**/tns:LogMessage****/tns:LOG\_MESSAGE**|"Calling cat facts"|
-        |**/tns:LogMessage****/tns:OCCURED**|current-dateTime\(\)|
+        |*/tns:LogMessage/tns:LOG\_LEVEL*|**"Info"**|
+        |*/tns:LogMessage/tns:LOG\_MESSAGE*|**"Calling cat facts"**|
+        |*/tns:LogMessage/tns:OCCURED*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **tns:LogMessagetns:LOG\_LEVEL = **&quot;Info&quot;**tns:LOG\_MESSAGE = **&quot;Calling cat facts&quot;**tns:OCCURED = **current-dateTime()
+        tns:LogMessagetns:LOG\_LEVEL = &quot;Info&quot;tns:LOG\_MESSAGE = &quot;Calling cat facts&quot;tns:OCCURED = current-dateTime()
         ```
 
     -   Source code
@@ -146,14 +146,14 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns:LogMessage****/tns:LOG\_LEVEL**|"Info"|
-        |**/tns:LogMessage****/tns:LOG\_MESSAGE**|"Response received."|
-        |**/tns:LogMessage****/tns:OCCURED**|current-dateTime\(\)|
+        |*/tns:LogMessage/tns:LOG\_LEVEL*|**"Info"**|
+        |*/tns:LogMessage/tns:LOG\_MESSAGE*|**"Response received."**|
+        |*/tns:LogMessage/tns:OCCURED*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **tns:LogMessagetns:LOG\_LEVEL = **&quot;Info&quot;**tns:LOG\_MESSAGE = **&quot;Response received.&quot;**tns:OCCURED = **current-dateTime()
+        tns:LogMessagetns:LOG\_LEVEL = &quot;Info&quot;tns:LOG\_MESSAGE = &quot;Response received.&quot;tns:OCCURED = current-dateTime()
         ```
 
     -   Source code
@@ -175,14 +175,14 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns:LogMessage****/tns:LOG\_LEVEL**|"Error"|
-        |**/tns:LogMessage****/tns:LOG\_MESSAGE**|"Calling cat facts timed out. "|
-        |**/tns:LogMessage****/tns:OCCURED**|current-dateTime\(\)|
+        |*/tns:LogMessage/tns:LOG\_LEVEL*|**"Error"**|
+        |*/tns:LogMessage/tns:LOG\_MESSAGE*|**"Calling cat facts timed out. "**|
+        |*/tns:LogMessage/tns:OCCURED*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **tns:LogMessagetns:LOG\_LEVEL = **&quot;Error&quot;**tns:LOG\_MESSAGE = **&quot;Calling cat facts timed out. &quot;**tns:OCCURED = **current-dateTime()
+        tns:LogMessagetns:LOG\_LEVEL = &quot;Error&quot;tns:LOG\_MESSAGE = &quot;Calling cat facts timed out. &quot;tns:OCCURED = current-dateTime()
         ```
 
     -   Source code
@@ -204,14 +204,14 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns:LogMessage****/tns:LOG\_LEVEL**|"Error"|
-        |**/tns:LogMessage****/tns:LOG\_MESSAGE**|concat\("Unknown error occured: ",tib:render-xml\($\_error\_SendHTTPRequest/\*, true\(\), true\(\)\)\)|
-        |**/tns:LogMessage****/tns:OCCURED**|current-dateTime\(\)|
+        |*/tns:LogMessage/tns:LOG\_LEVEL*|**"Error"**|
+        |*/tns:LogMessage/tns:LOG\_MESSAGE*|**concat\("Unknown error occured: ",tib:render-xml\(\$\_error\_SendHTTPRequest/\*, true\(\), true\(\)\)\)**|
+        |*/tns:LogMessage/tns:OCCURED*|**current-dateTime\(\)**|
 
     -   Mapping tree
 
         ```
-        **tns:LogMessagetns:LOG\_LEVEL = **&quot;Error&quot;**tns:LOG\_MESSAGE = **concat(&quot;Unknown error occured: &quot;,tib:render-xml($_error_SendHTTPRequest/*, true(), true()))**tns:OCCURED = **current-dateTime()
+        tns:LogMessagetns:LOG\_LEVEL = &quot;Error&quot;tns:LOG\_MESSAGE = concat(&quot;Unknown error occured: &quot;,tib:render-xml($_error_SendHTTPRequest/*, true(), true()))tns:OCCURED = current-dateTime()
         ```
 
     -   Source code
@@ -244,13 +244,13 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns2:RequestActivityInput****/RequestURI**|"/fact"|
-        |**/tns2:RequestActivityInput**|**/Headers**|
+        |*/tns2:RequestActivityInput/RequestURI*|**"/fact"**|
+        |*/tns2:RequestActivityInput*|/Headers|
 
     -   Mapping tree
 
         ```
-        **tns2:RequestActivityInputRequestURI = **&quot;/fact&quot;
+        tns2:RequestActivityInputRequestURI = &quot;/fact&quot;
         ```
 
     -   Source code
@@ -271,14 +271,14 @@ Full process path: com.behaimits.sample.http.requestor.Dispatcher
 
         |Target|Source|
         |------|------|
-        |**/tns3:AsciiContent****/tns3:asciiContent**|$SendHTTPRequest/asciiContent|
+        |*/tns3:AsciiContent/tns3:asciiContent*|**\$SendHTTPRequest/asciiContent**|
 
     -   Mapping tree
 
         ```
-        **
+        
                 tns3:AsciiContent
-                    tns3:asciiContent = **$SendHTTPRequest/asciiContent
+                    tns3:asciiContent = $SendHTTPRequest/asciiContent
         ```
 
     -   Source code
